@@ -1,0 +1,300 @@
+/* Estilo del editor de carteleras: violeta de la marca, superficies sólidas
+   (sin transparencias en los hover) y controles de bordes redondeados. */
+.ct-root {
+  --ct-violet: #7f00ff;
+  --ct-violet-hover: #9333ff;
+  --ct-violet-press: #6a00d6;
+  --ct-surface: var(--card);
+  --ct-field: var(--muted);
+  --ct-field-hover: var(--accent);
+  --ct-line: var(--border);
+  accent-color: var(--ct-violet);
+}
+
+/* ---------- botones ---------- */
+.ct-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  height: 2.25rem;
+  padding: 0 0.9rem;
+  border: 1px solid transparent;
+  border-radius: 0.65rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s, transform 0.08s, box-shadow 0.15s;
+}
+.ct-btn:active:not(:disabled) { transform: translateY(1px); }
+.ct-btn:disabled { opacity: 0.55; cursor: default; }
+.ct-btn:focus-visible { outline: 2px solid var(--ct-violet-hover); outline-offset: 2px; }
+
+.ct-btn-primary {
+  background: var(--ct-violet);
+  color: #fff;
+  box-shadow: 0 4px 14px #7f00ff55;
+}
+.ct-btn-primary:hover:not(:disabled) { background: var(--ct-violet-hover); }
+.ct-btn-primary:active:not(:disabled) { background: var(--ct-violet-press); }
+
+.ct-btn-secondary {
+  background: var(--ct-field);
+  color: var(--foreground);
+  border-color: var(--ct-line);
+}
+.ct-btn-secondary:hover:not(:disabled) { background: var(--ct-field-hover); }
+
+.ct-btn-danger {
+  background: var(--ct-field);
+  color: #ff5a6e;
+  border-color: var(--ct-line);
+}
+.ct-btn-danger:hover:not(:disabled) { background: #ff5a6e; color: #fff; border-color: #ff5a6e; }
+
+.ct-btn-icon {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border-radius: 0.6rem;
+  background: var(--ct-field);
+  color: var(--foreground);
+  border-color: var(--ct-line);
+}
+.ct-btn-icon:hover:not(:disabled) { background: var(--ct-violet); color: #fff; border-color: var(--ct-violet); }
+
+.ct-btn-ghost {
+  height: 1.9rem;
+  padding: 0 0.6rem;
+  background: transparent;
+  color: var(--muted-foreground);
+  font-weight: 500;
+}
+.ct-btn-ghost:hover:not(:disabled) { background: var(--ct-field); color: var(--foreground); }
+
+/* ---------- control segmentado (Plástico / LED) ---------- */
+.ct-seg {
+  display: inline-flex;
+  padding: 3px;
+  gap: 3px;
+  border-radius: 0.8rem;
+  background: var(--ct-field);
+  border: 1px solid var(--ct-line);
+}
+.ct-seg button {
+  height: 1.9rem;
+  padding: 0 1rem;
+  border: 0;
+  border-radius: 0.6rem;
+  background: transparent;
+  color: var(--muted-foreground);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.ct-seg button:hover { color: var(--foreground); }
+.ct-seg button[data-active="true"] { background: var(--ct-violet); color: #fff; }
+
+/* ---------- lista de líneas y chips ---------- */
+.ct-line-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: calc(100% - 1rem);
+  margin: 2px 0.5rem;
+  padding: 0.5rem 0.65rem;
+  border: 0;
+  border-radius: 0.65rem;
+  background: transparent;
+  color: var(--foreground);
+  text-align: left;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.12s;
+}
+.ct-line-row:hover { background: var(--ct-field); }
+.ct-line-row[data-active="true"] { background: var(--ct-violet); color: #fff; }
+
+.ct-chip {
+  max-width: 9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--ct-line);
+  border-radius: 999px;
+  background: var(--ct-field);
+  color: var(--foreground);
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.12s, color 0.12s;
+}
+.ct-chip:hover { background: var(--ct-field-hover); }
+.ct-chip[data-active="true"] { background: var(--ct-violet); border-color: var(--ct-violet); color: #fff; }
+
+/* ---------- tarjetas y títulos ---------- */
+.ct-card {
+  border: 1px solid var(--ct-line);
+  border-radius: 0.9rem;
+  background: var(--ct-surface);
+  padding: 0.75rem;
+}
+.ct-h {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+/* ---------- campos ---------- */
+.ct-root select.ct-select,
+.ct-root [data-slot="input"],
+.ct-root .ct-num {
+  height: 2.25rem;
+  width: 100%;
+  border: 1px solid var(--ct-line);
+  border-radius: 0.65rem;
+  background: var(--ct-field);
+  color: var(--foreground);
+  padding: 0 0.65rem;
+  font-size: 0.85rem;
+  box-shadow: none;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+.ct-root select.ct-select { cursor: pointer; }
+.ct-root select.ct-select:hover,
+.ct-root [data-slot="input"]:hover,
+.ct-root .ct-num:hover { background: var(--ct-field-hover); }
+.ct-root select.ct-select:focus,
+.ct-root [data-slot="input"]:focus,
+.ct-root .ct-num:focus {
+  outline: none;
+  border-color: var(--ct-violet);
+  background: var(--ct-field);
+}
+
+.ct-root input[type="color"] {
+  width: 100%;
+  height: 2.25rem;
+  padding: 3px;
+  border: 1px solid var(--ct-line);
+  border-radius: 0.65rem;
+  background: var(--ct-field);
+  cursor: pointer;
+}
+.ct-root input[type="color"]::-webkit-color-swatch-wrapper { padding: 0; }
+.ct-root input[type="color"]::-webkit-color-swatch { border: 0; border-radius: 0.45rem; }
+
+.ct-root input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+/* ---------- barra desplazable con número ---------- */
+.ct-slider { display: flex; flex-direction: column; gap: 0.35rem; }
+.ct-slider-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+.ct-root .ct-slider-head .ct-num {
+  width: 4.6rem;
+  height: 1.7rem;
+  padding: 0 0.45rem;
+  text-align: right;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+.ct-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 1.1rem;
+  background: transparent;
+  cursor: pointer;
+}
+.ct-range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--ct-violet) var(--p, 0%), var(--ct-field) var(--p, 0%));
+  border: 1px solid var(--ct-line);
+}
+.ct-range::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--ct-field);
+  border: 1px solid var(--ct-line);
+}
+.ct-range::-moz-range-progress { height: 6px; border-radius: 999px; background: var(--ct-violet); }
+.ct-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  margin-top: -6px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: var(--ct-violet);
+  box-shadow: 0 1px 4px #0006;
+  transition: background-color 0.12s;
+}
+.ct-range::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: var(--ct-violet);
+}
+.ct-range:hover::-webkit-slider-thumb { background: var(--ct-violet-hover); }
+.ct-range:focus-visible { outline: none; }
+.ct-range:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 3px #7f00ff88; }
+
+/* ---------- paleta de colores de plástico ---------- */
+.ct-swatches { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px; }
+.ct-swatch {
+  position: relative;
+  aspect-ratio: 1;
+  width: 100%;
+  border: 2px solid var(--ct-line);
+  border-radius: 0.55rem;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.1s, border-color 0.1s;
+}
+.ct-swatch:hover { transform: scale(1.12); border-color: var(--foreground); }
+.ct-swatch[data-active="true"] { border-color: var(--ct-violet); box-shadow: 0 0 0 2px var(--ct-violet); }
+.ct-swatch-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ct-field);
+  color: var(--muted-foreground);
+  font-size: 1rem;
+  font-weight: 700;
+  overflow: hidden;
+}
+.ct-swatch-custom input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; border: 0; padding: 0; }
+
+/* ---------- evitar que los campos se superpongan ---------- */
+.ct-root .grid > * { min-width: 0; }
+.ct-root [data-slot="input"],
+.ct-root select.ct-select,
+.ct-root .ct-num { min-width: 0; box-sizing: border-box; }
+.ct-root [data-slot="input"]:focus,
+.ct-root [data-slot="input"]:focus-visible,
+.ct-root select.ct-select:focus,
+.ct-root .ct-num:focus { box-shadow: none; }
+.ct-root input[type="number"]::-webkit-inner-spin-button,
+.ct-root input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+.ct-root input[type="number"] { -moz-appearance: textfield; }
+.ct-root select.ct-select { max-width: 13rem; text-overflow: ellipsis; }
+.ct-root main { overflow: hidden; }

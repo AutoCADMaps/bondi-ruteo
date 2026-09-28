@@ -2452,8 +2452,8 @@
      "lon": -58.5650527
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340075819
+   "visible": true,
+   "updatedAt": 1790554054844
   },
   {
    "id": "SYrA3CWoPj5sX0w0oqFe",
@@ -5218,8 +5218,8 @@
      "lon": -58.4134011561125
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340080872
+   "visible": true,
+   "updatedAt": 1790554112211
   },
   {
    "id": "rKkWD8i683yOeSgQxhZW",
@@ -7816,8 +7816,8 @@
      "lon": -58.5650527
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340091272
+   "visible": true,
+   "updatedAt": 1790554137752
   },
   {
    "id": "dYFYmClQYTwP8CCbe3GA",
@@ -10802,8 +10802,8 @@
      "lon": -58.4134011561125
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340096891
+   "visible": true,
+   "updatedAt": 1790554150971
   }
  ]
 }

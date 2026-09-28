@@ -1156,8 +1156,8 @@
    "discontinued": false,
    "name": "Ramal 4: Rotonda de Monteverde → Cementerio de Varela",
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": false,
-   "updatedAt": 1790340144207
+   "visible": true,
+   "updatedAt": 1790554365728
   },
   {
    "id": "8txwhm8Ei4X8UlkIoiGz",
@@ -2338,8 +2338,8 @@
    "name": "Ramal 4: Cementerio de Varela → Rotonda de Monteverde",
    "discontinued": false,
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": false,
-   "updatedAt": 1790340144247
+   "visible": true,
+   "updatedAt": 1790554365783
   }
  ]
 }

@@ -3471,8 +3471,8 @@
    "createdAt": 1785887165168,
    "ramalRef": "188-1",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124795
+   "visible": true,
+   "updatedAt": 1790554304343
   },
   {
    "id": "MsEHszKKn7S5EYLR6TlP",
@@ -6644,8 +6644,8 @@
    "createdAt": 1785887387899,
    "ramalRef": "188-1.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124813
+   "visible": true,
+   "updatedAt": 1790554304385
   },
   {
    "id": "t7Z5AMJN4YiUBSCx5llR",
@@ -10221,8 +10221,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124830
+   "visible": true,
+   "updatedAt": 1790554304434
   },
   {
    "id": "vwOAYMojq7ZwxrM7dfav",
@@ -13483,8 +13483,8 @@
    "name": "Ramal 2: Plaza Italia → x Lisandro de la Torre → Cruce de Lomas",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124857
+   "visible": true,
+   "updatedAt": 1790554304482
   },
   {
    "id": "6AMZhpCb1a1Fh98jDq4Q",
@@ -16297,8 +16297,8 @@
    "name": "Ramal 3: Cruce de Lomas → x Camino Negro → Once",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124882
+   "visible": true,
+   "updatedAt": 1790554304514
   },
   {
    "id": "ZzNI63UUUgGQmMTqatiq",
@@ -19042,8 +19042,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124898
+   "visible": true,
+   "updatedAt": 1790554304559
   },
   {
    "id": "KZRcV6PdlSDRJX7PvIsy",
@@ -22299,8 +22299,8 @@
      "lon": -58.41900163604171
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340124939
+   "visible": true,
+   "updatedAt": 1790554304631
   },
   {
    "id": "GJ8HZqMtr2U8bTSp3AV3",
@@ -25537,8 +25537,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "ramalRef": "188E.",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340124955
+   "visible": true,
+   "updatedAt": 1790554304671
   }
  ]
 }

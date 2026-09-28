@@ -3980,8 +3980,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Ex 155: Kilómetro 29 → Terminal Puerto Madero",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340124171
+   "visible": true,
+   "updatedAt": 1790554303419
   },
   {
    "id": "6wklZZSYpOJX65f7BmlC",
@@ -7782,8 +7782,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Ex 155: Terminal Puerto Madero → Kilómetro 29",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340124202
+   "visible": true,
+   "updatedAt": 1790554303446
   },
   {
    "id": "Ky2oUd3hBh8UVeu79BRx",
@@ -12064,8 +12064,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "[Nocturno] Ex 155: Kilómetro 29 → Terminal Puerto Madero",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340124247
+   "visible": true,
+   "updatedAt": 1790554303476
   },
   {
    "id": "J9CPy7SpWdOOtipbUYAJ",
@@ -16170,8 +16170,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "[Nocturno] Ex 155: Terminal Puerto Madero → Kilómetro 29",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340124289
+   "visible": true,
+   "updatedAt": 1790554303506
   },
   {
    "id": "mKEylaY4Dtrgp01m8BOM",
@@ -19391,8 +19391,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124323
+   "visible": true,
+   "updatedAt": 1790554303550
   },
   {
    "id": "Lgt6agEMLGMYw3K5CCjQ",
@@ -22524,8 +22524,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124348
+   "visible": true,
+   "updatedAt": 1790554303715
   },
   {
    "id": "IpTaftJCQmuvBXE4VEL5",
@@ -25889,8 +25889,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124375
+   "visible": true,
+   "updatedAt": 1790554303744
   },
   {
    "id": "sgY8xw45oyEPfSJL8VIJ",
@@ -29170,8 +29170,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124403
+   "visible": true,
+   "updatedAt": 1790554303773
   },
   {
    "id": "h72eenKuEiRsrG0njyn3",
@@ -30563,8 +30563,8 @@
    "createdAt": 1785884815418,
    "ramalRef": "180D",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124552
+   "visible": true,
+   "updatedAt": 1790554303869
   },
   {
    "id": "KOWuCWPBvRLmypEEt1nK",
@@ -31988,8 +31988,8 @@
    "createdAt": 1785884949531,
    "ramalRef": "180D.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124605
+   "visible": true,
+   "updatedAt": 1790554304028
   },
   {
    "id": "XTku91Lxfkq5VgsCYBUW",
@@ -34805,8 +34805,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124626
+   "visible": true,
+   "updatedAt": 1790554304095
   },
   {
    "id": "btvvngAqCBQLxJ7vU2sX",
@@ -37670,8 +37670,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124649
+   "visible": true,
+   "updatedAt": 1790554304151
   },
   {
    "id": "o5vYn9OD9W02ZKOv6Ese",
@@ -40583,8 +40583,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124669
+   "visible": true,
+   "updatedAt": 1790554304203
   },
   {
    "id": "tWNgJUKSHsBBwSEDJtGo",
@@ -43604,8 +43604,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340124701
+   "visible": true,
+   "updatedAt": 1790554304241
   }
  ]
 }

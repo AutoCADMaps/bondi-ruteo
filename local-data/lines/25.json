@@ -3127,8 +3127,8 @@
    "createdAt": 1784485393787,
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "ramalRef": "25.",
-   "visible": false,
-   "updatedAt": 1790340118317
+   "visible": true,
+   "updatedAt": 1790554290072
   },
   {
    "id": "fk6Offi41YNVGNyGarzw",
@@ -6020,8 +6020,8 @@
    "createdAt": 1784485571156,
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "ramalRef": "25",
-   "visible": false,
-   "updatedAt": 1790340118338
+   "visible": true,
+   "updatedAt": 1790554290109
   }
  ]
 }

@@ -3471,8 +3471,8 @@
    "createdAt": 1784475878985,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "ramalRef": "67",
-   "visible": false,
-   "updatedAt": 1790340118245
+   "visible": true,
+   "updatedAt": 1790554289981
   },
   {
    "id": "fscl5m1OS5TUDArtwlL2",
@@ -6872,8 +6872,8 @@
      "lon": -58.54144700379238
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340118262
+   "visible": true,
+   "updatedAt": 1790554290004
   }
  ]
 }

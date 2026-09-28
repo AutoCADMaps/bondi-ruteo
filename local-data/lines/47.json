@@ -3488,8 +3488,8 @@
    "ramalRef": "47A",
    "ref": "47",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340074775
+   "visible": true,
+   "updatedAt": 1790554053763
   },
   {
    "id": "lBoPfG2UIr33XrSxQIau",
@@ -6966,8 +6966,8 @@
    "ramalRef": "47A.",
    "ref": "47",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340080055
+   "visible": true,
+   "updatedAt": 1790554074849
   },
   {
    "id": "BJySYdk3SMpAjw8wRjvh",
@@ -10192,8 +10192,8 @@
    "ramalRef": "47B",
    "ref": "47",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340084860
+   "visible": true,
+   "updatedAt": 1790554135668
   },
   {
    "id": "nFiHB3BHvj2SCGtxi9vO",
@@ -13482,8 +13482,8 @@
    "ramalRef": "47B.",
    "ref": "47",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340096304
+   "visible": true,
+   "updatedAt": 1790554149773
   },
   {
    "id": "piqP9MEzZuVrCUEFE4gP",
@@ -16980,8 +16980,8 @@
    "ramalRef": "47C",
    "ref": "47",
    "order": 4,
-   "visible": false,
-   "updatedAt": 1790340099021
+   "visible": true,
+   "updatedAt": 1790554155275
   },
   {
    "id": "VHTbgTgdvAHaD5v0MBPj",
@@ -20466,8 +20466,8 @@
    "ref": "47",
    "name": "Chacarita → x Nogoyá → Villa Olímpica → Lugano I y II",
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340101069
+   "visible": true,
+   "updatedAt": 1790554163760
   },
   {
    "id": "nI4xZed5LUlVZdWQLVtp",
@@ -23696,8 +23696,8 @@
    "ramalRef": "47D",
    "ref": "47",
    "order": 6,
-   "visible": false,
-   "updatedAt": 1790340103046
+   "visible": true,
+   "updatedAt": 1790554166808
   },
   {
    "id": "u5vo0qhhm9OM4P3zZFKa",
@@ -26994,8 +26994,8 @@
    "ref": "47",
    "name": "Chacarita → x Camarones → Villa Olímpica → Lugano I y II",
    "order": 7,
-   "visible": false,
-   "updatedAt": 1790340104610
+   "visible": true,
+   "updatedAt": 1790554200043
   }
  ]
 }

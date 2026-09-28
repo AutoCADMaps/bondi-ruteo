@@ -2852,8 +2852,8 @@
    "ref": "42",
    "name": "Ramal A: Nueva Pompeya → x River → Ciudad Universitaria",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340074604
+   "visible": true,
+   "updatedAt": 1790554053599
   },
   {
    "id": "SaoxVv47GemU6q9YoHoN",
@@ -5674,8 +5674,8 @@
    "ref": "42",
    "name": "Ramal A: Ciudad Universitaria → x River → Nueva Pompeya",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079934
+   "visible": true,
+   "updatedAt": 1790554074612
   },
   {
    "id": "Cq9AvRTiayJjFFNfu2Qr",
@@ -8192,8 +8192,8 @@
    "ref": "42",
    "name": "Ramal B: Nueva Pompeya → x Echeverría → Ciudad Universitaria",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340084622
+   "visible": true,
+   "updatedAt": 1790554130776
   },
   {
    "id": "VjG8z7cQIZv54xYPR3Ra",
@@ -11026,8 +11026,8 @@
    "ref": "42",
    "name": "Ramal B: Ciudad Universitaria → x Echeverría → Nueva Pompeya",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340096211
+   "visible": true,
+   "updatedAt": 1790554149372
   },
   {
    "id": "IeVnwm5xkzd2p5SONct3",
@@ -14032,8 +14032,8 @@
    "ref": "42",
    "name": "Ramal C: Nueva Pompeya → Parque de los Niños",
    "order": 4,
-   "visible": false,
-   "updatedAt": 1790340098998
+   "visible": true,
+   "updatedAt": 1790554155205
   },
   {
    "id": "QtrVCbla5hs1tTsKtSAP",
@@ -16958,8 +16958,8 @@
    "ref": "42",
    "name": "Ramal C: Ciudad Universitaria → Parque de los Niños",
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340101027
+   "visible": true,
+   "updatedAt": 1790554163736
   }
  ]
 }

@@ -988,8 +988,8 @@
    "name": "Ramal B: Lomas de Zamora → x Frías → Loma Verde",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340132241
+   "visible": true,
+   "updatedAt": 1790554328591
   },
   {
    "id": "thtoxdQMBWV0XHpF5OXZ",
@@ -2081,8 +2081,8 @@
    "createdAt": 1786397607886,
    "ramalRef": "562LZ-B.",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340132263
+   "visible": true,
+   "updatedAt": 1790554328612
   },
   {
    "id": "BvTtvxxhwmWYUhR88ADf",
@@ -3026,8 +3026,8 @@
     }
    ],
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340132282
+   "visible": true,
+   "updatedAt": 1790554328630
   },
   {
    "id": "7JafYfxD333ZUQXa7vfp",
@@ -4015,8 +4015,8 @@
     }
    ],
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340132310
+   "visible": true,
+   "updatedAt": 1790554328651
   }
  ]
 }

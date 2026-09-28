@@ -1267,8 +1267,8 @@
      "lon": -58.82037298411316
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340150133
+   "visible": true,
+   "updatedAt": 1790554402242
   },
   {
    "id": "xNXcdla8VdqxgIzzR4re",
@@ -2476,8 +2476,8 @@
    "folderId": null,
    "createdAt": 1789775923089,
    "ramalRef": "449.",
-   "visible": false,
-   "updatedAt": 1790340150148
+   "visible": true,
+   "updatedAt": 1790554402257
   }
  ]
 }

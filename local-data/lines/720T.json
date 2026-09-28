@@ -3364,8 +3364,8 @@
    ],
    "order": 0,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340078724
+   "visible": true,
+   "updatedAt": 1790554059132
   },
   {
    "id": "EAG7uRfKg2LUSBhVCy42",
@@ -6938,8 +6938,8 @@
    ],
    "order": 1,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340083477
+   "visible": true,
+   "updatedAt": 1790554125954
   },
   {
    "id": "Y8sIYlfFxw41niVRQ2Uj",
@@ -16007,8 +16007,8 @@
    "ramalRef": "720TG.",
    "order": 3,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340098530
+   "visible": true,
+   "updatedAt": 1790554153956
   },
   {
    "id": "wa9LE4JXZ7KaZ2FFTX9b",
@@ -17633,8 +17633,8 @@
    "ramalRef": "720TC",
    "order": 4,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340100564
+   "visible": true,
+   "updatedAt": 1790554161547
   },
   {
    "id": "xYLVurypVZrJgwvyDN8o",
@@ -19127,8 +19127,8 @@
    ],
    "order": 5,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340102683
+   "visible": true,
+   "updatedAt": 1790554166313
   },
   {
    "id": "DR6h2CFkhLmuoD241Yvd",
@@ -21014,8 +21014,8 @@
    "discontinued": false,
    "order": 6,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340104321
+   "visible": true,
+   "updatedAt": 1790554175316
   },
   {
    "id": "9BsuKyYXDVtZspliTdxx",
@@ -22956,8 +22956,8 @@
    "ramalRef": "720TE.",
    "order": 7,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340105745
+   "visible": true,
+   "updatedAt": 1790554221892
   },
   {
    "id": "woHgAq8GdKkIfW2NndIT",
@@ -25595,8 +25595,8 @@
     }
    ],
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340107086
+   "visible": true,
+   "updatedAt": 1790554235769
   },
   {
    "id": "OZWtIwhrpw8SC3bwUT0I",
@@ -28249,8 +28249,8 @@
     }
    ],
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340108178
+   "visible": true,
+   "updatedAt": 1790554248981
   },
   {
    "id": "TVg1iyymieXFMaQFjPDc",
@@ -32011,8 +32011,8 @@
    ],
    "order": 10,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340109246
+   "visible": true,
+   "updatedAt": 1790554256295
   },
   {
    "id": "QvIBn9tIMzP6XlZIA5gJ",
@@ -35701,8 +35701,8 @@
    "ramalRef": "720TH.",
    "order": 11,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340109986
+   "visible": true,
+   "updatedAt": 1790554258577
   },
   {
    "id": "b6YzZRThGtXkxKyUBBTz",
@@ -38687,8 +38687,8 @@
    "ramalRef": "720TI",
    "order": 12,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340110746
+   "visible": true,
+   "updatedAt": 1790554259841
   },
   {
    "id": "Je3sT1ZWU3UpAsyX1vQ3",
@@ -41837,8 +41837,8 @@
    "ramalRef": "720TI.",
    "order": 13,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340111660
+   "visible": true,
+   "updatedAt": 1790554262045
   },
   {
    "id": "p9Ow3l20ZBDGVKNgvppw",
@@ -45751,8 +45751,8 @@
    "discontinued": false,
    "name": "Carupá → Nordelta → Ruta 24 y Rubén Darío",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": false,
-   "updatedAt": 1790340149802
+   "visible": true,
+   "updatedAt": 1790554401905
   }
  ]
 }

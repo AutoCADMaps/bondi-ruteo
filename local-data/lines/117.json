@@ -4160,8 +4160,8 @@
    "name": "Parque Barón → x Recondo → Estación Rivadavia",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340147650
+   "visible": true,
+   "updatedAt": 1790554384907
   },
   {
    "id": "tHd8DJ87l3QEX9MmsBot",
@@ -8362,8 +8362,8 @@
    "name": "Estación Rivadavia → x Recondo → Parque Barón",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340147692
+   "visible": true,
+   "updatedAt": 1790554386725
   },
   {
    "id": "dNJh7MMdvhhzxvyPKLP8",
@@ -12523,8 +12523,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340147731
+   "visible": true,
+   "updatedAt": 1790554386813
   },
   {
    "id": "GM815QQCJqFqvypr1pGV",
@@ -16728,8 +16728,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340147780
+   "visible": true,
+   "updatedAt": 1790554386898
   }
  ]
 }

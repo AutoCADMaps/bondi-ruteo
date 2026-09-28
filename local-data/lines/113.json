@@ -2928,8 +2928,8 @@
    "ramalRef": "113A",
    "order": 0,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340076732
+   "visible": true,
+   "updatedAt": 1790554055625
   },
   {
    "id": "nkSeyrMj5WsEsuI6Qfio",
@@ -5894,8 +5894,8 @@
    ],
    "order": 1,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340081622
+   "visible": true,
+   "updatedAt": 1790554114677
   },
   {
    "id": "VIvEuiP1JQ6cbV0ER7dG",
@@ -8732,8 +8732,8 @@
    "name": "Rotonda de San Justo → x Artigas → Barrancas de Belgrano",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340121293
+   "visible": true,
+   "updatedAt": 1790554297469
   },
   {
    "id": "rsiiblK2TFYi85zqlQlU",
@@ -11661,8 +11661,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340121309
+   "visible": true,
+   "updatedAt": 1790554297495
   }
  ]
 }

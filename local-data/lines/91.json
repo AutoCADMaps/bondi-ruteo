@@ -5159,8 +5159,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340119740
+   "visible": true,
+   "updatedAt": 1790554294986
   },
   {
    "id": "cKEaFkrjA7NXit57Nzoa",
@@ -9576,8 +9576,8 @@
    "createdAt": 1785628995583,
    "ramalRef": "91.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340119776
+   "visible": true,
+   "updatedAt": 1790554295120
   },
   {
    "id": "iyfEcfVBbO5H1PNleVqS",
@@ -12978,8 +12978,8 @@
    "name": "[Semirápido]: San Alberto → Plaza de Mayo",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340119819
+   "visible": true,
+   "updatedAt": 1790554295142
   },
   {
    "id": "9C6kDUxSFeVUvcQB37aX",
@@ -16103,8 +16103,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340119843
+   "visible": true,
+   "updatedAt": 1790554295163
   }
  ]
 }

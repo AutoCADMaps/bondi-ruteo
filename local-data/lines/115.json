@@ -2292,8 +2292,8 @@
    "name": "Ramal A: Lugano I y II → x Roca → Retiro",
    "discontinued": false,
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": false,
-   "updatedAt": 1790340121485
+   "visible": true,
+   "updatedAt": 1790554297825
   },
   {
    "id": "MKEVSJnRVHLRhBhh9N7D",
@@ -4522,8 +4522,8 @@
    "name": "Ramal A: Retiro → x Roca → Lugano I y II",
    "discontinued": false,
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": false,
-   "updatedAt": 1790340121508
+   "visible": true,
+   "updatedAt": 1790554297850
   },
   {
    "id": "u2TM0UHnLu1CyaEKdkIB",
@@ -6083,8 +6083,8 @@
    "createdAt": 1785781248725,
    "ramalRef": "115-B",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": false,
-   "updatedAt": 1790340121625
+   "visible": true,
+   "updatedAt": 1790554298072
   },
   {
    "id": "KhcsLB4g9TE0jOyqaKbR",
@@ -7748,8 +7748,8 @@
    "createdAt": 1785781581093,
    "ramalRef": "115-B.",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": false,
-   "updatedAt": 1790340121661
+   "visible": true,
+   "updatedAt": 1790554298099
   }
  ]
 }

@@ -919,8 +919,8 @@
    "createdAt": 1787836637049,
    "ramalRef": "300-AxA",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340144614
+   "visible": true,
+   "updatedAt": 1790554366191
   },
   {
    "id": "6Jq8m37LxPgZfy0mBgAw",
@@ -1941,8 +1941,8 @@
    "name": "Ramal A: Bosques → x Antártida Argentina → Quilmes",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340144637
+   "visible": true,
+   "updatedAt": 1790554366258
   },
   {
    "id": "OWOC0KodqTeFRkJujDB7",
@@ -2874,8 +2874,8 @@
    "createdAt": 1787837374444,
    "ramalRef": "300-AxS",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340144668
+   "visible": true,
+   "updatedAt": 1790554366294
   },
   {
    "id": "aAjeXC9Mx2VKFKoeszCb",
@@ -3831,8 +3831,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340144686
+   "visible": true,
+   "updatedAt": 1790554366339
   },
   {
    "id": "TisN2s3gIgFCcFo1rTqa",
@@ -5088,8 +5088,8 @@
    "createdAt": 1787837694242,
    "ramalRef": "300-B1",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340144704
+   "visible": true,
+   "updatedAt": 1790554366400
   },
   {
    "id": "YfLHgJjAtUN3uvmOhEvf",
@@ -6501,8 +6501,8 @@
    "createdAt": 1787837855603,
    "ramalRef": "300-B1.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340144851
+   "visible": true,
+   "updatedAt": 1790554366676
   }
  ]
 }

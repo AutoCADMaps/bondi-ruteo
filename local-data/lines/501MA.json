@@ -1408,8 +1408,8 @@
    "name": "Estación General Lemos → Fonavi",
    "discontinued": false,
    "folderId": "u7Zkyxxn07v2HO6zNBa1",
-   "visible": false,
-   "updatedAt": 1790340149751
+   "visible": true,
+   "updatedAt": 1790554401874
   },
   {
    "id": "QEcYO9cOkmnMY5jpY71L",
@@ -2921,8 +2921,8 @@
    "createdAt": 1789129728594,
    "ramalRef": "501MA.",
    "folderId": "u7Zkyxxn07v2HO6zNBa1",
-   "visible": false,
-   "updatedAt": 1790340149768
+   "visible": true,
+   "updatedAt": 1790554401890
   }
  ]
 }

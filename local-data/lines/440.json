@@ -1381,8 +1381,8 @@
    ],
    "name": "Código 01: Estación General Lemos → Parque Abascal → Tierras Altas",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340078894
+   "visible": true,
+   "updatedAt": 1790554059558
   },
   {
    "id": "j6GeaT8vqxZ66WXqNp53",
@@ -3072,8 +3072,8 @@
    "discontinued": false,
    "name": "Código 01: Tierras Altas → Parque Abascal → Estación General Lemos",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340083659
+   "visible": true,
+   "updatedAt": 1790554126344
   },
   {
    "id": "ti4opCJknMLWVZhTZ5we",
@@ -3994,8 +3994,8 @@
     }
    ],
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340095498
+   "visible": true,
+   "updatedAt": 1790554145338
   },
   {
    "id": "w3yHfpYwIkb3HODu8okL",
@@ -4892,8 +4892,8 @@
     }
    ],
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340098734
+   "visible": true,
+   "updatedAt": 1790554154811
   },
   {
    "id": "THf1i9btpKw4lV47HHog",
@@ -5710,8 +5710,8 @@
    "createdAt": 1789426538335,
    "ramalRef": "440-03",
    "order": 4,
-   "visible": false,
-   "updatedAt": 1790340100756
+   "visible": true,
+   "updatedAt": 1790554163456
   },
   {
    "id": "wLLsuO994VTYnmayV3iI",
@@ -6649,8 +6649,8 @@
    "order": 5,
    "name": "Código 12: Tierras Altas → x José León Suárez → San Miguel",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340102800
+   "visible": true,
+   "updatedAt": 1790554166418
   },
   {
    "id": "wV5qLFGR42VbrioGVhLL",
@@ -7147,8 +7147,8 @@
     }
    ],
    "order": 6,
-   "visible": false,
-   "updatedAt": 1790340104469
+   "visible": true,
+   "updatedAt": 1790554176765
   },
   {
    "id": "0qR25bui9PhPgQrz7OwD",
@@ -7609,8 +7609,8 @@
    "createdAt": 1789427981808,
    "ramalRef": "440-06.",
    "order": 7,
-   "visible": false,
-   "updatedAt": 1790340105871
+   "visible": true,
+   "updatedAt": 1790554222828
   },
   {
    "id": "ji7HkajdEovoIAm2hLNH",
@@ -8391,8 +8391,8 @@
    "createdAt": 1789428272375,
    "ramalRef": "440-08",
    "order": 8,
-   "visible": false,
-   "updatedAt": 1790340107214
+   "visible": true,
+   "updatedAt": 1790554236076
   },
   {
    "id": "ckMCIE86x7O9epheKHSX",
@@ -9485,8 +9485,8 @@
    "createdAt": 1789428720817,
    "ramalRef": "440-08.",
    "order": 9,
-   "visible": false,
-   "updatedAt": 1790340108416
+   "visible": true,
+   "updatedAt": 1790554249893
   },
   {
    "id": "nQdXntrjXYLqh9yzrLFR",
@@ -11023,8 +11023,8 @@
     }
    ],
    "order": 10,
-   "visible": false,
-   "updatedAt": 1790340109334
+   "visible": true,
+   "updatedAt": 1790554256593
   },
   {
    "id": "4z03oXPRuPvHo5UeIWc5",
@@ -12585,8 +12585,8 @@
     }
    ],
    "order": 11,
-   "visible": false,
-   "updatedAt": 1790340110062
+   "visible": true,
+   "updatedAt": 1790554258682
   },
   {
    "id": "EY9jmigodRnjtEaPPjMW",
@@ -13999,8 +13999,8 @@
    "createdAt": 1789430575632,
    "ramalRef": "440-12.",
    "order": 12,
-   "visible": false,
-   "updatedAt": 1790340110840
+   "visible": true,
+   "updatedAt": 1790554259916
   },
   {
    "id": "MSX05aeOd1tMvdgOtFQJ",
@@ -14409,8 +14409,8 @@
     }
    ],
    "order": 13,
-   "visible": false,
-   "updatedAt": 1790340111710
+   "visible": true,
+   "updatedAt": 1790554262125
   },
   {
    "id": "qJ8fNXO5lDCnbGo1s9OE",
@@ -15407,8 +15407,8 @@
      "lon": -58.701349969747724
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340112380
+   "visible": true,
+   "updatedAt": 1790554271748
   },
   {
    "id": "2AxgPho80KUZVnrGzaeA",
@@ -16465,8 +16465,8 @@
    "createdAt": 1789505930667,
    "ramalRef": "440-19",
    "order": 15,
-   "visible": false,
-   "updatedAt": 1790340113106
+   "visible": true,
+   "updatedAt": 1790554274187
   },
   {
    "id": "bJyPWevXiMJn9hh191Su",
@@ -17479,8 +17479,8 @@
     }
    ],
    "order": 16,
-   "visible": false,
-   "updatedAt": 1790340113730
+   "visible": true,
+   "updatedAt": 1790554275338
   },
   {
    "id": "npmWlq0D79tNVBlzUiii",
@@ -18713,8 +18713,8 @@
     }
    ],
    "order": 17,
-   "visible": false,
-   "updatedAt": 1790340114318
+   "visible": true,
+   "updatedAt": 1790554276694
   },
   {
    "id": "1BkdfeuzVWWGYXMr7DPM",
@@ -19836,8 +19836,8 @@
    "name": "Código 25: Namuncurá → Estación General Lemos",
    "discontinued": false,
    "order": 18,
-   "visible": false,
-   "updatedAt": 1790340114714
+   "visible": true,
+   "updatedAt": 1790554277513
   },
   {
    "id": "fT2Lvj7myNKtZLG5f2mL",
@@ -20703,8 +20703,8 @@
     }
    ],
    "order": 19,
-   "visible": false,
-   "updatedAt": 1790340115181
+   "visible": true,
+   "updatedAt": 1790554278874
   },
   {
    "id": "mgcZcjMmIvAnlY19gJer",
@@ -21961,8 +21961,8 @@
     }
    ],
    "order": 20,
-   "visible": false,
-   "updatedAt": 1790340115413
+   "visible": true,
+   "updatedAt": 1790554280798
   },
   {
    "id": "dltt14cy6MlYb0KJSUUa",
@@ -22663,8 +22663,8 @@
     }
    ],
    "order": 21,
-   "visible": false,
-   "updatedAt": 1790340115802
+   "visible": true,
+   "updatedAt": 1790554282826
   },
   {
    "id": "u5pCLmEMHoqBmW3YaFcK",
@@ -24277,8 +24277,8 @@
     }
    ],
    "order": 22,
-   "visible": false,
-   "updatedAt": 1790340116030
+   "visible": true,
+   "updatedAt": 1790554283572
   },
   {
    "id": "IvibZqjiZVDjWjaJ7LsB",
@@ -24767,8 +24767,8 @@
    "createdAt": 1789757122744,
    "ramalRef": "440-52C",
    "order": 23,
-   "visible": false,
-   "updatedAt": 1790340116256
+   "visible": true,
+   "updatedAt": 1790554283965
   },
   {
    "id": "cwI16YJDnL4OR4U0W5Os",
@@ -25269,8 +25269,8 @@
    "createdAt": 1789757189663,
    "ramalRef": "440-52C.",
    "order": 24,
-   "visible": false,
-   "updatedAt": 1790340116486
+   "visible": true,
+   "updatedAt": 1790554284364
   },
   {
    "id": "rz43cXUz4188LQ1k2ifE",
@@ -26135,8 +26135,8 @@
    "createdAt": 1789732217495,
    "ramalRef": "440-97",
    "order": 25,
-   "visible": false,
-   "updatedAt": 1790340116643
+   "visible": true,
+   "updatedAt": 1790554284807
   },
   {
    "id": "2hLzLbaMKFvwQRxkWVIn",
@@ -27017,8 +27017,8 @@
    "createdAt": 1789732381312,
    "ramalRef": "440-97.",
    "order": 26,
-   "visible": false,
-   "updatedAt": 1790340116728
+   "visible": true,
+   "updatedAt": 1790554284946
   },
   {
    "id": "1bsecPBnI2Q2cfXCGZiR",
@@ -28796,8 +28796,8 @@
    "name": "Código 98: San Miguel → Grand Bourg → Los Polvorines → San Miguel",
    "discontinued": false,
    "order": 27,
-   "visible": false,
-   "updatedAt": 1790340116811
+   "visible": true,
+   "updatedAt": 1790554285125
   },
   {
    "id": "e79Ttl8QlLqlS7lL0CWu",
@@ -30538,8 +30538,8 @@
    "createdAt": 1789732852434,
    "ramalRef": "440-99",
    "order": 28,
-   "visible": false,
-   "updatedAt": 1790340116894
+   "visible": true,
+   "updatedAt": 1790554285280
   }
  ]
 }

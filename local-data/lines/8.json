@@ -7472,8 +7472,8 @@
    "ramalRef": "8A",
    "ref": "8",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340071456
+   "visible": true,
+   "updatedAt": 1790554052231
   },
   {
    "id": "nyPB4A70jVbLeun5JzWl",
@@ -14762,8 +14762,8 @@
    "ramalRef": "8A.",
    "ref": "8",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079336
+   "visible": true,
+   "updatedAt": 1790554060234
   },
   {
    "id": "nv6DIkTYAGDFhcfJ8JND",
@@ -19420,8 +19420,8 @@
    "ramalRef": "8B",
    "ref": "8",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340084132
+   "visible": true,
+   "updatedAt": 1790554127098
   },
   {
    "id": "fB8lAGv52bLuLf6zAUZq",
@@ -23742,8 +23742,8 @@
    "ramalRef": "8B.",
    "ref": "8",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340095713
+   "visible": true,
+   "updatedAt": 1790554147973
   },
   {
    "id": "zILuCVb7Voo9M8WWiher",
@@ -26861,8 +26861,8 @@
    "order": 4,
    "name": "[Ex 5]: Piedra Buena → Terminal Retiro",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340098817
+   "visible": true,
+   "updatedAt": 1790554154916
   },
   {
    "id": "3P6CmvGGDCu94DOY9wap",
@@ -29960,8 +29960,8 @@
    "order": 5,
    "name": "[Ex 5]: Terminal Retiro → Piedra Buena",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340100851
+   "visible": true,
+   "updatedAt": 1790554163540
   },
   {
    "id": "1VX4VGsCF53mdFrKlGwd",
@@ -35134,8 +35134,8 @@
     }
    ],
    "order": 6,
-   "visible": false,
-   "updatedAt": 1790340104165
+   "visible": true,
+   "updatedAt": 1790554175198
   },
   {
    "id": "HOgmr7v2HOMTHLNHjs2v",
@@ -40148,8 +40148,8 @@
     }
    ],
    "order": 7,
-   "visible": false,
-   "updatedAt": 1790340105669
+   "visible": true,
+   "updatedAt": 1790554221341
   },
   {
    "id": "3ePYsGoTWyYCXivV1UdP",
@@ -41846,8 +41846,8 @@
     }
    ],
    "order": 8,
-   "visible": false,
-   "updatedAt": 1790340105930
+   "visible": true,
+   "updatedAt": 1790554223000
   },
   {
    "id": "TFUsL54IJSiddU4zRxcT",
@@ -43568,8 +43568,8 @@
    "ramalRef": "8E.",
    "ref": "8",
    "order": 9,
-   "visible": false,
-   "updatedAt": 1790340107259
+   "visible": true,
+   "updatedAt": 1790554236184
   }
  ]
 }

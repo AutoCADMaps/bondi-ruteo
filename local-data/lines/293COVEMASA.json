@@ -2244,8 +2244,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340138865
+   "visible": true,
+   "updatedAt": 1790554343650
   },
   {
    "id": "RdgncHVTvdJnfjPhy4HO",
@@ -4766,8 +4766,8 @@
    "ref": "293COVEMASA",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340138906
+   "visible": true,
+   "updatedAt": 1790554343676
   }
  ]
 }

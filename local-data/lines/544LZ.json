@@ -620,8 +620,8 @@
    ],
    "order": 0,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340077771
+   "visible": true,
+   "updatedAt": 1790554057802
   },
   {
    "id": "4Jhsrbsj3PQJHVewV44X",
@@ -1218,8 +1218,8 @@
    "ramalRef": "544LZ-C.",
    "order": 1,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340082373
+   "visible": true,
+   "updatedAt": 1790554122361
   },
   {
    "id": "J0oMRsVAtkd5h3FVhjdm",
@@ -2536,8 +2536,8 @@
    "ramalRef": "544LZ-L.",
    "order": 2,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340094208
+   "visible": true,
+   "updatedAt": 1790554143341
   },
   {
    "id": "jD1R9WnyUCkJPEIcOzwQ",
@@ -3594,8 +3594,8 @@
    "ramalRef": "544LZ-L",
    "order": 3,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340097728
+   "visible": true,
+   "updatedAt": 1790554152616
   },
   {
    "id": "sfpEZG4qF5k0YFr6KYDn",
@@ -4399,8 +4399,8 @@
    "createdAt": 1786330921869,
    "ramalRef": "544LZ-O",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340131221
+   "visible": true,
+   "updatedAt": 1790554327479
   },
   {
    "id": "UImDd5RQbtosUQQqfLFq",
@@ -5172,8 +5172,8 @@
    "createdAt": 1786331037977,
    "ramalRef": "544LZ-O.",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340131255
+   "visible": true,
+   "updatedAt": 1790554327498
   },
   {
    "id": "YYoXdwinHg2QcLM3R8tV",
@@ -6498,8 +6498,8 @@
    "name": "Ramal P: Lomas de Zamora → x París → Puente La Noria",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340131284
+   "visible": true,
+   "updatedAt": 1790554327534
   },
   {
    "id": "ZlVcQAfbrZevexqccPfs",
@@ -7587,8 +7587,8 @@
     }
    ],
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": false,
-   "updatedAt": 1790340131314
+   "visible": true,
+   "updatedAt": 1790554327515
   }
  ]
 }

@@ -2672,8 +2672,8 @@
    "name": "Ramal 1: Puente Alsina → x Catamarca → Burzaco",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340075715
+   "visible": true,
+   "updatedAt": 1790554054739
   },
   {
    "id": "WHDZUfZ5nhBvf2uJNsND",
@@ -5474,8 +5474,8 @@
    "name": "Ramal 1: Burzaco → x Catamarca → Puente Alsina",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340080752
+   "visible": true,
+   "updatedAt": 1790554111950
   },
   {
    "id": "xScbrvvnpBvqdT0VWyMW",
@@ -8020,8 +8020,8 @@
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340091096
+   "visible": true,
+   "updatedAt": 1790554137610
   },
   {
    "id": "3PTgBxjSTPkDfQh1RPCa",
@@ -10602,8 +10602,8 @@
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340096769
+   "visible": true,
+   "updatedAt": 1790554150624
   }
  ]
 }

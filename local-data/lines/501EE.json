@@ -636,8 +636,8 @@
    "ramalRef": "501EE-1",
    "order": 0,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340078545
+   "visible": true,
+   "updatedAt": 1790554058792
   },
   {
    "id": "bKTB4SZW2t4r4AzNJmu8",
@@ -1374,8 +1374,8 @@
    "ramalRef": "501EE",
    "order": 1,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340083270
+   "visible": true,
+   "updatedAt": 1790554125517
   },
   {
    "id": "fb9KGsXlP5NgCus7HxFM",
@@ -2217,8 +2217,8 @@
    "discontinued": false,
    "name": "Ramal 4: Cruce de Lomas → x Colón → ProCreAr",
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340095206
+   "visible": true,
+   "updatedAt": 1790554144788
   },
   {
    "id": "pgSYTeWJ8hmRbJRlGCWi",
@@ -3104,8 +3104,8 @@
    "discontinued": false,
    "name": "Ramal 4: ProCreAr → x Colón → Cruce de Lomas",
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340098377
+   "visible": true,
+   "updatedAt": 1790554153766
   },
   {
    "id": "mx9a5EW5vTUtO7ThIDvk",
@@ -3878,8 +3878,8 @@
    ],
    "order": 4,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340100442
+   "visible": true,
+   "updatedAt": 1790554161299
   },
   {
    "id": "TdHKLoD4KyXjPRSdrIAP",
@@ -4688,8 +4688,8 @@
     }
    ],
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340102568
+   "visible": true,
+   "updatedAt": 1790554166167
   },
   {
    "id": "HBvlJd77hEz7jJHpakKV",
@@ -5606,8 +5606,8 @@
    ],
    "order": 6,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340104086
+   "visible": true,
+   "updatedAt": 1790554175081
   },
   {
    "id": "JGMXabRdVquDfF5wPZEt",
@@ -6444,8 +6444,8 @@
     }
    ],
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340105492
+   "visible": true,
+   "updatedAt": 1790554218502
   },
   {
    "id": "bWF4wLBRRNeMPOYJqqDs",
@@ -7270,8 +7270,8 @@
    "ramalRef": "501EE-8",
    "order": 8,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340106912
+   "visible": true,
+   "updatedAt": 1790554235413
   },
   {
    "id": "u6hectwZa4ByXIFk6Bxl",
@@ -8128,8 +8128,8 @@
    "ramalRef": "501EE-101",
    "order": 9,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340108102
+   "visible": true,
+   "updatedAt": 1790554248843
   },
   {
    "id": "F3v66CUwNoWjslMvqgfO",
@@ -9259,8 +9259,8 @@
    ],
    "order": 10,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340109108
+   "visible": true,
+   "updatedAt": 1790554256153
   },
   {
    "id": "rSYLY3cJkz7FJTy7yb0J",
@@ -10273,8 +10273,8 @@
    "ramalRef": "501EE-8A.",
    "order": 11,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340109915
+   "visible": true,
+   "updatedAt": 1790554258461
   },
   {
    "id": "5TC0cA8ypfEzmHMRynZv",
@@ -11635,8 +11635,8 @@
    "ramalRef": "501EE-9",
    "order": 12,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340110667
+   "visible": true,
+   "updatedAt": 1790554259747
   },
   {
    "id": "HMeu9BNHda0X3Egx9Nao",
@@ -12945,8 +12945,8 @@
    "ramalRef": "501EE-9.",
    "order": 13,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340111590
+   "visible": true,
+   "updatedAt": 1790554261951
   },
   {
    "id": "Rxk1G26WxHmGPshXpK6q",
@@ -13756,8 +13756,8 @@
    "discontinued": false,
    "order": 14,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340112267
+   "visible": true,
+   "updatedAt": 1790554268235
   },
   {
    "id": "iWf3MS53PQk7RqZvUtGY",
@@ -14535,8 +14535,8 @@
    "discontinued": false,
    "order": 15,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340112983
+   "visible": true,
+   "updatedAt": 1790554273998
   },
   {
    "id": "95bLAXsbD5okHpLI9bLC",
@@ -15037,8 +15037,8 @@
    "name": "Transradio → Monte Grande",
    "discontinued": false,
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340145580
+   "visible": true,
+   "updatedAt": 1790554371815
   },
   {
    "id": "8godrLzE46HbcwS1ixVt",
@@ -15558,8 +15558,8 @@
    "createdAt": 1788358989914,
    "ramalRef": "501EERA.",
    "folderId": "57mmPBda1nMjNGFepBUn",
-   "visible": false,
-   "updatedAt": 1790340145602
+   "visible": true,
+   "updatedAt": 1790554371853
   }
  ]
 }

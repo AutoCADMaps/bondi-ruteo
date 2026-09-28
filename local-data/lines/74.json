@@ -3168,8 +3168,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "ramalRef": "74",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340074972
+   "visible": true,
+   "updatedAt": 1790554053976
   },
   {
    "id": "Ep9u8YiNQ5T9Ifjq9CAQ",
@@ -6242,8 +6242,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "ramalRef": "74.",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340080241
+   "visible": true,
+   "updatedAt": 1790554075099
   }
  ]
 }

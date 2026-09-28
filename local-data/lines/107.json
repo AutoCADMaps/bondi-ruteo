@@ -2627,8 +2627,8 @@
    "createdAt": 1785723983727,
    "ramalRef": "107",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": false,
-   "updatedAt": 1790340121049
+   "visible": true,
+   "updatedAt": 1790554297206
   },
   {
    "id": "oOnkv5bMXe6gm2KVbkj7",
@@ -5412,8 +5412,8 @@
    "createdAt": 1785724387281,
    "ramalRef": "107A",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": false,
-   "updatedAt": 1790340121076
+   "visible": true,
+   "updatedAt": 1790554297228
   },
   {
    "id": "axgW1LvMzbE2FRNsbk2p",
@@ -8413,8 +8413,8 @@
     }
    ],
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": false,
-   "updatedAt": 1790340121096
+   "visible": true,
+   "updatedAt": 1790554297250
   }
  ]
 }

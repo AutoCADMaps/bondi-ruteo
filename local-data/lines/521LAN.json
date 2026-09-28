@@ -440,8 +440,8 @@
    "discontinued": false,
    "name": "Lanús → Ex Cadorna y Belgrano",
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340130385
+   "visible": true,
+   "updatedAt": 1790554326701
   },
   {
    "id": "OTZ8MYyvRfgADPKn4RVL",
@@ -949,8 +949,8 @@
    "createdAt": 1786322975189,
    "ramalRef": "521LAN.",
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340130400
+   "visible": true,
+   "updatedAt": 1790554326734
   }
  ]
 }

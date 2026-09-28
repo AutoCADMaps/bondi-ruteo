@@ -3967,8 +3967,8 @@
    "createdAt": 1788657846087,
    "ramalRef": "152A",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145918
+   "visible": true,
+   "updatedAt": 1790554372172
   },
   {
    "id": "cUjZZHqfuao1NNPqng6N",
@@ -8236,8 +8236,8 @@
    "createdAt": 1788658140476,
    "ramalRef": "152A.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340146007
+   "visible": true,
+   "updatedAt": 1790554372207
   },
   {
    "id": "KM5oeXBWSPz1z4ubZIWL",
@@ -14354,8 +14354,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148576
+   "visible": true,
+   "updatedAt": 1790554393393
   }
  ]
 }

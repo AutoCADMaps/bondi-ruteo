@@ -1283,8 +1283,8 @@
    "createdAt": 1786465269068,
    "ramalRef": "510PIL-1",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340133289
+   "visible": true,
+   "updatedAt": 1790554329484
   },
   {
    "id": "KRCbj04L43t4mrDCYi24",
@@ -2437,8 +2437,8 @@
    "name": "Ramal 1: Parque Industrial Pilar → x Ruta 8 → Pilar",
    "discontinued": false,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340135984
+   "visible": true,
+   "updatedAt": 1790554329514
   },
   {
    "id": "w5tntJQpJsgupB4w8KRq",
@@ -3595,8 +3595,8 @@
    "name": "Ramal 2: Pilar → x Ex El Petrel → Parque Industrial Pilar",
    "discontinued": false,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340136011
+   "visible": true,
+   "updatedAt": 1790554329551
   },
   {
    "id": "rB84rUakH40STWnH64rH",
@@ -4805,8 +4805,8 @@
    "folderId": "9BM5H43sjX83p5DIeHfw",
    "name": "Ramal 2: Parque Industrial Pilar → x Ex El Petrel → Pilar",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340136055
+   "visible": true,
+   "updatedAt": 1790554329585
   },
   {
    "id": "mFcUZ4PlRXFc2n4xahem",
@@ -6142,8 +6142,8 @@
    "createdAt": 1786467759719,
    "ramalRef": "510PIL-3",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340136089
+   "visible": true,
+   "updatedAt": 1790554329623
   },
   {
    "id": "bJlOuzl0T7FbIpd5hvLe",
@@ -7219,8 +7219,8 @@
    "createdAt": 1786467838295,
    "ramalRef": "510PIL-3.",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340136367
+   "visible": true,
+   "updatedAt": 1790554329722
   },
   {
    "id": "c1A7C7GaqSk1Rl8XtmpD",
@@ -9856,8 +9856,8 @@
    "createdAt": 1786468012814,
    "ramalRef": "510PIL-4",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340136411
+   "visible": true,
+   "updatedAt": 1790554329777
   },
   {
    "id": "fFinsXZyfTFSIq8c6QaW",
@@ -12297,8 +12297,8 @@
     }
    ],
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340137125
+   "visible": true,
+   "updatedAt": 1790554329811
   },
   {
    "id": "Uyhan6VjFvxYCIvDqjb4",
@@ -14430,8 +14430,8 @@
     }
    ],
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340137154
+   "visible": true,
+   "updatedAt": 1790554329842
   },
   {
    "id": "xYE5eSllGn18dkUTXGO5",
@@ -16495,8 +16495,8 @@
     }
    ],
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340137230
+   "visible": true,
+   "updatedAt": 1790554329864
   },
   {
    "id": "jI0xNnpaPGPpFqNJURDX",
@@ -17980,8 +17980,8 @@
    "createdAt": 1786468553167,
    "ramalRef": "510PIL-7",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340137256
+   "visible": true,
+   "updatedAt": 1790554329885
   },
   {
    "id": "u7AkR8bo6O6xOpRkmCGu",
@@ -19493,8 +19493,8 @@
    "createdAt": 1786468660507,
    "ramalRef": "510PIL-7.",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340137321
+   "visible": true,
+   "updatedAt": 1790554329961
   },
   {
    "id": "GfcSMGD93CvmTUJBF1GH",
@@ -22094,8 +22094,8 @@
     }
    ],
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340137336
+   "visible": true,
+   "updatedAt": 1790554329998
   },
   {
    "id": "abgnHyVhLlaDEHzhTlWb",
@@ -24588,8 +24588,8 @@
    "name": "Ramal 9: Villa del Carmen → Del Viso → Villa Rosa → Pilar",
    "discontinued": false,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340137409
+   "visible": true,
+   "updatedAt": 1790554330026
   },
   {
    "id": "UqdtqjqiI2C0l29itoGe",
@@ -28234,8 +28234,8 @@
    ],
    "discontinued": true,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790340137427
+   "visible": true,
+   "updatedAt": 1790554330048
   }
  ]
 }

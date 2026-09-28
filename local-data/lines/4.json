@@ -3072,8 +3072,8 @@
    "ramalRef": "4A",
    "ref": "4",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340070646
+   "visible": true,
+   "updatedAt": 1790554052075
   },
   {
    "id": "uVdC7oWcpCp2YJiVo8kC",
@@ -5674,8 +5674,8 @@
    "ramalRef": "4A.",
    "ref": "4",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079183
+   "visible": true,
+   "updatedAt": 1790554059946
   },
   {
    "id": "T9AlEyrgTyQdOiBCmJCO",
@@ -9408,8 +9408,8 @@
    "ramalRef": "4B",
    "ref": "4",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340083921
+   "visible": true,
+   "updatedAt": 1790554126808
   },
   {
    "id": "okVzea6tSKK6swjpbvjN",
@@ -12810,8 +12810,8 @@
    "ramalRef": "4B.",
    "ref": "4",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340095547
+   "visible": true,
+   "updatedAt": 1790554147985
   }
  ]
 }

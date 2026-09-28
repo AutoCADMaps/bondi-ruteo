@@ -819,8 +819,8 @@
      "lon": -58.64743334415663
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340132626
+   "visible": true,
+   "updatedAt": 1790554329048
   },
   {
    "id": "RXOrJDQM0MZdOOSMjFjz",
@@ -1584,8 +1584,8 @@
      "lon": -58.6194104039946
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340132661
+   "visible": true,
+   "updatedAt": 1790554329074
   }
  ]
 }

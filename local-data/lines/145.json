@@ -3372,8 +3372,8 @@
    "name": "Villa Albertina → x Piedra Buena → Plaza Italia",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340123168
+   "visible": true,
+   "updatedAt": 1790554300102
   },
   {
    "id": "AMGyVGi8G5nvZ45lZ5Kw",
@@ -6677,8 +6677,8 @@
    "createdAt": 1785873556350,
    "ramalRef": "145A.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340123191
+   "visible": true,
+   "updatedAt": 1790554300128
   },
   {
    "id": "ztH2Uhx9JUV6xtfQ1Ea5",
@@ -10543,8 +10543,8 @@
    "name": "Villa Albertina → x Lugano I y II → Plaza Italia",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340123219
+   "visible": true,
+   "updatedAt": 1790554300155
   },
   {
    "id": "1P6jSNBggBotly2ZDv6Y",
@@ -14136,8 +14136,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340123248
+   "visible": true,
+   "updatedAt": 1790554300193
   },
   {
    "id": "8IqZ5RDDl0bZ5H04Cnln",
@@ -17697,8 +17697,8 @@
    "createdAt": 1785874098115,
    "ramalRef": "145C",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340123275
+   "visible": true,
+   "updatedAt": 1790554300230
   },
   {
    "id": "HYO12msVdl2a6jKMVYbU",
@@ -21394,8 +21394,8 @@
    "createdAt": 1785874334873,
    "ramalRef": "145C.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340123312
+   "visible": true,
+   "updatedAt": 1790554300258
   }
  ]
 }

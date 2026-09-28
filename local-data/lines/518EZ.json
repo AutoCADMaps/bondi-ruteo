@@ -2404,8 +2404,8 @@
    "ramalRef": "518EZA.",
    "order": 0,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340078620
+   "visible": true,
+   "updatedAt": 1790554058842
   },
   {
    "id": "R0YpqQt3u6Z42BRTEsTL",
@@ -5339,8 +5339,8 @@
     }
    ],
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340083297
+   "visible": true,
+   "updatedAt": 1790554125551
   },
   {
    "id": "fEIt0pDsK0GcaVzqHgs4",
@@ -7466,8 +7466,8 @@
    ],
    "order": 2,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340095257
+   "visible": true,
+   "updatedAt": 1790554144938
   },
   {
    "id": "R4XvgyEE8oVzMWmDOAqG",
@@ -10188,8 +10188,8 @@
    "ramalRef": "518EZB.",
    "order": 3,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340098428
+   "visible": true,
+   "updatedAt": 1790554153843
   },
   {
    "id": "vm1RnELJMagYhkQZrLMo",
@@ -10378,8 +10378,8 @@
    ],
    "order": 4,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340100511
+   "visible": true,
+   "updatedAt": 1790554161361
   },
   {
    "id": "it3k5T01U8uRLLBzEPNZ",
@@ -10632,8 +10632,8 @@
    "ramalRef": "518EZC.",
    "order": 5,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340102636
+   "visible": true,
+   "updatedAt": 1790554166241
   },
   {
    "id": "sJIZs520kquUu8BVyyDD",
@@ -11270,8 +11270,8 @@
    "ramalRef": "518EZD",
    "order": 6,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340104122
+   "visible": true,
+   "updatedAt": 1790554175111
   },
   {
    "id": "W3B5jmHjZkQjGocO5qgH",
@@ -12012,8 +12012,8 @@
    "ramalRef": "518EZ",
    "order": 7,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340105606
+   "visible": true,
+   "updatedAt": 1790554221125
   },
   {
    "id": "RjznJQ8oKjzynvWrDeO7",
@@ -12471,8 +12471,8 @@
    "order": 8,
    "name": "Ezeiza → La Porteña → Sol de Oro",
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340106975
+   "visible": true,
+   "updatedAt": 1790554235491
   },
   {
    "id": "MUhl0jXbLLJNKVVhVofl",
@@ -12938,8 +12938,8 @@
    "name": "Sol de Oro → La Porteña → Ezeiza",
    "discontinued": false,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340108160
+   "visible": true,
+   "updatedAt": 1790554248935
   },
   {
    "id": "vgM1qaK1v0zkn0BnF6fk",
@@ -13484,8 +13484,8 @@
    ],
    "order": 10,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340109176
+   "visible": true,
+   "updatedAt": 1790554256236
   },
   {
    "id": "Os0xDOhUPRapNh3SV10H",
@@ -14034,8 +14034,8 @@
    "ramalRef": "518EZF.",
    "order": 11,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340109962
+   "visible": true,
+   "updatedAt": 1790554258545
   },
   {
    "id": "jWh03ImPo8l6tCnS73f9",
@@ -14432,8 +14432,8 @@
    "ramalRef": "518EZG",
    "order": 12,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340110700
+   "visible": true,
+   "updatedAt": 1790554259815
   },
   {
    "id": "mEwwSPet8h8tFMZArPuO",
@@ -15423,8 +15423,8 @@
    ],
    "name": "Ezeiza → Country Los Talas",
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340111633
+   "visible": true,
+   "updatedAt": 1790554262012
   },
   {
    "id": "PjzASAVNnujf30AdSKb8",
@@ -16466,8 +16466,8 @@
    "discontinued": false,
    "name": "Country Los Talas → Ezeiza",
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340112317
+   "visible": true,
+   "updatedAt": 1790554271564
   },
   {
    "id": "N8svrEJpN54oY8Ns4D58",
@@ -17217,8 +17217,8 @@
    "discontinued": false,
    "order": 15,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340113036
+   "visible": true,
+   "updatedAt": 1790554274102
   },
   {
    "id": "ZvZMsqGOd70i7oHSYNJf",
@@ -18088,8 +18088,8 @@
    "discontinued": false,
    "order": 16,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340113638
+   "visible": true,
+   "updatedAt": 1790554275213
   },
   {
    "id": "SdEQzdcPve4sFXokUB3i",
@@ -19103,8 +19103,8 @@
    "discontinued": false,
    "order": 17,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340114277
+   "visible": true,
+   "updatedAt": 1790554276536
   },
   {
    "id": "sb0OBKUXOwzeRSbb2k2L",
@@ -20290,8 +20290,8 @@
    "discontinued": false,
    "order": 18,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340114697
+   "visible": true,
+   "updatedAt": 1790554277448
   },
   {
    "id": "dnrCDZNRLMc5ny6USKfG",
@@ -22896,8 +22896,8 @@
    ],
    "order": 19,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340115153
+   "visible": true,
+   "updatedAt": 1790554278828
   },
   {
    "id": "QhaFZ2FJUFEuE6EbELfR",
@@ -24750,8 +24750,8 @@
    "ramalRef": "518EZL.",
    "order": 20,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340115383
+   "visible": true,
+   "updatedAt": 1790554282046
   },
   {
    "id": "0eaBSvGi1LXxWO8ADJab",
@@ -25780,8 +25780,8 @@
    "ramalRef": "518EZM",
    "order": 21,
    "folderId": "2MFO98cc8sE8NpU2dlqw",
-   "visible": false,
-   "updatedAt": 1790340115779
+   "visible": true,
+   "updatedAt": 1790554282749
   }
  ]
 }

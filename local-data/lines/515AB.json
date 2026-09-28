@@ -592,8 +592,8 @@
    "name": "Burzaco → Parque Industrial Burzaco → Rayo de Sol",
    "discontinued": false,
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141803
+   "visible": true,
+   "updatedAt": 1790554355196
   },
   {
    "id": "odR5kXOYAcqVI1q07nnD",
@@ -1193,8 +1193,8 @@
    "createdAt": 1786799440393,
    "ramalRef": "515ABA.",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141823
+   "visible": true,
+   "updatedAt": 1790554355298
   },
   {
    "id": "eAXDWBPloGe21FviXIZt",
@@ -1674,8 +1674,8 @@
     }
    ],
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141842
+   "visible": true,
+   "updatedAt": 1790554355330
   },
   {
    "id": "WOC6sPIvXoTnA5x1fgFD",
@@ -2223,8 +2223,8 @@
    "createdAt": 1786799942473,
    "ramalRef": "515ABB.",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141948
+   "visible": true,
+   "updatedAt": 1790554355409
   },
   {
    "id": "zFOzf8OvswgWsLvQF59C",
@@ -2452,8 +2452,8 @@
    "createdAt": 1786800126504,
    "ramalRef": "515ABC",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141971
+   "visible": true,
+   "updatedAt": 1790554355497
   },
   {
    "id": "6m0ouqGXLASWrUbbLzD2",
@@ -2777,8 +2777,8 @@
    "createdAt": 1786800196846,
    "ramalRef": "515ABC.",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340142197
+   "visible": true,
+   "updatedAt": 1790554355552
   },
   {
    "id": "7kZAtmQALXmbKCwMQ64H",
@@ -2938,8 +2938,8 @@
      "lon": -58.40593863513982
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340142235
+   "visible": true,
+   "updatedAt": 1790554355635
   },
   {
    "id": "GI7mwByutchtTCa0LOdv",
@@ -3103,8 +3103,8 @@
    "createdAt": 1786800547971,
    "ramalRef": "515ABD.",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340142257
+   "visible": true,
+   "updatedAt": 1790554355666
   },
   {
    "id": "rjEec9fUWoeINJUsvvhE",
@@ -3517,8 +3517,8 @@
    "name": "[Circular]: Longchamps → Doña Sol → Longchamps",
    "discontinued": false,
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340142278
+   "visible": true,
+   "updatedAt": 1790554355692
   },
   {
    "id": "vToQTq3LygMVDArV1SK7",
@@ -3722,8 +3722,8 @@
    "createdAt": 1786800822806,
    "ramalRef": "515ABF",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340142309
+   "visible": true,
+   "updatedAt": 1790554355726
   },
   {
    "id": "VJs2nWdIrhShy7VGdRsa",
@@ -3983,8 +3983,8 @@
    "createdAt": 1786800872821,
    "ramalRef": "515ABF.",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340142328
+   "visible": true,
+   "updatedAt": 1790554355789
   }
  ]
 }

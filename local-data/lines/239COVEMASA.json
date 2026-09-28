@@ -1160,8 +1160,8 @@
    "discontinued": false,
    "ref": "239COVEMASA",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340139904
+   "visible": true,
+   "updatedAt": 1790554351136
   },
   {
    "id": "lXETomMiSh5lP0Mxrrlu",
@@ -2289,8 +2289,8 @@
    "createdAt": 1786660107223,
    "ramalRef": "239-W.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340139927
+   "visible": true,
+   "updatedAt": 1790554351180
   }
  ]
 }

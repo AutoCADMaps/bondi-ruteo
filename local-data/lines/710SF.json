@@ -1041,8 +1041,8 @@
    "discontinued": false,
    "order": 0,
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340078706
+   "visible": true,
+   "updatedAt": 1790554059091
   },
   {
    "id": "rE3Dx9a82eBg0GHwBLOM",
@@ -2171,8 +2171,8 @@
    ],
    "order": 1,
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340083450
+   "visible": true,
+   "updatedAt": 1790554125779
   },
   {
    "id": "8Iu0bDT6ogCIXPQCRuYS",
@@ -4105,8 +4105,8 @@
    "ramalRef": "710SFB",
    "order": 2,
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340095307
+   "visible": true,
+   "updatedAt": 1790554144999
   },
   {
    "id": "TXoTHplZfWKzhlFEeO1S",
@@ -6075,8 +6075,8 @@
    "ramalRef": "710SFB.",
    "order": 3,
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340098496
+   "visible": true,
+   "updatedAt": 1790554153928
   },
   {
    "id": "9gJhBuHhsoutMIP46C3r",
@@ -7737,8 +7737,8 @@
    "ramalRef": "710SFC",
    "order": 4,
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340100534
+   "visible": true,
+   "updatedAt": 1790554161516
   },
   {
    "id": "lAhGm2bVQjHN4Qxe4J4T",
@@ -9371,8 +9371,8 @@
    "ramalRef": "710SFC.",
    "order": 5,
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340102652
+   "visible": true,
+   "updatedAt": 1790554166291
   },
   {
    "id": "ek74s7bnB1mo7WwDIXtP",
@@ -9849,8 +9849,8 @@
    "ramalRef": "710SFD",
    "order": 6,
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340104189
+   "visible": true,
+   "updatedAt": 1790554175250
   },
   {
    "id": "EWzkpKr0CD3gO52vIDWf",
@@ -10403,8 +10403,8 @@
    "ramalRef": "710SFD.",
    "order": 7,
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340105695
+   "visible": true,
+   "updatedAt": 1790554221784
   },
   {
    "id": "UoQy9Gdsow885qW2Yrb9",
@@ -11308,8 +11308,8 @@
    "createdAt": 1788970685799,
    "ramalRef": "710SFE",
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340149102
+   "visible": true,
+   "updatedAt": 1790554398290
   },
   {
    "id": "XyyFjsYLl6tW2fTUfw1F",
@@ -12053,8 +12053,8 @@
    "createdAt": 1788970759498,
    "ramalRef": "710SFE.",
    "folderId": "ooPZUEK2kuqNZJfU8gM9",
-   "visible": false,
-   "updatedAt": 1790340149143
+   "visible": true,
+   "updatedAt": 1790554398559
   }
  ]
 }

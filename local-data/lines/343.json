@@ -4988,8 +4988,8 @@
      "lon": -58.57334342373374
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340075768
+   "visible": true,
+   "updatedAt": 1790554054787
   },
   {
    "id": "DYfxcqCtk2BI6njcT1Ah",
@@ -10026,8 +10026,8 @@
    "ramalRef": "343A.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340080812
+   "visible": true,
+   "updatedAt": 1790554112127
   },
   {
    "id": "aGMn5HJlSkGSOt3WtjXr",
@@ -15216,8 +15216,8 @@
      "lon": -58.57334342373374
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340091205
+   "visible": true,
+   "updatedAt": 1790554137669
   },
   {
    "id": "4zwSlriIHgNjHDaWB3UQ",
@@ -20050,8 +20050,8 @@
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340096852
+   "visible": true,
+   "updatedAt": 1790554150902
   },
   {
    "id": "Sf0vToH35dHRVbLbsMjm",
@@ -24860,8 +24860,8 @@
      "lon": -58.57028952349178
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340099136
+   "visible": true,
+   "updatedAt": 1790554155428
   },
   {
    "id": "Az36Yt4DJYvjX8mR3ujz",
@@ -29902,8 +29902,8 @@
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340101181
+   "visible": true,
+   "updatedAt": 1790554163939
   },
   {
    "id": "Kqxswd30aXe3GYffpIIi",
@@ -34764,8 +34764,8 @@
      "lon": -58.57028952349178
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340103121
+   "visible": true,
+   "updatedAt": 1790554170331
   },
   {
    "id": "6PfGoi86XlTzvPgv49GJ",
@@ -39838,8 +39838,8 @@
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 7,
-   "visible": false,
-   "updatedAt": 1790340104692
+   "visible": true,
+   "updatedAt": 1790554200018
   },
   {
    "id": "o6fdhw74RDNoZlSRZpRe",
@@ -41208,8 +41208,8 @@
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 8,
-   "visible": false,
-   "updatedAt": 1790340106076
+   "visible": true,
+   "updatedAt": 1790554231520
   },
   {
    "id": "MlqdeCpTlsRAZkvTAA4H",
@@ -42630,8 +42630,8 @@
      "lon": -58.531842
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340107394
+   "visible": true,
+   "updatedAt": 1790554236526
   },
   {
    "id": "QEHbCOw8Ma8yXHiuvosg",
@@ -44200,8 +44200,8 @@
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 10,
-   "visible": false,
-   "updatedAt": 1790340108500
+   "visible": true,
+   "updatedAt": 1790554250181
   },
   {
    "id": "ALV7HPo2hydDeF5DJ7Gd",
@@ -45418,8 +45418,8 @@
      "lon": -58.531842
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340109406
+   "visible": true,
+   "updatedAt": 1790554256770
   },
   {
    "id": "hQD70B88KDy2FrilIlNW",
@@ -47136,8 +47136,8 @@
      "lon": -58.5302799857958
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340110134
+   "visible": true,
+   "updatedAt": 1790554258797
   },
   {
    "id": "E3tS47BcdiOBkF8wamK7",
@@ -48730,8 +48730,8 @@
      "lon": -58.56518306470173
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340111080
+   "visible": true,
+   "updatedAt": 1790554260735
   },
   {
    "id": "qeO3pSKUj0H3RdtAna8Y",
@@ -51824,8 +51824,8 @@
    "ramalRef": "343x333J",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 14,
-   "visible": false,
-   "updatedAt": 1790340111912
+   "visible": true,
+   "updatedAt": 1790554262490
   },
   {
    "id": "GFqoQXdZF8qlD3zt5U6g",
@@ -54970,8 +54970,8 @@
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 15,
-   "visible": false,
-   "updatedAt": 1790340112590
+   "visible": true,
+   "updatedAt": 1790554272568
   },
   {
    "id": "Cr4t3E3FQbukXIDg2cLX",
@@ -55916,8 +55916,8 @@
    "ramalRef": "343x333K",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 16,
-   "visible": false,
-   "updatedAt": 1790340113253
+   "visible": true,
+   "updatedAt": 1790554274366
   },
   {
    "id": "UhA4Xu7ppcBRavi81Ay8",
@@ -57058,8 +57058,8 @@
    "name": "Ex 333: Olivos → Villa Adelina",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 17,
-   "visible": false,
-   "updatedAt": 1790340113877
+   "visible": true,
+   "updatedAt": 1790554275552
   },
   {
    "id": "7zznPxoWHFn2CCCsMB0V",
@@ -59552,8 +59552,8 @@
    "name": "Ex 707: Villa Adelina → Acassuso",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 18,
-   "visible": false,
-   "updatedAt": 1790340114393
+   "visible": true,
+   "updatedAt": 1790554276821
   },
   {
    "id": "HpP181KkHNUKBpEcokjo",
@@ -62058,8 +62058,8 @@
    "ramalRef": "343x707.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 19,
-   "visible": false,
-   "updatedAt": 1790340114785
+   "visible": true,
+   "updatedAt": 1790554277604
   }
  ]
 }

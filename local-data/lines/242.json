@@ -1380,8 +1380,8 @@
    "ramalRef": "242A",
    "order": 0,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340076899
+   "visible": true,
+   "updatedAt": 1790554055827
   },
   {
    "id": "BhPlg5D8Ac69czchvOWD",
@@ -4732,8 +4732,8 @@
    "ramalRef": "242B",
    "order": 2,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340093696
+   "visible": true,
+   "updatedAt": 1790554142476
   },
   {
    "id": "zHtzkZWX7gEL4F41SHZZ",
@@ -6670,8 +6670,8 @@
      "lon": -58.53144534280263
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340097468
+   "visible": true,
+   "updatedAt": 1790554152133
   },
   {
    "id": "o12qCOHbaKQMnRSX3YNc",
@@ -8168,8 +8168,8 @@
    "ramalRef": "242C",
    "order": 4,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340099615
+   "visible": true,
+   "updatedAt": 1790554156685
   },
   {
    "id": "05L9HLN0KhRFVoR5EV2s",
@@ -9690,8 +9690,8 @@
      "lon": -58.53144534280263
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340101708
+   "visible": true,
+   "updatedAt": 1790554164723
   },
   {
    "id": "hwy9Env4TRIj5z0M6jkB",
@@ -10941,8 +10941,8 @@
    "order": 6,
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "name": "Puente Liniers → Los Pinos → Atalaya",
-   "visible": false,
-   "updatedAt": 1790340103384
+   "visible": true,
+   "updatedAt": 1790554172165
   },
   {
    "id": "nv0bGJsH9b3w7lZ6eqfH",
@@ -12188,8 +12188,8 @@
    ],
    "name": "Atalaya → Los Pinos → Puente Liniers",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340105035
+   "visible": true,
+   "updatedAt": 1790554212607
   },
   {
    "id": "XbQFR9CarJQ5owlNFCq5",
@@ -13750,8 +13750,8 @@
    "ramalRef": "242H",
    "order": 8,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340106370
+   "visible": true,
+   "updatedAt": 1790554234029
   },
   {
    "id": "CyOxcORocz2F3kpC33JU",
@@ -15280,8 +15280,8 @@
      "lon": -58.53144401361317
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340107573
+   "visible": true,
+   "updatedAt": 1790554237069
   },
   {
    "id": "3hb8NDHXRjlBaO4sGM6l",
@@ -16678,8 +16678,8 @@
    "ramalRef": "242I",
    "order": 10,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340108657
+   "visible": true,
+   "updatedAt": 1790554250666
   },
   {
    "id": "MBuxkF6TXyJz3ZyUVuzL",
@@ -18132,8 +18132,8 @@
      "lon": -58.53144616860573
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340109492
+   "visible": true,
+   "updatedAt": 1790554257086
   },
   {
    "id": "hbdBAH08FuVNyewT1Eez",
@@ -18998,8 +18998,8 @@
    "ramalRef": "242D",
    "order": 12,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340110330
+   "visible": true,
+   "updatedAt": 1790554259154
   },
   {
    "id": "agcnArdNKldBQveHKxEv",
@@ -19892,8 +19892,8 @@
    "ramalRef": "242D.",
    "order": 13,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340111214
+   "visible": true,
+   "updatedAt": 1790554260970
   },
   {
    "id": "zrh9kqKFNHRrhhq6bbe4",
@@ -20642,8 +20642,8 @@
    "ramalRef": "242E",
    "order": 14,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340112030
+   "visible": true,
+   "updatedAt": 1790554266636
   },
   {
    "id": "I2SMj1IMq4gRTJfEcYVf",
@@ -21352,8 +21352,8 @@
    "ramalRef": "242E.",
    "order": 15,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340112687
+   "visible": true,
+   "updatedAt": 1790554273321
   },
   {
    "id": "F9MhaDTfgZL5IxEL7Ru5",
@@ -22650,8 +22650,8 @@
    "ramalRef": "242G",
    "order": 16,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340113310
+   "visible": true,
+   "updatedAt": 1790554274523
   },
   {
    "id": "e8xd3CaWHYCBSMedQ5nH",
@@ -23948,8 +23948,8 @@
    "ramalRef": "242G.",
    "order": 17,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340113938
+   "visible": true,
+   "updatedAt": 1790554275976
   }
  ]
 }

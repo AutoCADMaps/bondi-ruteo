@@ -448,8 +448,8 @@
    "ramalRef": "527-522LAN-B",
    "order": 0,
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340077741
+   "visible": true,
+   "updatedAt": 1790554057763
   },
   {
    "id": "ssUS9dzu8cDjfqPKckRA",
@@ -906,8 +906,8 @@
    "ramalRef": "527-522LAN-B.",
    "order": 1,
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340082355
+   "visible": true,
+   "updatedAt": 1790554122227
   },
   {
    "id": "AuEBf1Tynz6oXWMlq6pc",
@@ -1804,8 +1804,8 @@
    "ramalRef": "527-522-C",
    "order": 2,
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340094179
+   "visible": true,
+   "updatedAt": 1790554142996
   },
   {
    "id": "0U8h3n97RnjyIXB34c1T",
@@ -2654,8 +2654,8 @@
    "ramalRef": "527-522LAN-C.",
    "order": 3,
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340097694
+   "visible": true,
+   "updatedAt": 1790554152552
   },
   {
    "id": "CogbQAEycwMBqCsScOtQ",
@@ -3057,8 +3057,8 @@
    ],
    "order": 4,
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340099841
+   "visible": true,
+   "updatedAt": 1790554157095
   },
   {
    "id": "PeKSJ1ra1zot7EttTRKT",
@@ -3467,8 +3467,8 @@
    "ramalRef": "527-522LAN522.",
    "order": 5,
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340102000
+   "visible": true,
+   "updatedAt": 1790554165102
   }
  ]
 }

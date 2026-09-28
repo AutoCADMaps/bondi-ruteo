@@ -992,8 +992,8 @@
     }
    ],
    "folderId": "7ry0NgNeVtBPLmzU6cDa",
-   "visible": false,
-   "updatedAt": 1790340076526
+   "visible": true,
+   "updatedAt": 1790554055362
   },
   {
    "id": "vX7VmZNEn6s8NbrQOIfc",
@@ -1950,8 +1950,8 @@
     }
    ],
    "folderId": "7ry0NgNeVtBPLmzU6cDa",
-   "visible": false,
-   "updatedAt": 1790340081434
+   "visible": true,
+   "updatedAt": 1790554114215
   },
   {
    "id": "pvKTO929zO50z83cDaU1",
@@ -3044,8 +3044,8 @@
    "order": 2,
    "name": "Ramal 19: La Plata → x 74 → Puente de Fierro",
    "folderId": "7ry0NgNeVtBPLmzU6cDa",
-   "visible": false,
-   "updatedAt": 1790340092063
+   "visible": true,
+   "updatedAt": 1790554142108
   },
   {
    "id": "fTZNBYmFSnpSABiNVg34",
@@ -3938,8 +3938,8 @@
    ],
    "name": "Ramal 19: Puente de Fierro → x 74 → La Plata",
    "folderId": "7ry0NgNeVtBPLmzU6cDa",
-   "visible": false,
-   "updatedAt": 1790340097112
+   "visible": true,
+   "updatedAt": 1790554151316
   },
   {
    "id": "RnZOKvrciEaX1MeMRT55",
@@ -5192,8 +5192,8 @@
     }
    ],
    "folderId": "7ry0NgNeVtBPLmzU6cDa",
-   "visible": false,
-   "updatedAt": 1790340099434
+   "visible": true,
+   "updatedAt": 1790554156109
   },
   {
    "id": "mCQ5PYgb2bB41VuMruFK",
@@ -6322,8 +6322,8 @@
     }
    ],
    "folderId": "7ry0NgNeVtBPLmzU6cDa",
-   "visible": false,
-   "updatedAt": 1790340101506
+   "visible": true,
+   "updatedAt": 1790554164277
   }
  ]
 }

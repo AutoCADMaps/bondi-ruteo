@@ -4953,8 +4953,8 @@
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340078056
+   "visible": true,
+   "updatedAt": 1790554058111
   },
   {
    "id": "6r2P10YDXZJWPdfxFlBS",
@@ -9656,8 +9656,8 @@
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340082595
+   "visible": true,
+   "updatedAt": 1790554122999
   },
   {
    "id": "yaFNOIWrZMCEBN6fVfhU",
@@ -15155,8 +15155,8 @@
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340094497
+   "visible": true,
+   "updatedAt": 1790554144036
   },
   {
    "id": "YmIX6g0nkA2o3aNyKlZA",
@@ -20981,8 +20981,8 @@
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340098063
+   "visible": true,
+   "updatedAt": 1790554153138
   },
   {
    "id": "9W20CvdLAmQJg4yFD4px",
@@ -25595,8 +25595,8 @@
     }
    ],
    "order": 4,
-   "visible": false,
-   "updatedAt": 1790340100107
+   "visible": true,
+   "updatedAt": 1790554160490
   },
   {
    "id": "6eJUwDdYJdFo6gOn62qV",
@@ -30045,8 +30045,8 @@
     }
    ],
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340102273
+   "visible": true,
+   "updatedAt": 1790554165721
   },
   {
    "id": "aWIO1VIMLJnMZZvpZ3pf",
@@ -35228,8 +35228,8 @@
    ],
    "name": "Ramal G: Ciudad Universitaria → Aeroparque → x González → Don Orione",
    "order": 6,
-   "visible": false,
-   "updatedAt": 1790340103870
+   "visible": true,
+   "updatedAt": 1790554174745
   },
   {
    "id": "7UMzC45KcUAjld5KDyLN",
@@ -40815,8 +40815,8 @@
    "name": "Ramal G: Don Orione → x González → Aeroparque → Ciudad Universitaria",
    "discontinued": false,
    "order": 7,
-   "visible": false,
-   "updatedAt": 1790340105350
+   "visible": true,
+   "updatedAt": 1790554215955
   },
   {
    "id": "gSIenM54NC3yyIsIFHRD",
@@ -46005,8 +46005,8 @@
     }
    ],
    "order": 8,
-   "visible": false,
-   "updatedAt": 1790340106727
+   "visible": true,
+   "updatedAt": 1790554234922
   },
   {
    "id": "J5c11uJc8o9ucsO4PlTC",
@@ -51551,8 +51551,8 @@
     }
    ],
    "order": 9,
-   "visible": false,
-   "updatedAt": 1790340107992
+   "visible": true,
+   "updatedAt": 1790554248561
   },
   {
    "id": "Cte5xcvEGqPt1M83gg5d",
@@ -53715,8 +53715,8 @@
     }
    ],
    "order": 11,
-   "visible": false,
-   "updatedAt": 1790340109784
+   "visible": true,
+   "updatedAt": 1790554258265
   }
  ]
 }

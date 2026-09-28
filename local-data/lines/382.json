@@ -2609,8 +2609,8 @@
    "order": 0,
    "name": "Ruta 3 y General Paz → Kilómetro 29 → Pontevedra",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340076423
+   "visible": true,
+   "updatedAt": 1790554055268
   },
   {
    "id": "zht2uQ3Katx5DqpUmCoS",
@@ -5256,8 +5256,8 @@
    "order": 1,
    "name": "Pontevedra → Kilómetro 29 → Ruta 3 y General Paz",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340081313
+   "visible": true,
+   "updatedAt": 1790554113905
   },
   {
    "id": "MD6LdfFBt1otGT6dGdjq",
@@ -8898,8 +8898,8 @@
      "lon": -58.70730467217955
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340091877
+   "visible": true,
+   "updatedAt": 1790554138788
   },
   {
    "id": "fJUxb9Avb9bRu7Ae7p7k",
@@ -12656,8 +12656,8 @@
    "ramalRef": "382B.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340097095
+   "visible": true,
+   "updatedAt": 1790554151291
   },
   {
    "id": "2Zh4VqrsE7zMY2f8hKII",
@@ -16295,8 +16295,8 @@
      "lon": -58.70403319854711
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340099381
+   "visible": true,
+   "updatedAt": 1790554156055
   },
   {
    "id": "Hd6MvSzciosHzAqBUUvx",
@@ -20118,8 +20118,8 @@
      "lon": -58.5309729
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340101462
+   "visible": true,
+   "updatedAt": 1790554164310
   }
  ]
 }

@@ -3312,8 +3312,8 @@
      "lon": -58.223205926804454
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340138563
+   "visible": true,
+   "updatedAt": 1790554343272
   },
   {
    "id": "CqtwhW3hUIf6MQ08rU03",
@@ -6569,8 +6569,8 @@
      "lon": -58.2230854
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340138599
+   "visible": true,
+   "updatedAt": 1790554343305
   },
   {
    "id": "AtR9G4kgwAyHV3veyUP5",
@@ -8458,8 +8458,8 @@
    "createdAt": 1786625237209,
    "ramalRef": "257L",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340138622
+   "visible": true,
+   "updatedAt": 1790554343360
   },
   {
    "id": "pItFmDhELQ8VEcyQmr92",
@@ -10211,8 +10211,8 @@
    "createdAt": 1786625969279,
    "ramalRef": "257L.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340138656
+   "visible": true,
+   "updatedAt": 1790554343391
   }
  ]
 }

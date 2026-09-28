@@ -1612,8 +1612,8 @@
    "name": "Ramal 1: Lomas de Zamora → Don Bosco",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340142385
+   "visible": true,
+   "updatedAt": 1790554355932
   },
   {
    "id": "YbIKxnTZ0CI4AOLmqzQt",
@@ -3209,8 +3209,8 @@
    "createdAt": 1786802579127,
    "ramalRef": "266-1.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340142420
+   "visible": true,
+   "updatedAt": 1790554355963
   },
   {
    "id": "qvcLX7STV44Xy79xWBr8",
@@ -3814,8 +3814,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340142437
+   "visible": true,
+   "updatedAt": 1790554355992
   },
   {
    "id": "zEX1pJ1vGeafayVeHSKj",
@@ -4403,8 +4403,8 @@
    "createdAt": 1786802926332,
    "ramalRef": "266-2.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340142454
+   "visible": true,
+   "updatedAt": 1790554356029
   },
   {
    "id": "r4v8IruZDtkspgptLWPX",
@@ -7477,8 +7477,8 @@
    "createdAt": 1786803591089,
    "ramalRef": "266-4.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340142498
+   "visible": true,
+   "updatedAt": 1790554356214
   },
   {
    "id": "wuKbPyAvLShZWNgnNoO9",
@@ -12142,8 +12142,8 @@
    "createdAt": 1786837171180,
    "ramalRef": "266-6.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340142606
+   "visible": true,
+   "updatedAt": 1790554356897
   }
  ]
 }

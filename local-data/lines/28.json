@@ -2864,8 +2864,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Terminal Retiro → Puente La Noria",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340147809
+   "visible": true,
+   "updatedAt": 1790554387005
   },
   {
    "id": "H0P2W2W42KV2wLjrquTO",
@@ -6426,8 +6426,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Puente La Noria → Terminal Retiro",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340147860
+   "visible": true,
+   "updatedAt": 1790554387124
   },
   {
    "id": "oVDS3VEWHweR4G0XuFMs",
@@ -10072,8 +10072,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Terminal Retiro → José Hernández",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340147894
+   "visible": true,
+   "updatedAt": 1790554387218
   },
   {
    "id": "AfigMubBsUjrcERSKHtq",
@@ -14310,8 +14310,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "José Hernández → Terminal Retiro",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340147973
+   "visible": true,
+   "updatedAt": 1790554388432
   },
   {
    "id": "b2tXeUcvnmUrwFq2PpaA",
@@ -18136,8 +18136,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Terminal Retiro → x Roca → Liniers",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340148001
+   "visible": true,
+   "updatedAt": 1790554388541
   },
   {
    "id": "xmyh8YDAiwOEsqS699io",
@@ -22438,8 +22438,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Liniers → x Roca → Terminal Retiro",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340148040
+   "visible": true,
+   "updatedAt": 1790554388647
   },
   {
    "id": "NngQ9s0HPiPJjfsgDsRJ",
@@ -27127,8 +27127,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148063
+   "visible": true,
+   "updatedAt": 1790554388752
   },
   {
    "id": "BAYLd6SQdlrzBcG0wCWz",
@@ -31888,8 +31888,8 @@
    "createdAt": 1788790425005,
    "ramalRef": "28D.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148190
+   "visible": true,
+   "updatedAt": 1790554389690
   },
   {
    "id": "lcYsFT7S6hYrEx326RU4",
@@ -35689,8 +35689,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148234
+   "visible": true,
+   "updatedAt": 1790554389818
   },
   {
    "id": "E7I9m0cXrC1Qz2InNTzy",
@@ -39606,8 +39606,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148261
+   "visible": true,
+   "updatedAt": 1790554391695
   },
   {
    "id": "Bv4HvAwHd6rKHu4Y14DY",
@@ -43391,8 +43391,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148281
+   "visible": true,
+   "updatedAt": 1790554391829
   },
   {
    "id": "vD9iR6fTazUoye4N0lur",
@@ -47292,8 +47292,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148311
+   "visible": true,
+   "updatedAt": 1790554392001
   },
   {
    "id": "RRFip9LRbyK217JlZJd1",
@@ -50345,8 +50345,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148337
+   "visible": true,
+   "updatedAt": 1790554392171
   },
   {
    "id": "3ZGLfyqKpkqiw4lS14cy",
@@ -53450,8 +53450,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148365
+   "visible": true,
+   "updatedAt": 1790554392324
   },
   {
    "id": "KSTh2MUh2LzQyVqkZ5Qw",
@@ -55812,8 +55812,8 @@
    "name": "[Rápido] Ramal 1: Puente La Noria → Ciudad Universitaria",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148399
+   "visible": true,
+   "updatedAt": 1790554392773
   },
   {
    "id": "5jklVsdIzOEioFtuLPhA",
@@ -58313,8 +58313,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148444
+   "visible": true,
+   "updatedAt": 1790554393025
   },
   {
    "id": "PxTtjgi7Z1gGoZPlSMau",
@@ -60762,8 +60762,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148466
+   "visible": true,
+   "updatedAt": 1790554393137
   },
   {
    "id": "zUXSbTLCSPDEYdpQRvz4",
@@ -63151,8 +63151,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340148499
+   "visible": true,
+   "updatedAt": 1790554393262
   }
  ]
 }

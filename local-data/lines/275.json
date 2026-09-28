@@ -1329,8 +1329,8 @@
    "name": "Ramal A: Altos de San Lorenzo → Monasterio → Ensenada",
    "discontinued": false,
    "ramalRef": "275-A",
-   "visible": false,
-   "updatedAt": 1790340076270
+   "visible": true,
+   "updatedAt": 1790554055113
   },
   {
    "id": "RmrIqBuKRmYsK0coMLjT",
@@ -2728,8 +2728,8 @@
    "ramalRef": "275-A.",
    "name": "Ramal A: Ensenada → Monasterio → Altos de San Lorenzo",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340081240
+   "visible": true,
+   "updatedAt": 1790554113725
   },
   {
    "id": "KDKbJ5uWugVojEusnJCp",
@@ -4995,8 +4995,8 @@
    "discontinued": false,
    "name": "Ramal B: Altos de San Lorenzo → x Bossinga → Punta Lara",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340091811
+   "visible": true,
+   "updatedAt": 1790554138759
   },
   {
    "id": "84Z979FhMGGmqBwAr4PB",
@@ -7350,8 +7350,8 @@
    "discontinued": false,
    "name": "Ramal B: Punta Lara → x Bossinga → Altos de San Lorenzo",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340097077
+   "visible": true,
+   "updatedAt": 1790554151259
   },
   {
    "id": "1RWbj7L73EW7YELIOP5N",
@@ -9717,8 +9717,8 @@
    "name": "Ramal C: Altos de San Lorenzo → 5 de Mayo → Muelle Boca Cerrada",
    "discontinued": false,
    "order": 4,
-   "visible": false,
-   "updatedAt": 1790340099342
+   "visible": true,
+   "updatedAt": 1790554156013
   },
   {
    "id": "DeQDzOZag91nqovpVoau",
@@ -12224,8 +12224,8 @@
    "name": "Ramal C: Muelle Boca Cerrada → 5 de Mayo → Altos de San Lorenzo",
    "discontinued": false,
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340101357
+   "visible": true,
+   "updatedAt": 1790554164128
   },
   {
    "id": "Y3w6ED83sVqwlJqCBMeM",
@@ -13923,8 +13923,8 @@
    "name": "Ramal D: Altos de San Lorenzo → x Diagonal 74 → Punta Lara",
    "discontinued": false,
    "order": 6,
-   "visible": false,
-   "updatedAt": 1790340103214
+   "visible": true,
+   "updatedAt": 1790554170254
   },
   {
    "id": "ccxsySoTO9uRCmxBJm6b",
@@ -15790,8 +15790,8 @@
    "discontinued": false,
    "name": "Ramal D: Punta Lara → x Diagonal 74 → Altos de San Lorenzo",
    "order": 7,
-   "visible": false,
-   "updatedAt": 1790340104739
+   "visible": true,
+   "updatedAt": 1790554200316
   },
   {
    "id": "bBWCC1SWVMcRNnnZeqyO",
@@ -16841,8 +16841,8 @@
    "name": "Ramal F: Altos de San Lorenzo → El Dique → Barrio Universitario",
    "discontinued": false,
    "order": 8,
-   "visible": false,
-   "updatedAt": 1790340106126
+   "visible": true,
+   "updatedAt": 1790554231657
   },
   {
    "id": "ll3HnSJZz00wWZd2jmjS",
@@ -17836,8 +17836,8 @@
    "name": "Ramal F: Barrio Universitario → El Dique → Altos de San Lorenzo",
    "discontinued": false,
    "order": 9,
-   "visible": false,
-   "updatedAt": 1790340107470
+   "visible": true,
+   "updatedAt": 1790554236725
   },
   {
    "id": "dg2YZc3ogjmN0Dr707gT",
@@ -19411,8 +19411,8 @@
    "name": "Ramal M: Altos de San Lorenzo → Mosconi → Cementerio de Ensenada",
    "discontinued": false,
    "order": 10,
-   "visible": false,
-   "updatedAt": 1790340108545
+   "visible": true,
+   "updatedAt": 1790554250313
   },
   {
    "id": "X0uru8PvAVfWga7BbOYJ",
@@ -20866,8 +20866,8 @@
    "name": "Ramal M: Cementerio de Ensenada → Mosconi → Altos de San Lorenzo",
    "discontinued": false,
    "order": 11,
-   "visible": false,
-   "updatedAt": 1790340109457
+   "visible": true,
+   "updatedAt": 1790554257005
   },
   {
    "id": "6v8SuI8euEE1PUzGMjz5",
@@ -22417,8 +22417,8 @@
    "name": "Ramal M: Altos de San Lorenzo → Mosconi → El Porteño → Cementerio de Ensenada",
    "discontinued": false,
    "order": 12,
-   "visible": false,
-   "updatedAt": 1790340110254
+   "visible": true,
+   "updatedAt": 1790554259061
   },
   {
    "id": "71izllmDPLdMB6zPFknk",
@@ -23860,8 +23860,8 @@
    "name": "Ramal M: Cementerio de Ensenada → El Porteño → Mosconi → Altos de San Lorenzo",
    "discontinued": false,
    "order": 13,
-   "visible": false,
-   "updatedAt": 1790340111153
+   "visible": true,
+   "updatedAt": 1790554260878
   },
   {
    "id": "UupjfVeMgGLwSIBLyT96",
@@ -25775,8 +25775,8 @@
    "ramalRef": "275-N",
    "name": "Ramal N: Altos de San Lorenzo → Escuela Naval Militar → Isla Santiago Oeste",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340111978
+   "visible": true,
+   "updatedAt": 1790554262575
   },
   {
    "id": "hVKciGPAdyuCvdcyhb5j",
@@ -27630,8 +27630,8 @@
    "ramalRef": "275-N.",
    "name": "Ramal N: Isla Santiago Oeste → Escuela Naval Militar → Altos de San Lorenzo",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340112638
+   "visible": true,
+   "updatedAt": 1790554273238
   },
   {
    "id": "eLDy7j4fYl45nTXg5SLK",
@@ -28963,8 +28963,8 @@
      "lon": -57.93865383741583
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340142923
+   "visible": true,
+   "updatedAt": 1790554360832
   },
   {
    "id": "35wkaAGWscEPGb0Ma5b5",
@@ -30384,8 +30384,8 @@
      "lon": -57.929011189931884
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340142982
+   "visible": true,
+   "updatedAt": 1790554360875
   }
  ]
 }

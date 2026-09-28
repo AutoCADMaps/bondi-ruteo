@@ -940,8 +940,8 @@
    "ramalRef": "580Q",
    "order": 0,
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
-   "visible": false,
-   "updatedAt": 1790340076497
+   "visible": true,
+   "updatedAt": 1790554055342
   },
   {
    "id": "DaSnKOlf2OPeT6rcUmRh",
@@ -1906,8 +1906,8 @@
    "ramalRef": "580Q.",
    "order": 1,
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
-   "visible": false,
-   "updatedAt": 1790340081378
+   "visible": true,
+   "updatedAt": 1790554114166
   }
  ]
 }

@@ -2996,8 +2996,8 @@
    "ramalRef": "306A.",
    "order": 0,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340078583
+   "visible": true,
+   "updatedAt": 1790554058816
   },
   {
    "id": "4ibGG1LSop02fKKxhRXC",
@@ -5866,8 +5866,8 @@
    "ramalRef": "306A",
    "ref": "306",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079103
+   "visible": true,
+   "updatedAt": 1790554059805
   },
   {
    "id": "VoDbvLXN7NtO4RxWOM2B",
@@ -8633,8 +8633,8 @@
    "discontinued": false,
    "order": 2,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340095228
+   "visible": true,
+   "updatedAt": 1790554144906
   },
   {
    "id": "uKYYfxn68Q6GCq54nOt6",
@@ -11432,8 +11432,8 @@
    "name": "Carlos Spegazzini → Monte Grande → Puente La Noria",
    "discontinued": false,
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340098402
+   "visible": true,
+   "updatedAt": 1790554153805
   },
   {
    "id": "MkjAusDgkpexoWDHeNzs",
@@ -14090,8 +14090,8 @@
    ],
    "order": 4,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340100474
+   "visible": true,
+   "updatedAt": 1790554161320
   },
   {
    "id": "mH3bQeNpm51NErKpCQcZ",
@@ -16812,8 +16812,8 @@
     }
    ],
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340102606
+   "visible": true,
+   "updatedAt": 1790554166197
   },
   {
    "id": "5o8yCF0yJuoFnNr415Gy",
@@ -17678,8 +17678,8 @@
    "ramalRef": "306D",
    "order": 6,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340104140
+   "visible": true,
+   "updatedAt": 1790554175164
   },
   {
    "id": "FcfNCyyih5XAjJcRiUfl",
@@ -18536,8 +18536,8 @@
    "ramalRef": "306D.",
    "order": 7,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340105647
+   "visible": true,
+   "updatedAt": 1790554221204
   },
   {
    "id": "60fbMiH9TKA8Z2dv4cgZ",
@@ -19507,8 +19507,8 @@
    "discontinued": false,
    "order": 8,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340106938
+   "visible": true,
+   "updatedAt": 1790554235447
   },
   {
    "id": "PTv4f5f0cs0BjzqOJxEu",
@@ -20501,8 +20501,8 @@
    "ramalRef": "306E.",
    "order": 9,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340108130
+   "visible": true,
+   "updatedAt": 1790554248891
   },
   {
    "id": "RrbnlZeTC7hYl91cgEqy",
@@ -21283,8 +21283,8 @@
    "ramalRef": "306F",
    "order": 10,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340109145
+   "visible": true,
+   "updatedAt": 1790554256193
   },
   {
    "id": "2UMueonj0mgNy7ERqSWZ",
@@ -22121,8 +22121,8 @@
    ],
    "order": 11,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340109936
+   "visible": true,
+   "updatedAt": 1790554258511
   },
   {
    "id": "rtxLknHfXJOhD44QVyO0",
@@ -22931,8 +22931,8 @@
    "ramalRef": "306G",
    "order": 12,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340110684
+   "visible": true,
+   "updatedAt": 1790554259779
   },
   {
    "id": "QMIb3DbLskKrr7QyImhk",
@@ -23717,8 +23717,8 @@
    "ramalRef": "306G.",
    "order": 13,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340111610
+   "visible": true,
+   "updatedAt": 1790554261978
   },
   {
    "id": "rpSDVYheEbBad6QAbYKb",
@@ -26128,8 +26128,8 @@
    "order": 14,
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "discontinued": true,
-   "visible": false,
-   "updatedAt": 1790340112295
+   "visible": true,
+   "updatedAt": 1790554269165
   },
   {
    "id": "4OQudEGm739hJ1sBe96n",
@@ -28419,8 +28419,8 @@
    ],
    "order": 15,
    "discontinued": true,
-   "visible": false,
-   "updatedAt": 1790340113002
+   "visible": true,
+   "updatedAt": 1790554274039
   }
  ]
 }

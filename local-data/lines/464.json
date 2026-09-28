@@ -1396,8 +1396,8 @@
    ],
    "name": "Morón → San Damián → Camino del Buen Ayre",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340129458
+   "visible": true,
+   "updatedAt": 1790554313879
   },
   {
    "id": "kfjsSTFzcp151AfiWPLE",
@@ -2770,8 +2770,8 @@
    ],
    "name": "Camino del Buen Ayre → San Damián → Morón",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340129482
+   "visible": true,
+   "updatedAt": 1790554313905
   }
  ]
 }

@@ -1040,8 +1040,8 @@
    ],
    "order": 0,
    "folderId": "EJ0R2JPZG1PIL9M1Csvp",
-   "visible": false,
-   "updatedAt": 1790340076462
+   "visible": true,
+   "updatedAt": 1790554055306
   },
   {
    "id": "Z4f3uvQs8IilrusDKPG3",
@@ -2046,8 +2046,8 @@
    "ramalRef": "509ESA",
    "order": 1,
    "folderId": "EJ0R2JPZG1PIL9M1Csvp",
-   "visible": false,
-   "updatedAt": 1790340081347
+   "visible": true,
+   "updatedAt": 1790554114062
   },
   {
    "id": "Q27GzryR0xeAuxSO3sGg",
@@ -2864,8 +2864,8 @@
    ],
    "name": "Matheu → Coprovi",
    "folderId": "EJ0R2JPZG1PIL9M1Csvp",
-   "visible": false,
-   "updatedAt": 1790340091944
+   "visible": true,
+   "updatedAt": 1790554142164
   },
   {
    "id": "GpjBcZDOG2IEDkXfuAjO",
@@ -3705,8 +3705,8 @@
     }
    ],
    "folderId": "EJ0R2JPZG1PIL9M1Csvp",
-   "visible": false,
-   "updatedAt": 1790340119597
+   "visible": true,
+   "updatedAt": 1790554294992
   }
  ]
 }

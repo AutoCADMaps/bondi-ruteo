@@ -3393,8 +3393,8 @@
    "name": "Ruta 3 y General Paz → x Ruta 3 → Kilómetro 47.700",
    "order": 0,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340077634
+   "visible": true,
+   "updatedAt": 1790554057360
   },
   {
    "id": "eymU5pIRG7kbwWpPo7rJ",
@@ -6704,8 +6704,8 @@
    "name": "Kilómetro 47.700 → x Ruta 3 → Ruta 3 y General Paz",
    "discontinued": false,
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340082245
+   "visible": true,
+   "updatedAt": 1790554121684
   },
   {
    "id": "8Jo1UQEGd14wPdgEnuP2",
@@ -10766,8 +10766,8 @@
    ],
    "order": 2,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340093903
+   "visible": true,
+   "updatedAt": 1790554142743
   },
   {
    "id": "Wr5RifRO5XSM4MiubUuD",
@@ -14696,8 +14696,8 @@
     }
    ],
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340097547
+   "visible": true,
+   "updatedAt": 1790554152306
   },
   {
    "id": "zWzqinNL8l7c66qjwvss",
@@ -16950,8 +16950,8 @@
    ],
    "order": 4,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340099716
+   "visible": true,
+   "updatedAt": 1790554156859
   },
   {
    "id": "YmjlI25eEjKhMgeOU2lR",
@@ -19116,8 +19116,8 @@
     }
    ],
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340101841
+   "visible": true,
+   "updatedAt": 1790554164887
   },
   {
    "id": "3vF8ZiEE7k2xAcQguJCj",
@@ -21318,8 +21318,8 @@
    ],
    "order": 6,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340103466
+   "visible": true,
+   "updatedAt": 1790554172570
   },
   {
    "id": "PtkfnXaOcimlEz3ITinP",
@@ -23664,8 +23664,8 @@
     }
    ],
    "order": 7,
-   "visible": false,
-   "updatedAt": 1790340105103
+   "visible": true,
+   "updatedAt": 1790554213459
   },
   {
    "id": "jAgz71bUPJY2C2w8EiIK",
@@ -25858,8 +25858,8 @@
    "ramalRef": "620LMR5",
    "order": 8,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340106420
+   "visible": true,
+   "updatedAt": 1790554234291
   },
   {
    "id": "W6CEp2lWYNkewiIkG6CG",
@@ -30623,8 +30623,8 @@
    "discontinued": false,
    "order": 10,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340108682
+   "visible": true,
+   "updatedAt": 1790554250743
   },
   {
    "id": "jbLVc9ZIjLIhwBReDE0y",
@@ -33174,8 +33174,8 @@
    "name": "Los Ceibos → Kilómetro 32 → Ruta 3 y General Paz",
    "discontinued": false,
    "order": 11,
-   "visible": false,
-   "updatedAt": 1790340109530
+   "visible": true,
+   "updatedAt": 1790554257122
   },
   {
    "id": "CEMU676Wu6hJDhiTJ9Le",
@@ -36356,8 +36356,8 @@
    ],
    "order": 12,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340110383
+   "visible": true,
+   "updatedAt": 1790554259182
   },
   {
    "id": "8gL252qXDlQ84k08LMsy",
@@ -39594,8 +39594,8 @@
     }
    ],
    "order": 13,
-   "visible": false,
-   "updatedAt": 1790340111240
+   "visible": true,
+   "updatedAt": 1790554261103
   },
   {
    "id": "1AtgxyXvNk1sORJ81pVU",
@@ -42965,8 +42965,8 @@
    "name": "Ruta 3 y General Paz → Kilómetro 47.700 → Escuela Primaria N°88",
    "order": 14,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340112067
+   "visible": true,
+   "updatedAt": 1790554264834
   },
   {
    "id": "GtuOa7yo05YUVvAp9Oh3",
@@ -46344,8 +46344,8 @@
    "discontinued": false,
    "name": "Escuela Primaria N°88 → Kilómetro 47.700 → Ruta 3 y General Paz",
    "order": 15,
-   "visible": false,
-   "updatedAt": 1790340112739
+   "visible": true,
+   "updatedAt": 1790554273362
   },
   {
    "id": "C1YbmtS4bVarOUwLDbXI",
@@ -49459,8 +49459,8 @@
    "name": "Ruta 3 y General Paz → Kilómetro 39 → Barrio Esperanza",
    "order": 16,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340113361
+   "visible": true,
+   "updatedAt": 1790554274561
   },
   {
    "id": "n8c4YOuzFN8OjMXmRtPD",
@@ -52601,8 +52601,8 @@
     }
    ],
    "order": 17,
-   "visible": false,
-   "updatedAt": 1790340113980
+   "visible": true,
+   "updatedAt": 1790554276012
   },
   {
    "id": "J85lFMzGndDpWGM8NNaw",
@@ -55451,8 +55451,8 @@
    ],
    "order": 18,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340114475
+   "visible": true,
+   "updatedAt": 1790554276957
   },
   {
    "id": "GHxwRd3cXOXCO61QSgNO",
@@ -58253,8 +58253,8 @@
     }
    ],
    "order": 19,
-   "visible": false,
-   "updatedAt": 1790340114849
+   "visible": true,
+   "updatedAt": 1790554277683
   },
   {
    "id": "rUW3k2jdK25AjPLYrDaV",
@@ -61303,8 +61303,8 @@
    ],
    "order": 20,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340115266
+   "visible": true,
+   "updatedAt": 1790554279162
   },
   {
    "id": "8REzbFupDcpZTzgfkG6Q",
@@ -64405,8 +64405,8 @@
     }
    ],
    "order": 21,
-   "visible": false,
-   "updatedAt": 1790340115537
+   "visible": true,
+   "updatedAt": 1790554282288
   },
   {
    "id": "VDlHzNKS5W73LHYsMWEN",
@@ -67235,8 +67235,8 @@
    ],
    "order": 22,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340115864
+   "visible": true,
+   "updatedAt": 1790554283207
   },
   {
    "id": "cK5PVIDSwJe3zh7phbjy",
@@ -70041,8 +70041,8 @@
     }
    ],
    "order": 23,
-   "visible": false,
-   "updatedAt": 1790340116114
+   "visible": true,
+   "updatedAt": 1790554283782
   },
   {
    "id": "upSph5a08Bx5tdJBXRA4",
@@ -73015,8 +73015,8 @@
    ],
    "order": 24,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340116423
+   "visible": true,
+   "updatedAt": 1790554284244
   },
   {
    "id": "Jb5qZ79SU0lJlVFnIjBq",
@@ -76057,8 +76057,8 @@
     }
    ],
    "order": 25,
-   "visible": false,
-   "updatedAt": 1790340116585
+   "visible": true,
+   "updatedAt": 1790554284510
   },
   {
    "id": "nUabkdqxyjCwl0oZf9tM",
@@ -79660,8 +79660,8 @@
    "discontinued": false,
    "order": 26,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340116703
+   "visible": true,
+   "updatedAt": 1790554284889
   },
   {
    "id": "GdIjhR54BBBxClnVu6oR",
@@ -83330,8 +83330,8 @@
     }
    ],
    "order": 27,
-   "visible": false,
-   "updatedAt": 1790340116778
+   "visible": true,
+   "updatedAt": 1790554285072
   },
   {
    "id": "RUzGBbAKN1Anfpb1RwIL",
@@ -85740,8 +85740,8 @@
    "ramalRef": "620LMR14",
    "order": 28,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340116867
+   "visible": true,
+   "updatedAt": 1790554285229
   },
   {
    "id": "sh4ppBDeMVEpzoyx8JjZ",
@@ -88022,8 +88022,8 @@
    "ramalRef": "620LMR14.",
    "order": 29,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340116942
+   "visible": true,
+   "updatedAt": 1790554285482
   },
   {
    "id": "4m0WhAiIxziV2Ly7K94h",
@@ -91004,8 +91004,8 @@
    ],
    "order": 30,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117102
+   "visible": true,
+   "updatedAt": 1790554285933
   },
   {
    "id": "wIicotmijkeh358vgV2e",
@@ -91618,8 +91618,8 @@
    "ramalRef": "620LMRo1",
    "order": 31,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117184
+   "visible": true,
+   "updatedAt": 1790554286091
   },
   {
    "id": "kNQUcnfhQaqOApJ3q25h",
@@ -92232,8 +92232,8 @@
    "ramalRef": "620LMRo1.",
    "order": 32,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117241
+   "visible": true,
+   "updatedAt": 1790554286231
   },
   {
    "id": "ihjjYExttJVjB1adoxoX",
@@ -93158,8 +93158,8 @@
    ],
    "order": 33,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117337
+   "visible": true,
+   "updatedAt": 1790554286347
   },
   {
    "id": "77Qpaj24mfyfbp3EVhND",
@@ -94184,8 +94184,8 @@
    "ramalRef": "620LMRo3",
    "order": 34,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117413
+   "visible": true,
+   "updatedAt": 1790554286444
   },
   {
    "id": "DlaZSP3RFAjc1stc60Of",
@@ -95378,8 +95378,8 @@
    "ramalRef": "620LMRo3.",
    "order": 35,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117453
+   "visible": true,
+   "updatedAt": 1790554286551
   },
   {
    "id": "IrKn5P38Zio8qduu7ecT",
@@ -96780,8 +96780,8 @@
    "ramalRef": "620LMRo4",
    "order": 36,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117502
+   "visible": true,
+   "updatedAt": 1790554286697
   },
   {
    "id": "P2ll11267zpa3dsSxBlE",
@@ -98010,8 +98010,8 @@
    "ramalRef": "620LMRo4.",
    "order": 37,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117581
+   "visible": true,
+   "updatedAt": 1790554286784
   },
   {
    "id": "KuZ7iwLEuPUX1qSKvMO3",
@@ -99529,8 +99529,8 @@
    ],
    "order": 38,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117632
+   "visible": true,
+   "updatedAt": 1790554286876
   },
   {
    "id": "wPLZJYs1CcTQbi7IhDOu",
@@ -100988,8 +100988,8 @@
    "discontinued": false,
    "order": 39,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117692
+   "visible": true,
+   "updatedAt": 1790554287006
   },
   {
    "id": "aVbYS8JrteGKOSigVQxG",
@@ -103956,8 +103956,8 @@
    "ramalRef": "620LMRo6.",
    "order": 41,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340117937
+   "visible": true,
+   "updatedAt": 1790554287548
   },
   {
    "id": "kgRfhteP82Em8luPFZEE",
@@ -105402,8 +105402,8 @@
    "ramalRef": "620LMRo7",
    "order": 42,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340118005
+   "visible": true,
+   "updatedAt": 1790554287631
   },
   {
    "id": "LmL9mMnh7BGJecug7g3p",
@@ -106840,8 +106840,8 @@
    "ramalRef": "620LMRo7.",
    "order": 43,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": false,
-   "updatedAt": 1790340118069
+   "visible": true,
+   "updatedAt": 1790554289829
   }
  ]
 }

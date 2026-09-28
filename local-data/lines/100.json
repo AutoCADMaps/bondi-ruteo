@@ -4,7 +4,7 @@
   {
    "id": "OuJtQc3oygxc2kopZXcm",
    "ref": "100",
-   "name": "Retiro → x Ex Pavón → Lanús",
+   "name": "Ramal 1: Retiro → x Ex Pavón → Lanús",
    "color": "#ff0000",
    "points": [
     {
@@ -2779,13 +2779,14 @@
    "createdAt": 1785714664278,
    "ramalRef": "100-1P",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340120492
+   "visible": true,
+   "updatedAt": 1790554296458,
+   "discontinued": false
   },
   {
    "id": "ZprdYCmYOXBb9TG4AS2Y",
    "ref": "100",
-   "name": "Lanús → x Ex Pavón → Retiro",
+   "name": "Ramal 1: Lanús → x Ex Pavón → Retiro",
    "color": "#ff0000",
    "points": [
     {
@@ -5488,8 +5489,9 @@
    "createdAt": 1785714833127,
    "ramalRef": "100-1P.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340120509
+   "visible": true,
+   "updatedAt": 1790554296495,
+   "discontinued": false
   },
   {
    "id": "sDu2qvNbEy46UEqOz6wP",
@@ -5497,7 +5499,7 @@
    "color": "#ff0000",
    "createdAt": 1785714841053,
    "ramalRef": "100-1G",
-   "name": "Retiro → x Güemes → Lanús",
+   "name": "Ramal 1: Retiro → x Güemes → Lanús",
    "points": [
     {
      "lat": -34.58509435766362,
@@ -8257,8 +8259,9 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340120528
+   "visible": true,
+   "updatedAt": 1790554296550,
+   "discontinued": false
   },
   {
    "id": "xdXZLTHunx2wXhC6lD60",
@@ -8266,7 +8269,7 @@
    "color": "#ff0000",
    "createdAt": 1785714907534,
    "ramalRef": "100-1G.",
-   "name": "Lanús → x Güemes → Retiro",
+   "name": "Ramal 1: Lanús → x Güemes → Retiro",
    "points": [
     {
      "lat": -34.70855810574349,
@@ -10990,8 +10993,9 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340120571
+   "visible": true,
+   "updatedAt": 1790554296580,
+   "discontinued": false
   },
   {
    "id": "824JtpIaaFuPYBrwEvFm",
@@ -10999,7 +11003,7 @@
    "color": "#ff0000",
    "createdAt": 1785715001198,
    "ramalRef": "100-3",
-   "name": "Retiro → Roma y Lynch",
+   "name": "Ramal 3: Retiro → Roma y Lynch",
    "points": [
     {
      "lat": -34.58509435766362,
@@ -13835,13 +13839,14 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340120588
+   "visible": true,
+   "updatedAt": 1790554296627,
+   "discontinued": false
   },
   {
    "id": "j1ujxf1CkzI32dyXJSu4",
    "ref": "100",
-   "name": "Roma y Lynch → Retiro",
+   "name": "Ramal 3: Roma y Lynch → Retiro",
    "color": "#ff0000",
    "points": [
     {
@@ -16880,8 +16885,9 @@
    "createdAt": 1785715499206,
    "ramalRef": "100-3.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340120604
+   "visible": true,
+   "updatedAt": 1790554296663,
+   "discontinued": false
   }
  ]
 }

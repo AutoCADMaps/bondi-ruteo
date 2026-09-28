@@ -4564,8 +4564,8 @@
    "ramalRef": "51A",
    "ref": "51",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340071820
+   "visible": true,
+   "updatedAt": 1790554052466
   },
   {
    "id": "NOzN7is0zbumxMONUBBW",
@@ -9462,8 +9462,8 @@
    "ramalRef": "51A.",
    "ref": "51",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079515
+   "visible": true,
+   "updatedAt": 1790554060601
   }
  ]
 }

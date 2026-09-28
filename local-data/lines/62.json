@@ -2268,8 +2268,8 @@
    "ramalRef": "62A",
    "order": 0,
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": false,
-   "updatedAt": 1790340075309
+   "visible": true,
+   "updatedAt": 1790554054487
   },
   {
    "id": "9N7hTAHyklqHKCup3rl5",
@@ -3706,8 +3706,8 @@
      "lon": -58.37343538909229
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340080536
+   "visible": true,
+   "updatedAt": 1790554111556
   }
  ]
 }

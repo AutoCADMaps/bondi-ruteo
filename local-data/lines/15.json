@@ -5992,8 +5992,8 @@
    "ramalRef": "15A",
    "ref": "15",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340071483
+   "visible": true,
+   "updatedAt": 1790554052255
   },
   {
    "id": "NH1fTaBsHlCZYyexdC1Y",
@@ -12002,8 +12002,8 @@
    "ramalRef": "15A.",
    "ref": "15",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079427
+   "visible": true,
+   "updatedAt": 1790554060355
   },
   {
    "id": "4ErnTQynblNsEYvEV4Sw",
@@ -17112,8 +17112,8 @@
    "ramalRef": "15B",
    "ref": "15",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340084176
+   "visible": true,
+   "updatedAt": 1790554127189
   },
   {
    "id": "t9O04WGr0t659Zcz4p73",
@@ -22198,8 +22198,8 @@
    "ramalRef": "15B.",
    "ref": "15",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340095751
+   "visible": true,
+   "updatedAt": 1790554148171
   },
   {
    "id": "qy9EZnJ7Xr1TkAwdo8VU",
@@ -27463,8 +27463,8 @@
      "lon": -58.68508136494083
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340119197
+   "visible": true,
+   "updatedAt": 1790554292375
   },
   {
    "id": "Lmn6uw2RwXvdd0dJMrGA",
@@ -32624,8 +32624,8 @@
      "lon": -58.416772595683724
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340119216
+   "visible": true,
+   "updatedAt": 1790554292410
   }
  ]
 }

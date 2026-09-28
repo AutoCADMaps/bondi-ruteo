@@ -2751,8 +2751,8 @@
     }
    ],
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141492
+   "visible": true,
+   "updatedAt": 1790554354702
   },
   {
    "id": "vFUsXvAUCFNQEA2WKC9Q",
@@ -5160,8 +5160,8 @@
     }
    ],
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141524
+   "visible": true,
+   "updatedAt": 1790554354771
   },
   {
    "id": "jasrYLXPCNiP0zk1jk52",
@@ -7313,8 +7313,8 @@
    "createdAt": 1786797637671,
    "ramalRef": "514ABB",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141554
+   "visible": true,
+   "updatedAt": 1790554354809
   },
   {
    "id": "mZiWjUIl2Dpa0k50k2Bf",
@@ -9082,8 +9082,8 @@
    "createdAt": 1786797924238,
    "ramalRef": "514ABB.",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141588
+   "visible": true,
+   "updatedAt": 1790554354867
   },
   {
    "id": "9KnhyL18w6E9B6NdpJsb",
@@ -9996,8 +9996,8 @@
    "name": "Adrogué → San Francisco Solano",
    "discontinued": false,
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141638
+   "visible": true,
+   "updatedAt": 1790554354892
   },
   {
    "id": "lgU9d6IaBQqmNmxL7dXa",
@@ -10749,8 +10749,8 @@
    "createdAt": 1786798196861,
    "ramalRef": "514ABC.",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141675
+   "visible": true,
+   "updatedAt": 1790554355060
   },
   {
    "id": "WjiFfRQuSevscUJDwTCc",
@@ -11286,8 +11286,8 @@
    "createdAt": 1786798586102,
    "ramalRef": "514ABD",
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141710
+   "visible": true,
+   "updatedAt": 1790554355088
   },
   {
    "id": "5xXzgfpuynyq4d31aH3z",
@@ -11804,8 +11804,8 @@
    "name": "Ramal Ruta 4: Barrio Lindo → Burzaco",
    "discontinued": false,
    "folderId": "x3h0iE6Gyp74Sz4pvUVZ",
-   "visible": false,
-   "updatedAt": 1790340141764
+   "visible": true,
+   "updatedAt": 1790554355158
   }
  ]
 }

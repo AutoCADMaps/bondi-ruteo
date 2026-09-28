@@ -3232,8 +3232,8 @@
    "ref": "37",
    "name": "Ramal 3: Remedios de Escalada → x Alcorta → Ciudad Universitaria",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340074510
+   "visible": true,
+   "updatedAt": 1790554053538
   },
   {
    "id": "VcHG8KkY2tcKGJnvOfdQ",
@@ -6818,8 +6818,8 @@
    "ref": "37",
    "name": "Ramal 3: Ciudad Universitaria → x Alcorta → Remedios de Escalada",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079865
+   "visible": true,
+   "updatedAt": 1790554074375
   },
   {
    "id": "qaMSIw3QrvyjSHUOVx9g",
@@ -14718,8 +14718,8 @@
    "ref": "37",
    "name": "Ramal 4: Ciudad Universitaria → x Aeroparque → Remedios de Escalada",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340096172
+   "visible": true,
+   "updatedAt": 1790554149224
   }
  ]
 }

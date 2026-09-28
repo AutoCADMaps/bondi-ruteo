@@ -1328,8 +1328,8 @@
    ],
    "order": 0,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340076148
+   "visible": true,
+   "updatedAt": 1790554054972
   },
   {
    "id": "LSGP4GJ0X6W8mPl62rFV",
@@ -2642,8 +2642,8 @@
    "ramalRef": "313.",
    "order": 1,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340080971
+   "visible": true,
+   "updatedAt": 1790554112689
   }
  ]
 }

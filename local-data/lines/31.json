@@ -2257,8 +2257,8 @@
    ],
    "name": "Calle 11: Av. Olimpo y Ruta 4 → x Isaac Newton → Once",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340074407
+   "visible": true,
+   "updatedAt": 1790554053270
   },
   {
    "id": "kkpNjZrl0GA3aJkQs7km",
@@ -4128,8 +4128,8 @@
    ],
    "name": "Calle 11: Once → x Isaac Newton → Av. Olimpo y Ruta 4",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340079787
+   "visible": true,
+   "updatedAt": 1790554074360
   },
   {
    "id": "GavaeIbbdWVDkewJFamp",
@@ -8258,8 +8258,8 @@
    ],
    "name": "Calle 21: Once → x Baradero → Av. Olimpo y Ruta 4",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340096067
+   "visible": true,
+   "updatedAt": 1790554148895
   },
   {
    "id": "peI3gXdHdnFEovIvBfho",
@@ -10397,8 +10397,8 @@
    ],
    "name": "[Rápido] Calle 11: Av. Olimpo y Ruta 4 → x Isaac Newton → Once",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340098921
+   "visible": true,
+   "updatedAt": 1790554155100
   },
   {
    "id": "caIrIcqnsYjV7vIja8fO",
@@ -12364,8 +12364,8 @@
    ],
    "name": "[Rápido] Calle 11: Once → x Isaac Newton → Av. Olimpo y Ruta 4",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340100913
+   "visible": true,
+   "updatedAt": 1790554163658
   },
   {
    "id": "XhW1eCigmcTBqcPK4PPW",
@@ -14463,8 +14463,8 @@
    ],
    "name": "[Rápido] Calle 21: Av. Olimpo y Ruta 4 → x Baradero → Once",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340102992
+   "visible": true,
+   "updatedAt": 1790554166758
   },
   {
    "id": "7L3UDPqfOLrI433SgQOy",
@@ -16438,8 +16438,8 @@
    ],
    "name": "[Rápido] Calle 21: Once → x Baradero → Av. Olimpo y Ruta 4",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340104558
+   "visible": true,
+   "updatedAt": 1790554177009
   }
  ]
 }

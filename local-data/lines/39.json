@@ -2872,8 +2872,8 @@
    "ref": "39",
    "name": "Ramal 1: Límite Barracas → x Córdoba → Chacarita",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340074568
+   "visible": true,
+   "updatedAt": 1790554053564
   },
   {
    "id": "ua7LGh1gloyQ5bBnnTpc",
@@ -5386,8 +5386,8 @@
    "ref": "39",
    "name": "Ramal 1: Chacarita → x Córdoba → Límite Barracas",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079903
+   "visible": true,
+   "updatedAt": 1790554074572
   },
   {
    "id": "3OeN2addiz2wJJiEfBNQ",
@@ -8308,8 +8308,8 @@
    "ref": "39",
    "name": "Ramal 2: Límite Barracas → x Colegiales → Chacarita",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340084594
+   "visible": true,
+   "updatedAt": 1790554133564
   },
   {
    "id": "nEeVxGIvhwxVvGdZCH8J",
@@ -10878,8 +10878,8 @@
    "ref": "39",
    "name": "Ramal 2: Chacarita → x Colegiales → Límite Barracas",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340096191
+   "visible": true,
+   "updatedAt": 1790554149291
   },
   {
    "id": "etA5du5gWL0Oey9xNLgQ",
@@ -13396,8 +13396,8 @@
    "ref": "39",
    "name": "Ramal 3: Límite Barracas → x Plaza Serrano → Chacarita",
    "order": 4,
-   "visible": false,
-   "updatedAt": 1790340098954
+   "visible": true,
+   "updatedAt": 1790554155172
   },
   {
    "id": "v5LjMC1rWwibdMCYRvq0",
@@ -15802,8 +15802,8 @@
    "ref": "39",
    "name": "Ramal 3: Chacarita → x Plaza Serrano → Límite Barracas",
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340100984
+   "visible": true,
+   "updatedAt": 1790554163714
   }
  ]
 }

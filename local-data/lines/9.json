@@ -3001,8 +3001,8 @@
    ],
    "name": "Ramal 1: Villa Caraza → x Moreno → Terminal Retiro",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340070661
+   "visible": true,
+   "updatedAt": 1790554052123
   },
   {
    "id": "1Beex5wxqSFkR0Stqaf4",
@@ -5652,8 +5652,8 @@
    ],
    "name": "Ramal 1: Terminal Retiro → x Moreno → Villa Caraza",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340079243
+   "visible": true,
+   "updatedAt": 1790554060070
   },
   {
    "id": "31RLEFHft028nxgQS06i",
@@ -8559,8 +8559,8 @@
    ],
    "name": "Ramal 2: Villa Caraza → x Olazábal→ Terminal Retiro",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340084013
+   "visible": true,
+   "updatedAt": 1790554126904
   },
   {
    "id": "QV0JXK34AqOEglBFv2NN",
@@ -11134,8 +11134,8 @@
    ],
    "name": "Ramal 2: Terminal Retiro → x Olazábal → Villa Caraza",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340095627
+   "visible": true,
+   "updatedAt": 1790554147960
   },
   {
    "id": "wC25f2xWaQSSce2ajIIl",
@@ -14429,8 +14429,8 @@
    ],
    "name": "[Expreso]: Villa Caraza → Terminal Retiro",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340098779
+   "visible": true,
+   "updatedAt": 1790554154881
   },
   {
    "id": "ii8roCvaxRZhl2AvpYz9",
@@ -17172,8 +17172,8 @@
    ],
    "name": "[Expreso]: Terminal Retiro → Villa Caraza",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340100830
+   "visible": true,
+   "updatedAt": 1790554163513
   }
  ]
 }

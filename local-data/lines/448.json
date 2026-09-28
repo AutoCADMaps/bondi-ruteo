@@ -936,8 +936,8 @@
    "createdAt": 1789776369632,
    "ramalRef": "448A",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340078918
+   "visible": true,
+   "updatedAt": 1790554059601
   },
   {
    "id": "9RzldoFFzoysdxcfV3fY",
@@ -1922,8 +1922,8 @@
    "createdAt": 1789776478836,
    "ramalRef": "448A.",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340083697
+   "visible": true,
+   "updatedAt": 1790554126457
   },
   {
    "id": "Jy06UAalWXMfYfQAZPg4",
@@ -4136,8 +4136,8 @@
    "createdAt": 1789778346030,
    "ramalRef": "448C.",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340095525
+   "visible": true,
+   "updatedAt": 1790554145396
   },
   {
    "id": "x4BcNoe0GVVxhgpnGYYC",
@@ -6347,8 +6347,8 @@
    "name": "Fábrica Ford → San Ambrosio",
    "discontinued": false,
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340098758
+   "visible": true,
+   "updatedAt": 1790554154847
   },
   {
    "id": "WMjLh8erkpRTIyvD7Uph",
@@ -7773,8 +7773,8 @@
    "createdAt": 1789832718544,
    "ramalRef": "448E",
    "order": 4,
-   "visible": false,
-   "updatedAt": 1790340100809
+   "visible": true,
+   "updatedAt": 1790554163489
   },
   {
    "id": "58kEPePDV83qdSoYC1fm",
@@ -9151,8 +9151,8 @@
    "createdAt": 1789832895120,
    "ramalRef": "448E.",
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340102926
+   "visible": true,
+   "updatedAt": 1790554166573
   },
   {
    "id": "v4MtAtFxMmISi6mZ0ekB",
@@ -10642,8 +10642,8 @@
     }
    ],
    "order": 6,
-   "visible": false,
-   "updatedAt": 1790340104493
+   "visible": true,
+   "updatedAt": 1790554176886
   },
   {
    "id": "urx9a5fCuQN0mjdCtZHe",
@@ -12152,8 +12152,8 @@
     }
    ],
    "order": 7,
-   "visible": false,
-   "updatedAt": 1790340105889
+   "visible": true,
+   "updatedAt": 1790554222897
   },
   {
    "id": "lD73vZ4rbQxFYeyO8a3g",
@@ -13123,8 +13123,8 @@
     }
    ],
    "order": 8,
-   "visible": false,
-   "updatedAt": 1790340107237
+   "visible": true,
+   "updatedAt": 1790554236137
   },
   {
    "id": "pQlhbTSCZQYjZVgQetja",
@@ -14025,8 +14025,8 @@
    "createdAt": 1789777410819,
    "ramalRef": "448B.",
    "order": 9,
-   "visible": false,
-   "updatedAt": 1790340108459
+   "visible": true,
+   "updatedAt": 1790554249969
   },
   {
    "id": "UGd0YdNIj7jJ1cNttrBi",
@@ -14628,8 +14628,8 @@
    "ramalRef": "448-1",
    "discontinued": false,
    "order": 10,
-   "visible": false,
-   "updatedAt": 1790340109353
+   "visible": true,
+   "updatedAt": 1790554256646
   },
   {
    "id": "ekGf5FhtwBDFfhYlbB9g",
@@ -15342,8 +15342,8 @@
    "createdAt": 1789833395818,
    "ramalRef": "448-1.",
    "order": 11,
-   "visible": false,
-   "updatedAt": 1790340110081
+   "visible": true,
+   "updatedAt": 1790554258727
   },
   {
    "id": "y3WVRROd1LAEUSesGHZw",
@@ -15924,8 +15924,8 @@
    "createdAt": 1789833687877,
    "ramalRef": "448-2",
    "order": 12,
-   "visible": false,
-   "updatedAt": 1790340110880
+   "visible": true,
+   "updatedAt": 1790554260090
   },
   {
    "id": "RZSGXflFgekCM5KEDgMP",

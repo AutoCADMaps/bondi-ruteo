@@ -1839,8 +1839,8 @@
    "createdAt": 1785955472319,
    "ramalRef": "237-A",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340125949
+   "visible": true,
+   "updatedAt": 1790554306154
   },
   {
    "id": "v3jwiLOa3ztTlwgK3u3z",
@@ -3536,8 +3536,8 @@
    "createdAt": 1785955615038,
    "ramalRef": "237-A.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340125969
+   "visible": true,
+   "updatedAt": 1790554306190
   },
   {
    "id": "InSJfO3w9YhkOR2rcU8Z",
@@ -6345,8 +6345,8 @@
    "createdAt": 1785955839934,
    "ramalRef": "237-B",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340125989
+   "visible": true,
+   "updatedAt": 1790554306214
   },
   {
    "id": "Nnny0WUvAZhMUt15CPgN",
@@ -9022,8 +9022,8 @@
    "createdAt": 1785956045817,
    "ramalRef": "237-B.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340126007
+   "visible": true,
+   "updatedAt": 1790554306236
   },
   {
    "id": "i4sM9jGCcTIMgRJXhIq4",
@@ -10811,8 +10811,8 @@
    "createdAt": 1785956291939,
    "ramalRef": "237-T",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340126038
+   "visible": true,
+   "updatedAt": 1790554306280
   },
   {
    "id": "wu8xtQlrgGDmaLypi6zp",
@@ -12684,8 +12684,8 @@
    "createdAt": 1785956470717,
    "ramalRef": "237-T.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340126061
+   "visible": true,
+   "updatedAt": 1790554306319
   },
   {
    "id": "ZoBtl54azDAh1erkIuJL",
@@ -14081,8 +14081,8 @@
    "createdAt": 1785956618138,
    "ramalRef": "237-V",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340126080
+   "visible": true,
+   "updatedAt": 1790554306363
   },
   {
    "id": "X0ZwL44eInxwr0sHfcRf",
@@ -15334,8 +15334,8 @@
    "createdAt": 1785956733034,
    "ramalRef": "237-V.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340126124
+   "visible": true,
+   "updatedAt": 1790554306401
   }
  ]
 }

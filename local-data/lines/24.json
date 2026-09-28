@@ -3048,8 +3048,8 @@
    "ref": "24",
    "name": "Ramal 1: Wilde → x Cementerio de Avellaneda → Villa del Parque",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340073615
+   "visible": true,
+   "updatedAt": 1790554052720
   },
   {
    "id": "b9UBdTvv3n0wps6K4sse",
@@ -6274,8 +6274,8 @@
    "ref": "24",
    "name": "Ramal 1: Villa del Parque → x Cementerio de Avellaneda → Wilde",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079738
+   "visible": true,
+   "updatedAt": 1790554074381
   },
   {
    "id": "hFkPgV3Z1sbapZGxD3aV",
@@ -12694,8 +12694,8 @@
    "ref": "24",
    "name": "Ramal 2: Villa del Parque → x Lynch → Wilde",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340096035
+   "visible": true,
+   "updatedAt": 1790554148633
   }
  ]
 }

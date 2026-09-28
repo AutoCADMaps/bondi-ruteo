@@ -1956,8 +1956,8 @@
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "color": "#787878",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340119040
+   "visible": true,
+   "updatedAt": 1790554292239
   },
   {
    "id": "Rolsl1ZJjK3UIlnXzakY",
@@ -3770,8 +3770,8 @@
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "color": "#787878",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340119063
+   "visible": true,
+   "updatedAt": 1790554292296
   }
  ]
 }

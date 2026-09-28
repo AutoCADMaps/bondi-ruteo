@@ -4032,8 +4032,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340077463
+   "visible": true,
+   "updatedAt": 1790554056524
   },
   {
    "id": "M3IhiprE3jAKW5sSKXGH",
@@ -8210,8 +8210,8 @@
    ],
    "order": 1,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340082171
+   "visible": true,
+   "updatedAt": 1790554118559
   }
  ]
 }

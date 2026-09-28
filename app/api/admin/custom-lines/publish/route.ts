@@ -57,13 +57,23 @@ export async function POST(request: Request) {
 
   let published = 0
   const publishedRefs: string[] = []
+  const failed: { ref: string; error: string }[] = []
   for (const ref of refs) {
-    const elements = toElements(allLines.filter((l) => l.ref === ref))
-    if (elements.length === 0) continue
-    writeFileSync(join(VARIANTS_DIR, `${ref}.json.gz`), gzipSync(JSON.stringify({ elements })))
-    published++
-    publishedRefs.push(ref)
+    // Una línea con datos corridos (ej. "points" vacío/roto de algún guardado
+    // viejo) no debe tirar abajo la publicación de las otras 348 — antes un
+    // solo error acá crasheaba todo el endpoint (500 sin JSON) y cortaba el
+    // resto en seco, dejando publicadas solo las líneas ya escritas hasta
+    // ese punto.
+    try {
+      const elements = toElements(allLines.filter((l) => l.ref === ref))
+      if (elements.length === 0) continue
+      writeFileSync(join(VARIANTS_DIR, `${ref}.json.gz`), gzipSync(JSON.stringify({ elements })))
+      published++
+      publishedRefs.push(ref)
+    } catch (err) {
+      failed.push({ ref, error: err instanceof Error ? err.message : String(err) })
+    }
   }
 
-  return NextResponse.json({ ok: true, published, refs: publishedRefs })
+  return NextResponse.json({ ok: true, published, refs: publishedRefs, failed })
 }

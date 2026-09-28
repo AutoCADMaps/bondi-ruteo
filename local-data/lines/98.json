@@ -3051,8 +3051,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340144950
+   "visible": true,
+   "updatedAt": 1790554366939
   },
   {
    "id": "3WCjs3wLy5nSBck6agW9",
@@ -5612,8 +5612,8 @@
    "createdAt": 1787839619346,
    "ramalRef": "98-2.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340144989
+   "visible": true,
+   "updatedAt": 1790554366999
   },
   {
    "id": "vCbWW0Cvdls8dQNSOHjx",
@@ -9845,8 +9845,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145010
+   "visible": true,
+   "updatedAt": 1790554367110
   },
   {
    "id": "tlajxKFgddkelxXxyXaV",
@@ -17607,8 +17607,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145056
+   "visible": true,
+   "updatedAt": 1790554370387
   },
   {
    "id": "HPvaF7SBUXchnj9qsrOx",
@@ -21068,8 +21068,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145085
+   "visible": true,
+   "updatedAt": 1790554368883
   },
   {
    "id": "8EvE6a7aK76Xt3m9UTQp",
@@ -24429,8 +24429,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145116
+   "visible": true,
+   "updatedAt": 1790554370329
   },
   {
    "id": "Uw3MGS9nI0LaUyxToUZT",
@@ -27282,8 +27282,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145140
+   "visible": true,
+   "updatedAt": 1790554370348
   },
   {
    "id": "n4JD6v1w219Ber5ABrFd",
@@ -29555,8 +29555,8 @@
    "createdAt": 1787842304121,
    "ramalRef": "98-116B",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145178
+   "visible": true,
+   "updatedAt": 1790554370368
   },
   {
    "id": "ZqldaIqmxJoECH037tLn",
@@ -31488,8 +31488,8 @@
    "createdAt": 1787842543553,
    "ramalRef": "98-116B.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145221
+   "visible": true,
+   "updatedAt": 1790554370646
   },
   {
    "id": "B1IKPBOCenLrfaTnty82",
@@ -33938,8 +33938,8 @@
    "name": "Ramal 116 Rojo: Once → x Chango Mâs → Barrio Gráfico",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145243
+   "visible": true,
+   "updatedAt": 1790554370712
   },
   {
    "id": "HHJq32FPImzjv2nxHHB5",
@@ -36123,8 +36123,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145280
+   "visible": true,
+   "updatedAt": 1790554370766
   },
   {
    "id": "iqzJrqmWDXv1szGcs6yf",
@@ -38512,8 +38512,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145307
+   "visible": true,
+   "updatedAt": 1790554370821
   },
   {
    "id": "emsyfxGDUJxdoaCTPT7P",
@@ -40709,8 +40709,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340145342
+   "visible": true,
+   "updatedAt": 1790554370886
   }
  ]
 }

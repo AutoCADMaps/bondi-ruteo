@@ -5123,10 +5123,6 @@
     "order": 475
    },
    {
-    "ramalRef": "88C",
-    "order": 475
-   },
-   {
     "ramalRef": "96A",
     "order": 506
    },
@@ -5155,7 +5151,8 @@
     "order": 339
    }
   ],
-  "updatedAt": 1785711794941
+  "updatedAt": 1790525228593,
+  "mindMap": true
  },
  {
   "id": "P7iYttva5oMwlIodA5bE",
@@ -10339,11 +10336,16 @@
   "lat": -34.64732671591434,
   "lng": -58.61787825822831,
   "name": "Estación Morón",
-  "lines": [],
+  "lines": [
+   {
+    "ramalRef": "1-B",
+    "order": 0
+   }
+  ],
   "createdAt": 1785712828167,
   "note": "1",
   "status": "confirmed",
-  "updatedAt": 1790524750205,
+  "updatedAt": 1790525228663,
   "mindMap": true
  },
  {
@@ -12379,5 +12381,22 @@
   "note": "253 / 163 / 136 / 153",
   "status": "unsure",
   "updatedAt": 1786053777544
+ },
+ {
+  "lat": -34.646095443521816,
+  "lng": -58.619871139526374,
+  "name": "Estación Morón",
+  "lines": [
+   {
+    "ramalRef": "1-B.",
+    "order": 816
+   }
+  ],
+  "createdAt": 1790525230555,
+  "updatedAt": 1790525231151,
+  "id": "1b6f2fa0-c4cf-44ba-a8ab-b679f160f86c",
+  "note": "",
+  "mindMap": true,
+  "status": "confirmed"
  }
 ]

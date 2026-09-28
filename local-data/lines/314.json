@@ -2947,8 +2947,8 @@
    "createdAt": 1788661272675,
    "ramalRef": "314R",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340147121
+   "visible": true,
+   "updatedAt": 1790554372790
   },
   {
    "id": "4Zk770Uttrxccf7nxHpm",
@@ -5664,8 +5664,8 @@
    "createdAt": 1788661562181,
    "ramalRef": "314R.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340147169
+   "visible": true,
+   "updatedAt": 1790554372831
   },
   {
    "id": "egDSEeenvwVqyydtAO4h",
@@ -8213,8 +8213,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340147268
+   "visible": true,
+   "updatedAt": 1790554372873
   },
   {
    "id": "jWMll3XYmxZWb9shOmK6",
@@ -10535,8 +10535,8 @@
    "name": "Cartel Amarillo: Puente Saavedra → Florida → Barrio San Isidro",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340147320
+   "visible": true,
+   "updatedAt": 1790554372916
   },
   {
    "id": "qSlNsEq8YQ8BCSk7YxZt",
@@ -12733,8 +12733,8 @@
    "createdAt": 1788784433309,
    "ramalRef": "314Az.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340147460
+   "visible": true,
+   "updatedAt": 1790554384916
   },
   {
    "id": "E7mmXbXZIs6vM31gUGZG",
@@ -14810,8 +14810,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340147487
+   "visible": true,
+   "updatedAt": 1790554382267
   },
   {
    "id": "dFh7BCvfI7nE14BWMCtO",
@@ -16624,8 +16624,8 @@
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "name": "Ex 707 - Cartel Verde: Martínez → Barrio San Isidro",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340147558
+   "visible": true,
+   "updatedAt": 1790554384900
   }
  ]
 }

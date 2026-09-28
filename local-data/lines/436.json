@@ -815,8 +815,8 @@
    "createdAt": 1786737533665,
    "ramalRef": "436-7-8",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340141016
+   "visible": true,
+   "updatedAt": 1790554354045
   },
   {
    "id": "3yppXAzGFEYnTl2hMtBh",
@@ -1680,8 +1680,8 @@
    "createdAt": 1786737706243,
    "ramalRef": "436-7-8.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340141042
+   "visible": true,
+   "updatedAt": 1790554354071
   }
  ]
 }

@@ -885,8 +885,8 @@
      "lon": -58.37197166296155
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340076839
+   "visible": true,
+   "updatedAt": 1790554055768
   },
   {
    "id": "rogsrP1pTGANowbe85Dm",
@@ -1555,8 +1555,8 @@
    ],
    "order": 1,
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": false,
-   "updatedAt": 1790340081809
+   "visible": true,
+   "updatedAt": 1790554114910
   },
   {
    "id": "hlYLirCX59QSap8sCqe8",
@@ -3442,8 +3442,8 @@
      "lon": -58.37197166296155
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340093615
+   "visible": true,
+   "updatedAt": 1790554142416
   },
   {
    "id": "ZEm967qeBuRLBtDmMrAd",
@@ -4789,8 +4789,8 @@
     }
    ],
    "name": "Fines de Semana: Retiro → Caminito",
-   "visible": false,
-   "updatedAt": 1790340097405
+   "visible": true,
+   "updatedAt": 1790554152019
   }
  ]
 }

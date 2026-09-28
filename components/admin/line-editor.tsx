@@ -3535,8 +3535,17 @@ export function LineEditor() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({}),
     })
-    const data = await res.json()
-    setPublishMessage(res.ok ? `Publicadas ${data.published} línea(s)` : "Error al publicar")
+    const data = await res.json().catch(() => null)
+    if (!res.ok || !data) {
+      setPublishMessage("Error al publicar")
+      return
+    }
+    const failed: { ref: string; error: string }[] = data.failed ?? []
+    setPublishMessage(
+      failed.length === 0
+        ? `Publicadas ${data.published} línea(s)`
+        : `Publicadas ${data.published} línea(s) — fallaron ${failed.length}: ${failed.map((f) => f.ref).join(", ")}`
+    )
   }
 
   async function publishStops() {

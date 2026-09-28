@@ -253,8 +253,8 @@
    "ramalRef": "740SM-13",
    "discontinued": false,
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340078853
+   "visible": true,
+   "updatedAt": 1790554059415
   },
   {
    "id": "ABRPjTwmUSqk4nHgAwHu",
@@ -499,8 +499,8 @@
    "createdAt": 1789415306120,
    "ramalRef": "740SM-13.",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340083589
+   "visible": true,
+   "updatedAt": 1790554126296
   },
   {
    "id": "fYZOJcqI3jiIA719sD81",
@@ -1129,8 +1129,8 @@
    "createdAt": 1789416096683,
    "ramalRef": "740SM",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340095464
+   "visible": true,
+   "updatedAt": 1790554145310
   },
   {
    "id": "gPsXJyMWQduuTtNMraJj",
@@ -1723,8 +1723,8 @@
    "createdAt": 1789416385591,
    "ramalRef": "740SM-14.",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340098688
+   "visible": true,
+   "updatedAt": 1790554154780
   },
   {
    "id": "z4Q8v4M9KwDCAW498JBA",
@@ -2394,8 +2394,8 @@
    "name": "Código 17: Estación General Lemos → Santa Brígida",
    "discontinued": false,
    "order": 4,
-   "visible": false,
-   "updatedAt": 1790340100632
+   "visible": true,
+   "updatedAt": 1790554161758
   },
   {
    "id": "kYHD3xXpJDN6hQD98wT9",
@@ -3056,8 +3056,8 @@
    "createdAt": 1789416946045,
    "ramalRef": "740SM-17.",
    "order": 5,
-   "visible": false,
-   "updatedAt": 1790340102783
+   "visible": true,
+   "updatedAt": 1790554166394
   },
   {
    "id": "hjhsZQcXY5nkJIkfaPNV",
@@ -3519,8 +3519,8 @@
     }
    ],
    "order": 6,
-   "visible": false,
-   "updatedAt": 1790340104418
+   "visible": true,
+   "updatedAt": 1790554176676
   },
   {
    "id": "m6WjwIAI8WE7TqTzCyXt",
@@ -3945,8 +3945,8 @@
    "createdAt": 1789415034303,
    "ramalRef": "740SM-21.",
    "order": 7,
-   "visible": false,
-   "updatedAt": 1790340105845
+   "visible": true,
+   "updatedAt": 1790554222690
   },
   {
    "id": "OSLldYDZZwRGoTVhjswE",
@@ -5159,8 +5159,8 @@
    "createdAt": 1789417330418,
    "ramalRef": "740SM-49",
    "order": 8,
-   "visible": false,
-   "updatedAt": 1790340107186
+   "visible": true,
+   "updatedAt": 1790554236028
   },
   {
    "id": "jhVipbvNiwQjFcTBRlK0",
@@ -6269,8 +6269,8 @@
    "createdAt": 1789417484761,
    "ramalRef": "740SM-49.",
    "order": 9,
-   "visible": false,
-   "updatedAt": 1790340108266
+   "visible": true,
+   "updatedAt": 1790554249720
   },
   {
    "id": "oQUHEF8PPS19KQwXT0N9",
@@ -6855,8 +6855,8 @@
    "ramalRef": "740SM-54",
    "name": "Código 54: San Miguel → Santa Brígida - Escuela N°32",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340150083
+   "visible": true,
+   "updatedAt": 1790554402198
   },
   {
    "id": "xmWl7pl4jxl4NcBFsGHF",
@@ -7421,8 +7421,8 @@
    "ramalRef": "740SM-54.",
    "name": "Código 54: Santa Brígida - Escuela N°32 → San Miguel",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340150099
+   "visible": true,
+   "updatedAt": 1790554402224
   }
  ]
 }

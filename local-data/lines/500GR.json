@@ -936,8 +936,8 @@
    "ramalRef": "500GR-1",
    "order": 0,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340076210
+   "visible": true,
+   "updatedAt": 1790554055010
   },
   {
    "id": "jO0xuMtk4iXVF4hqcqLa",
@@ -1858,8 +1858,8 @@
     }
    ],
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340081023
+   "visible": true,
+   "updatedAt": 1790554113185
   },
   {
    "id": "VxepWoi5imz2Z56h9vOq",
@@ -2420,8 +2420,8 @@
    "ramalRef": "500GR-2",
    "order": 2,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340091645
+   "visible": true,
+   "updatedAt": 1790554138704
   },
   {
    "id": "LicvsfqI4SJzPdTzdTG7",
@@ -3002,8 +3002,8 @@
    "name": "Ramal 2: Marabó → General Rodríguez",
    "order": 3,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340097002
+   "visible": true,
+   "updatedAt": 1790554151206
   },
   {
    "id": "P22d4t0wTVDMCDGtNnz9",
@@ -3604,8 +3604,8 @@
    "name": "Ramal 3: General Rodríguez → Luchetti → Maravilla del Oeste",
    "order": 4,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340099231
+   "visible": true,
+   "updatedAt": 1790554155650
   },
   {
    "id": "7VVBSdTWrdEGFrSMKV4s",
@@ -4226,8 +4226,8 @@
    "ramalRef": "500GR-3.",
    "order": 5,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340101324
+   "visible": true,
+   "updatedAt": 1790554164096
   },
   {
    "id": "XCiXggncfR6YN3NP6Wdk",
@@ -4652,8 +4652,8 @@
     }
    ],
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340103198
+   "visible": true,
+   "updatedAt": 1790554168589
   },
   {
    "id": "nu3C26RGdA3egjiOcoH7",
@@ -5066,8 +5066,8 @@
     }
    ],
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340104710
+   "visible": true,
+   "updatedAt": 1790554200255
   },
   {
    "id": "PmhD3dBbMMa5P1KU5uih",
@@ -5684,8 +5684,8 @@
    "ramalRef": "500GR-5",
    "order": 8,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340106103
+   "visible": true,
+   "updatedAt": 1790554231615
   },
   {
    "id": "kf2RqFaCEkBz8eSBqHzA",
@@ -6410,8 +6410,8 @@
    "ramalRef": "500GR-5.",
    "order": 9,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340107437
+   "visible": true,
+   "updatedAt": 1790554236632
   },
   {
    "id": "3npODa6WzjOH5VLvgFIn",
@@ -7000,8 +7000,8 @@
    "ramalRef": "500GR-6",
    "order": 10,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340108520
+   "visible": true,
+   "updatedAt": 1790554250245
   },
   {
    "id": "DzCoz0ANKbuatkctg8iv",
@@ -7586,8 +7586,8 @@
    "ramalRef": "500GR-6.",
    "order": 11,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340109421
+   "visible": true,
+   "updatedAt": 1790554256927
   },
   {
    "id": "UJIQ27CFmiKCmO1zgLef",
@@ -8172,8 +8172,8 @@
    "ramalRef": "500GR-7",
    "order": 12,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340110152
+   "visible": true,
+   "updatedAt": 1790554258842
   },
   {
    "id": "MQ2pdxIgvU4QhqbEV1XI",
@@ -8778,8 +8778,8 @@
    "ramalRef": "500GR-7.",
    "order": 13,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340111126
+   "visible": true,
+   "updatedAt": 1790554260788
   },
   {
    "id": "48CRHCbvOP0JqP5GqaAb",
@@ -9168,8 +9168,8 @@
    "ramalRef": "500GR-8",
    "order": 14,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340111940
+   "visible": true,
+   "updatedAt": 1790554262533
   },
   {
    "id": "3yvVBkYBxEA7uU5wDJcP",
@@ -9534,8 +9534,8 @@
    "ramalRef": "500GR-8.",
    "order": 15,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340112612
+   "visible": true,
+   "updatedAt": 1790554273187
   },
   {
    "id": "TMHln3JiEHqplsy717HE",
@@ -10309,8 +10309,8 @@
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "name": "Ramal 9: General Rodríguez → x Buenos Aires → Santa Brígada",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340113286
+   "visible": true,
+   "updatedAt": 1790554274480
   },
   {
    "id": "LfBda3iQY5hTuDbRMPe5",
@@ -11160,8 +11160,8 @@
    "order": 17,
    "name": "Ramal 9: Santa Brígada → x Chaco → General Rodríguez",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340113910
+   "visible": true,
+   "updatedAt": 1790554275618
   },
   {
    "id": "D8LCWqMcqXOP2YUa5Fy7",
@@ -11967,8 +11967,8 @@
    "order": 18,
    "name": "Ramal 9: General Rodríguez → x Chaco → Santa Brígada",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340114416
+   "visible": true,
+   "updatedAt": 1790554276868
   },
   {
    "id": "04PSpGzE66wTxgwLumt1",
@@ -12798,8 +12798,8 @@
    "order": 19,
    "name": "Ramal 9: Santa Brígada → x Buenos Aires → General Rodríguez",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340114828
+   "visible": true,
+   "updatedAt": 1790554277647
   },
   {
    "id": "Qe9HeXJz8Lou9Ez3LneW",
@@ -13641,7 +13641,7 @@
    "order": 20,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "visible": false,
-   "updatedAt": 1790340115234
+   "updatedAt": 1790553899826
   },
   {
    "id": "Cov3IsgvhlOuU7XXcN82",
@@ -14402,8 +14402,8 @@
    "ramalRef": "500GR-10.",
    "order": 21,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340115461
+   "visible": true,
+   "updatedAt": 1790554282247
   },
   {
    "id": "Pu9QwGD8tBHnuDNSvBQB",
@@ -14592,8 +14592,8 @@
    "ramalRef": "500GR-11xM",
    "order": 22,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340115842
+   "visible": true,
+   "updatedAt": 1790554283157
   },
   {
    "id": "1vPfoG6lMiybQV658bop",
@@ -14770,8 +14770,8 @@
    "ramalRef": "500GR-11xM.",
    "order": 23,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340116083
+   "visible": true,
+   "updatedAt": 1790554283705
   },
   {
    "id": "02m5Egzk9ex1ZQJG5vGj",
@@ -15036,8 +15036,8 @@
    ],
    "order": 24,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340116289
+   "visible": true,
+   "updatedAt": 1790554284062
   },
   {
    "id": "rS7XYBp3H4ps630uFLas",
@@ -15282,8 +15282,8 @@
    ],
    "order": 25,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340116535
+   "visible": true,
+   "updatedAt": 1790554284473
   },
   {
    "id": "KQyJECSeV6DSdlHJx5YD",
@@ -15872,8 +15872,8 @@
    ],
    "order": 26,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340116661
+   "visible": true,
+   "updatedAt": 1790554284848
   },
   {
    "id": "d14W9v7PwdXMXpUMj0i3",
@@ -16490,8 +16490,8 @@
    ],
    "order": 27,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340116747
+   "visible": true,
+   "updatedAt": 1790554284979
   },
   {
    "id": "zT1EbG4ib9vW9ngwIecu",
@@ -16820,8 +16820,8 @@
    "ramalRef": "500GR-13",
    "order": 28,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340116830
+   "visible": true,
+   "updatedAt": 1790554285197
   },
   {
    "id": "DuzsutShe0awogPmIGIu",
@@ -17138,8 +17138,8 @@
    "ramalRef": "500GR-13.",
    "order": 29,
    "folderId": "rN0YCP0gjWImKmrzpVbq",
-   "visible": false,
-   "updatedAt": 1790340116911
+   "visible": true,
+   "updatedAt": 1790554285320
   },
   {
    "id": "DUGqkCtXrCDBHxTGcR6s",
@@ -17756,8 +17756,8 @@
    "ref": "500GR",
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 30,
-   "visible": false,
-   "updatedAt": 1790340116975
+   "visible": true,
+   "updatedAt": 1790554285543
   },
   {
    "id": "FiLt06lR70WwyCCrFueQ",
@@ -18370,8 +18370,8 @@
    "ramalRef": "500GR-14.",
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 31,
-   "visible": false,
-   "updatedAt": 1790340117161
+   "visible": true,
+   "updatedAt": 1790554286017
   },
   {
    "id": "PUGM8gjLV2d1QGYhP4FT",
@@ -18924,8 +18924,8 @@
    "ramalRef": "500GR-15",
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 32,
-   "visible": false,
-   "updatedAt": 1790340117206
+   "visible": true,
+   "updatedAt": 1790554286175
   },
   {
    "id": "TvEjHOMEIsp3emx64n9B",
@@ -19414,8 +19414,8 @@
    "ramalRef": "500GR-15.",
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 33,
-   "visible": false,
-   "updatedAt": 1790340117268
+   "visible": true,
+   "updatedAt": 1790554286293
   },
   {
    "id": "yHfhvlgthj2RbsDox5c8",
@@ -19936,8 +19936,8 @@
     }
    ],
    "order": 34,
-   "visible": false,
-   "updatedAt": 1790340117385
+   "visible": true,
+   "updatedAt": 1790554286396
   },
   {
    "id": "z2Quyh4UTXkrxK6iL5sZ",
@@ -20414,8 +20414,8 @@
    "ramalRef": "500GR-16xO",
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 35,
-   "visible": false,
-   "updatedAt": 1790340117428
+   "visible": true,
+   "updatedAt": 1790554286502
   },
   {
    "id": "4VP7HvzzHy5T0Ze3dNfR",
@@ -20896,8 +20896,8 @@
      "lon": -58.978630374816554
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340117472
+   "visible": true,
+   "updatedAt": 1790554286636
   },
   {
    "id": "xGvyp7RGBUNgDWVBOpSm",
@@ -21406,8 +21406,8 @@
    ],
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 37,
-   "visible": false,
-   "updatedAt": 1790340117536
+   "visible": true,
+   "updatedAt": 1790554286745
   },
   {
    "id": "29DyVtQa0smMHWYlbHyi",
@@ -21856,8 +21856,8 @@
    "name": "Ramal 16: General Rodríguez → x Di Marco → Bicentenario",
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 38,
-   "visible": false,
-   "updatedAt": 1790340117614
+   "visible": true,
+   "updatedAt": 1790554286838
   },
   {
    "id": "0iShW7IWnLEfAxDA3zdB",
@@ -22354,8 +22354,8 @@
    ],
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 39,
-   "visible": false,
-   "updatedAt": 1790340117664
+   "visible": true,
+   "updatedAt": 1790554286939
   },
   {
    "id": "eesSVhY8Q7Gl3bgA1Izd",
@@ -22892,8 +22892,8 @@
    "ramalRef": "500GR-18",
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 40,
-   "visible": false,
-   "updatedAt": 1790340117718
+   "visible": true,
+   "updatedAt": 1790554287056
   },
   {
    "id": "RSKKIsJk8fhT8WrAKe67",
@@ -23459,7 +23459,7 @@
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 41,
    "visible": false,
-   "updatedAt": 1790340117912
+   "updatedAt": 1790553902456
   },
   {
    "id": "wBuMkXMCD4xwfAyiLulY",
@@ -23625,8 +23625,8 @@
    "order": 42,
    "ramalRef": "500GRraro",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340117962
+   "visible": true,
+   "updatedAt": 1790554287598
   },
   {
    "id": "gF0r9qhaAeAzvMnYCMDs",
@@ -23888,8 +23888,8 @@
    "order": 43,
    "ramalRef": "500GRraro.",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340118028
+   "visible": true,
+   "updatedAt": 1790554287679
   },
   {
    "id": "apialguprkL20IOUfGZG",
@@ -25338,8 +25338,8 @@
    "ramalRef": "500GR-19",
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 44,
-   "visible": false,
-   "updatedAt": 1790340118091
+   "visible": true,
+   "updatedAt": 1790554288752
   },
   {
    "id": "w3UTKMVIQbSagjtqQGmE",
@@ -26612,8 +26612,8 @@
    "ramalRef": "500GR-19.",
    "folderId": "rN0YCP0gjWImKmrzpVbq",
    "order": 45,
-   "visible": false,
-   "updatedAt": 1790340118148
+   "visible": true,
+   "updatedAt": 1790554289816
   }
  ]
 }

@@ -2676,8 +2676,8 @@
    "ramalRef": "619BERPAT.",
    "order": 0,
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": false,
-   "updatedAt": 1790340078448
+   "visible": true,
+   "updatedAt": 1790554058689
   },
   {
    "id": "30v9Zs08zGvc7eYgit9j",
@@ -5298,13 +5298,13 @@
     }
    ],
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": false,
-   "updatedAt": 1790340083031
+   "visible": true,
+   "updatedAt": 1790554125208
   },
   {
    "id": "zegbIFldSO36hjs8ga3R",
    "ref": "619BER",
-   "name": "[Circular] Ramal 3: Marítimo → Countrys → Marítimo",
+   "name": "[Circular] Ramal 3: Marítimo → Countries → Marítimo",
    "color": "#02602e",
    "createdAt": 1787924753760,
    "ramalRef": "619BER-3",
@@ -7195,8 +7195,9 @@
      "lon": -58.18414131861394
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340145421
+   "visible": true,
+   "updatedAt": 1790554371286,
+   "discontinued": false
   }
  ]
 }

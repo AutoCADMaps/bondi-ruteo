@@ -36,8 +36,18 @@ function readManifest(): Manifest {
   }
 }
 
-// Firestore permite hasta 500 operaciones por batch — se parte en tandas.
-const BATCH_LIMIT = 450
+// Firestore permite hasta 500 operaciones por batch, pero ADEMÁS hasta 10MB
+// por batch — dos límites independientes. Con líneas de recorridos largos
+// (muchos puntos de lat/lon), 450 documentos entraban en cantidad pero se
+// pasaban de peso ("Request payload size exceeds the limit: 11534336
+// bytes"). Se corta también por bytes, dejando margen bajo los 10MB reales
+// para no chocar con el overhead propio de Firestore por operación.
+const BATCH_OP_LIMIT = 450
+const BATCH_BYTE_LIMIT = 9_000_000
+
+function estimateBytes(data: unknown): number {
+  return Buffer.byteLength(JSON.stringify(data), "utf-8")
+}
 
 async function pushCollection(
   collection: string,
@@ -47,28 +57,31 @@ async function pushCollection(
   const currentIds = new Set(docs.map((d) => d.id))
   const toDelete = previousIds.filter((id) => !currentIds.has(id))
 
-  const ops: (() => void)[] = []
   let batch = adminDb.batch()
   let opsInBatch = 0
+  let bytesInBatch = 0
   const commits: Promise<unknown>[] = []
-  const flushIfFull = async () => {
-    if (opsInBatch >= BATCH_LIMIT) {
+  const flushIfNeeded = async (nextOpBytes: number) => {
+    if (opsInBatch >= BATCH_OP_LIMIT || (opsInBatch > 0 && bytesInBatch + nextOpBytes > BATCH_BYTE_LIMIT)) {
       commits.push(batch.commit())
       batch = adminDb.batch()
       opsInBatch = 0
+      bytesInBatch = 0
     }
   }
 
   for (const doc of docs) {
     const { id, ...data } = doc as any
+    const size = estimateBytes(data)
+    await flushIfNeeded(size)
     batch.set(adminDb.collection(collection).doc(id), data)
     opsInBatch++
-    await flushIfFull()
+    bytesInBatch += size
   }
   for (const id of toDelete) {
+    await flushIfNeeded(0)
     batch.delete(adminDb.collection(collection).doc(id))
     opsInBatch++
-    await flushIfFull()
   }
   if (opsInBatch > 0) commits.push(batch.commit())
   await Promise.all(commits)

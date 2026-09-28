@@ -5392,8 +5392,8 @@
    ],
    "ramalRef": "53",
    "order": 0,
-   "visible": false,
-   "updatedAt": 1790340071845
+   "visible": true,
+   "updatedAt": 1790554052493
   },
   {
    "id": "ou2EC2zUg9IX9W5icm3x",
@@ -11058,8 +11058,8 @@
    ],
    "ramalRef": "53.",
    "order": 1,
-   "visible": false,
-   "updatedAt": 1790340079544
+   "visible": true,
+   "updatedAt": 1790554060628
   },
   {
    "id": "RP3pYtK4MHZTnNtwimUs",
@@ -15472,8 +15472,8 @@
    "ref": "53",
    "name": "[Rápido] Ramal T: La Boca → José C. Paz",
    "order": 2,
-   "visible": false,
-   "updatedAt": 1790340084955
+   "visible": true,
+   "updatedAt": 1790554135891
   },
   {
    "id": "VpN8kUWaZNAyHUlsxFaZ",
@@ -19922,8 +19922,8 @@
    "ref": "53",
    "name": "[Rápido] Ramal T: José C. Paz → La Boca",
    "order": 3,
-   "visible": false,
-   "updatedAt": 1790340096416
+   "visible": true,
+   "updatedAt": 1790554149966
   }
  ]
 }

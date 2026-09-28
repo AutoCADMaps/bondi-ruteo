@@ -499,8 +499,8 @@
    "createdAt": 1786326341098,
    "ramalRef": "524LAN",
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340130485
+   "visible": true,
+   "updatedAt": 1790554326828
   },
   {
    "id": "SCjJCLXmtUUfIgSjPkiw",
@@ -1096,8 +1096,8 @@
    "createdAt": 1786326433347,
    "ramalRef": "524LAN.",
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": false,
-   "updatedAt": 1790340130528
+   "visible": true,
+   "updatedAt": 1790554326846
   }
  ]
 }

@@ -3817,8 +3817,8 @@
    ],
    "order": 0,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340078366
+   "visible": true,
+   "updatedAt": 1790554058587
   },
   {
    "id": "nYoqrxNVYn5NPEg8LGfL",
@@ -7712,8 +7712,8 @@
      "lon": -58.369324643870506
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340082943
+   "visible": true,
+   "updatedAt": 1790554125001
   },
   {
    "id": "DhLU8bMl9RI5ItNwS6Jl",
@@ -11463,8 +11463,8 @@
    "discontinued": false,
    "order": 2,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340094961
+   "visible": true,
+   "updatedAt": 1790554144331
   },
   {
    "id": "hQcbQCm8KBEvYPGPaxUO",
@@ -15025,8 +15025,8 @@
    ],
    "order": 3,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340098229
+   "visible": true,
+   "updatedAt": 1790554153448
   },
   {
    "id": "QEmLtVPivjmQJXo4sDSn",
@@ -18916,8 +18916,8 @@
    "order": 4,
    "name": "Ramal L Azul: Ex Correo Central → x Mitre → Rotonda de Alpargatas",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340100287
+   "visible": true,
+   "updatedAt": 1790554160609
   },
   {
    "id": "4XYzyR2adI4DwLBjxQx3",
@@ -22910,8 +22910,8 @@
    ],
    "order": 5,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340102434
+   "visible": true,
+   "updatedAt": 1790554165942
   },
   {
    "id": "zGy3jX4oqFh1L23nDLiB",
@@ -26852,8 +26852,8 @@
    "ramalRef": "159-LRPN",
    "order": 6,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340103957
+   "visible": true,
+   "updatedAt": 1790554174895
   },
   {
    "id": "AAS7cWGbvDiIGYo8WcMi",
@@ -30990,8 +30990,8 @@
    "ramalRef": "159-LRPN.",
    "order": 7,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340105423
+   "visible": true,
+   "updatedAt": 1790554217646
   },
   {
    "id": "kknRzUZHB9bdRCfgaRwi",
@@ -33988,8 +33988,8 @@
    ],
    "order": 8,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340106804
+   "visible": true,
+   "updatedAt": 1790554234977
   },
   {
    "id": "0cFUTRJIpNIxtT68zLar",
@@ -37215,8 +37215,8 @@
    "discontinued": false,
    "order": 9,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340108010
+   "visible": true,
+   "updatedAt": 1790554248603
   },
   {
    "id": "dasZNPPki3ZoTFk0oBNz",
@@ -38869,8 +38869,8 @@
    "ramalRef": "159-BG",
    "order": 10,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340109027
+   "visible": true,
+   "updatedAt": 1790554253707
   },
   {
    "id": "TNXT7HCtRWelquMjQVX8",
@@ -40623,8 +40623,8 @@
    "ramalRef": "159-BG.",
    "order": 11,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340109834
+   "visible": true,
+   "updatedAt": 1790554258338
   },
   {
    "id": "A8ymlqviEQT25FRdwLX6",
@@ -43686,8 +43686,8 @@
    "name": "[Expreso] Ramal 2: Ex Correo Central → Cruce Varela",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340110594
+   "visible": true,
+   "updatedAt": 1790554259581
   },
   {
    "id": "By30znMt1gscCKvPSRU7",
@@ -46481,8 +46481,8 @@
    "name": "[Expreso] Ramal 2: Cruce Varela → Ex Correo Central",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340111501
+   "visible": true,
+   "updatedAt": 1790554261795
   },
   {
    "id": "GZV9JDDDtUqWLDXF8TP9",
@@ -48092,8 +48092,8 @@
    "discontinued": false,
    "order": 14,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340112217
+   "visible": true,
+   "updatedAt": 1790554267782
   },
   {
    "id": "YJgr6IL8lBH21zZheiHX",
@@ -49874,8 +49874,8 @@
    ],
    "order": 15,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": false,
-   "updatedAt": 1790340112902
+   "visible": true,
+   "updatedAt": 1790554273717
   },
   {
    "id": "RJswgQaGSpHlCB6NN8e5",
@@ -52689,8 +52689,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "[Semirápido]: Terminal Puerto Madero → Marítimo",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340113517
+   "visible": true,
+   "updatedAt": 1790554274980
   },
   {
    "id": "36Lj6XpsV2KwUAhB6p8U",
@@ -55680,8 +55680,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "[Semirápido]: Marítimo → Terminal Puerto Madero",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340114197
+   "visible": true,
+   "updatedAt": 1790554276351
   },
   {
    "id": "ooC0Oh3r92peKycggN0U",
@@ -57983,8 +57983,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "[Semirápido]: Terminal Puerto Madero → Berazategui",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340114648
+   "visible": true,
+   "updatedAt": 1790554277236
   },
   {
    "id": "gmsqfekFl45TaDfXzRVi",
@@ -60486,8 +60486,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "[Semirápido]: Berazategui → Terminal Puerto Madero",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340115122
+   "visible": true,
+   "updatedAt": 1790554278732
   },
   {
    "id": "rFXfO7XCLLiGopkSdTHo",
@@ -65180,8 +65180,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "[Semirápido]: Quilmes → x Urquiza → Terminal Puerto Madero",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340115762
+   "visible": true,
+   "updatedAt": 1790554282701
   },
   {
    "id": "qKWVVdy9HvcZwf1R3bxj",
@@ -67891,8 +67891,8 @@
    "order": 22,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "[Semirápido] Terminal Puerto Madero → Hudson → Pueblo Nuevo",
-   "visible": false,
-   "updatedAt": 1790340115964
+   "visible": true,
+   "updatedAt": 1790554283517
   },
   {
    "id": "c2nsmcDhQiWm7dI9ieuR",
@@ -70894,8 +70894,8 @@
    "order": 23,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "[Semirápido]: Pueblo Nuevo → Hudson → Terminal Puerto Madero",
-   "visible": false,
-   "updatedAt": 1790340116229
+   "visible": true,
+   "updatedAt": 1790554283918
   }
  ]
 }

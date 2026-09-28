@@ -2019,8 +2019,8 @@
    "createdAt": 1786036802674,
    "ramalRef": "386",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340128331
+   "visible": true,
+   "updatedAt": 1790554312370
   },
   {
    "id": "cX2P0PZsNGi9yoVR4Tjy",
@@ -3924,8 +3924,8 @@
    "createdAt": 1786036908568,
    "ramalRef": "386.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": false,
-   "updatedAt": 1790340128359
+   "visible": true,
+   "updatedAt": 1790554312399
   }
  ]
 }

@@ -2821,8 +2821,8 @@
    "order": 0,
    "color": "#0ac79b",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340076060
+   "visible": true,
+   "updatedAt": 1790554054991
   },
   {
    "id": "WVez80JX5WQGXTGToHcv",
@@ -5676,8 +5676,8 @@
    "order": 1,
    "color": "#0ac79b",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340081004
+   "visible": true,
+   "updatedAt": 1790554112733
   },
   {
    "id": "PSi9ue6JRbXLWtIMNVga",
@@ -6555,8 +6555,8 @@
    "order": 2,
    "color": "#0ac79b",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340091520
+   "visible": true,
+   "updatedAt": 1790554138674
   },
   {
    "id": "W1LgkKx1Dos6fOyFGc0e",
@@ -7594,8 +7594,8 @@
    "order": 3,
    "color": "#0ac79b",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340096966
+   "visible": true,
+   "updatedAt": 1790554151183
   },
   {
    "id": "B3GIR8H1VKWpnuBCvzAX",
@@ -8617,8 +8617,8 @@
    "order": 4,
    "color": "#0ac79b",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340099208
+   "visible": true,
+   "updatedAt": 1790554155608
   },
   {
    "id": "YNHbfr326ifYRpKWSKuf",
@@ -10252,8 +10252,8 @@
    "order": 5,
    "color": "#0ac79b",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340101275
+   "visible": true,
+   "updatedAt": 1790554164011
   }
  ]
 }

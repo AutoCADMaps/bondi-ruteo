@@ -3256,8 +3256,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "order": 0,
    "ramalRef": "2",
-   "visible": false,
-   "updatedAt": 1790340070644
+   "visible": true,
+   "updatedAt": 1790554052051
   },
   {
    "id": "M3hZOMi0ZYVI4ve71WFy",
@@ -6782,8 +6782,8 @@
      "lon": -58.541634920644555
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340079149
+   "visible": true,
+   "updatedAt": 1790554059921
   }
  ]
 }

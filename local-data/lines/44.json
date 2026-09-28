@@ -2069,8 +2069,8 @@
    "order": 0,
    "name": "Puente Alsina → Barrancas de Belgrano",
    "discontinued": false,
-   "visible": false,
-   "updatedAt": 1790340074640
+   "visible": true,
+   "updatedAt": 1790554053637
   },
   {
    "id": "XKCOLLe899LPUEPxp1Fx",
@@ -3879,8 +3879,8 @@
      "lon": -58.41712649773292
     }
    ],
-   "visible": false,
-   "updatedAt": 1790340079968
+   "visible": true,
+   "updatedAt": 1790554074654
   }
  ]
 }

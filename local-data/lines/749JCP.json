@@ -1496,8 +1496,8 @@
    "ramalRef": "749JCPA",
    "name": "[Circular] Largo: José C. Paz → x Croacia → San Atilo → José C. Paz",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554403506
+   "visible": false,
+   "updatedAt": 1790722258246
   },
   {
    "id": "qD4l77besjkwhr8sagTV",
@@ -2982,8 +2982,8 @@
    "ref": "749JCP",
    "discontinued": false,
    "name": "[Circular]: José C. Paz → x Lamas → San Atilo → José C. Paz",
-   "visible": true,
-   "updatedAt": 1790554403535
+   "visible": false,
+   "updatedAt": 1790722258269
   },
   {
    "id": "wCFviiHtPTiOfyYCY28h",
@@ -3619,8 +3619,8 @@
    "folderId": null,
    "createdAt": 1789840626776,
    "ramalRef": "749JCPB",
-   "visible": true,
-   "updatedAt": 1790554403573
+   "visible": false,
+   "updatedAt": 1790722258323
   },
   {
    "id": "RloRcdWLHBAAw6GhTaal",
@@ -4248,8 +4248,8 @@
    "folderId": null,
    "createdAt": 1789840825979,
    "ramalRef": "749JCPB.",
-   "visible": true,
-   "updatedAt": 1790554403622
+   "visible": false,
+   "updatedAt": 1790722258364
   },
   {
    "id": "UiTY8xriep7GaqW0rhyi",
@@ -4873,8 +4873,8 @@
      "lon": -58.80949906764584
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554403663
+   "visible": false,
+   "updatedAt": 1790722258510
   },
   {
    "id": "YH9TqdnbHhaO1szuG0RP",
@@ -4883,7 +4883,7 @@
    "color": "#0ac79b",
    "folderId": null,
    "createdAt": 1789841442082,
-   "ramalRef": "749JCP",
+   "ramalRef": "749JCPC.",
    "points": [
     {
      "lat": -34.52158408908654,
@@ -5434,8 +5434,9 @@
      "lon": -58.751832665061734
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554403707
+   "visible": false,
+   "updatedAt": 1791049534031,
+   "discontinued": false
   },
   {
    "id": "alqb3IOc4kEWFxeRyjxX",
@@ -6115,8 +6116,8 @@
    "folderId": null,
    "createdAt": 1789841771996,
    "ramalRef": "749JCPD",
-   "visible": true,
-   "updatedAt": 1790554403756
+   "visible": false,
+   "updatedAt": 1790722258572
   },
   {
    "id": "6rK2f6ILvFTmzOS7tGY3",
@@ -6752,8 +6753,8 @@
    "folderId": null,
    "createdAt": 1789841865779,
    "ramalRef": "749JCPD.",
-   "visible": true,
-   "updatedAt": 1790554403811
+   "visible": false,
+   "updatedAt": 1790722258614
   },
   {
    "id": "I6WHOp9MyeQGdswnALH6",
@@ -7673,8 +7674,8 @@
    "folderId": null,
    "createdAt": 1789842503766,
    "ramalRef": "749JCPE",
-   "visible": true,
-   "updatedAt": 1790554403846
+   "visible": false,
+   "updatedAt": 1790722258708
   },
   {
    "id": "GVr9Z3kHh1n69cfW1zjs",
@@ -8702,8 +8703,8 @@
    "folderId": null,
    "createdAt": 1789842623351,
    "ramalRef": "749JCPE.",
-   "visible": true,
-   "updatedAt": 1790554403885
+   "visible": false,
+   "updatedAt": 1790722258781
   },
   {
    "id": "uv4MmPGFUXUAV73YXgYE",
@@ -9135,8 +9136,8 @@
    "folderId": null,
    "createdAt": 1789842786635,
    "ramalRef": "749JCPF",
-   "visible": true,
-   "updatedAt": 1790554403921
+   "visible": false,
+   "updatedAt": 1790722258824
   },
   {
    "id": "cHJ7YQ90s6jyS5JSLvF7",
@@ -9568,8 +9569,8 @@
    "folderId": null,
    "createdAt": 1789842850036,
    "ramalRef": "749JCPF.",
-   "visible": true,
-   "updatedAt": 1790554403951
+   "visible": false,
+   "updatedAt": 1790722258854
   },
   {
    "id": "A3t0vn5giAycrqkH6ZDW",
@@ -10049,8 +10050,8 @@
    "folderId": null,
    "createdAt": 1789842993772,
    "ramalRef": "749JCPG",
-   "visible": true,
-   "updatedAt": 1790554403980
+   "visible": false,
+   "updatedAt": 1790722258891
   },
   {
    "id": "DdeyIWP0WrKcMSImIsN2",
@@ -10562,8 +10563,8 @@
    "folderId": null,
    "createdAt": 1789843126926,
    "ramalRef": "749JCPG.",
-   "visible": true,
-   "updatedAt": 1790554404015
+   "visible": false,
+   "updatedAt": 1790722258941
   },
   {
    "id": "yBpFQ9cScbKA5FnGTzkU",
@@ -10923,8 +10924,8 @@
    "folderId": null,
    "createdAt": 1789843692857,
    "ramalRef": "749JCPH",
-   "visible": true,
-   "updatedAt": 1790554404041
+   "visible": false,
+   "updatedAt": 1790722258966
   },
   {
    "id": "7K5zJT1LgiH7nGwZblFI",
@@ -11336,8 +11337,8 @@
    "folderId": null,
    "createdAt": 1789843758880,
    "ramalRef": "749JCPH.",
-   "visible": true,
-   "updatedAt": 1790554404066
+   "visible": false,
+   "updatedAt": 1790722259017
   }
  ]
 }

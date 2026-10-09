@@ -2947,8 +2947,8 @@
    "createdAt": 1788661272675,
    "ramalRef": "314R",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554372790
+   "visible": false,
+   "updatedAt": 1790722235183
   },
   {
    "id": "4Zk770Uttrxccf7nxHpm",
@@ -5664,8 +5664,8 @@
    "createdAt": 1788661562181,
    "ramalRef": "314R.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554372831
+   "visible": false,
+   "updatedAt": 1790722235224
   },
   {
    "id": "egDSEeenvwVqyydtAO4h",
@@ -8213,8 +8213,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554372873
+   "visible": false,
+   "updatedAt": 1790722235254
   },
   {
    "id": "jWMll3XYmxZWb9shOmK6",
@@ -10535,8 +10535,8 @@
    "name": "Cartel Amarillo: Puente Saavedra → Florida → Barrio San Isidro",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554372916
+   "visible": false,
+   "updatedAt": 1790722235282
   },
   {
    "id": "qSlNsEq8YQ8BCSk7YxZt",
@@ -11681,7 +11681,7 @@
    "ramalRef": "314Az",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "visible": false,
-   "updatedAt": 1790340147410
+   "updatedAt": 1790722235338
   },
   {
    "id": "8CQYtx2EllgRlIJFsZ9o",
@@ -12733,8 +12733,8 @@
    "createdAt": 1788784433309,
    "ramalRef": "314Az.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554384916
+   "visible": false,
+   "updatedAt": 1790722235505
   },
   {
    "id": "E7mmXbXZIs6vM31gUGZG",
@@ -14810,8 +14810,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554382267
+   "visible": false,
+   "updatedAt": 1790722235548
   },
   {
    "id": "dFh7BCvfI7nE14BWMCtO",
@@ -16624,8 +16624,8 @@
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "name": "Ex 707 - Cartel Verde: Martínez → Barrio San Isidro",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554384900
+   "visible": false,
+   "updatedAt": 1790722235587
   }
  ]
 }

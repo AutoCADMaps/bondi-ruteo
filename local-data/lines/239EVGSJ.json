@@ -796,8 +796,8 @@
    "name": "Ramal P: Lanús → Banfield",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554306624
+   "visible": false,
+   "updatedAt": 1790722162297
   },
   {
    "id": "iTwruPbrrMdiFbNQwSV6",
@@ -1618,8 +1618,8 @@
    "name": "Ramal P: Banfield → Lanús",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554306649
+   "visible": false,
+   "updatedAt": 1790722162407
   }
  ]
 }

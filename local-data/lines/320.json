@@ -1035,8 +1035,8 @@
    "createdAt": 1785967785655,
    "ramalRef": "320",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554311174
+   "visible": false,
+   "updatedAt": 1790722172582
   },
   {
    "id": "memFNJa2JEkLCXy8PAa8",
@@ -2168,8 +2168,8 @@
    "createdAt": 1785967896424,
    "ramalRef": "320.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554311201
+   "visible": false,
+   "updatedAt": 1790722172656
   }
  ]
 }

@@ -2660,8 +2660,8 @@
    "ramalRef": "153.",
    "order": 0,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554055646
+   "visible": false,
+   "updatedAt": 1790721944126
   },
   {
    "id": "nEPKtSNr0JeeswJjnrUc",
@@ -5214,8 +5214,8 @@
    "ramalRef": "153",
    "order": 1,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554114708
+   "visible": false,
+   "updatedAt": 1790721962466
   }
  ]
 }

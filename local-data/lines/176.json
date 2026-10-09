@@ -5993,8 +5993,8 @@
    "order": 0,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554054057
+   "visible": false,
+   "updatedAt": 1790721935457
   },
   {
    "id": "xmhIdVMmTtK0SmUfM4EK",
@@ -11440,8 +11440,8 @@
    "order": 1,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554075214
+   "visible": false,
+   "updatedAt": 1790721959134
   },
   {
    "id": "0znqWlyQvlmiwUDC7TWP",
@@ -17127,8 +17127,8 @@
    "order": 2,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554136019
+   "visible": false,
+   "updatedAt": 1790721967714
   },
   {
    "id": "qBcz673oFAZzzeab9viO",
@@ -22506,8 +22506,8 @@
    "order": 3,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554150120
+   "visible": false,
+   "updatedAt": 1790721982975
   },
   {
    "id": "XYG4LqdmlhhKMjT6jMwm",
@@ -28009,8 +28009,8 @@
    "order": 4,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554155381
+   "visible": false,
+   "updatedAt": 1790722003568
   },
   {
    "id": "289j8e0suSg9JsSUsnoo",
@@ -33188,8 +33188,8 @@
    "order": 5,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554163905
+   "visible": false,
+   "updatedAt": 1790722012663
   },
   {
    "id": "fao9p0LSWnHPRBXTUWxD",
@@ -37744,7 +37744,7 @@
    "color": "#787878",
    "discontinued": false,
    "visible": false,
-   "updatedAt": 1790340103095
+   "updatedAt": 1790722030171
   },
   {
    "id": "gLf2ZsrjuCYvjstVHod3",
@@ -42010,8 +42010,8 @@
    "order": 7,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554199988
+   "visible": false,
+   "updatedAt": 1790722040455
   },
   {
    "id": "zOxhJUk7QHXWzQgAegst",
@@ -46301,8 +46301,8 @@
    "order": 8,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554231329
+   "visible": false,
+   "updatedAt": 1790722045826
   },
   {
    "id": "hlxz7tKA5UMvP7tK0oQ8",
@@ -50388,8 +50388,8 @@
    "order": 9,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554236438
+   "visible": false,
+   "updatedAt": 1790722051823
   },
   {
    "id": "g6MUev649fPQUB11jqjG",
@@ -54527,8 +54527,8 @@
    "order": 10,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554250057
+   "visible": false,
+   "updatedAt": 1790722060010
   },
   {
    "id": "5yv0VZ8ApaBexj2zg8n4",
@@ -58430,8 +58430,8 @@
    "order": 11,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554256697
+   "visible": false,
+   "updatedAt": 1790722062518
   },
   {
    "id": "cEaClyhEy3D6pXk5hCol",
@@ -62937,8 +62937,8 @@
    "order": 12,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554258755
+   "visible": false,
+   "updatedAt": 1790722064951
   },
   {
    "id": "ktMIZNBzPqORwNlqInSX",
@@ -66948,8 +66948,8 @@
    "order": 13,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554260157
+   "visible": false,
+   "updatedAt": 1790722066858
   },
   {
    "id": "nEGZarDJawqglSSObayS",
@@ -73071,8 +73071,8 @@
    "order": 14,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554262432
+   "visible": false,
+   "updatedAt": 1790722069798
   },
   {
    "id": "kZEfMbIfBh5CtQE9ZM6R",
@@ -78938,8 +78938,8 @@
    "order": 15,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554272423
+   "visible": false,
+   "updatedAt": 1790722073009
   },
   {
    "id": "cenWCJF1BB3BRxgDLJX7",
@@ -81997,8 +81997,8 @@
    "order": 16,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554274259
+   "visible": false,
+   "updatedAt": 1790722075249
   },
   {
    "id": "p4KneXfHylpQ8pDOtErw",
@@ -85040,8 +85040,8 @@
    "order": 17,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554275417
+   "visible": false,
+   "updatedAt": 1790722076416
   },
   {
    "id": "GUzttOMFrgifzhWhYg3D",
@@ -87811,8 +87811,8 @@
    "order": 18,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554276740
+   "visible": false,
+   "updatedAt": 1790722077220
   },
   {
    "id": "J1RiDM191JPivvgvjmRS",
@@ -90798,8 +90798,8 @@
    "order": 19,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554277546
+   "visible": false,
+   "updatedAt": 1790722078231
   },
   {
    "id": "LOAX7qP1DHPsUVGXuvzi",
@@ -93357,8 +93357,8 @@
    "order": 20,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554278919
+   "visible": false,
+   "updatedAt": 1790722079246
   },
   {
    "id": "SQA2VbMpNt0Ta0AA9EnA",
@@ -96148,8 +96148,8 @@
    "order": 21,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554282184
+   "visible": false,
+   "updatedAt": 1790722079767
   },
   {
    "id": "MMdOqDOegxNbfehfyGRs",
@@ -97755,8 +97755,8 @@
    "order": 22,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554282861
+   "visible": false,
+   "updatedAt": 1790722083357
   },
   {
    "id": "zxxvNlL71XKfTp5uQAbl",
@@ -99610,8 +99610,8 @@
    "order": 23,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554283637
+   "visible": false,
+   "updatedAt": 1790722083981
   },
   {
    "id": "5n5n0tUHqxWObljtFEIA",
@@ -101189,8 +101189,8 @@
    "order": 24,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554283994
+   "visible": false,
+   "updatedAt": 1790722086642
   },
   {
    "id": "htsN5qv60aMdFmBlFepz",
@@ -102800,8 +102800,8 @@
    "order": 25,
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554284411
+   "visible": false,
+   "updatedAt": 1790722088969
   }
  ]
 }

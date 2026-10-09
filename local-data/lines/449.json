@@ -7,7 +7,7 @@
    "color": "#0ac79b",
    "folderId": null,
    "createdAt": 1789775747972,
-   "ramalRef": "449A",
+   "ramalRef": "449",
    "name": "Sargento Cabral → San Atilo",
    "points": [
     {
@@ -1267,8 +1267,9 @@
      "lon": -58.82037298411316
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554402242
+   "visible": false,
+   "updatedAt": 1791048973210,
+   "discontinued": false
   },
   {
    "id": "xNXcdla8VdqxgIzzR4re",
@@ -2476,8 +2477,8 @@
    "folderId": null,
    "createdAt": 1789775923089,
    "ramalRef": "449.",
-   "visible": true,
-   "updatedAt": 1790554402257
+   "visible": false,
+   "updatedAt": 1790722255304
   }
  ]
 }

@@ -1699,8 +1699,8 @@
    "createdAt": 1789077117243,
    "ramalRef": "721T-1",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554398622
+   "visible": false,
+   "updatedAt": 1790722247393
   },
   {
    "id": "N6fo1wIf1zRdBQxyfQrM",
@@ -3552,8 +3552,8 @@
    "createdAt": 1789077412092,
    "ramalRef": "721T-1.",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554398683
+   "visible": false,
+   "updatedAt": 1790722250019
   },
   {
    "id": "KBzTu42bXh03hB058AgD",
@@ -5878,8 +5878,8 @@
    "name": "Ramal 2: El Talar → Ricardo Rojas → Hospital Materno → El Ahorcado",
    "discontinued": false,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554398747
+   "visible": false,
+   "updatedAt": 1790722251503
   },
   {
    "id": "TCWGC97Wj5v0w6MM8Jnj",
@@ -8147,8 +8147,8 @@
    "createdAt": 1789078018723,
    "ramalRef": "721T-2.",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554398808
+   "visible": false,
+   "updatedAt": 1790722251559
   },
   {
    "id": "NYK6DGCPgkhQw9gSlepo",
@@ -9624,8 +9624,8 @@
     }
    ],
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554398858
+   "visible": false,
+   "updatedAt": 1790722251683
   },
   {
    "id": "HfhTbYBuQ0JtyVQ3HNbE",
@@ -11129,8 +11129,8 @@
    "createdAt": 1789078695083,
    "ramalRef": "721T-3.",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554398985
+   "visible": false,
+   "updatedAt": 1790722251723
   },
   {
    "id": "23PFiwqfFKBWSdtbUKvb",
@@ -12026,8 +12026,8 @@
    "createdAt": 1789078973207,
    "ramalRef": "721T-5",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554399053
+   "visible": false,
+   "updatedAt": 1790722252010
   },
   {
    "id": "Oq1rfoguOniidfDFHJD0",
@@ -12927,8 +12927,8 @@
     }
    ],
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554399094
+   "visible": false,
+   "updatedAt": 1790722251763
   }
  ]
 }

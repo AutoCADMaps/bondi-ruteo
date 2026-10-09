@@ -3952,8 +3952,8 @@
    "ramalRef": "29A.",
    "ref": "29",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554052429
+   "visible": false,
+   "updatedAt": 1790721927373
   },
   {
    "id": "1X1bQHboEr8Fmn6BrVbL",
@@ -7543,8 +7543,8 @@
    "order": 1,
    "name": "Olivos → San Telmo → La Boca",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554060530
+   "visible": false,
+   "updatedAt": 1790721952663
   },
   {
    "id": "CdGvFQ6mYhyhK5i40Cy4",
@@ -10973,8 +10973,8 @@
    "ref": "29",
    "order": 2,
    "ramalRef": "29A..",
-   "visible": true,
-   "updatedAt": 1790554127297
+   "visible": false,
+   "updatedAt": 1790721966419
   },
   {
    "id": "nQuPbqfvxMfHFHHQ61Mk",
@@ -14871,8 +14871,8 @@
    "ramalRef": "29B.",
    "ref": "29",
    "order": 3,
-   "visible": true,
-   "updatedAt": 1790554148338
+   "visible": false,
+   "updatedAt": 1790721975085
   },
   {
    "id": "1WH2wYWG1dejOPfwpAUe",
@@ -18314,8 +18314,8 @@
    "order": 4,
    "name": "Parque Sarmiento → San Telmo → La Boca",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554155050
+   "visible": false,
+   "updatedAt": 1790722002810
   },
   {
    "id": "313LYzSFfDKN6qvc6H06",
@@ -21580,8 +21580,8 @@
    "ref": "29",
    "order": 5,
    "ramalRef": "29B..",
-   "visible": true,
-   "updatedAt": 1790554163602
+   "visible": false,
+   "updatedAt": 1790722012102
   }
  ]
 }

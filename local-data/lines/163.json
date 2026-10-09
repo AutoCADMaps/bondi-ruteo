@@ -2699,8 +2699,8 @@
    "createdAt": 1789172535355,
    "ramalRef": "163A",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554402012
+   "visible": false,
+   "updatedAt": 1790722253030
   },
   {
    "id": "AkgIeT2ZmPZRdXAQFvQm",
@@ -5704,15 +5704,15 @@
    "createdAt": 1789172759259,
    "ramalRef": "163A.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554402089
+   "visible": false,
+   "updatedAt": 1790722256259
   },
   {
    "id": "fls00KGjuDo2ez3LtjLI",
    "ref": "163",
    "color": "#787878",
    "createdAt": 1789172769763,
-   "ramalRef": "163",
+   "ramalRef": "163B",
    "name": "[Nocturno]: Primera Junta → San Miguel",
    "points": [
     {
@@ -9949,8 +9949,9 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554402108
+   "visible": false,
+   "updatedAt": 1791043249583,
+   "discontinued": false
   },
   {
    "id": "dszl6RKLEMjjFwQCpwXX",
@@ -14438,8 +14439,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554402126
+   "visible": false,
+   "updatedAt": 1790722253198
   }
  ]
 }

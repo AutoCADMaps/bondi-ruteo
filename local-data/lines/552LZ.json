@@ -720,8 +720,8 @@
    "name": "Ramal A: Banfield → Cruce de Lomas",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328218
+   "visible": false,
+   "updatedAt": 1790722188112
   },
   {
    "id": "1wKMtGbZTQd2fUhBMyfS",
@@ -1429,8 +1429,8 @@
    "createdAt": 1786396341882,
    "ramalRef": "552LZ-A.",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328241
+   "visible": false,
+   "updatedAt": 1790722188199
   },
   {
    "id": "UBZuuDoEKgF4zqhiDDPC",
@@ -2354,8 +2354,8 @@
    "createdAt": 1786396419218,
    "ramalRef": "552LZ-B",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328279
+   "visible": false,
+   "updatedAt": 1790722188276
   },
   {
    "id": "j5GyPtFhV5rCZm1hoeBF",
@@ -3223,8 +3223,8 @@
    "createdAt": 1786396507115,
    "ramalRef": "552LZ-B.",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328298
+   "visible": false,
+   "updatedAt": 1790722188391
   },
   {
    "id": "BUWgsJ4nDPgg2NUTl6HQ",
@@ -4112,8 +4112,8 @@
    "createdAt": 1786396620224,
    "ramalRef": "552LZ-C",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328315
+   "visible": false,
+   "updatedAt": 1790722188452
   },
   {
    "id": "TJRZv9eN13bnHtmP6gSr",
@@ -4977,8 +4977,8 @@
    "createdAt": 1786396686315,
    "ramalRef": "552LZ-C.",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328349
+   "visible": false,
+   "updatedAt": 1790722188482
   }
  ]
 }

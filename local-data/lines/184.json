@@ -2100,8 +2100,8 @@
    "ramalRef": "184.",
    "order": 0,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554058898
+   "visible": false,
+   "updatedAt": 1790721949696
   },
   {
    "id": "UAXckv7kQkw6pZpCa2V0",
@@ -4334,8 +4334,8 @@
    ],
    "order": 1,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554125593
+   "visible": false,
+   "updatedAt": 1790721965481
   }
  ]
 }

@@ -56,6 +56,14 @@ export interface Stop {
   status?: StopStatus
   note?: string
   mindMap?: boolean
+  // Símbolo elegido a mano para el mapa mental (clave de lib/mind-map-icons.ts).
+  // Vacío = el sitio lo decide por el comienzo del nombre de la parada.
+  mindMapIcon?: string
+  // Nombre que se muestra en el mapa mental en lugar del nombre real de la
+  // parada (ej. "Belgrano y España" -> "Avellaneda"). Vacío = el mismo nombre.
+  mindMapName?: string
+  // Parada del sistema Metrobús (carril exclusivo).
+  metrobus?: boolean
   createdAt: number
   updatedAt: number
 }

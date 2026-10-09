@@ -1956,8 +1956,8 @@
    ],
    "order": 0,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554058080
+   "visible": false,
+   "updatedAt": 1790721946502
   },
   {
    "id": "JRmrmeEUS5PyjtCsCtBL",
@@ -3910,8 +3910,8 @@
    ],
    "order": 1,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554122915
+   "visible": false,
+   "updatedAt": 1790721964220
   },
   {
    "id": "rTEgtlvLXZYyncp2KjVH",
@@ -5853,8 +5853,8 @@
    "name": "Ramal L: Lanús → x Santa Fe → Balneario de Quilmes",
    "order": 2,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554143977
+   "visible": false,
+   "updatedAt": 1790721971305
   },
   {
    "id": "uuoBuhTNJDjVkKQgsx3W",
@@ -7716,8 +7716,8 @@
    "name": "Ramal L: Balneario de Quilmes → x Santa Fe → Lanús",
    "order": 3,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554153103
+   "visible": false,
+   "updatedAt": 1790721995654
   }
  ]
 }

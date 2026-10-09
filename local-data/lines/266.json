@@ -1612,8 +1612,8 @@
    "name": "Ramal 1: Lomas de Zamora → Don Bosco",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554355932
+   "visible": false,
+   "updatedAt": 1790722216526
   },
   {
    "id": "YbIKxnTZ0CI4AOLmqzQt",
@@ -3209,8 +3209,8 @@
    "createdAt": 1786802579127,
    "ramalRef": "266-1.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554355963
+   "visible": false,
+   "updatedAt": 1790722216680
   },
   {
    "id": "qvcLX7STV44Xy79xWBr8",
@@ -3814,8 +3814,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554355992
+   "visible": false,
+   "updatedAt": 1790722216706
   },
   {
    "id": "zEX1pJ1vGeafayVeHSKj",
@@ -4403,8 +4403,8 @@
    "createdAt": 1786802926332,
    "ramalRef": "266-2.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554356029
+   "visible": false,
+   "updatedAt": 1790722216733
   },
   {
    "id": "r4v8IruZDtkspgptLWPX",
@@ -5921,7 +5921,7 @@
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "visible": false,
-   "updatedAt": 1790340142474
+   "updatedAt": 1790722216773
   },
   {
    "id": "IFdCuH4aUxDm3cwXcKNl",
@@ -7477,8 +7477,8 @@
    "createdAt": 1786803591089,
    "ramalRef": "266-4.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554356214
+   "visible": false,
+   "updatedAt": 1790722216806
   },
   {
    "id": "wuKbPyAvLShZWNgnNoO9",
@@ -9135,7 +9135,7 @@
    "ramalRef": "266-5",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "visible": false,
-   "updatedAt": 1790340142516
+   "updatedAt": 1790722216839
   },
   {
    "id": "TEC1FVy0dm0f13Gg9VIp",
@@ -10616,7 +10616,7 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790340142564
+   "updatedAt": 1790722217059
   },
   {
    "id": "x2FVjrLRIJjOLXNjq91z",
@@ -11414,7 +11414,7 @@
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "visible": false,
-   "updatedAt": 1790340142579
+   "updatedAt": 1790722217113
   },
   {
    "id": "MN47cNt6kFhJJeX8GmjT",
@@ -12142,8 +12142,8 @@
    "createdAt": 1786837171180,
    "ramalRef": "266-6.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554356897
+   "visible": false,
+   "updatedAt": 1790722217187
   }
  ]
 }

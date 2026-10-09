@@ -2507,8 +2507,8 @@
    "ramalRef": "169-A",
    "name": "Ramal A: Remedios de Escalada → x Ruta 8 → Congreso y Cabildo",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554292101
+   "visible": false,
+   "updatedAt": 1790722094193
   },
   {
    "id": "EaB3jEvAzCfQxXk2xpSs",
@@ -4952,8 +4952,8 @@
    "createdAt": 1784924806838,
    "ramalRef": "169-A.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554292126
+   "visible": false,
+   "updatedAt": 1790722094314
   },
   {
    "id": "pOqtJAuZrjhC44fqxBNw",
@@ -7009,8 +7009,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554292161
+   "visible": false,
+   "updatedAt": 1790722094343
   },
   {
    "id": "rKkJ1YBA5sp8zJV5p4Ml",
@@ -9202,8 +9202,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554292197
+   "visible": false,
+   "updatedAt": 1790722094384
   }
  ]
 }

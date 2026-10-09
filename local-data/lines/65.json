@@ -2461,8 +2461,8 @@
    ],
    "color": "#787878",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554054547
+   "visible": false,
+   "updatedAt": 1790721938555
   },
   {
    "id": "GkH5ipDEAa3sgBu8a6mx",
@@ -4608,8 +4608,8 @@
      "lon": -58.381618469589874
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554111688
+   "visible": false,
+   "updatedAt": 1790721960607
   }
  ]
 }

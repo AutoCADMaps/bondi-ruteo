@@ -3107,8 +3107,8 @@
    "folderId": null,
    "createdAt": 1789836598272,
    "ramalRef": "315",
-   "visible": true,
-   "updatedAt": 1790554402634
+   "visible": false,
+   "updatedAt": 1790722256801
   },
   {
    "id": "6waAVgu2nIl7htNhiK54",
@@ -6016,8 +6016,8 @@
      "lon": -58.66388673224617
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554402696
+   "visible": false,
+   "updatedAt": 1790722256857
   }
  ]
 }

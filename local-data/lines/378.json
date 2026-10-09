@@ -2341,8 +2341,8 @@
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "name": "Puente Liniers → x Pringles → Kilómetro 24.700 → Laferrere",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554056437
+   "visible": false,
+   "updatedAt": 1790721944660
   },
   {
    "id": "EcewdgoVDKQtSNyzp7Dt",
@@ -4536,8 +4536,8 @@
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "name": "Laferrere → Kilómetro 24.700 → x Pringles → Puente Liniers",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554115642
+   "visible": false,
+   "updatedAt": 1790721962957
   },
   {
    "id": "AUz7BdG7tvVvBIAT2aa1",
@@ -7851,8 +7851,8 @@
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "name": "Puente Liniers → x Pringles → Kilómetro 26 → González Catán",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554142681
+   "visible": false,
+   "updatedAt": 1790721970116
   },
   {
    "id": "h7rgYOEijeOV9fBKdeUj",
@@ -11426,8 +11426,8 @@
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "name": "González Catán → Kilómetro 26 → x Pringles → Puente Liniers",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554152201
+   "visible": false,
+   "updatedAt": 1790721993751
   },
   {
    "id": "Nqil7epsARq6ASSA9R6H",
@@ -13616,8 +13616,8 @@
    "ramalRef": "378D",
    "order": 4,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554156739
+   "visible": false,
+   "updatedAt": 1790722005393
   },
   {
    "id": "oj3kauQAP8biAEJXd9yW",
@@ -15754,8 +15754,8 @@
    "ramalRef": "378D.",
    "order": 5,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554164769
+   "visible": false,
+   "updatedAt": 1790722016839
   },
   {
    "id": "Eo7TBPEcw1XRJNMQhLSk",
@@ -18652,8 +18652,8 @@
    "ramalRef": "378B",
    "order": 6,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554172480
+   "visible": false,
+   "updatedAt": 1790722033411
   },
   {
    "id": "rsH84xx3tgk6Ky2GB5JG",
@@ -21286,8 +21286,8 @@
    "ramalRef": "378B.",
    "order": 7,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554212707
+   "visible": false,
+   "updatedAt": 1790722041076
   },
   {
    "id": "9f7Dsx2aWpsAb7b7KHQV",
@@ -24296,8 +24296,8 @@
    ],
    "order": 8,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554234179
+   "visible": false,
+   "updatedAt": 1790722046466
   },
   {
    "id": "TAXXLEhtVdzONzNMomRf",
@@ -26990,8 +26990,8 @@
    ],
    "order": 9,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554237121
+   "visible": false,
+   "updatedAt": 1790722052383
   }
  ]
 }

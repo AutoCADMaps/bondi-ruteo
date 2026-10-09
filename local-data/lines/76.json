@@ -2872,8 +2872,8 @@
    "name": "Ramal A: Ex Fábrica Philips → Puente Alsina",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554054651
+   "visible": false,
+   "updatedAt": 1790721938704
   },
   {
    "id": "mQRWMBEvgZah528dfrDe",
@@ -6059,11 +6059,12 @@
     }
    ],
    "createdAt": 1784917714527,
-   "ramalRef": "76-B",
+   "ramalRef": "76-A.",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554111781
+   "visible": false,
+   "updatedAt": 1791049550319,
+   "discontinued": false
   }
  ]
 }

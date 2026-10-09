@@ -4488,8 +4488,8 @@
    "ref": "33",
    "name": "Ramal C: San José → x Cementerio → x Barracas → Ciudad Universitaria",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554053333
+   "visible": false,
+   "updatedAt": 1790721927647
   },
   {
    "id": "dahaLVKvVkB2XzhyZi38",
@@ -9394,8 +9394,8 @@
    "ref": "33",
    "name": "Ramal C: Ciudad Universitaria → x Barracas → x Cementerio → San José",
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554075268
+   "visible": false,
+   "updatedAt": 1790721953436
   },
   {
    "id": "ct1VBPk97AuttbWvlgNo",
@@ -13596,8 +13596,8 @@
      "lon": -58.4448094
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554128193
+   "visible": false,
+   "updatedAt": 1790721966861
   },
   {
    "id": "7zsdB99D6Kpf6XkI7Me9",
@@ -17974,8 +17974,8 @@
      "lon": -58.3292123
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554148926
+   "visible": false,
+   "updatedAt": 1790721976029
   },
   {
    "id": "8qMDRa4POvbc00P4gm7S",
@@ -22472,8 +22472,8 @@
    "ref": "33",
    "name": "Ramal M: San José → x Madariaga → x Barracas → Ciudad Universitaria",
    "order": 4,
-   "visible": true,
-   "updatedAt": 1790554155137
+   "visible": false,
+   "updatedAt": 1790722002908
   },
   {
    "id": "o7G3tpKF62IH6GPiiGLl",
@@ -27346,8 +27346,8 @@
    "ref": "33",
    "name": "Ramal M: Ciudad Universitaria → x Barracas → x Madariaga → San José",
    "order": 5,
-   "visible": true,
-   "updatedAt": 1790554163689
+   "visible": false,
+   "updatedAt": 1790722012183
   },
   {
    "id": "N69n3GWFROpindQtRiCG",
@@ -31544,8 +31544,8 @@
      "lon": -58.4448094
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554166782
+   "visible": false,
+   "updatedAt": 1790722029058
   },
   {
    "id": "i1YMQhaocua3ZUgAruH5",
@@ -35890,8 +35890,8 @@
      "lon": -58.3292123
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554177101
+   "visible": false,
+   "updatedAt": 1790722040245
   },
   {
    "id": "t6pEobnMHEt4QrCwqRy1",
@@ -38284,8 +38284,8 @@
      "lon": -58.373112608133866
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554231418
+   "visible": false,
+   "updatedAt": 1790722045776
   },
   {
    "id": "3PK0Tr8JUsWJfxQW1VIS",
@@ -40490,8 +40490,8 @@
      "lon": -58.40501798468818
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554236393
+   "visible": false,
+   "updatedAt": 1790722051786
   }
  ]
 }

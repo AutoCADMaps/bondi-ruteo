@@ -5177,8 +5177,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Constitución → Kilómetro 29 → Pontevedra",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554055562
+   "visible": false,
+   "updatedAt": 1790721942966
   },
   {
    "id": "iT13lKHFd4JXQhtFWOUb",
@@ -10656,8 +10656,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Pontevedra → Kilómetro 29 → Constitución",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554114571
+   "visible": false,
+   "updatedAt": 1790721962235
   },
   {
    "id": "vA2MSgQIYhQgupr6AMXn",
@@ -14546,8 +14546,8 @@
    ],
    "order": 2,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554142325
+   "visible": false,
+   "updatedAt": 1790721969721
   },
   {
    "id": "2iyL4cpfnCvpO1Doi3Rn",
@@ -18560,8 +18560,8 @@
    ],
    "order": 3,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554151878
+   "visible": false,
+   "updatedAt": 1790721993479
   },
   {
    "id": "Ldjumx7yTqKcQR7CEzy0",
@@ -23959,8 +23959,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Constitución → Kilómetro 39 → Barrio Esperanza",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554156532
+   "visible": false,
+   "updatedAt": 1790722005034
   },
   {
    "id": "DOeIBbUl8saNZg5rL6Te",
@@ -29690,8 +29690,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Barrio Esperanza → Kilómetro 39 → Constitución",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554164478
+   "visible": false,
+   "updatedAt": 1790722013576
   },
   {
    "id": "IluZoRTFsCEdD4YY27qj",
@@ -33929,8 +33929,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Constitución → Kilómetro 24.700 → Laferrere",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554172000
+   "visible": false,
+   "updatedAt": 1790722031387
   },
   {
    "id": "Tsyf5bSeb69NGU4k19UI",
@@ -38244,8 +38244,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Laferrere → Kilómetro 24.700 → Constitución",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554200718
+   "visible": false,
+   "updatedAt": 1790722040801
   },
   {
    "id": "up0UOdmqSnRt2YBwAPpD",
@@ -40470,8 +40470,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554232171
+   "visible": false,
+   "updatedAt": 1790722046200
   },
   {
    "id": "vZFEsklwJDcik0vJBAr6",
@@ -42684,8 +42684,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554236875
+   "visible": false,
+   "updatedAt": 1790722052272
   },
   {
    "id": "tO7BoCPFQE59o922hm9j",
@@ -45267,8 +45267,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Liniers → Kilómetro 28 → Russo y Ruta 1001",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554250506
+   "visible": false,
+   "updatedAt": 1790722060493
   },
   {
    "id": "DZJYs5O5owTe8mPym2Qz",
@@ -47801,8 +47801,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Russo y Ruta 1001 → Kilómetro 28 → Liniers",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554295262
+   "visible": false,
+   "updatedAt": 1790722097656
   },
   {
    "id": "ODE69wFutUuIxmDK8jXq",
@@ -51102,8 +51102,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554295409
+   "visible": false,
+   "updatedAt": 1790722097750
   },
   {
    "id": "lMJRK4hDtW2wvLqnlw2D",
@@ -54515,8 +54515,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554295441
+   "visible": false,
+   "updatedAt": 1790722097827
   },
   {
    "id": "hNzSeckEv8qN51dQS6V4",
@@ -56980,8 +56980,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554295475
+   "visible": false,
+   "updatedAt": 1790722097879
   },
   {
    "id": "U1N9IQsmpzwB5iPvIO8n",
@@ -59353,8 +59353,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554296070
+   "visible": false,
+   "updatedAt": 1790722103130
   },
   {
    "id": "IJfLu39gvWfLLqoVgUbw",
@@ -62943,8 +62943,8 @@
    "name": "[Semirápido]: Constitución → San Alberto → Kilómetro 27",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554296107
+   "visible": false,
+   "updatedAt": 1790722098259
   },
   {
    "id": "QFgiu90MAriY3VRb8jmm",
@@ -66412,8 +66412,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554296181
+   "visible": false,
+   "updatedAt": 1790722098306
   },
   {
    "id": "U4fJY0DiB50rORyU4vxI",
@@ -69910,8 +69910,8 @@
    "name": "[Semirápido]: Constitución → Laferrere → Barrio Esperanza",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554296255
+   "visible": false,
+   "updatedAt": 1790722098387
   },
   {
    "id": "FLB4099GxMrocyhqERhf",
@@ -73208,8 +73208,8 @@
    "name": "[Semirápido]: Barrio Esperanza → Laferrere → Constitución",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554296333
+   "visible": false,
+   "updatedAt": 1790722098434
   },
   {
    "id": "ewJH5Mrnc92u1tUP6pNy",
@@ -75806,8 +75806,8 @@
    "ramalRef": "96K",
    "discontinued": false,
    "name": "[Semirápido]: Russo y Ruta 1001 → Laferrere → Constitución",
-   "visible": true,
-   "updatedAt": 1790554304738
+   "visible": false,
+   "updatedAt": 1790722151071
   }
  ]
 }

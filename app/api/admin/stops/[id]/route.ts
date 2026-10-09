@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
 import { deleteStop, updateStop } from "@/lib/local-data"
 import type { StopLineRef, StopStatus } from "../route"
+import { isMindMapIconKey } from "@/lib/mind-map-icons"
 
 const VALID_STATUSES: StopStatus[] = ["confirmed", "userConfirmed", "unsure", "invented", "unused"]
 
@@ -24,6 +25,9 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
   if (isValidLines(body.lines)) update.lines = body.lines
   if (typeof body.note === "string") update.note = body.note
   if (typeof body.mindMap === "boolean") update.mindMap = body.mindMap
+  if (typeof body.metrobus === "boolean") update.metrobus = body.metrobus
+  if (typeof body.mindMapName === "string") update.mindMapName = body.mindMapName.trim().slice(0, 80)
+  if (typeof body.mindMapIcon === "string") update.mindMapIcon = isMindMapIconKey(body.mindMapIcon) ? body.mindMapIcon : ""
   if (typeof body.status === "string" && VALID_STATUSES.includes(body.status as StopStatus)) update.status = body.status
 
   const updated = updateStop(id, update)

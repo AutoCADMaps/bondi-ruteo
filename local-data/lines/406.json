@@ -3676,8 +3676,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554353721
+   "visible": false,
+   "updatedAt": 1790722214638
   },
   {
    "id": "f7Q8f1RpRiKxUe0CQ9CN",
@@ -7298,8 +7298,8 @@
    "discontinued": false,
    "name": "San José → Ramos Mejía",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554353748
+   "visible": false,
+   "updatedAt": 1790722214716
   },
   {
    "id": "DxcyiJOGuWfYjyXkqWRB",
@@ -9851,8 +9851,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554353777
+   "visible": false,
+   "updatedAt": 1790722214780
   },
   {
    "id": "TZ6GfvLxCNE4HifuuH8g",
@@ -12212,8 +12212,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554353805
+   "visible": false,
+   "updatedAt": 1790722214806
   }
  ]
 }

@@ -1683,8 +1683,8 @@
    "createdAt": 1785963411347,
    "ramalRef": "297",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554310023
+   "visible": false,
+   "updatedAt": 1790722169895
   },
   {
    "id": "WXgmDaDtrvtVBrYarFBd",
@@ -3069,8 +3069,8 @@
    "name": "20 de Junio → Merlo",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554310048
+   "visible": false,
+   "updatedAt": 1790722169952
   }
  ]
 }

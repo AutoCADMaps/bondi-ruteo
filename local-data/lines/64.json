@@ -3112,8 +3112,8 @@
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "name": "La Boca → Barrancas de Belgrano",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554291221
+   "visible": false,
+   "updatedAt": 1790722093626
   },
   {
    "id": "sy2p2jhXpfSZx8ZxehNZ",
@@ -5834,8 +5834,8 @@
      "lon": -58.361693106295554
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554291321
+   "visible": false,
+   "updatedAt": 1790722093726
   },
   {
    "id": "DJLnfIqW2kxCgy9ubVHh",
@@ -8540,8 +8540,8 @@
      "lon": -58.361693106295554
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554291565
+   "visible": false,
+   "updatedAt": 1790722093783
   }
  ]
 }

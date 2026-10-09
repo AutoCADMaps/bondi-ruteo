@@ -2640,8 +2640,8 @@
    "ref": "34",
    "name": "Ramal B: Liniers → Ciudad Universitaria",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554053486
+   "visible": false,
+   "updatedAt": 1790721927681
   },
   {
    "id": "mbJulQ9PCjLXu3lIApjY",
@@ -5666,8 +5666,8 @@
    "ref": "34",
    "name": "Ramal B: Ciudad Universitaria → Liniers",
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554074368
+   "visible": false,
+   "updatedAt": 1790721953517
   },
   {
    "id": "bacbJwrAvvZZ3vX4BkJY",
@@ -8656,8 +8656,8 @@
    "ref": "34",
    "name": "Ramal C: Liniers → Aeroparque Jorge Newbery",
    "order": 2,
-   "visible": true,
-   "updatedAt": 1790554128248
+   "visible": false,
+   "updatedAt": 1790721966929
   },
   {
    "id": "fVgEZda191owqHyNnYKO",
@@ -11430,8 +11430,8 @@
    "ref": "34",
    "name": "Ramal C: Aeroparque Jorge Newbery → Liniers",
    "order": 3,
-   "visible": true,
-   "updatedAt": 1790554149078
+   "visible": false,
+   "updatedAt": 1790721976075
   }
  ]
 }

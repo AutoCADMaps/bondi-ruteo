@@ -1956,8 +1956,8 @@
    "name": "Florencio Varela → Burzaco",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554361966
+   "visible": false,
+   "updatedAt": 1790722219278
   },
   {
    "id": "uRsdNpqJvabFLNFVlVPE",
@@ -3790,7 +3790,7 @@
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "visible": false,
-   "updatedAt": 1790340143487
+   "updatedAt": 1790722219299
   }
  ]
 }

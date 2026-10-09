@@ -1972,8 +1972,8 @@
    "ramalRef": "87A",
    "order": 0,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554054287
+   "visible": false,
+   "updatedAt": 1790721935481
   },
   {
    "id": "wMQ2b3Ji6BOMasvPIWT7",
@@ -4082,8 +4082,8 @@
    "ramalRef": "87A.",
    "order": 1,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554111425
+   "visible": false,
+   "updatedAt": 1790721960352
   },
   {
    "id": "1GkWD5bjXYOMavHYARMP",
@@ -7372,8 +7372,8 @@
    ],
    "order": 2,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554137372
+   "visible": false,
+   "updatedAt": 1790721967817
   },
   {
    "id": "pRcZSQsHr3Ykn7AxwX76",
@@ -11577,8 +11577,8 @@
    ],
    "name": "Fábrica Ford  → San Martín y General Paz",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554290717
+   "visible": false,
+   "updatedAt": 1790722093551
   }
  ]
 }

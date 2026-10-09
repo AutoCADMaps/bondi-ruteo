@@ -2324,8 +2324,8 @@
    "name": "Ramal 1: Siciliano y Ruta 4 → Aeropuerto Ezeiza",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554371897
+   "visible": false,
+   "updatedAt": 1790722226968
   },
   {
    "id": "n8VVm34sNGlvc2LTqSRB",
@@ -4010,8 +4010,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554371947
+   "visible": false,
+   "updatedAt": 1790722233032
   },
   {
    "id": "WqQjj5vWeuRjiKKLrJzR",
@@ -5111,8 +5111,8 @@
    "createdAt": 1788608377332,
    "ramalRef": "394-2",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554372049
+   "visible": false,
+   "updatedAt": 1790722233073
   },
   {
    "id": "Bl2Kb4kYIzhiUkhHfTCW",
@@ -6489,8 +6489,8 @@
    "name": "Ramal 2: Canning → Cruce de Lomas",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554372080
+   "visible": false,
+   "updatedAt": 1790722230093
   },
   {
    "id": "erNSarhLdk36NDhXD95C",
@@ -7662,8 +7662,8 @@
    "createdAt": 1788608950240,
    "ramalRef": "394-3",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554372109
+   "visible": false,
+   "updatedAt": 1790722232947
   },
   {
    "id": "mrCRDAS0ix2hiOT21okU",
@@ -8603,8 +8603,8 @@
    "createdAt": 1788609132872,
    "ramalRef": "394-3.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554372139
+   "visible": false,
+   "updatedAt": 1790722232996
   }
  ]
 }

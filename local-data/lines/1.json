@@ -2941,7 +2941,7 @@
    "ref": "1",
    "order": 0,
    "visible": true,
-   "updatedAt": 1790554052019,
+   "updatedAt": 1791084046128,
    "discontinued": false
   },
   {
@@ -6227,8 +6227,8 @@
     }
    ],
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554059891,
+   "visible": false,
+   "updatedAt": 1791084050049,
    "discontinued": false
   }
  ]

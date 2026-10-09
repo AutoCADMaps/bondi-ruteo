@@ -2929,8 +2929,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Barrio Obrero → Terminal Puerto Madero",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554058927
+   "visible": false,
+   "updatedAt": 1790721949788
   },
   {
    "id": "gmhO2BcOmMh96MZMQpvi",
@@ -5576,8 +5576,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Terminal Puerto Madero → Barrio Obrero",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554125632
+   "visible": false,
+   "updatedAt": 1790721965580
   }
  ]
 }

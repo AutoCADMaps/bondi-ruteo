@@ -7,7 +7,7 @@
    "name": "Circular Pasco: Cementerio de Ezpeleta → Rotonda de Pasco → Rotonda de Monteverde → Cementerio de Ezpeleta",
    "color": "#0b5c18",
    "createdAt": 1786579445770,
-   "ramalRef": "257P",
+   "ramalRef": "257PM",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "points": [
@@ -3312,8 +3312,8 @@
      "lon": -58.223205926804454
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554343272
+   "visible": false,
+   "updatedAt": 1791043292358
   },
   {
    "id": "CqtwhW3hUIf6MQ08rU03",
@@ -3321,7 +3321,7 @@
    "name": "Circular Monteverde: Cementerio de Ezpeleta → Rotonda de Monteverde → Rotonda de Pasco → Cementerio de Ezpeleta",
    "color": "#0b5c18",
    "createdAt": 1786581443475,
-   "ramalRef": "257M",
+   "ramalRef": "257PM.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "points": [
     {
@@ -6569,8 +6569,9 @@
      "lon": -58.2230854
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554343305
+   "visible": false,
+   "updatedAt": 1791043296954,
+   "discontinued": false
   },
   {
    "id": "AtR9G4kgwAyHV3veyUP5",
@@ -8458,8 +8459,8 @@
    "createdAt": 1786625237209,
    "ramalRef": "257L",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554343360
+   "visible": false,
+   "updatedAt": 1790722199097
   },
   {
    "id": "pItFmDhELQ8VEcyQmr92",
@@ -10211,8 +10212,8 @@
    "createdAt": 1786625969279,
    "ramalRef": "257L.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554343391
+   "visible": false,
+   "updatedAt": 1790722200077
   }
  ]
 }

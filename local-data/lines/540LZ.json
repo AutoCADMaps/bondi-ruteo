@@ -1132,8 +1132,8 @@
    "name": "Puente La Noria → Feria La Salada → Lomas de Zamora",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554326914
+   "visible": false,
+   "updatedAt": 1790722184721
   },
   {
    "id": "tjh2UVGjJpECMemURqTU",
@@ -2230,8 +2230,8 @@
    "name": "Lomas de Zamora → Feria La Salada → Puente La Noria",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554326938
+   "visible": false,
+   "updatedAt": 1790722184765
   },
   {
    "id": "XIgZ6qSU2gcJdq89LISW",
@@ -3431,8 +3431,8 @@
     }
    ],
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327096
+   "visible": false,
+   "updatedAt": 1790722184997
   },
   {
    "id": "9JkJ6vRMhUCS2DBZUbcE",
@@ -4588,8 +4588,8 @@
     }
    ],
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327123
+   "visible": false,
+   "updatedAt": 1790722185030
   }
  ]
 }

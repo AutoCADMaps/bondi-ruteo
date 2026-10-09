@@ -1382,7 +1382,7 @@
    "name": "Código 01: Estación General Lemos → Parque Abascal → Tierras Altas",
    "order": 0,
    "visible": true,
-   "updatedAt": 1790554059558
+   "updatedAt": 1791043659316
   },
   {
    "id": "j6GeaT8vqxZ66WXqNp53",
@@ -3073,7 +3073,7 @@
    "name": "Código 01: Tierras Altas → Parque Abascal → Estación General Lemos",
    "order": 1,
    "visible": true,
-   "updatedAt": 1790554126344
+   "updatedAt": 1791043659387
   },
   {
    "id": "ti4opCJknMLWVZhTZ5we",
@@ -3995,7 +3995,7 @@
    ],
    "order": 2,
    "visible": true,
-   "updatedAt": 1790554145338
+   "updatedAt": 1791043659412
   },
   {
    "id": "w3yHfpYwIkb3HODu8okL",
@@ -4893,7 +4893,7 @@
    ],
    "order": 3,
    "visible": true,
-   "updatedAt": 1790554154811
+   "updatedAt": 1791043659437
   },
   {
    "id": "THf1i9btpKw4lV47HHog",
@@ -5708,10 +5708,11 @@
    ],
    "folderId": null,
    "createdAt": 1789426538335,
-   "ramalRef": "440-03",
+   "ramalRef": "440-0312",
    "order": 4,
    "visible": true,
-   "updatedAt": 1790554163456
+   "updatedAt": 1791043659464,
+   "discontinued": false
   },
   {
    "id": "wLLsuO994VTYnmayV3iI",
@@ -6645,12 +6646,12 @@
    ],
    "folderId": null,
    "createdAt": 1789426707791,
-   "ramalRef": "440-03.",
+   "ramalRef": "440-0312.",
    "order": 5,
    "name": "Código 12: Tierras Altas → x José León Suárez → San Miguel",
    "discontinued": false,
    "visible": true,
-   "updatedAt": 1790554166418
+   "updatedAt": 1791043659496
   },
   {
    "id": "wV5qLFGR42VbrioGVhLL",
@@ -7148,7 +7149,7 @@
    ],
    "order": 6,
    "visible": true,
-   "updatedAt": 1790554176765
+   "updatedAt": 1791043659525
   },
   {
    "id": "0qR25bui9PhPgQrz7OwD",
@@ -7610,7 +7611,7 @@
    "ramalRef": "440-06.",
    "order": 7,
    "visible": true,
-   "updatedAt": 1790554222828
+   "updatedAt": 1791043659575
   },
   {
    "id": "ji7HkajdEovoIAm2hLNH",
@@ -8392,7 +8393,7 @@
    "ramalRef": "440-08",
    "order": 8,
    "visible": true,
-   "updatedAt": 1790554236076
+   "updatedAt": 1791043659597
   },
   {
    "id": "ckMCIE86x7O9epheKHSX",
@@ -9486,7 +9487,7 @@
    "ramalRef": "440-08.",
    "order": 9,
    "visible": true,
-   "updatedAt": 1790554249893
+   "updatedAt": 1791043659619
   },
   {
    "id": "nQdXntrjXYLqh9yzrLFR",
@@ -11024,7 +11025,7 @@
    ],
    "order": 10,
    "visible": true,
-   "updatedAt": 1790554256593
+   "updatedAt": 1791043659850
   },
   {
    "id": "4z03oXPRuPvHo5UeIWc5",
@@ -12586,7 +12587,7 @@
    ],
    "order": 11,
    "visible": true,
-   "updatedAt": 1790554258682
+   "updatedAt": 1791043659875
   },
   {
    "id": "EY9jmigodRnjtEaPPjMW",
@@ -14000,7 +14001,8 @@
    "ramalRef": "440-12.",
    "order": 12,
    "visible": true,
-   "updatedAt": 1790554259916
+   "updatedAt": 1791043659905,
+   "discontinued": false
   },
   {
    "id": "MSX05aeOd1tMvdgOtFQJ",
@@ -14410,7 +14412,7 @@
    ],
    "order": 13,
    "visible": true,
-   "updatedAt": 1790554262125
+   "updatedAt": 1791043659963
   },
   {
    "id": "qJ8fNXO5lDCnbGo1s9OE",
@@ -14418,7 +14420,7 @@
    "color": "#ffff00",
    "folderId": null,
    "createdAt": 1789730952896,
-   "ramalRef": "440-03/91",
+   "ramalRef": "440-03",
    "name": "Código 03: Marcos Sastre y Pichincha → x La Pinta → Universidad General Sarmiento",
    "order": 14,
    "points": [
@@ -15408,7 +15410,8 @@
     }
    ],
    "visible": true,
-   "updatedAt": 1790554271748
+   "updatedAt": 1791043659993,
+   "discontinued": false
   },
   {
    "id": "2AxgPho80KUZVnrGzaeA",
@@ -16466,7 +16469,7 @@
    "ramalRef": "440-19",
    "order": 15,
    "visible": true,
-   "updatedAt": 1790554274187
+   "updatedAt": 1791043660047
   },
   {
    "id": "bJyPWevXiMJn9hh191Su",
@@ -17480,7 +17483,7 @@
    ],
    "order": 16,
    "visible": true,
-   "updatedAt": 1790554275338
+   "updatedAt": 1791043660079
   },
   {
    "id": "npmWlq0D79tNVBlzUiii",
@@ -18714,7 +18717,7 @@
    ],
    "order": 17,
    "visible": true,
-   "updatedAt": 1790554276694
+   "updatedAt": 1791043660105
   },
   {
    "id": "1BkdfeuzVWWGYXMr7DPM",
@@ -19837,7 +19840,7 @@
    "discontinued": false,
    "order": 18,
    "visible": true,
-   "updatedAt": 1790554277513
+   "updatedAt": 1791043660127
   },
   {
    "id": "fT2Lvj7myNKtZLG5f2mL",
@@ -20704,7 +20707,7 @@
    ],
    "order": 19,
    "visible": true,
-   "updatedAt": 1790554278874
+   "updatedAt": 1791043660197
   },
   {
    "id": "mgcZcjMmIvAnlY19gJer",
@@ -21962,7 +21965,7 @@
    ],
    "order": 20,
    "visible": true,
-   "updatedAt": 1790554280798
+   "updatedAt": 1791043660474
   },
   {
    "id": "dltt14cy6MlYb0KJSUUa",
@@ -21970,7 +21973,7 @@
    "color": "#ffff00",
    "folderId": null,
    "createdAt": 1789513875008,
-   "ramalRef": "440-48.",
+   "ramalRef": "440-792",
    "name": "Código 79: Santa Brígida → Parque Jardín → San Miguel",
    "points": [
     {
@@ -22664,7 +22667,8 @@
    ],
    "order": 21,
    "visible": true,
-   "updatedAt": 1790554282826
+   "updatedAt": 1791043660638,
+   "discontinued": false
   },
   {
    "id": "u5pCLmEMHoqBmW3YaFcK",
@@ -24278,7 +24282,7 @@
    ],
    "order": 22,
    "visible": true,
-   "updatedAt": 1790554283572
+   "updatedAt": 1791043660718
   },
   {
    "id": "IvibZqjiZVDjWjaJ7LsB",
@@ -24768,7 +24772,7 @@
    "ramalRef": "440-52C",
    "order": 23,
    "visible": true,
-   "updatedAt": 1790554283965
+   "updatedAt": 1791043660763
   },
   {
    "id": "cwI16YJDnL4OR4U0W5Os",
@@ -25270,7 +25274,7 @@
    "ramalRef": "440-52C.",
    "order": 24,
    "visible": true,
-   "updatedAt": 1790554284364
+   "updatedAt": 1791043660792
   },
   {
    "id": "rz43cXUz4188LQ1k2ifE",
@@ -26136,7 +26140,7 @@
    "ramalRef": "440-97",
    "order": 25,
    "visible": true,
-   "updatedAt": 1790554284807
+   "updatedAt": 1791043660821
   },
   {
    "id": "2hLzLbaMKFvwQRxkWVIn",
@@ -27018,7 +27022,7 @@
    "ramalRef": "440-97.",
    "order": 26,
    "visible": true,
-   "updatedAt": 1790554284946
+   "updatedAt": 1791043660874
   },
   {
    "id": "1bsecPBnI2Q2cfXCGZiR",
@@ -28792,12 +28796,12 @@
    ],
    "folderId": null,
    "createdAt": 1789733385715,
-   "ramalRef": "440-98",
+   "ramalRef": "440-9899",
    "name": "Código 98: San Miguel → Grand Bourg → Los Polvorines → San Miguel",
    "discontinued": false,
    "order": 27,
    "visible": true,
-   "updatedAt": 1790554285125
+   "updatedAt": 1791048882661
   },
   {
    "id": "e79Ttl8QlLqlS7lL0CWu",
@@ -30536,10 +30540,11 @@
    ],
    "folderId": null,
    "createdAt": 1789732852434,
-   "ramalRef": "440-99",
+   "ramalRef": "440-9899.",
    "order": 28,
    "visible": true,
-   "updatedAt": 1790554285280
+   "updatedAt": 1791048896783,
+   "discontinued": false
   }
  ]
 }

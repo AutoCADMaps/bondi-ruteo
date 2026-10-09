@@ -4400,8 +4400,8 @@
      "lon": -58.5836549
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554052396
+   "visible": false,
+   "updatedAt": 1790721927334
   },
   {
    "id": "WWIsKe88kKR0qarY5vQI",
@@ -8994,8 +8994,8 @@
    "ramalRef": "21A.",
    "ref": "21",
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554060407
+   "visible": false,
+   "updatedAt": 1790721952620
   },
   {
    "id": "yf8zYQcVSlDwrO9jKnSb",
@@ -13564,8 +13564,8 @@
      "lon": -58.70575067400353
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554127241
+   "visible": false,
+   "updatedAt": 1790721966384
   },
   {
    "id": "9tR5yL4eYXcBEZoJ0z5S",
@@ -18546,8 +18546,8 @@
    "ref": "21",
    "ramalRef": "21B.",
    "order": 3,
-   "visible": true,
-   "updatedAt": 1790554148211
+   "visible": false,
+   "updatedAt": 1790721974778
   },
   {
    "id": "GupPd46XghjNu2GvKey9",
@@ -22120,8 +22120,8 @@
      "lon": -58.5823499568381
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554155002
+   "visible": false,
+   "updatedAt": 1790722002554
   },
   {
    "id": "NtIi1ZQQz8AD2NbAwTrf",
@@ -25846,8 +25846,8 @@
    "ramalRef": "21C.",
    "ref": "21",
    "order": 5,
-   "visible": true,
-   "updatedAt": 1790554163569
+   "visible": false,
+   "updatedAt": 1790722012036
   },
   {
    "id": "BwdOKWDxYMZhi1T3DKdT",
@@ -29449,7 +29449,7 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790340102969
+   "updatedAt": 1790722028870
   },
   {
    "id": "bY0XbeTKMqbRmrCX5YQ7",
@@ -33390,8 +33390,8 @@
    "ramalRef": "21D.",
    "ref": "21",
    "order": 7,
-   "visible": true,
-   "updatedAt": 1790554176955
+   "visible": false,
+   "updatedAt": 1790722040172
   },
   {
    "id": "qOhJ9SslgTdaJNGKwAKv",
@@ -36036,8 +36036,8 @@
      "lon": -58.51186491662368
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554223396
+   "visible": false,
+   "updatedAt": 1790722045703
   },
   {
    "id": "2gcZFh1xy7AF2EQwwdDe",
@@ -38666,8 +38666,8 @@
    "ramalRef": "21F.",
    "ref": "21",
    "order": 9,
-   "visible": true,
-   "updatedAt": 1790554236257
+   "visible": false,
+   "updatedAt": 1790722051751
   },
   {
    "id": "1hl9wEN2DYB6Z47LzVHy",
@@ -42072,7 +42072,7 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790340119355
+   "updatedAt": 1790722095380
   },
   {
    "id": "IgNOY42PptdBE5U7SEKw",
@@ -45324,8 +45324,8 @@
      "lon": -58.4540721
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554292694
+   "visible": false,
+   "updatedAt": 1790722095439
   },
   {
    "id": "J3ADnNedP8ZOL9E2Tvcr",
@@ -48637,8 +48637,8 @@
      "lon": -58.70575379653373
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554292723
+   "visible": false,
+   "updatedAt": 1790722095500
   },
   {
    "id": "TcP2y1ZWGQ1Ei8yk3uQ6",
@@ -52426,8 +52426,8 @@
      "lon": -58.4540721
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554292754
+   "visible": false,
+   "updatedAt": 1790722096864
   }
  ]
 }

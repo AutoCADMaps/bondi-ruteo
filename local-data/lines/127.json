@@ -2815,8 +2815,8 @@
    "createdAt": 1785868681857,
    "ramalRef": "127A",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554298878
+   "visible": false,
+   "updatedAt": 1790722142036
   },
   {
    "id": "HQ32JFof8js1nhLp3Pi0",
@@ -5644,8 +5644,8 @@
    "createdAt": 1785868920648,
    "ramalRef": "127A.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554298908
+   "visible": false,
+   "updatedAt": 1790722142069
   },
   {
    "id": "DysGdxrf7nHoSgc7SGeH",
@@ -8565,8 +8565,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554298935
+   "visible": false,
+   "updatedAt": 1790722142112
   },
   {
    "id": "powCzKq722CI1dlyoHFr",
@@ -11598,8 +11598,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554298961
+   "visible": false,
+   "updatedAt": 1790722142150
   }
  ]
 }

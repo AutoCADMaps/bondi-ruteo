@@ -3027,8 +3027,8 @@
    "createdAt": 1785874949358,
    "ramalRef": "150A",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554300392
+   "visible": false,
+   "updatedAt": 1790722145693
   },
   {
    "id": "G8Z3Zw4qHYy9tWzDqg3P",
@@ -6020,8 +6020,8 @@
    "createdAt": 1785875331449,
    "ramalRef": "150A.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554300443
+   "visible": false,
+   "updatedAt": 1790722145799
   },
   {
    "id": "qyVV6l7NbBwu3jKXVzzA",
@@ -9037,8 +9037,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554300497
+   "visible": false,
+   "updatedAt": 1790722145862
   },
   {
    "id": "pFdReABYr3BZMeBgiCdD",
@@ -12067,8 +12067,8 @@
    "name": "Retiro → Hospital Aeronáutico → Lugano I y II",
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554300526
+   "visible": false,
+   "updatedAt": 1790722145914
   }
  ]
 }

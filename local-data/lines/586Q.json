@@ -811,8 +811,8 @@
     }
    ],
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
-   "visible": true,
-   "updatedAt": 1790554348624
+   "visible": false,
+   "updatedAt": 1790722202421
   },
   {
    "id": "euFl1fYGwfPYrSz2e5rT",
@@ -1616,8 +1616,8 @@
    "createdAt": 1786657631042,
    "ramalRef": "586Q-F.",
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
-   "visible": true,
-   "updatedAt": 1790554349032
+   "visible": false,
+   "updatedAt": 1790722202451
   }
  ]
 }

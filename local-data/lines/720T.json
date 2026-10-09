@@ -3364,8 +3364,8 @@
    ],
    "order": 0,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554059132
+   "visible": false,
+   "updatedAt": 1790721950085
   },
   {
    "id": "EAG7uRfKg2LUSBhVCy42",
@@ -6938,8 +6938,8 @@
    ],
    "order": 1,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554125954
+   "visible": false,
+   "updatedAt": 1790721965689
   },
   {
    "id": "Y8sIYlfFxw41niVRQ2Uj",
@@ -11718,7 +11718,7 @@
    "order": 2,
    "folderId": "exwTUi5YfBtocoeiqZuY",
    "visible": false,
-   "updatedAt": 1790340095341
+   "updatedAt": 1790721972748
   },
   {
    "id": "RjPEKaQ8V9MzFkWhIYJ1",
@@ -16007,8 +16007,8 @@
    "ramalRef": "720TG.",
    "order": 3,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554153956
+   "visible": false,
+   "updatedAt": 1790722002058
   },
   {
    "id": "wa9LE4JXZ7KaZ2FFTX9b",
@@ -17633,8 +17633,8 @@
    "ramalRef": "720TC",
    "order": 4,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554161547
+   "visible": false,
+   "updatedAt": 1790722006905
   },
   {
    "id": "xYLVurypVZrJgwvyDN8o",
@@ -19127,8 +19127,8 @@
    ],
    "order": 5,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554166313
+   "visible": false,
+   "updatedAt": 1790722028612
   },
   {
    "id": "DR6h2CFkhLmuoD241Yvd",
@@ -21014,8 +21014,8 @@
    "discontinued": false,
    "order": 6,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554175316
+   "visible": false,
+   "updatedAt": 1790722039918
   },
   {
    "id": "9BsuKyYXDVtZspliTdxx",
@@ -22953,11 +22953,12 @@
     }
    ],
    "createdAt": 1788999534375,
-   "ramalRef": "720TE.",
+   "ramalRef": "720TD.",
    "order": 7,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554221892
+   "visible": false,
+   "updatedAt": 1791049482292,
+   "discontinued": false
   },
   {
    "id": "woHgAq8GdKkIfW2NndIT",
@@ -25595,8 +25596,8 @@
     }
    ],
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554235769
+   "visible": false,
+   "updatedAt": 1790722051459
   },
   {
    "id": "OZWtIwhrpw8SC3bwUT0I",
@@ -28249,8 +28250,8 @@
     }
    ],
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554248981
+   "visible": false,
+   "updatedAt": 1790722059485
   },
   {
    "id": "TVg1iyymieXFMaQFjPDc",
@@ -28258,7 +28259,7 @@
    "name": "Don Torcuato → El Arco → La Mascota",
    "color": "#dee86a",
    "createdAt": 1789074504656,
-   "ramalRef": "720H",
+   "ramalRef": "720TH",
    "points": [
     {
      "lat": -34.50191054295651,
@@ -32011,8 +32012,9 @@
    ],
    "order": 10,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554256295
+   "visible": false,
+   "updatedAt": 1791049494888,
+   "discontinued": false
   },
   {
    "id": "QvIBn9tIMzP6XlZIA5gJ",
@@ -35701,8 +35703,8 @@
    "ramalRef": "720TH.",
    "order": 11,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554258577
+   "visible": false,
+   "updatedAt": 1790722064546
   },
   {
    "id": "b6YzZRThGtXkxKyUBBTz",
@@ -38687,8 +38689,8 @@
    "ramalRef": "720TI",
    "order": 12,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554259841
+   "visible": false,
+   "updatedAt": 1790722066473
   },
   {
    "id": "Je3sT1ZWU3UpAsyX1vQ3",
@@ -41837,8 +41839,8 @@
    "ramalRef": "720TI.",
    "order": 13,
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554262045
+   "visible": false,
+   "updatedAt": 1790722069360
   },
   {
    "id": "p9Ow3l20ZBDGVKNgvppw",
@@ -45747,12 +45749,12 @@
     }
    ],
    "createdAt": 1789130477722,
-   "ramalRef": "720T",
+   "ramalRef": "720TJ",
    "discontinued": false,
    "name": "Carupá → Nordelta → Ruta 24 y Rubén Darío",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554401905
+   "visible": false,
+   "updatedAt": 1791049505645
   }
  ]
 }

@@ -347,8 +347,8 @@
    "createdAt": 1786463967826,
    "ramalRef": "506PILA",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554329166
+   "visible": false,
+   "updatedAt": 1790722194950
   },
   {
    "id": "tC3T0EJ2mEkxo0HYC7mp",
@@ -700,8 +700,8 @@
      "lon": -58.83965215805504
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554329186
+   "visible": false,
+   "updatedAt": 1790722194977
   }
  ]
 }

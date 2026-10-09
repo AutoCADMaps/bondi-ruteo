@@ -1920,8 +1920,8 @@
    ],
    "order": 0,
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554058648
+   "visible": false,
+   "updatedAt": 1790721948180
   },
   {
    "id": "6UUuADH9I3J72xhtqi8W",
@@ -3758,8 +3758,8 @@
    "ramalRef": "603BER-1.",
    "order": 1,
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554125127
+   "visible": false,
+   "updatedAt": 1790721964909
   },
   {
    "id": "XtFlQYZTf8L47PREtpwG",
@@ -5325,8 +5325,8 @@
    "discontinued": false,
    "order": 2,
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554144444
+   "visible": false,
+   "updatedAt": 1790721972107
   },
   {
    "id": "H7mtnoFoFggg9XpWPzoG",
@@ -6643,8 +6643,8 @@
    "ramalRef": "603BER-2.",
    "order": 3,
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554153556
+   "visible": false,
+   "updatedAt": 1790721999531
   },
   {
    "id": "oQ4MjYinbYsftbLs7iMm",
@@ -8506,8 +8506,8 @@
    "name": "Ramal 3: Cruce Varela → Barrio Del Vidrio → Marítimo",
    "discontinued": false,
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554161217
+   "visible": false,
+   "updatedAt": 1790722006546
   },
   {
    "id": "JkqXvdyHlCRAWDDPJy6p",
@@ -10357,8 +10357,8 @@
    "name": "Ramal 3: Marítimo → Barrio Del Vidrio → Cruce Varela",
    "discontinued": false,
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554166065
+   "visible": false,
+   "updatedAt": 1790722020777
   },
   {
    "id": "Kfg9U8vHSPHPHYLu4oiq",
@@ -12106,8 +12106,8 @@
    "createdAt": 1787923202409,
    "ramalRef": "603BER-4",
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554370954
+   "visible": false,
+   "updatedAt": 1790722226328
   },
   {
    "id": "eth2UNhLU45s4Put9mop",
@@ -13719,8 +13719,8 @@
    "createdAt": 1787923392998,
    "ramalRef": "603BER-4.",
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554371241
+   "visible": false,
+   "updatedAt": 1790722226533
   }
  ]
 }

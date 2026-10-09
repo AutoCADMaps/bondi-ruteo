@@ -5160,8 +5160,8 @@
    "ref": "59",
    "name": "Ramal 1: Estación Buenos Aires → x La Lucila → Munro",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554052525
+   "visible": false,
+   "updatedAt": 1790721927482
   },
   {
    "id": "ma2WnWAP6FpzabAJhimO",
@@ -10214,8 +10214,8 @@
    "ref": "59",
    "name": "Ramal 1: Munro → x La Lucila → Estación Buenos Aires",
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554060657
+   "visible": false,
+   "updatedAt": 1790721953103
   },
   {
    "id": "qcTKvA5kTpnlUQLW8lD0",
@@ -15068,8 +15068,8 @@
      "lon": -58.521305371054964
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554127507
+   "visible": false,
+   "updatedAt": 1790721966456
   },
   {
    "id": "MKrn6aK2ffsS3n2fcWPm",
@@ -19694,8 +19694,8 @@
    "ref": "59",
    "name": "Ramal 2: Munro → x Barrio Golf → Estación Buenos Aires",
    "order": 3,
-   "visible": true,
-   "updatedAt": 1790554148437
+   "visible": false,
+   "updatedAt": 1790721975131
   },
   {
    "id": "Wd5MjWnTAc7kfWa7gVhr",
@@ -23361,8 +23361,8 @@
    "name": "Estación Buenos Aires → Puente Saavedra",
    "discontinued": false,
    "order": 4,
-   "visible": true,
-   "updatedAt": 1790554156595
+   "visible": false,
+   "updatedAt": 1790722005124
   },
   {
    "id": "77v6rCeIs2583hRt2nWP",
@@ -26823,8 +26823,8 @@
     }
    ],
    "order": 5,
-   "visible": true,
-   "updatedAt": 1790554164627
+   "visible": false,
+   "updatedAt": 1790722013642
   },
   {
    "id": "orWhFVSVwtABIa2wWV0j",
@@ -30521,8 +30521,8 @@
     }
    ],
    "order": 6,
-   "visible": true,
-   "updatedAt": 1790554172051
+   "visible": false,
+   "updatedAt": 1790722031506
   },
   {
    "id": "kPLaC6xQTqzoflPjjnzX",
@@ -34235,8 +34235,8 @@
     }
    ],
    "order": 7,
-   "visible": true,
-   "updatedAt": 1790554209209
+   "visible": false,
+   "updatedAt": 1790722040844
   },
   {
    "id": "5Kr7K1WhFQUa9Dqdv0et",
@@ -37710,8 +37710,8 @@
     }
    ],
    "order": 8,
-   "visible": true,
-   "updatedAt": 1790554233607
+   "visible": false,
+   "updatedAt": 1790722046387
   },
   {
    "id": "Xin4OhpOv5n2bfuf2zoV",
@@ -40997,8 +40997,8 @@
    "name": "[Semirápido] Ramal 2: Munro → x Barrio Golf → Estación Buenos Aires",
    "discontinued": false,
    "order": 9,
-   "visible": true,
-   "updatedAt": 1790554236591
+   "visible": false,
+   "updatedAt": 1790722052012
   }
  ]
 }

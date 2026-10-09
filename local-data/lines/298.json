@@ -2236,8 +2236,8 @@
    "ramalRef": "298A.",
    "order": 0,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554055893
+   "visible": false,
+   "updatedAt": 1790721944559
   },
   {
    "id": "ATT61Xu2sDKx7esP42QJ",
@@ -4575,7 +4575,7 @@
    "order": 1,
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "visible": false,
-   "updatedAt": 1790340081878
+   "updatedAt": 1790721962908
   },
   {
    "id": "l8FoeaFs4c7fTDiAJjeY",
@@ -7211,8 +7211,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554310077
+   "visible": false,
+   "updatedAt": 1790722170007
   },
   {
    "id": "GPRUbeURkvf8ngx9Da8r",
@@ -9772,8 +9772,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554310119
+   "visible": false,
+   "updatedAt": 1790722170324
   },
   {
    "id": "k4VszFDWbllVDgLPah5H",
@@ -11761,8 +11761,8 @@
    "createdAt": 1785964478689,
    "ramalRef": "298C",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554310349
+   "visible": false,
+   "updatedAt": 1790722170467
   },
   {
    "id": "86cv2TVA1LHVQLHhftX6",
@@ -14026,8 +14026,8 @@
    "createdAt": 1785964618367,
    "ramalRef": "298C.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554310382
+   "visible": false,
+   "updatedAt": 1790722170624
   },
   {
    "id": "79AWkVg10aDTovFJC0nr",
@@ -16431,8 +16431,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554310412
+   "visible": false,
+   "updatedAt": 1790722170682
   },
   {
    "id": "9pxIi7xNJypM5RWsmw9h",
@@ -18844,8 +18844,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554310685
+   "visible": false,
+   "updatedAt": 1790722170992
   },
   {
    "id": "QOAyf8Tr8FAwxevuXRVz",
@@ -20977,8 +20977,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554310714
+   "visible": false,
+   "updatedAt": 1790722171044
   }
  ]
 }

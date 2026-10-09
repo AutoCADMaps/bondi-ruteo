@@ -1087,8 +1087,8 @@
    "createdAt": 1789081203034,
    "ramalRef": "723TA",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554399263
+   "visible": false,
+   "updatedAt": 1790722252199
   },
   {
    "id": "GOdC2tOziEib6YeZPctI",
@@ -2152,8 +2152,8 @@
    "createdAt": 1789081365986,
    "ramalRef": "723TA.",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554399643
+   "visible": false,
+   "updatedAt": 1790722252243
   },
   {
    "id": "Df1BeGsIPzp8TTNlRrG2",
@@ -3221,8 +3221,8 @@
    "createdAt": 1789081660634,
    "ramalRef": "723TB",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554399691
+   "visible": false,
+   "updatedAt": 1790722252297
   },
   {
    "id": "izuniLKgqRtjWxUnRUkX",
@@ -4330,8 +4330,8 @@
    "createdAt": 1789081815692,
    "ramalRef": "723TB.",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554401742
+   "visible": false,
+   "updatedAt": 1790722252567
   },
   {
    "id": "WrNiXoNuqWA3m4gHwTsh",
@@ -7084,8 +7084,8 @@
    "discontinued": false,
    "name": "Don Torcuato → Countries de Dique Luján",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554401771
+   "visible": false,
+   "updatedAt": 1790722252605
   },
   {
    "id": "4VZR51RTsbtWyjOm0nT6",
@@ -9557,8 +9557,8 @@
    "createdAt": 1789082341364,
    "ramalRef": "723TC.",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554401792
+   "visible": false,
+   "updatedAt": 1790722252632
   },
   {
    "id": "DDTleGNgLmbodKeYa4Tk",
@@ -13738,8 +13738,8 @@
    "createdAt": 1789082637734,
    "ramalRef": "723TD",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554401811
+   "visible": false,
+   "updatedAt": 1790722252655
   },
   {
    "id": "2W0V40eiyPcJQqxrh4Ck",
@@ -18015,8 +18015,8 @@
    "createdAt": 1789082759238,
    "ramalRef": "723TD.",
    "folderId": "exwTUi5YfBtocoeiqZuY",
-   "visible": true,
-   "updatedAt": 1790554401851
+   "visible": false,
+   "updatedAt": 1790722252680
   }
  ]
 }

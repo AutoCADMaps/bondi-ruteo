@@ -3393,8 +3393,8 @@
    "name": "Ruta 3 y General Paz → x Ruta 3 → Kilómetro 47.700",
    "order": 0,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554057360
+   "visible": false,
+   "updatedAt": 1791042936150
   },
   {
    "id": "eymU5pIRG7kbwWpPo7rJ",
@@ -6704,8 +6704,8 @@
    "name": "Kilómetro 47.700 → x Ruta 3 → Ruta 3 y General Paz",
    "discontinued": false,
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554121684
+   "visible": false,
+   "updatedAt": 1791042935020
   },
   {
    "id": "8Jo1UQEGd14wPdgEnuP2",
@@ -10766,8 +10766,8 @@
    ],
    "order": 2,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554142743
+   "visible": false,
+   "updatedAt": 1791042936086
   },
   {
    "id": "Wr5RifRO5XSM4MiubUuD",
@@ -14696,8 +14696,8 @@
     }
    ],
    "order": 3,
-   "visible": true,
-   "updatedAt": 1790554152306
+   "visible": false,
+   "updatedAt": 1791042936102
   },
   {
    "id": "zWzqinNL8l7c66qjwvss",
@@ -16950,8 +16950,8 @@
    ],
    "order": 4,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554156859
+   "visible": false,
+   "updatedAt": 1791042936119
   },
   {
    "id": "YmjlI25eEjKhMgeOU2lR",
@@ -19116,8 +19116,8 @@
     }
    ],
    "order": 5,
-   "visible": true,
-   "updatedAt": 1790554164887
+   "visible": false,
+   "updatedAt": 1791042936135
   },
   {
    "id": "3vF8ZiEE7k2xAcQguJCj",
@@ -21318,8 +21318,8 @@
    ],
    "order": 6,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554172570
+   "visible": false,
+   "updatedAt": 1791042936606
   },
   {
    "id": "PtkfnXaOcimlEz3ITinP",
@@ -23664,8 +23664,8 @@
     }
    ],
    "order": 7,
-   "visible": true,
-   "updatedAt": 1790554213459
+   "visible": false,
+   "updatedAt": 1791042936665
   },
   {
    "id": "jAgz71bUPJY2C2w8EiIK",
@@ -25858,8 +25858,8 @@
    "ramalRef": "620LMR5",
    "order": 8,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554234291
+   "visible": false,
+   "updatedAt": 1791042936718
   },
   {
    "id": "W6CEp2lWYNkewiIkG6CG",
@@ -28021,7 +28021,7 @@
    "order": 9,
    "folderId": "q4eS6ayKKihbijjAGjPj",
    "visible": false,
-   "updatedAt": 1790340107638
+   "updatedAt": 1791042936776
   },
   {
    "id": "AbSIDqDGFM3gc3BTxkWt",
@@ -30623,8 +30623,8 @@
    "discontinued": false,
    "order": 10,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554250743
+   "visible": false,
+   "updatedAt": 1791042937357
   },
   {
    "id": "jbLVc9ZIjLIhwBReDE0y",
@@ -30632,7 +30632,7 @@
    "color": "#00ff00",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1786047455992,
-   "ramalRef": "620R6.",
+   "ramalRef": "620LMR6.",
    "points": [
     {
      "lat": -34.80294198157983,
@@ -33174,15 +33174,15 @@
    "name": "Los Ceibos → Kilómetro 32 → Ruta 3 y General Paz",
    "discontinued": false,
    "order": 11,
-   "visible": true,
-   "updatedAt": 1790554257122
+   "visible": false,
+   "updatedAt": 1791049320169
   },
   {
    "id": "CEMU676Wu6hJDhiTJ9Le",
    "ref": "620LM",
    "color": "#00ff00",
    "createdAt": 1786047536284,
-   "ramalRef": "620R7",
+   "ramalRef": "620LMR7.",
    "name": "Ruta 3 y General Paz → Kilómetro 40 → San Martín → Penal N°56",
    "points": [
     {
@@ -36356,8 +36356,9 @@
    ],
    "order": 12,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554259182
+   "visible": false,
+   "updatedAt": 1791049335429,
+   "discontinued": false
   },
   {
    "id": "8gL252qXDlQ84k08LMsy",
@@ -39594,8 +39595,8 @@
     }
    ],
    "order": 13,
-   "visible": true,
-   "updatedAt": 1790554261103
+   "visible": false,
+   "updatedAt": 1791042937567
   },
   {
    "id": "1AtgxyXvNk1sORJ81pVU",
@@ -42965,8 +42966,8 @@
    "name": "Ruta 3 y General Paz → Kilómetro 47.700 → Escuela Primaria N°88",
    "order": 14,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554264834
+   "visible": false,
+   "updatedAt": 1791042937631
   },
   {
    "id": "GtuOa7yo05YUVvAp9Oh3",
@@ -46344,8 +46345,8 @@
    "discontinued": false,
    "name": "Escuela Primaria N°88 → Kilómetro 47.700 → Ruta 3 y General Paz",
    "order": 15,
-   "visible": true,
-   "updatedAt": 1790554273362
+   "visible": false,
+   "updatedAt": 1791042938152
   },
   {
    "id": "C1YbmtS4bVarOUwLDbXI",
@@ -49459,8 +49460,8 @@
    "name": "Ruta 3 y General Paz → Kilómetro 39 → Barrio Esperanza",
    "order": 16,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554274561
+   "visible": false,
+   "updatedAt": 1791042938207
   },
   {
    "id": "n8c4YOuzFN8OjMXmRtPD",
@@ -52601,8 +52602,8 @@
     }
    ],
    "order": 17,
-   "visible": true,
-   "updatedAt": 1790554276012
+   "visible": false,
+   "updatedAt": 1791042938250
   },
   {
    "id": "J85lFMzGndDpWGM8NNaw",
@@ -55451,8 +55452,8 @@
    ],
    "order": 18,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554276957
+   "visible": false,
+   "updatedAt": 1791042938301
   },
   {
    "id": "GHxwRd3cXOXCO61QSgNO",
@@ -58253,8 +58254,8 @@
     }
    ],
    "order": 19,
-   "visible": true,
-   "updatedAt": 1790554277683
+   "visible": false,
+   "updatedAt": 1791042938379
   },
   {
    "id": "rUW3k2jdK25AjPLYrDaV",
@@ -61303,8 +61304,8 @@
    ],
    "order": 20,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554279162
+   "visible": false,
+   "updatedAt": 1791042939514
   },
   {
    "id": "8REzbFupDcpZTzgfkG6Q",
@@ -61312,7 +61313,7 @@
    "color": "#00ff00",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1786050955507,
-   "ramalRef": "620R15.",
+   "ramalRef": "620LMR15.",
    "name": "La Foresta → San Pedro → x Campana → Kilómetro 35 → Ruta 3 y General Paz",
    "points": [
     {
@@ -64405,8 +64406,9 @@
     }
    ],
    "order": 21,
-   "visible": true,
-   "updatedAt": 1790554282288
+   "visible": false,
+   "updatedAt": 1791049373383,
+   "discontinued": false
   },
   {
    "id": "VDlHzNKS5W73LHYsMWEN",
@@ -67235,8 +67237,8 @@
    ],
    "order": 22,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554283207
+   "visible": false,
+   "updatedAt": 1791042939658
   },
   {
    "id": "cK5PVIDSwJe3zh7phbjy",
@@ -70041,8 +70043,8 @@
     }
    ],
    "order": 23,
-   "visible": true,
-   "updatedAt": 1790554283782
+   "visible": false,
+   "updatedAt": 1791042939702
   },
   {
    "id": "upSph5a08Bx5tdJBXRA4",
@@ -73015,8 +73017,8 @@
    ],
    "order": 24,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554284244
+   "visible": false,
+   "updatedAt": 1791042939746
   },
   {
    "id": "Jb5qZ79SU0lJlVFnIjBq",
@@ -76057,8 +76059,8 @@
     }
    ],
    "order": 25,
-   "visible": true,
-   "updatedAt": 1790554284510
+   "visible": false,
+   "updatedAt": 1791042939785
   },
   {
    "id": "nUabkdqxyjCwl0oZf9tM",
@@ -79660,8 +79662,8 @@
    "discontinued": false,
    "order": 26,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554284889
+   "visible": false,
+   "updatedAt": 1791042939838
   },
   {
    "id": "GdIjhR54BBBxClnVu6oR",
@@ -79669,7 +79671,7 @@
    "color": "#00ff00",
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1786050124751,
-   "ramalRef": "620R13.",
+   "ramalRef": "620LMR13.",
    "name": "Los Ceibos → González Catán → Ramos Mejía → Ruta 3 y General Paz",
    "points": [
     {
@@ -83330,8 +83332,9 @@
     }
    ],
    "order": 27,
-   "visible": true,
-   "updatedAt": 1790554285072
+   "visible": false,
+   "updatedAt": 1791049385466,
+   "discontinued": false
   },
   {
    "id": "RUzGBbAKN1Anfpb1RwIL",
@@ -85740,8 +85743,8 @@
    "ramalRef": "620LMR14",
    "order": 28,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554285229
+   "visible": false,
+   "updatedAt": 1791042940443
   },
   {
    "id": "sh4ppBDeMVEpzoyx8JjZ",
@@ -88022,8 +88025,8 @@
    "ramalRef": "620LMR14.",
    "order": 29,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554285482
+   "visible": false,
+   "updatedAt": 1791042940503
   },
   {
    "id": "4m0WhAiIxziV2Ly7K94h",
@@ -91004,8 +91007,8 @@
    ],
    "order": 30,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554285933
+   "visible": false,
+   "updatedAt": 1791042942318
   },
   {
    "id": "wIicotmijkeh358vgV2e",
@@ -91618,8 +91621,8 @@
    "ramalRef": "620LMRo1",
    "order": 31,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554286091
+   "visible": false,
+   "updatedAt": 1791042942595
   },
   {
    "id": "kNQUcnfhQaqOApJ3q25h",
@@ -92232,8 +92235,8 @@
    "ramalRef": "620LMRo1.",
    "order": 32,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554286231
+   "visible": false,
+   "updatedAt": 1791042942640
   },
   {
    "id": "ihjjYExttJVjB1adoxoX",
@@ -93158,8 +93161,8 @@
    ],
    "order": 33,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554286347
+   "visible": false,
+   "updatedAt": 1791042942681
   },
   {
    "id": "77Qpaj24mfyfbp3EVhND",
@@ -94184,8 +94187,8 @@
    "ramalRef": "620LMRo3",
    "order": 34,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554286444
+   "visible": false,
+   "updatedAt": 1791042942728
   },
   {
    "id": "DlaZSP3RFAjc1stc60Of",
@@ -95378,8 +95381,8 @@
    "ramalRef": "620LMRo3.",
    "order": 35,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554286551
+   "visible": false,
+   "updatedAt": 1791042942770
   },
   {
    "id": "IrKn5P38Zio8qduu7ecT",
@@ -96780,8 +96783,8 @@
    "ramalRef": "620LMRo4",
    "order": 36,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554286697
+   "visible": false,
+   "updatedAt": 1791042942806
   },
   {
    "id": "P2ll11267zpa3dsSxBlE",
@@ -98010,8 +98013,8 @@
    "ramalRef": "620LMRo4.",
    "order": 37,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554286784
+   "visible": false,
+   "updatedAt": 1791042942937
   },
   {
    "id": "KuZ7iwLEuPUX1qSKvMO3",
@@ -99529,8 +99532,8 @@
    ],
    "order": 38,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554286876
+   "visible": false,
+   "updatedAt": 1791042942971
   },
   {
    "id": "wPLZJYs1CcTQbi7IhDOu",
@@ -100988,8 +100991,8 @@
    "discontinued": false,
    "order": 39,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554287006
+   "visible": false,
+   "updatedAt": 1791042943004
   },
   {
    "id": "aVbYS8JrteGKOSigVQxG",
@@ -102451,7 +102454,7 @@
    "order": 40,
    "folderId": "q4eS6ayKKihbijjAGjPj",
    "visible": false,
-   "updatedAt": 1790340117862
+   "updatedAt": 1791042943238
   },
   {
    "id": "3ThjDAMq5AWi7nm0QCd1",
@@ -102460,8 +102463,8 @@
    "color": "#00ff00",
    "points": [
     {
-     "lat": -34.894207377388554,
-     "lon": -58.70676053750475
+     "lat": -34.8941413,
+     "lon": -58.7066974
     },
     {
      "lat": -34.89424671703362,
@@ -102712,72 +102715,148 @@
      "lon": -58.6841263
     },
     {
-     "lat": -34.8889848,
-     "lon": -58.6837302
+     "lat": -34.8894929,
+     "lon": -58.6840669
     },
     {
-     "lat": -34.8888152,
-     "lon": -58.6836147
+     "lat": -34.88964531547572,
+     "lon": -58.68387191979373
     },
     {
-     "lat": -34.8886274,
-     "lon": -58.6834925
+     "lat": -34.88970271459008,
+     "lon": -58.6837984909565
     },
     {
-     "lat": -34.8884454,
-     "lon": -58.6834018
+     "lat": -34.88974418630452,
+     "lon": -58.6837454375287
     },
     {
-     "lat": -34.8882785,
-     "lon": -58.6833295
+     "lat": -34.8901976,
+     "lon": -58.6831654
     },
     {
-     "lat": -34.8878353,
-     "lon": -58.6831726
+     "lat": -34.8912485,
+     "lon": -58.6818497
     },
     {
-     "lat": -34.8877643,
-     "lon": -58.6831477
+     "lat": -34.8919148,
+     "lon": -58.6810232
     },
     {
-     "lat": -34.8872487,
-     "lon": -58.6829674
+     "lat": -34.8925511,
+     "lon": -58.6802347
     },
     {
-     "lat": -34.8870706,
-     "lon": -58.6828923
+     "lat": -34.8931818,
+     "lon": -58.6794471
     },
     {
-     "lat": -34.886855,
-     "lon": -58.6827797
+     "lat": -34.8938106,
+     "lon": -58.6786609
     },
     {
-     "lat": -34.8863647,
-     "lon": -58.6824749
+     "lat": -34.8944486,
+     "lon": -58.6778983
     },
     {
-     "lat": -34.8860695,
-     "lon": -58.6822675
+     "lat": -34.89412079361036,
+     "lon": -58.67750614823151
     },
     {
-     "lat": -34.8857157,
-     "lon": -58.6820189
+     "lat": -34.8937746,
+     "lon": -58.677092
     },
     {
-     "lat": -34.8856002,
-     "lon": -58.6819361
+     "lat": -34.8929019,
+     "lon": -58.6760656
     },
     {
-     "lat": -34.8845778,
-     "lon": -58.6812477
+     "lat": -34.8922896,
+     "lon": -58.6753398
     },
     {
-     "lat": -34.8840879,
-     "lon": -58.6809028
+     "lat": -34.891562,
+     "lon": -58.6744661
     },
     {
-     "lat": -34.8839247,
-     "lon": -58.6807958
+     "lat": -34.8907846,
+     "lon": -58.6735728
+    },
+    {
+     "lat": -34.890306575040604,
+     "lon": -58.67416603323454
+    },
+    {
+     "lat": -34.89006222169853,
+     "lon": -58.67446927790962
+    },
+    {
+     "lat": -34.88982620109393,
+     "lon": -58.674762181583226
+    },
+    {
+     "lat": -34.8895278,
+     "lon": -58.6751325
+    },
+    {
+     "lat": -34.8889018,
+     "lon": -58.6759345
+    },
+    {
+     "lat": -34.8882954,
+     "lon": -58.6765484
+    },
+    {
+     "lat": -34.887587,
+     "lon": -58.6772844
+    },
+    {
+     "lat": -34.8866306,
+     "lon": -58.6782682
+    },
+    {
+     "lat": -34.8861053,
+     "lon": -58.6788066
+    },
+    {
+     "lat": -34.8860517,
+     "lon": -58.6788615
+    },
+    {
+     "lat": -34.8859425,
+     "lon": -58.6789769
+    },
+    {
+     "lat": -34.8858146,
+     "lon": -58.6791009
+    },
+    {
+     "lat": -34.8855303,
+     "lon": -58.6794167
+    },
+    {
+     "lat": -34.8851626,
+     "lon": -58.6797837
+    },
+    {
+     "lat": -34.88472629663322,
+     "lon": -58.68023767137236
+    },
+    {
+     "lat": -34.8844835,
+     "lon": -58.6804903
+    },
+    {
+     "lat": -34.8844011,
+     "lon": -58.6805765
+    },
+    {
+     "lat": -34.883844,
+     "lon": -58.6806069
+    },
+    {
+     "lat": -34.8837614,
+     "lon": -58.6806177
     },
     {
      "lat": -34.8836434,
@@ -103956,8 +104035,8 @@
    "ramalRef": "620LMRo6.",
    "order": 41,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554287548
+   "visible": false,
+   "updatedAt": 1791042943323
   },
   {
    "id": "kgRfhteP82Em8luPFZEE",
@@ -105402,8 +105481,8 @@
    "ramalRef": "620LMRo7",
    "order": 42,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554287631
+   "visible": false,
+   "updatedAt": 1791042943356
   },
   {
    "id": "LmL9mMnh7BGJecug7g3p",
@@ -106840,8 +106919,8 @@
    "ramalRef": "620LMRo7.",
    "order": 43,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554289829
+   "visible": false,
+   "updatedAt": 1791042943390
   }
  ]
 }

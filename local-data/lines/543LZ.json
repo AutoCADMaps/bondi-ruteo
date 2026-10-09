@@ -639,8 +639,8 @@
    "createdAt": 1786328784805,
    "ramalRef": "543LZ-A",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327289
+   "visible": false,
+   "updatedAt": 1790722185326
   },
   {
    "id": "7RE9d4PnRnIYK5pFgHTw",
@@ -1204,8 +1204,8 @@
    "createdAt": 1786328854443,
    "ramalRef": "543LZ-A.",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327310
+   "visible": false,
+   "updatedAt": 1790722185357
   },
   {
    "id": "W27PNzJC6KhisCut7MSp",
@@ -1677,8 +1677,8 @@
    "createdAt": 1786328970284,
    "ramalRef": "543LZ-B",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327332
+   "visible": false,
+   "updatedAt": 1790722185575
   },
   {
    "id": "P2qXhuwVBelkNJKqNh23",
@@ -2195,8 +2195,8 @@
    "name": "Ramal B: Parque Barón → Lomas de Zamora",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327364
+   "visible": false,
+   "updatedAt": 1790722185619
   },
   {
    "id": "9QmS1gIjx9N0QPtMeB26",
@@ -2920,8 +2920,8 @@
    "createdAt": 1786329181698,
    "ramalRef": "543LZ-C",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327401
+   "visible": false,
+   "updatedAt": 1790722185699
   },
   {
    "id": "dgZh4DsRipDBFeAGD0Db",
@@ -3613,8 +3613,8 @@
    "createdAt": 1786329269915,
    "ramalRef": "543LZ-C.",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327426
+   "visible": false,
+   "updatedAt": 1790722185791
   }
  ]
 }

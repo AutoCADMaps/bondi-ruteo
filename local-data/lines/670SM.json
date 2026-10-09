@@ -1000,8 +1000,8 @@
    "ramalRef": "670SMA",
    "order": 0,
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554057999
+   "visible": false,
+   "updatedAt": 1790721946450
   },
   {
    "id": "8b6vH8Q6JQUWAzdaMpPZ",
@@ -2058,15 +2058,15 @@
    "ramalRef": "670SMA.",
    "order": 1,
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554122821
+   "visible": false,
+   "updatedAt": 1790721964159
   },
   {
    "id": "WvKI0oDhg8HqM35sgmVz",
    "ref": "670SM",
    "color": "#787878",
    "createdAt": 1786475113167,
-   "ramalRef": "670AzL",
+   "ramalRef": "670SMAzL",
    "name": "Cartel Azul: Loma Hermosa → x Libertador → José León Suárez",
    "points": [
     {
@@ -2544,8 +2544,9 @@
    ],
    "order": 2,
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554143714
+   "visible": false,
+   "updatedAt": 1791049449670,
+   "discontinued": false
   },
   {
    "id": "IKD2JEfk3MzLI1aVmCAI",
@@ -3142,8 +3143,8 @@
    ],
    "order": 3,
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554153063
+   "visible": false,
+   "updatedAt": 1790721995414
   },
   {
    "id": "UDRmk9UvrZGzpedFjMXZ",
@@ -3704,8 +3705,8 @@
    "ramalRef": "670SMAz9.",
    "order": 4,
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554160448
+   "visible": false,
+   "updatedAt": 1790722006002
   },
   {
    "id": "YPEGC9xEJIvO7kLBAD20",
@@ -4358,8 +4359,8 @@
    "ramalRef": "670SMAz9",
    "order": 5,
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554165684
+   "visible": false,
+   "updatedAt": 1790722023800
   },
   {
    "id": "1LEbF9HY66IV8hdnpUM3",
@@ -5899,8 +5900,8 @@
    "createdAt": 1786475680937,
    "ramalRef": "670SMB",
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554337793
+   "visible": false,
+   "updatedAt": 1790722197964
   },
   {
    "id": "kHbveWTXOCFHVzZzNDRp",
@@ -7492,8 +7493,8 @@
      "lon": -58.60314428287381
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554340284
+   "visible": false,
+   "updatedAt": 1790722198048
   },
   {
    "id": "s1GK4IMimG5c6YcJrZ0D",
@@ -8629,8 +8630,8 @@
    "createdAt": 1786475942489,
    "ramalRef": "670SMC",
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554340305
+   "visible": false,
+   "updatedAt": 1790722198091
   },
   {
    "id": "duhIpbkM6fpO3y6GJOpF",
@@ -9970,8 +9971,8 @@
      "lon": -58.60312297046269
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554341361
+   "visible": false,
+   "updatedAt": 1790722198195
   },
   {
    "id": "d9eLrEM5FfjiKgUcgDG5",
@@ -10415,8 +10416,8 @@
    "createdAt": 1786476192242,
    "ramalRef": "670SMN3",
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554342875
+   "visible": false,
+   "updatedAt": 1790722198509
   },
   {
    "id": "L701MLLJjFcTIJlXeKyQ",
@@ -11512,8 +11513,8 @@
    "createdAt": 1786476352282,
    "ramalRef": "670SMR",
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554342915
+   "visible": false,
+   "updatedAt": 1790722198538
   },
   {
    "id": "BRudivbN7ecUehP4KYNz",
@@ -12870,8 +12871,8 @@
      "lon": -58.60314428287381
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554343017
+   "visible": false,
+   "updatedAt": 1790722198566
   },
   {
    "id": "eoyIAEzitIiamT43YqRF",
@@ -13555,8 +13556,8 @@
    "createdAt": 1786476561808,
    "ramalRef": "670SMV",
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554343058
+   "visible": false,
+   "updatedAt": 1790722198598
   },
   {
    "id": "xIJuwB9dU44e2tUwcCZ8",
@@ -14296,8 +14297,8 @@
    "createdAt": 1786476637843,
    "ramalRef": "670SMV.",
    "folderId": "ym4Rc1k7sl85GiZDRdlt",
-   "visible": true,
-   "updatedAt": 1790554343099
+   "visible": false,
+   "updatedAt": 1790722198629
   }
  ]
 }

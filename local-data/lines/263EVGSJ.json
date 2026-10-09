@@ -2131,8 +2131,8 @@
     }
    ],
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554351727
+   "visible": false,
+   "updatedAt": 1790722210886
   },
   {
    "id": "ZXxEYR94DXk5uX7lPVEK",
@@ -4060,8 +4060,8 @@
    ],
    "name": "Ramal 5: Villa Alcira → x San Martín → Burzaco",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554351782
+   "visible": false,
+   "updatedAt": 1790722210972
   }
  ]
 }

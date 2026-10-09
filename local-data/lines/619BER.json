@@ -2676,8 +2676,8 @@
    "ramalRef": "619BERPAT.",
    "order": 0,
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554058689
+   "visible": false,
+   "updatedAt": 1790721948222
   },
   {
    "id": "30v9Zs08zGvc7eYgit9j",
@@ -5298,8 +5298,8 @@
     }
    ],
    "folderId": "lKsU6dk1axMu8EvjqM4U",
-   "visible": true,
-   "updatedAt": 1790554125208
+   "visible": false,
+   "updatedAt": 1790721964941
   },
   {
    "id": "zegbIFldSO36hjs8ga3R",
@@ -7195,8 +7195,8 @@
      "lon": -58.18414131861394
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554371286,
+   "visible": false,
+   "updatedAt": 1790722226585,
    "discontinued": false
   }
  ]

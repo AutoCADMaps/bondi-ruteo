@@ -2764,8 +2764,8 @@
    "color": "#787878",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "name": "Cartel Verde: Liniers → Terminal Retiro",
-   "visible": true,
-   "updatedAt": 1790554296938
+   "visible": false,
+   "updatedAt": 1790722104093
   },
   {
    "id": "Ej0huOvLYMArrr8GRTgJ",
@@ -5242,8 +5242,8 @@
    "color": "#787878",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "name": "Cartel Verde: Terminal Retiro → Liniers",
-   "visible": true,
-   "updatedAt": 1790554297118
+   "visible": false,
+   "updatedAt": 1790722104387
   },
   {
    "id": "vlNwFTy0OudH1biVrauU",
@@ -7672,8 +7672,8 @@
    ],
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "name": "Cartel Rojo Ex 99: Liniers → Terminal Puerto Madero",
-   "visible": true,
-   "updatedAt": 1790554297152
+   "visible": false,
+   "updatedAt": 1790722104440
   },
   {
    "id": "6H1OzDAFiYnp5f2PMXSg",
@@ -9818,8 +9818,8 @@
    "color": "#787878",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "name": "Cartel Rojo Ex 99: Terminal Puerto Madero → Liniers",
-   "visible": true,
-   "updatedAt": 1790554297181
+   "visible": false,
+   "updatedAt": 1790722104489
   }
  ]
 }

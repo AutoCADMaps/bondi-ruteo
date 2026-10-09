@@ -1584,8 +1584,8 @@
    "name": "Ramal K: Rotonda de Monteverde → Penal de Varela",
    "discontinued": false,
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": true,
-   "updatedAt": 1790554365078
+   "visible": false,
+   "updatedAt": 1790722223283
   },
   {
    "id": "59NznPRBwKyuq7N5h1vG",
@@ -3038,8 +3038,8 @@
    "name": "Ramal K: Penal de Varela → Rotonda de Monteverde",
    "discontinued": false,
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": true,
-   "updatedAt": 1790554365100
+   "visible": false,
+   "updatedAt": 1790722223309
   },
   {
    "id": "GV96tCqso1tWGXvuvEgS",
@@ -4344,8 +4344,8 @@
    "name": "Ramal R: San Martín y Monteverde → Penal de Varela",
    "discontinued": false,
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": true,
-   "updatedAt": 1790554365120
+   "visible": false,
+   "updatedAt": 1790722223343
   },
   {
    "id": "S0hzS9xs0HcE9JstfGIJ",
@@ -5878,8 +5878,8 @@
    "name": "Ramal R: Penal de Varela → San Martín y Monteverde",
    "discontinued": false,
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": true,
-   "updatedAt": 1790554365141
+   "visible": false,
+   "updatedAt": 1790722223377
   },
   {
    "id": "3OvBh3CYZBsOPcIuSwDq",
@@ -6684,8 +6684,8 @@
    "name": "Ramal T: Florencio Varela → Los Tronquitos",
    "discontinued": false,
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": true,
-   "updatedAt": 1790554365165
+   "visible": false,
+   "updatedAt": 1790722223407
   },
   {
    "id": "bUqNoqlSlWSLskxZGwBR",
@@ -7614,8 +7614,8 @@
    "name": "Ramal T: Los Tronquitos → Florencio Varela",
    "discontinued": false,
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": true,
-   "updatedAt": 1790554365196
+   "visible": false,
+   "updatedAt": 1790722223499
   }
  ]
 }

@@ -227,8 +227,8 @@
    "createdAt": 1786641609810,
    "ramalRef": "583QA",
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
-   "visible": true,
-   "updatedAt": 1790554344058
+   "visible": false,
+   "updatedAt": 1790722201616
   },
   {
    "id": "4u12pTvbdPCdSpCSGLi3",
@@ -452,8 +452,8 @@
    "createdAt": 1786641695101,
    "ramalRef": "583QA.",
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
-   "visible": true,
-   "updatedAt": 1790554344089
+   "visible": false,
+   "updatedAt": 1790722201747
   },
   {
    "id": "pavvryoCDEzNJbmYg71y",
@@ -974,8 +974,8 @@
    "name": "Ramal Acceso: Quilmes → El Jalón",
    "discontinued": false,
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
-   "visible": true,
-   "updatedAt": 1790554347959
+   "visible": false,
+   "updatedAt": 1790722201789
   },
   {
    "id": "eQ0y375yhAIdjiqHeHta",
@@ -1403,8 +1403,8 @@
    "createdAt": 1786642050079,
    "ramalRef": "583QB.",
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
-   "visible": true,
-   "updatedAt": 1790554347894
+   "visible": false,
+   "updatedAt": 1790722201817
   },
   {
    "id": "Ygkn5Hzi1nbWkB6Xl8qp",
@@ -2216,8 +2216,8 @@
      "lon": -58.25102175314567
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554347909
+   "visible": false,
+   "updatedAt": 1790722201849
   },
   {
    "id": "cpX0ccW3e3B4MCUHgV6F",
@@ -2849,8 +2849,8 @@
      "lon": -58.25872669888333
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554347930
+   "visible": false,
+   "updatedAt": 1790722201884
   }
  ]
 }

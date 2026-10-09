@@ -15,7 +15,7 @@ const VARIANTS_DIR = join(SITE_PUBLIC_DIR, "variants")
 // route-sidebar.tsx no tenga que distinguir de dónde vino el archivo.
 function toElements(linesForRef: CustomLine[]) {
   return linesForRef
-    .filter((l) => typeof l.ramalRef === "string" && l.ramalRef.trim() !== "" && l.visible !== false && l.discontinued !== true)
+    .filter((l) => typeof l.ramalRef === "string" && l.ramalRef.trim() !== "" && l.discontinued !== true)
     .sort((a, b) => {
       const orderDiff = (a.order ?? Number.MAX_SAFE_INTEGER) - (b.order ?? Number.MAX_SAFE_INTEGER)
       if (orderDiff !== 0) return orderDiff

@@ -2257,8 +2257,8 @@
    ],
    "name": "Calle 11: Av. Olimpo y Ruta 4 → x Isaac Newton → Once",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554053270
+   "visible": false,
+   "updatedAt": 1790721927613
   },
   {
    "id": "kkpNjZrl0GA3aJkQs7km",
@@ -4128,8 +4128,8 @@
    ],
    "name": "Calle 11: Once → x Isaac Newton → Av. Olimpo y Ruta 4",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554074360
+   "visible": false,
+   "updatedAt": 1790721953375
   },
   {
    "id": "GavaeIbbdWVDkewJFamp",
@@ -6344,7 +6344,7 @@
    "name": "Calle 21: Av. Olimpo y Ruta 4 → x Baradero → Once",
    "discontinued": false,
    "visible": false,
-   "updatedAt": 1790340084412
+   "updatedAt": 1790721966827
   },
   {
    "id": "xkUsx9zPrBROSug2kbi0",
@@ -8258,8 +8258,8 @@
    ],
    "name": "Calle 21: Once → x Baradero → Av. Olimpo y Ruta 4",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554148895
+   "visible": false,
+   "updatedAt": 1790721975974
   },
   {
    "id": "peI3gXdHdnFEovIvBfho",
@@ -10397,8 +10397,8 @@
    ],
    "name": "[Rápido] Calle 11: Av. Olimpo y Ruta 4 → x Isaac Newton → Once",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554155100
+   "visible": false,
+   "updatedAt": 1790722002861
   },
   {
    "id": "caIrIcqnsYjV7vIja8fO",
@@ -12364,8 +12364,8 @@
    ],
    "name": "[Rápido] Calle 11: Once → x Isaac Newton → Av. Olimpo y Ruta 4",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554163658
+   "visible": false,
+   "updatedAt": 1790722012154
   },
   {
    "id": "XhW1eCigmcTBqcPK4PPW",
@@ -14463,8 +14463,8 @@
    ],
    "name": "[Rápido] Calle 21: Av. Olimpo y Ruta 4 → x Baradero → Once",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554166758
+   "visible": false,
+   "updatedAt": 1790722028899
   },
   {
    "id": "7L3UDPqfOLrI433SgQOy",
@@ -16438,8 +16438,8 @@
    ],
    "name": "[Rápido] Calle 21: Once → x Baradero → Av. Olimpo y Ruta 4",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554177009
+   "visible": false,
+   "updatedAt": 1790722040214
   }
  ]
 }

@@ -1200,8 +1200,8 @@
    "ramalRef": "511PILA",
    "order": 0,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554057957
+   "visible": false,
+   "updatedAt": 1790721946375
   },
   {
    "id": "Dkh1sHdfAA7e0Krkgly7",
@@ -2291,8 +2291,8 @@
    "discontinued": false,
    "order": 1,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554122675
+   "visible": false,
+   "updatedAt": 1790721964088
   },
   {
    "id": "degu0jBl5P6jBE5OuKDi",
@@ -3529,8 +3529,8 @@
    ],
    "order": 2,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554143626
+   "visible": false,
+   "updatedAt": 1790721971158
   },
   {
    "id": "YsAWVC7Rja79OdKQ6sTN",
@@ -4507,8 +4507,8 @@
    ],
    "order": 3,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554152839
+   "visible": false,
+   "updatedAt": 1790721995203
   },
   {
    "id": "Ku06JvTvZb0eAXItSBn9",
@@ -5945,8 +5945,8 @@
    "ramalRef": "511PILC",
    "order": 4,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554160343
+   "visible": false,
+   "updatedAt": 1790722005980
   },
   {
    "id": "WhuFRjru2E18e2SDMgza",
@@ -6875,8 +6875,8 @@
    "ramalRef": "511PILC.",
    "order": 5,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554165306
+   "visible": false,
+   "updatedAt": 1790722017495
   },
   {
    "id": "21Pmeav84YEgKo6nuysg",
@@ -7377,8 +7377,8 @@
    "ramalRef": "511PILD",
    "order": 6,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554174667
+   "visible": false,
+   "updatedAt": 1790722039336
   },
   {
    "id": "PvBvQHWMXJicI777rCUM",
@@ -7747,8 +7747,8 @@
    "ramalRef": "511PILD.",
    "order": 7,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554215853
+   "visible": false,
+   "updatedAt": 1790722041841
   },
   {
    "id": "QH8Kd3X6ewZ02GXLqvPS",
@@ -8673,8 +8673,8 @@
    "ramalRef": "511PILE.",
    "order": 8,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554234786
+   "visible": false,
+   "updatedAt": 1790722050838
   },
   {
    "id": "hIo3Iw1qDV90fCe3xHTS",
@@ -9419,8 +9419,8 @@
    "ramalRef": "511PILE",
    "order": 9,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554248339
+   "visible": false,
+   "updatedAt": 1790722056713
   },
   {
    "id": "TTtDPF5aMxID8Hw5GZws",
@@ -10409,8 +10409,8 @@
    ],
    "order": 10,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554251096
+   "visible": false,
+   "updatedAt": 1790722060863
   },
   {
    "id": "f9LxyTjQh0EicURdxck5",
@@ -11291,8 +11291,8 @@
    ],
    "order": 11,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554258207
+   "visible": false,
+   "updatedAt": 1790722063889
   },
   {
    "id": "PRwUC5EYOiBBJLa9AQA1",
@@ -12373,8 +12373,8 @@
    ],
    "order": 12,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554259498
+   "visible": false,
+   "updatedAt": 1790722065894
   },
   {
    "id": "BacEMHLFvjVwGsHbiV8J",
@@ -13211,8 +13211,8 @@
    ],
    "order": 13,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554261461
+   "visible": false,
+   "updatedAt": 1790722068334
   },
   {
    "id": "EzNTWFlsE2RXZfpkPEwa",
@@ -13529,8 +13529,8 @@
    "ramalRef": "511PILI.",
    "folderId": "9BM5H43sjX83p5DIeHfw",
    "order": 14,
-   "visible": true,
-   "updatedAt": 1790554267667
+   "visible": false,
+   "updatedAt": 1790722070940
   },
   {
    "id": "5gFRby2yjrllYRjltnoH",
@@ -13819,8 +13819,8 @@
    "ramalRef": "511PILI",
    "folderId": "9BM5H43sjX83p5DIeHfw",
    "order": 15,
-   "visible": true,
-   "updatedAt": 1790554273680
+   "visible": false,
+   "updatedAt": 1790722073685
   },
   {
    "id": "ob5phG5YYja7ZSa2p23e",
@@ -14461,8 +14461,8 @@
    "name": "Pilar → UNPILAR sede Parque Industrial",
    "discontinued": false,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554397086
+   "visible": false,
+   "updatedAt": 1790722246697
   },
   {
    "id": "RDt1lOylbBFdPSnI8fq4",
@@ -15031,8 +15031,8 @@
    "name": "UNPILAR sede Parque Industrial → Pilar",
    "discontinued": false,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554397171
+   "visible": false,
+   "updatedAt": 1790722246886
   }
  ]
 }

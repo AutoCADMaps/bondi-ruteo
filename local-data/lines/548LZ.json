@@ -560,8 +560,8 @@
    "name": "Ramal A: Banfield → Santa Marta",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327556
+   "visible": false,
+   "updatedAt": 1790722186036
   },
   {
    "id": "bqYRsL3Rg0CHxgHO0AgW",
@@ -1053,8 +1053,8 @@
    "createdAt": 1786394155208,
    "ramalRef": "548LZ-A.",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327576
+   "visible": false,
+   "updatedAt": 1790722186231
   },
   {
    "id": "NWzEnXqjYa2iLY4xIwnG",
@@ -2007,8 +2007,8 @@
    "name": "Ramal B: Puente La Noria → x Itatí → Penal de Lomas",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327683
+   "visible": false,
+   "updatedAt": 1790722186196
   },
   {
    "id": "HvkMBKIZqrfHgzZzwaPz",
@@ -2701,8 +2701,8 @@
    "name": "Ramal B: Penal de Lomas → x Itatí → Puente La Noria",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327722
+   "visible": false,
+   "updatedAt": 1790722186282
   }
  ]
 }

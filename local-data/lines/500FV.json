@@ -1304,8 +1304,8 @@
    "name": "Ramal 1: Hospital El Cruce → San Jorge",
    "discontinued": false,
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": true,
-   "updatedAt": 1790554363516
+   "visible": false,
+   "updatedAt": 1790722221059
   },
   {
    "id": "mTm0DBl2UCytiUq7meyu",
@@ -2610,8 +2610,8 @@
     }
    ],
    "folderId": "wMlKZtwyVMfTgxOcdY0P",
-   "visible": true,
-   "updatedAt": 1790554364882
+   "visible": false,
+   "updatedAt": 1790722222430
   }
  ]
 }

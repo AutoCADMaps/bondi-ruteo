@@ -988,8 +988,8 @@
    "name": "Ramal B: Lomas de Zamora → x Frías → Loma Verde",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328591
+   "visible": false,
+   "updatedAt": 1790722188758
   },
   {
    "id": "thtoxdQMBWV0XHpF5OXZ",
@@ -2081,8 +2081,8 @@
    "createdAt": 1786397607886,
    "ramalRef": "562LZ-B.",
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328612
+   "visible": false,
+   "updatedAt": 1790722188804
   },
   {
    "id": "BvTtvxxhwmWYUhR88ADf",
@@ -3026,15 +3026,15 @@
     }
    ],
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328630
+   "visible": false,
+   "updatedAt": 1790722188839
   },
   {
    "id": "7JafYfxD333ZUQXa7vfp",
    "ref": "562LZ",
    "color": "#d92528",
    "createdAt": 1786397712927,
-   "ramalRef": "562LZ-C,",
+   "ramalRef": "562LZ-C.",
    "name": "Ramal C: Loma Verde → x Oliden → Lomas de Zamora",
    "points": [
     {
@@ -4015,8 +4015,9 @@
     }
    ],
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554328651
+   "visible": false,
+   "updatedAt": 1791049289214,
+   "discontinued": false
   }
  ]
 }

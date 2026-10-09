@@ -6472,8 +6472,8 @@
    "ramalRef": "86A.",
    "order": 0,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554055412
+   "visible": false,
+   "updatedAt": 1790721940766
   },
   {
    "id": "pifUJhHb1GC9rDySzC9b",
@@ -13086,8 +13086,8 @@
    ],
    "order": 1,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554114363
+   "visible": false,
+   "updatedAt": 1790721962059
   },
   {
    "id": "fen6jwjZxLvotY6TLilu",
@@ -19272,8 +19272,8 @@
    ],
    "order": 2,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554142134
+   "visible": false,
+   "updatedAt": 1790721969399
   },
   {
    "id": "fbVEdnRPrIKuqYtxAzF4",
@@ -25686,8 +25686,8 @@
    ],
    "order": 3,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554151486
+   "visible": false,
+   "updatedAt": 1790721992401
   },
   {
    "id": "JGuOCYogJqd2MPbjxhTk",
@@ -29960,8 +29960,8 @@
    ],
    "order": 4,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554156234
+   "visible": false,
+   "updatedAt": 1790722004947
   },
   {
    "id": "YOG42GkgjHFx9pUlIQwR",
@@ -34154,8 +34154,8 @@
    ],
    "order": 5,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554164357
+   "visible": false,
+   "updatedAt": 1790722013494
   },
   {
    "id": "9ssWb8w3zTvyQtyqIVSv",
@@ -38444,8 +38444,8 @@
    "name": "[Semirápido]: Kilómetro 35 → x Ruta 21 → Primera Junta",
    "order": 6,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554171894
+   "visible": false,
+   "updatedAt": 1790722031161
   },
   {
    "id": "SFhsFMfUerHcou8wdCsa",
@@ -42194,8 +42194,8 @@
    ],
    "order": 7,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554200454
+   "visible": false,
+   "updatedAt": 1790722040715
   },
   {
    "id": "GDeO8TXGooItJAfkE06X",
@@ -46504,8 +46504,8 @@
    "name": "[Semirápido]: Kilómetro 35 → x Ruta 3 → Primera Junta",
    "order": 8,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554232272
+   "visible": false,
+   "updatedAt": 1790722046132
   },
   {
    "id": "e55dWF4QLynEjs0k0C9f",
@@ -50410,8 +50410,8 @@
    "name": "[Semirápido]: Primera Junta → x Ruta 3 → Kilómetro 35",
    "order": 9,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554236819
+   "visible": false,
+   "updatedAt": 1790722052193
   },
   {
    "id": "tQ8SD2ZBs1epzHwHF5S8",
@@ -53764,8 +53764,8 @@
    "order": 10,
    "name": "[Semirápido]: Plaza de Mayo → x 9 de Julio → Kilómetro 35",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554250423
+   "visible": false,
+   "updatedAt": 1790722060442
   },
   {
    "id": "WJRvCa5gjcViz4hGk6Ch",
@@ -56469,8 +56469,8 @@
    ],
    "name": "[Semirápido]: Kilómetro 29 → x 9 de Julio → Plaza de Mayo",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554294968
+   "visible": false,
+   "updatedAt": 1790722097255
   }
  ]
 }

@@ -2539,8 +2539,8 @@
      "lon": -58.3791418
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554290981
+   "visible": false,
+   "updatedAt": 1790722093576
   },
   {
    "id": "yfkz3Aptgr7FEYoR74Jn",
@@ -4264,8 +4264,8 @@
    "ramalRef": "61B",
    "name": "Retiro → Rodrigo Bueno → Constitución",
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": true,
-   "updatedAt": 1790554291063
+   "visible": false,
+   "updatedAt": 1790722093600
   }
  ]
 }

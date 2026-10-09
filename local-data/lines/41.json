@@ -3491,8 +3491,8 @@
    "createdAt": 1784469752007,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "ramalRef": "41",
-   "visible": true,
-   "updatedAt": 1790554289824
+   "visible": false,
+   "updatedAt": 1790722092745
   },
   {
    "id": "kUfig0a8Wnfslr9pWFwj",
@@ -7036,8 +7036,8 @@
    "createdAt": 1784470046394,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "ramalRef": "41.",
-   "visible": true,
-   "updatedAt": 1790554289935
+   "visible": false,
+   "updatedAt": 1790722092883
   }
  ]
 }

@@ -2512,8 +2512,8 @@
    "ramalRef": "50",
    "order": 0,
    "name": "Ex Del Trabajo y General Paz → Plaza del Correo",
-   "visible": true,
-   "updatedAt": 1790554053827
+   "visible": false,
+   "updatedAt": 1790721928575
   },
   {
    "id": "vFkKvpFSJOielzdtrXDI",
@@ -4870,8 +4870,8 @@
    "ramalRef": "50.",
    "order": 1,
    "name": "Plaza del Correo → Ex Del Trabajo y General Paz",
-   "visible": true,
-   "updatedAt": 1790554074915
+   "visible": false,
+   "updatedAt": 1790721954374
   },
   {
    "id": "F3c2dOrEgOoMJOc8NyaQ",
@@ -7500,8 +7500,8 @@
    "ref": "50",
    "order": 2,
    "name": "Ex 6: Ex Del Trabajo y General Paz → Villa Soldati → Plaza del Correo",
-   "visible": true,
-   "updatedAt": 1790554135723
+   "visible": false,
+   "updatedAt": 1790721967595
   },
   {
    "id": "ZQsLJVITCoo9R1CU56o7",
@@ -9938,8 +9938,8 @@
    "ref": "50",
    "order": 3,
    "name": "Ex 6: Plaza del Correo → Villa Soldati → Ex Del Trabajo y General Paz",
-   "visible": true,
-   "updatedAt": 1790554149844
+   "visible": false,
+   "updatedAt": 1790721976583
   }
  ]
 }

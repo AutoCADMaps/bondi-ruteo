@@ -3057,8 +3057,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Barrio Samoré → Terminal Retiro",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554055595
+   "visible": false,
+   "updatedAt": 1790721943371
   },
   {
    "id": "jdBdQc29y8BCySpBIiu9",
@@ -5836,8 +5836,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Terminal Retiro - Barrio Samoré",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554114637
+   "visible": false,
+   "updatedAt": 1790721962383
   },
   {
    "id": "LWpw6umqNfhzEOnycqCq",
@@ -9571,8 +9571,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Ingeniero Budge → Terminal Retiro",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554142362
+   "visible": false,
+   "updatedAt": 1790721969799
   },
   {
    "id": "qBJZdWzo6OLCsYKK8wbE",
@@ -12914,8 +12914,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Terminal Retiro → Ingeniero Budge",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554151942
+   "visible": false,
+   "updatedAt": 1790721993531
   },
   {
    "id": "32rwIeON8viZLuEiI6Dq",
@@ -16284,8 +16284,8 @@
    "discontinued": false,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "name": "Puente La Noria → Terminal Retiro",
-   "visible": true,
-   "updatedAt": 1790554296708
+   "visible": false,
+   "updatedAt": 1790722103748
   },
   {
    "id": "7L7MbyMs4wIRLFWJZdZ4",
@@ -19370,8 +19370,8 @@
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "discontinued": false,
    "name": "Terminal Retiro → Puente La Noria",
-   "visible": true,
-   "updatedAt": 1790554296750
+   "visible": false,
+   "updatedAt": 1790722103816
   }
  ]
 }

@@ -1308,8 +1308,8 @@
      "lon": -58.18550192374941
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554055388
+   "visible": false,
+   "updatedAt": 1790721941179
   },
   {
    "id": "o2o1fZD7NgFQwJP9rlCd",
@@ -2678,8 +2678,8 @@
    "ramalRef": "324-2.",
    "order": 1,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554114301
+   "visible": false,
+   "updatedAt": 1790721962008
   },
   {
    "id": "uTOWkzSMykD910VZVHAv",
@@ -4492,8 +4492,8 @@
    "ramalRef": "324-2C",
    "order": 2,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554142114
+   "visible": false,
+   "updatedAt": 1790721969289
   },
   {
    "id": "k1WTQCS2kxsjIMTVqmZm",
@@ -6230,8 +6230,8 @@
    "ramalRef": "324-2C.",
    "order": 3,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554151455
+   "visible": false,
+   "updatedAt": 1790721992383
   },
   {
    "id": "uIit2ws4HrHdU24Eg7YV",
@@ -9024,8 +9024,8 @@
    "name": "Ramal 3: Don Bosco → x Cachalquí → La Carolina",
    "order": 4,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554156149
+   "visible": false,
+   "updatedAt": 1790722004901
   },
   {
    "id": "cHcuEUl1OkynSLry8LwT",
@@ -11686,8 +11686,8 @@
    "name": "Ramal 3: La Carolina → x Cachalquí → Don Bosco",
    "order": 5,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554164331
+   "visible": false,
+   "updatedAt": 1790722013456
   },
   {
    "id": "RG8EGRA0v9JWjKfemtva",
@@ -14940,8 +14940,8 @@
    "name": "Ramal 5: Don Bosco → Parque Industrial La Plata",
    "order": 6,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554170271
+   "visible": false,
+   "updatedAt": 1790722031064
   },
   {
    "id": "iQ6mIEZk5csdfFa5013j",
@@ -18202,8 +18202,8 @@
    ],
    "order": 7,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554200383
+   "visible": false,
+   "updatedAt": 1790722040586
   },
   {
    "id": "MiMpimCkWijE0lxRAb3I",
@@ -20876,8 +20876,8 @@
    "name": "Ramal 6: Don Bosco → x Mosconi → La Carolina",
    "order": 8,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554231739
+   "visible": false,
+   "updatedAt": 1790722046064
   },
   {
    "id": "O9ZYvset4vYqtPWZ8d4T",
@@ -23926,8 +23926,8 @@
    "name": "Ramal 6: La Carolina → x Mosconi → Don Bosco",
    "order": 9,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554236775
+   "visible": false,
+   "updatedAt": 1790722052141
   },
   {
    "id": "UvvaV78UZiO9mZmAMgJp",
@@ -26904,8 +26904,8 @@
    ],
    "order": 10,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554250364
+   "visible": false,
+   "updatedAt": 1790722060389
   },
   {
    "id": "sBwnSTXeiPI3Z3hwbq9G",
@@ -30114,8 +30114,8 @@
    ],
    "order": 11,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554257044
+   "visible": false,
+   "updatedAt": 1790722063275
   },
   {
    "id": "d7a5IMiFERjhbbjFYN7e",
@@ -33008,8 +33008,8 @@
      "lon": -58.23845475749666
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554259113
+   "visible": false,
+   "updatedAt": 1790722065273
   },
   {
    "id": "w1OdJ8YSLOsNJJzQ0yxj",
@@ -36242,8 +36242,8 @@
    ],
    "order": 13,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554260926
+   "visible": false,
+   "updatedAt": 1790722067504
   },
   {
    "id": "KzNgP96604WAWBfnbD4r",
@@ -38452,8 +38452,8 @@
    ],
    "order": 14,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554262688
+   "visible": false,
+   "updatedAt": 1790722070125
   },
   {
    "id": "xp6ZXgchnXaXHNfgugay",
@@ -40586,8 +40586,8 @@
    "name": "Ramal 16: Florencio Varela → Don Bosco",
    "order": 15,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554273278
+   "visible": false,
+   "updatedAt": 1790722073272
   }
  ]
 }

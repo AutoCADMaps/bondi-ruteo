@@ -2645,8 +2645,8 @@
    "ref": "172",
    "discontinued": false,
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554054761
+   "visible": false,
+   "updatedAt": 1790721938922
   },
   {
    "id": "MZ0MdeJsX4Hv9dGNYw6f",
@@ -5328,8 +5328,8 @@
    "ref": "172",
    "discontinued": false,
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554112057
+   "visible": false,
+   "updatedAt": 1790721960785
   },
   {
    "id": "rAccLHZfRn2IdPuEGM0B",
@@ -8071,8 +8071,8 @@
    "ref": "172",
    "discontinued": false,
    "order": 2,
-   "visible": true,
-   "updatedAt": 1790554137647
+   "visible": false,
+   "updatedAt": 1790721968341
   },
   {
    "id": "8l0ynQ5lodO88HN20603",
@@ -10978,8 +10978,8 @@
    "ref": "172",
    "discontinued": false,
    "order": 3,
-   "visible": true,
-   "updatedAt": 1790554150866
+   "visible": false,
+   "updatedAt": 1790721988178
   }
  ]
 }

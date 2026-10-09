@@ -4780,8 +4780,8 @@
    "ref": "85",
    "name": "Ramal A: Balneario de Quilmes → x Agüero → Ciudadela Norte",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554054034
+   "visible": false,
+   "updatedAt": 1790721933615
   },
   {
    "id": "dPcHgKI4rA8Uw7QGZZPK",
@@ -9346,8 +9346,8 @@
    "ref": "85",
    "name": "Ramal A: Ciudadela Norte → x Agüero → Balneario de Quilmes",
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554075181
+   "visible": false,
+   "updatedAt": 1790721959124
   },
   {
    "id": "MNSY0MqfP3oIpatZiTZx",
@@ -13572,8 +13572,8 @@
    "ref": "85",
    "name": "Ramal G: Balneario de Quilmes → x Madariaga → Ciudadela Norte",
    "order": 2,
-   "visible": true,
-   "updatedAt": 1790554135981
+   "visible": false,
+   "updatedAt": 1790721967643
   },
   {
    "id": "LDFxQrkQbahCJ67s4uwA",
@@ -17686,8 +17686,8 @@
      "lon": -58.2309902
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554150046
+   "visible": false,
+   "updatedAt": 1790721981050
   },
   {
    "id": "51eKVXtnffEI8E04VMyt",
@@ -22316,8 +22316,8 @@
    "ref": "85",
    "name": "Ramal I: Balneario de Quilmes → x De Los Italianos → Ciudadela Norte",
    "order": 4,
-   "visible": true,
-   "updatedAt": 1790554155349
+   "visible": false,
+   "updatedAt": 1790722003360
   },
   {
    "id": "JcyOLNhCOmfnno0KOuWE",
@@ -26690,8 +26690,8 @@
    "name": "Ramal I: Ciudadela Norte → x De los Italianos → Balneario de Quilmes",
    "order": 5,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554163865
+   "visible": false,
+   "updatedAt": 1790722012639
   },
   {
    "id": "8aii5ejpwWkZsDyc93BM",
@@ -27048,8 +27048,8 @@
    "ref": "85",
    "name": "Rondín: La Ribera → El Fortín",
    "order": 6,
-   "visible": true,
-   "updatedAt": 1790554166839
+   "visible": false,
+   "updatedAt": 1790722029766
   },
   {
    "id": "jdUSCP3v6EoWDoB8PFrk",
@@ -27426,8 +27426,8 @@
    "name": "Rondín: El Fortín → La Ribera",
    "ramalRef": "85R.",
    "order": 7,
-   "visible": true,
-   "updatedAt": 1790554194669
+   "visible": false,
+   "updatedAt": 1790722040422
   }
  ]
 }

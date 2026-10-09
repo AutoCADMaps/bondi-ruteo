@@ -5176,8 +5176,8 @@
      "lon": -58.7543625
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554055799
+   "visible": false,
+   "updatedAt": 1790721944360
   },
   {
    "id": "K8FxOP6bib70RVx7LfR6",
@@ -10042,8 +10042,8 @@
    "ramalRef": "218A.",
    "order": 1,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554114942
+   "visible": false,
+   "updatedAt": 1790721962652
   },
   {
    "id": "aiG7HElbWC4FH10LEpFs",
@@ -15392,8 +15392,8 @@
      "lon": -58.7543625
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554142444
+   "visible": false,
+   "updatedAt": 1790721969961
   },
   {
    "id": "mfE3eBAElNv6vuC7CGSt",
@@ -20554,8 +20554,8 @@
    ],
    "order": 3,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554152069
+   "visible": false,
+   "updatedAt": 1790721993674
   },
   {
    "id": "tbMdgtWNBl7CgvZxaCf4",
@@ -24057,8 +24057,8 @@
      "lon": -58.66680950758848
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554156640
+   "visible": false,
+   "updatedAt": 1790722005183
   },
   {
    "id": "DB3ZZUqXqfSdVKvT58jb",
@@ -27444,8 +27444,8 @@
    "discontinued": false,
    "order": 5,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554164670
+   "visible": false,
+   "updatedAt": 1790722013793
   },
   {
    "id": "bBI9GYNwCCO4upAZruou",
@@ -30482,8 +30482,8 @@
      "lon": -58.635073191605514
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554172117
+   "visible": false,
+   "updatedAt": 1790722031921
   },
   {
    "id": "2NeDd0nuRWjBSkcB4z6h",
@@ -33509,8 +33509,8 @@
    "discontinued": false,
    "order": 7,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554212521
+   "visible": false,
+   "updatedAt": 1790722041019
   },
   {
    "id": "rLJtQUw8Dk3iNkw28OwJ",
@@ -33731,8 +33731,8 @@
    "name": "San Esteban → Escuela Primaria N°21",
    "discontinued": false,
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554362220
+   "visible": false,
+   "updatedAt": 1790722219325
   },
   {
    "id": "BxAMViK1Wax5u63NF9oF",
@@ -34000,8 +34000,8 @@
    "createdAt": 1787247791651,
    "ramalRef": "218E.",
    "folderId": "bviAZLddBfa4Ay99pHZV",
-   "visible": true,
-   "updatedAt": 1790554364987
+   "visible": false,
+   "updatedAt": 1790722222440
   }
  ]
 }

@@ -839,8 +839,8 @@
    "createdAt": 1786321778799,
    "ramalRef": "520LAN-B",
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": true,
-   "updatedAt": 1790554326504
+   "visible": false,
+   "updatedAt": 1790722183196
   },
   {
    "id": "IsQTfEylNYhDbhOhXgtS",
@@ -1612,8 +1612,8 @@
    "createdAt": 1786321918217,
    "ramalRef": "520LAN-B.",
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": true,
-   "updatedAt": 1790554326536
+   "visible": false,
+   "updatedAt": 1790722183271
   },
   {
    "id": "1ohysie9BKHKNnaZV95K",
@@ -2722,8 +2722,8 @@
    "name": "Ramal B2: Villa Caraza → Hospital Evita → Lanús",
    "discontinued": false,
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": true,
-   "updatedAt": 1790554326575
+   "visible": false,
+   "updatedAt": 1790722183301
   },
   {
    "id": "34DFSOuys5zlWYGpXlf5",
@@ -3547,8 +3547,8 @@
     }
    ],
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": true,
-   "updatedAt": 1790554326611
+   "visible": false,
+   "updatedAt": 1790722183340
   },
   {
    "id": "iRcwmKRPeJuIqIRt6NmT",
@@ -4300,8 +4300,8 @@
     }
    ],
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": true,
-   "updatedAt": 1790554326654
+   "visible": false,
+   "updatedAt": 1790722183620
   },
   {
    "id": "uJnUtR2kjzya8gKz7m9L",
@@ -5029,8 +5029,8 @@
     }
    ],
    "folderId": "2kueTX1bq8M9tOpTjDwj",
-   "visible": true,
-   "updatedAt": 1790554326675
+   "visible": false,
+   "updatedAt": 1790722183778
   }
  ]
 }

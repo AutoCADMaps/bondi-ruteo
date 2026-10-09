@@ -888,8 +888,8 @@
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "ramalRef": "222",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554051956
+   "visible": false,
+   "updatedAt": 1790721926256
   },
   {
    "id": "bSYEYxofKPntGiDzgbeN",
@@ -1646,8 +1646,8 @@
      "lon": -58.521836
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554059735
+   "visible": false,
+   "updatedAt": 1790721951402
   }
  ]
 }

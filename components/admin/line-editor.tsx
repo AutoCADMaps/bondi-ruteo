@@ -18,6 +18,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { StopImageField } from "@/components/admin/stop-image-field"
 import { StopStreetView } from "@/components/admin/stop-street-view"
+import { MindMapIconPicker } from "@/components/admin/mind-map-icon-picker"
+import { CheckToggle } from "@/components/ui/check-toggle"
 
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 
@@ -201,6 +203,58 @@ interface Stop {
   note?: string
   // Marca la parada para el mapa mental (categoría reservada; se usa más adelante).
   mindMap?: boolean
+  // Símbolo elegido a mano para el mapa mental (ver lib/mind-map-icons.ts).
+  // Vacío = automático, según el comienzo del nombre.
+  mindMapIcon?: string
+  // Nombre alternativo para el mapa mental (vacío = el nombre real).
+  mindMapName?: string
+  // Parada del sistema Metrobús (carril exclusivo).
+  metrobus?: boolean
+}
+
+// Texto negro o blanco, el que mejor se lee sobre el color de fondo dado
+// (las líneas amarillas con texto blanco no se leen).
+function readableTextColor(hex: string): string {
+  const m = /^#?([0-9a-f]{6})$/i.exec((hex || "").trim())
+  if (!m) return "#fff"
+  const n = parseInt(m[1], 16)
+  const r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255
+  return (r * 299 + g * 587 + b * 114) / 1000 > 160 ? "#111" : "#fff"
+}
+
+interface StopBadge { ref: string; color: string }
+
+// Contenido del cartel permanente de una parada en el mapa: el nombre y, al
+// lado, una pastillita de color por cada línea asignada (mismo estilo que
+// los rótulos de línea del diálogo de la parada). Se arma con nodos DOM, no
+// con HTML en texto, para que un nombre con "<" no rompa nada.
+const STOP_BADGES_MAX = 6
+function makeStopTooltipContent(name: string, badges: StopBadge[], activeRef: string): HTMLElement {
+  const wrap = document.createElement("span")
+  wrap.className = "stop-tip"
+  const label = document.createElement("span")
+  label.textContent = name || "(sin nombre)"
+  wrap.appendChild(label)
+  if (badges.length > 0) {
+    const chips = document.createElement("span")
+    chips.className = "stop-chips"
+    for (const b of badges.slice(0, STOP_BADGES_MAX)) {
+      const chip = document.createElement("span")
+      chip.className = "stop-chip" + (activeRef && b.ref === activeRef ? " stop-chip-active" : "")
+      chip.textContent = b.ref
+      chip.style.backgroundColor = b.color
+      chip.style.color = readableTextColor(b.color)
+      chips.appendChild(chip)
+    }
+    if (badges.length > STOP_BADGES_MAX) {
+      const more = document.createElement("span")
+      more.className = "stop-chip stop-chip-more"
+      more.textContent = `+${badges.length - STOP_BADGES_MAX}`
+      chips.appendChild(more)
+    }
+    wrap.appendChild(chips)
+  }
+  return wrap
 }
 
 const STOP_STATUS_COLORS: Record<StopStatus, string> = {
@@ -973,6 +1027,9 @@ export function LineEditor() {
 
   const [stopNoteDraft, setStopNoteDraft] = useState("")
   const [stopMindMapDraft, setStopMindMapDraft] = useState(false)
+  const [stopMindMapIconDraft, setStopMindMapIconDraft] = useState("")
+  const [stopMetrobusDraft, setStopMetrobusDraft] = useState(false)
+  const [stopMindMapNameDraft, setStopMindMapNameDraft] = useState("")
   // Selección múltiple de paradas (Shift + click sobre el pin) para asignarlas
   // todas juntas a un ramal.
   const [multiSelectedIds, setMultiSelectedIds] = useState<Set<string>>(new Set())
@@ -1532,6 +1589,17 @@ export function LineEditor() {
   // Memoizado: antes se recreaban estos 8 divIcon en CADA render del
   // componente (cada tecla tipeada en cualquier input, cada toggle),
   // aunque nunca cambian — puro trabajo de más.
+  // ramalRef -> línea y color, como texto: así el efecto de las paradas solo
+  // se vuelve a ejecutar cuando cambian esos datos (no con cada edición de
+  // puntos de una línea).
+  const ramalMetaKey = useMemo(
+    () =>
+      lines
+        .filter((l) => (l.ramalRef ?? "").trim() !== "")
+        .map((l) => `${(l.ramalRef ?? "").trim()}\t${l.ref}\t${l.color}\t${l.visible !== false ? 1 : 0}`)
+        .join("\n"),
+    [lines]
+  )
   const stopGlyphColor = resolvedTheme === "dark" ? "white" : "black"
   const stopPinIcons = useMemo<Record<StopStatus, L.DivIcon>>(
     () => ({
@@ -1647,16 +1715,74 @@ export function LineEditor() {
       }
     }
 
+    // Datos de cada ramal (línea, color y si tiene el ojito encendido).
+    // Atenuado de paradas, en orden de jerarquía. Con una línea elegida en el
+    // filtro (S) y ramales con el ojito encendido (V):
+    //   - Si algún ramal de la línea elegida tiene el ojito encendido (S ∩ V):
+    //     color pleno solo para esos ramales; los de las otras líneas visibles
+    //     (V sin S) apenas atenuados; todo lo demás, incluidos los ramales
+    //     apagados de la propia línea, bien apagado.
+    //   - Si ninguno de sus ramales está visible: color pleno para toda la
+    //     línea elegida (S), apenas atenuadas las visibles, el resto apagado.
+    // Sin línea elegida: color pleno para los ramales visibles y el resto
+    // apagado. Sin línea elegida ni ramales visibles no se atenúa nada.
+    const ramalMeta = new Map<string, StopBadge>()
+    const visibleRamales = new Set<string>()
+    for (const row of ramalMetaKey.split("\n")) {
+      if (!row) continue
+      const [ramalRef, ref, color, vis] = row.split("\t")
+      ramalMeta.set(ramalRef, { ref, color })
+      if (vis === "1") visibleRamales.add(ramalRef)
+    }
+    const activeRamales = lineFilterRef
+      ? new Set([...ramalMeta].filter(([, m]) => m.ref === lineFilterRef).map(([k]) => k))
+      : null
+    const dimEnabled = !!activeRamales || visibleRamales.size > 0
+    // Ramales de la línea elegida que además tienen el ojito encendido.
+    const selectedVisible = activeRamales ? new Set([...activeRamales].filter((r) => visibleRamales.has(r))) : null
+    // "Foco": a qué ramales se les da color pleno cuando hay línea elegida.
+    const focusRamales = activeRamales ? (selectedVisible && selectedVisible.size > 0 ? selectedVisible : activeRamales) : null
+
     for (const stop of stopsInView) {
       const status: StopStatus = stop.status ?? "confirmed"
       const marker = L.marker([stop.lat, stop.lng], { icon: stopPinIcons[status], draggable: true })
 
-      marker.bindTooltip(stop.name || "(sin nombre)", {
+      const badgeByRef = new Map<string, StopBadge>()
+      let inSelected = false
+      let inVisible = false
+      for (const l of stop.lines) {
+        const meta = ramalMeta.get(l.ramalRef)
+        if (!meta) continue
+        if (!badgeByRef.has(meta.ref)) badgeByRef.set(meta.ref, meta)
+        if (focusRamales?.has(l.ramalRef)) inSelected = true
+        if (visibleRamales.has(l.ramalRef)) inVisible = true
+      }
+      // "full" = color pleno, "mid" = apenas atenuada, "low" = apagada.
+      const tier: "full" | "mid" | "low" = !dimEnabled
+        ? "full"
+        : activeRamales
+          ? inSelected ? "full" : inVisible ? "mid" : "low"
+          : inVisible ? "full" : "low"
+      const dimmed = tier === "low"
+      const badges = [...badgeByRef.values()].sort(
+        (a, b) =>
+          (b.ref === lineFilterRef ? 1 : 0) - (a.ref === lineFilterRef ? 1 : 0) ||
+          a.ref.localeCompare(b.ref, undefined, { numeric: true })
+      )
+
+      marker.bindTooltip(makeStopTooltipContent(stop.name, badges, lineFilterRef), {
         permanent: true,
         direction: "top",
         offset: [0, -30],
-        className: "stop-name-tooltip",
+        className: tier === "low" ? "stop-name-tooltip stop-dim" : tier === "mid" ? "stop-name-tooltip stop-dim-mid" : "stop-name-tooltip",
       })
+      if (tier === "low") {
+        marker.setOpacity(0.28)
+        marker.setZIndexOffset(-1000)
+      } else if (tier === "mid") {
+        marker.setOpacity(0.65)
+        marker.setZIndexOffset(-500)
+      }
 
       marker.on("click", (e) => {
         L.DomEvent.stopPropagation(e)
@@ -1720,7 +1846,7 @@ export function LineEditor() {
     return () => {
       map.off("zoomend", updateForZoom)
     }
-  }, [stops, stopsVisible, stopsViewTick])
+  }, [stops, stopsVisible, stopsViewTick, lineFilterRef, ramalMetaKey])
 
   // Click en el mapa en modo "Paradas": crea la parada nueva ahí mismo (sin
   // nombre todavía) y abre directo el diálogo de edición completo, que ya
@@ -1843,6 +1969,9 @@ export function LineEditor() {
     setStopNameDraft(stop.name)
     setStopNoteDraft(stop.note ?? "")
     setStopMindMapDraft(!!stop.mindMap)
+    setStopMindMapIconDraft(stop.mindMapIcon ?? "")
+    setStopMetrobusDraft(!!stop.metrobus)
+    setStopMindMapNameDraft(stop.mindMapName ?? "")
     setStopStatusDraft(stop.status ?? "confirmed")
     const draft: Record<string, { checked: boolean; choice: "first" | "second" | "both" }> = {}
     for (const l of stop.lines) {
@@ -1901,6 +2030,9 @@ export function LineEditor() {
       lines: newLines,
       note: stopNoteDraft,
       mindMap: stopMindMapDraft,
+      mindMapIcon: stopMindMapDraft ? stopMindMapIconDraft : "",
+      metrobus: stopMetrobusDraft,
+      mindMapName: stopMindMapDraft ? stopMindMapNameDraft.trim() : "",
       status: stopStatusDraft,
     }
     setStops((prev) => prev.map((s) => (s.id === updated.id ? updated : s)))
@@ -2018,11 +2150,11 @@ export function LineEditor() {
             // pendiente (con el id nuevo) para que el próximo sync la
             // termine de actualizar, en vez de darla por hecha.
             let assignOk = true
-            if (stop.lines.length > 0 || stop.note || stop.status || stop.mindMap) {
+            if (stop.lines.length > 0 || stop.note || stop.status || stop.mindMap || stop.metrobus) {
               const assignRes = await fetch(`/api/admin/stops/${data.id}`, {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ lines: stop.lines, note: stop.note ?? "", status: stop.status ?? "confirmed", mindMap: stop.mindMap ?? false }),
+                body: JSON.stringify({ lines: stop.lines, note: stop.note ?? "", status: stop.status ?? "confirmed", mindMap: stop.mindMap ?? false, mindMapIcon: stop.mindMapIcon ?? "", mindMapName: stop.mindMapName ?? "", metrobus: stop.metrobus ?? false }),
               }).catch(() => null)
               assignOk = assignRes?.ok ?? false
             }
@@ -2044,6 +2176,9 @@ export function LineEditor() {
               note: stop.note ?? "",
               status: stop.status ?? "confirmed",
               mindMap: stop.mindMap ?? false,
+              mindMapIcon: stop.mindMapIcon ?? "",
+              metrobus: stop.metrobus ?? false,
+              mindMapName: stop.mindMapName ?? "",
             }),
           }).catch(() => null)
           if (res?.ok) {
@@ -2150,21 +2285,51 @@ export function LineEditor() {
   // Promise.all revienta apenas UNO falla, la operación entera explotaba sin
   // atraparlo. Con Promise.allSettled por tanda, un pedido suelto que falle
   // no tira abajo el resto.
-  const BULK_LINE_PUT_BATCH_SIZE = 20
+  const BULK_LINE_PUT_BATCH_SIZE = 10
+  const BULK_LINE_PUT_RETRIES = 2
 
-  async function putLinesVisibility(targetLines: CustomLine[], visible: boolean) {
+  async function putOneLineVisibility(id: string, visible: boolean): Promise<boolean> {
+    for (let attempt = 0; attempt <= BULK_LINE_PUT_RETRIES; attempt++) {
+      try {
+        const res = await fetch(`/api/admin/custom-lines/${id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ visible }),
+        })
+        if (res.ok) return true
+      } catch {
+        // sigue al retry
+      }
+      if (attempt < BULK_LINE_PUT_RETRIES) await new Promise((r) => setTimeout(r, 400 * (attempt + 1)))
+    }
+    return false
+  }
+
+  // Devuelve los ids que, después de reintentar, siguieron sin guardarse —
+  // antes esto se descartaba en silencio (Promise.allSettled sin mirar el
+  // resultado), así que un fallo bajo carga dejaba la pantalla mostrando
+  // "prendida" una línea que en el disco seguía apagada.
+  async function putLinesVisibility(targetLines: CustomLine[], visible: boolean): Promise<string[]> {
+    const failedIds: string[] = []
     for (let i = 0; i < targetLines.length; i += BULK_LINE_PUT_BATCH_SIZE) {
       const batch = targetLines.slice(i, i + BULK_LINE_PUT_BATCH_SIZE)
-      await Promise.allSettled(
-        batch.map((l) =>
-          fetch(`/api/admin/custom-lines/${l.id}`, {
-            method: "PUT",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ visible }),
-          })
-        )
-      )
+      const results = await Promise.all(batch.map((l) => putOneLineVisibility(l.id, visible)))
+      results.forEach((ok, idx) => { if (!ok) failedIds.push(batch[idx].id) })
     }
+    return failedIds
+  }
+
+  // Deshace localmente el cambio de visibilidad de lo que no se pudo
+  // guardar (vuelve a su estado anterior) y avisa — mismo criterio que
+  // moveLinesToFolder más abajo, para no mentir en pantalla sobre lo que
+  // realmente quedó persistido en disco.
+  function revertFailedVisibility(failedIds: string[], previousVisibleById: Map<string, boolean>, total: number) {
+    if (failedIds.length === 0) return
+    const failedSet = new Set(failedIds)
+    setLines((prev) => prev.map((l) => (failedSet.has(l.id) ? { ...l, visible: previousVisibleById.get(l.id) ?? true } : l)))
+    setDataLoadError(
+      `No se pudo cambiar la visibilidad de ${failedIds.length} de ${total} línea(s) — se deshizo el cambio para esas, probá de nuevo.`
+    )
   }
 
   async function toggleAllVisible() {
@@ -2173,9 +2338,11 @@ export function LineEditor() {
 
     const nextVisible = !allVisible
 
+    const previousVisibleById = new Map(lines.map((l) => [l.id, l.visible !== false]))
     setLines((prev) => prev.map((l) => ({ ...l, visible: nextVisible })))
 
-    await putLinesVisibility(lines, nextVisible)
+    const failedIds = await putLinesVisibility(lines, nextVisible)
+    revertFailedVisibility(failedIds, previousVisibleById, lines.length)
 
   }
 
@@ -2192,9 +2359,11 @@ export function LineEditor() {
     const allVisible = refLines.every((l) => l.visible !== false)
     const nextVisible = !allVisible
 
+    const previousVisibleById = new Map(refLines.map((l) => [l.id, l.visible !== false]))
     setLines((prev) => prev.map((l) => (l.ref === ref ? { ...l, visible: nextVisible } : l)))
 
-    await putLinesVisibility(refLines, nextVisible)
+    const failedIds = await putLinesVisibility(refLines, nextVisible)
+    revertFailedVisibility(failedIds, previousVisibleById, refLines.length)
   }
 
   async function toggleFolderVisible(folderId: string) {
@@ -2206,9 +2375,11 @@ export function LineEditor() {
     const allVisible = folderLines.every((l) => l.visible !== false)
     const nextVisible = !allVisible
 
+    const previousVisibleById = new Map(folderLines.map((l) => [l.id, l.visible !== false]))
     setLines((prev) => prev.map((l) => (l.folderId && folderIds.has(l.folderId) ? { ...l, visible: nextVisible } : l)))
 
-    await putLinesVisibility(folderLines, nextVisible)
+    const failedIds = await putLinesVisibility(folderLines, nextVisible)
+    revertFailedVisibility(failedIds, previousVisibleById, folderLines.length)
   }
 
   function openCreateFolder(parentId: string | null) {
@@ -2537,6 +2708,10 @@ export function LineEditor() {
       zoom: DEFAULT_ZOOM,
       zoomControl: true,
       preferCanvas: true,
+      // Shift + arrastre/click en Leaflet hace zoom a un recuadro; acá Shift
+      // se usa para seleccionar varias paradas y para el ruteo, así que se
+      // desactiva para que no haga zoom sin querer.
+      boxZoom: false,
     })
 
     const isDark = document.documentElement.classList.contains("dark")
@@ -4252,11 +4427,14 @@ export function LineEditor() {
         </DialogContent>
       </Dialog>
       <Dialog open={selectedStop !== null} onOpenChange={(open) => !open && closeStopDialog()}>
-        <DialogContent>
+        {/* Alto máximo de la pantalla: el cuerpo se desplaza y el pie (Guardar /
+            Cancelar / Borrar) queda siempre a la vista. */}
+        <DialogContent className="max-h-[92vh] flex flex-col">
           <DialogHeader>
             <DialogTitle>Editar parada</DialogTitle>
             <DialogDescription>Cambiá el nombre, el estado o los ramales asignados a esta parada.</DialogDescription>
           </DialogHeader>
+          <div className="sidebar-scroll min-h-0 flex-1 overflow-y-auto pr-1">
           <Input
             placeholder="Nombre de la parada (ej. Estación Temperley)"
             value={stopNameDraft}
@@ -4289,10 +4467,25 @@ export function LineEditor() {
             value={stopNoteDraft}
             onChange={(e) => setStopNoteDraft(e.target.value)}
           />
-          <label className="mt-2 flex items-center gap-2 text-xs">
-            <input type="checkbox" checked={stopMindMapDraft} onChange={(e) => setStopMindMapDraft(e.target.checked)} />
-            Mapa mental
-          </label>
+          <div className="mt-2 flex flex-wrap gap-2">
+            <CheckToggle checked={stopMetrobusDraft} onChange={setStopMetrobusDraft}>Metrobús</CheckToggle>
+            <CheckToggle checked={stopMindMapDraft} onChange={setStopMindMapDraft}>Mapa mental</CheckToggle>
+          </div>
+          {stopMindMapDraft && (
+            <Input
+              className="mt-2 h-8 text-xs"
+              placeholder={`Nombre en el mapa mental (opcional; vacío = "${stopNameDraft.trim() || "el mismo"}")`}
+              value={stopMindMapNameDraft}
+              onChange={(e) => setStopMindMapNameDraft(e.target.value)}
+            />
+          )}
+          {stopMindMapDraft && (
+            <MindMapIconPicker
+              stopName={stopNameDraft}
+              value={stopMindMapIconDraft}
+              onChange={setStopMindMapIconDraft}
+            />
+          )}
           {selectedStop && <StopStreetView lat={selectedStop.lat} lng={selectedStop.lng} />}
           {selectedStop && (
             <StopImageField
@@ -4306,7 +4499,7 @@ export function LineEditor() {
           <p className="text-xs text-muted-foreground mt-2">
             Ramales visibles (apagá con el ojo los que no quieras ver acá):
           </p>
-          <div className="sidebar-scroll max-h-64 overflow-y-auto flex flex-col gap-1">
+          <div className="sidebar-scroll max-h-[40vh] overflow-y-auto flex flex-col gap-1">
             {lines
               .filter((l) => l.visible !== false && (l.ramalRef ?? "").trim() !== "")
               .map((l) => ({ line: l, passages: selectedStop ? findStopPassages(selectedStop, l) : [] }))
@@ -4348,6 +4541,7 @@ export function LineEditor() {
                   </div>
                 )
               })}
+          </div>
           </div>
           <DialogFooter className="mt-2">
             <Button
@@ -4585,7 +4779,7 @@ export function LineEditor() {
                   return (
                     <ol className="sidebar-scroll max-h-40 overflow-y-auto flex flex-col gap-0.5 list-decimal list-inside">
                       {assigned.map(({ stop, order }, i) => (
-                        <li key={`${stop.id}-${order}-${i}`} className="text-xs truncate">
+                        <li key={`${stop.id}-${order}-${i}`} className="text-xs truncate shrink-0 leading-5">
                           {stop.name || "(sin nombre)"}
                         </li>
                       ))}

@@ -3765,8 +3765,8 @@
    ],
    "name": "Ramal 1: Cruce de Lomas → x Itatí → Terminal Retiro",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554052343
+   "visible": false,
+   "updatedAt": 1790721927300
   },
   {
    "id": "wstekXl3xkzKoITLb6Ec",
@@ -7164,8 +7164,8 @@
    ],
    "name": "Ramal 1: Terminal Retiro → x Itatí → Cruce de Lomas",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554060695
+   "visible": false,
+   "updatedAt": 1790721953135
   },
   {
    "id": "IKMYTGzzwrdJlg6T6NOS",
@@ -10504,7 +10504,7 @@
    "name": "Ramal 3: Cruce de Lomas → x Rodríguez → Terminal Retiro",
    "discontinued": false,
    "visible": false,
-   "updatedAt": 1790340084360
+   "updatedAt": 1790721966606
   },
   {
    "id": "0VMY7QGUlkdciidMuaHA",
@@ -13678,8 +13678,8 @@
    ],
    "name": "Ramal 3: Terminal Retiro → x Rodríguez → Cruce de Lomas",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554148565
+   "visible": false,
+   "updatedAt": 1790721975237
   }
  ]
 }

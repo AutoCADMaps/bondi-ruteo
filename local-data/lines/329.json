@@ -2031,10 +2031,10 @@
      "lon": -58.70079523861864
     }
    ],
-   "visible": true,
+   "visible": false,
    "folderId": null,
    "createdAt": 1790552250429,
-   "updatedAt": 1790554404709,
+   "updatedAt": 1790722260161,
    "ramalRef": "329-03",
    "id": "be7e679d-7dcf-41de-a408-22bd3e8a41c6"
   },
@@ -4080,10 +4080,10 @@
      "lon": -58.793774587277035
     }
    ],
-   "visible": true,
+   "visible": false,
    "folderId": null,
    "createdAt": 1790552650277,
-   "updatedAt": 1790554404736,
+   "updatedAt": 1790722260215,
    "ramalRef": "329-03.",
    "id": "fcf213b0-c475-45b3-ab1d-1520db078142"
   }

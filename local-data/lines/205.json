@@ -2964,8 +2964,8 @@
    ],
    "name": "Puente Liniers → Kilómetro 29 → Pontevedra",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554304845
+   "visible": false,
+   "updatedAt": 1790722156556
   },
   {
    "id": "13XctgkFuphaqYqSyPRX",
@@ -6026,8 +6026,8 @@
    ],
    "name": "Pontevedra → Kilómetro 29 → Puente Liniers",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554305008
+   "visible": false,
+   "updatedAt": 1790722156797
   }
  ]
 }

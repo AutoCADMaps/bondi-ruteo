@@ -252,8 +252,8 @@
    "ramalRef": "504PP A",
    "folderId": "gKvEbi3wseHQAB6N1sVv",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554054897
+   "visible": false,
+   "updatedAt": 1790721939220
   },
   {
    "id": "P9DXg1UYemrIYSVPxtJt",
@@ -522,8 +522,8 @@
    "ramalRef": "504PP A.",
    "folderId": "gKvEbi3wseHQAB6N1sVv",
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554112355
+   "visible": false,
+   "updatedAt": 1790721961086
   },
   {
    "id": "RJvBwpf9Q22IgaaTcyBI",
@@ -1224,8 +1224,8 @@
     }
    ],
    "order": 2,
-   "visible": true,
-   "updatedAt": 1790554137801
+   "visible": false,
+   "updatedAt": 1790721968551
   },
   {
    "id": "8rQMH2gDHTyLIffIKoVQ",
@@ -1902,8 +1902,8 @@
     }
    ],
    "order": 3,
-   "visible": true,
-   "updatedAt": 1790554151012
+   "visible": false,
+   "updatedAt": 1790721993200
   },
   {
    "id": "lwSCWQmz2cDhQQArhqp5",
@@ -3064,8 +3064,8 @@
     }
    ],
    "order": 4,
-   "visible": true,
-   "updatedAt": 1790554155479
+   "visible": false,
+   "updatedAt": 1790722003702
   },
   {
    "id": "NyWkJf9mpYZpdmHdFJhc",
@@ -4278,8 +4278,8 @@
     }
    ],
    "order": 5,
-   "visible": true,
-   "updatedAt": 1790554163968
+   "visible": false,
+   "updatedAt": 1790722012978
   },
   {
    "id": "GbFNizaLaDHhzBZooGGO",
@@ -5168,8 +5168,8 @@
    ],
    "folderId": "gKvEbi3wseHQAB6N1sVv",
    "name": "Guernica → Rayo de Sol",
-   "visible": true,
-   "updatedAt": 1790554343184
+   "visible": false,
+   "updatedAt": 1790722198674
   },
   {
    "id": "tbxUqmXue4f5bfI2Rhaa",
@@ -5974,8 +5974,8 @@
    "folderId": "gKvEbi3wseHQAB6N1sVv",
    "name": "Rayo de Sol → Guernica",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554343217
+   "visible": false,
+   "updatedAt": 1790722198925
   }
  ]
 }

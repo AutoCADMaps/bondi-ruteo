@@ -1375,8 +1375,8 @@
    "createdAt": 1786471490534,
    "ramalRef": "520PILA",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554330178
+   "visible": false,
+   "updatedAt": 1790722196665
   },
   {
    "id": "RiqnVL5vhKzjg5OVFn4t",
@@ -3149,7 +3149,7 @@
    ],
    "folderId": "9BM5H43sjX83p5DIeHfw",
    "visible": false,
-   "updatedAt": 1790340137602
+   "updatedAt": 1790722196734
   },
   {
    "id": "T7YRB2rge8TiaQ21hbkw",
@@ -4793,8 +4793,8 @@
    "createdAt": 1786471797357,
    "ramalRef": "520PILB",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554330327
+   "visible": false,
+   "updatedAt": 1790722196842
   },
   {
    "id": "i4RdMaZCkQ8jJLqSG74T",
@@ -6358,8 +6358,8 @@
    "createdAt": 1786472216679,
    "ramalRef": "520PILB.",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554330349
+   "visible": false,
+   "updatedAt": 1790722196930
   },
   {
    "id": "ZeRN8nuUyzMgJbob91u5",
@@ -8235,8 +8235,8 @@
    "createdAt": 1786472411210,
    "ramalRef": "520PILC",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554330371
+   "visible": false,
+   "updatedAt": 1790722197019
   },
   {
    "id": "Hd5sevbzrNNDh1MS7Rgu",
@@ -10120,8 +10120,8 @@
    "createdAt": 1786472513588,
    "ramalRef": "520PILC.",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554330392
+   "visible": false,
+   "updatedAt": 1790722197125
   },
   {
    "id": "aBxJV0IUo6kaqpAuMpFO",
@@ -11094,7 +11094,7 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790340137731
+   "updatedAt": 1790722197211
   },
   {
    "id": "lFTw97rLVdJqsJcnlIhC",
@@ -12150,8 +12150,8 @@
      "lon": -58.84274318509263
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554335485
+   "visible": false,
+   "updatedAt": 1790722197289
   },
   {
    "id": "Aw2lad3jOruECDTmD0Dx",
@@ -13539,8 +13539,8 @@
    "createdAt": 1786473054762,
    "ramalRef": "520PILE",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554332184
+   "visible": false,
+   "updatedAt": 1790722197352
   },
   {
    "id": "zqWvZIv1WUJvGWPEilIt",
@@ -14968,8 +14968,8 @@
    "createdAt": 1786473246302,
    "ramalRef": "520PILE.",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554335449
+   "visible": false,
+   "updatedAt": 1790722197424
   },
   {
    "id": "2VkQbEqOkcykmmP4w4cl",
@@ -15813,8 +15813,8 @@
    "createdAt": 1786473384841,
    "ramalRef": "520PILF",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554335467
+   "visible": false,
+   "updatedAt": 1790722197526
   },
   {
    "id": "OhGnXqv9kCjT0PpzGkcR",
@@ -16610,8 +16610,8 @@
    "createdAt": 1786473508070,
    "ramalRef": "520PILF.",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554335766
+   "visible": false,
+   "updatedAt": 1790722197648
   },
   {
    "id": "wRP9p5xOkzTr4hWMi05A",
@@ -18587,8 +18587,8 @@
    "createdAt": 1786473677929,
    "ramalRef": "520PILG",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554335715
+   "visible": false,
+   "updatedAt": 1790722197739
   },
   {
    "id": "Uf6UqnURh3djHrIlJ75w",
@@ -20680,8 +20680,8 @@
    "createdAt": 1786473784472,
    "ramalRef": "520PILG.",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554335818
+   "visible": false,
+   "updatedAt": 1790722197797
   },
   {
    "id": "RE1UbWKjKtlwp6OZRkTx",
@@ -21437,8 +21437,8 @@
    "createdAt": 1786473924110,
    "ramalRef": "520PILH",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554335900
+   "visible": false,
+   "updatedAt": 1790722197854
   },
   {
    "id": "mqcPazlP6uBbxYalHEOy",
@@ -22190,8 +22190,8 @@
    "createdAt": 1786474001881,
    "ramalRef": "520PILH.",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554335971
+   "visible": false,
+   "updatedAt": 1790722197913
   },
   {
    "id": "KP1ECblERDfi3tn0Bh1X",
@@ -23852,8 +23852,8 @@
    "discontinued": false,
    "name": "Presidente Derqui → UNPILAR sede Parque Industrial",
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554397258
+   "visible": false,
+   "updatedAt": 1790722246913
   },
   {
    "id": "LYaFyJOWHWtKwSTvP2wc",
@@ -25642,8 +25642,8 @@
    "name": "UNPILAR sede Parque Industrial → Presidente Derqui",
    "discontinued": false,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": true,
-   "updatedAt": 1790554397215
+   "visible": false,
+   "updatedAt": 1790722246993
   }
  ]
 }

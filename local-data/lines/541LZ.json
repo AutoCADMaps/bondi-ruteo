@@ -740,8 +740,8 @@
    "name": "Ramal A: Puente La Noria → Luz y Fuerza → Banfield",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327142
+   "visible": false,
+   "updatedAt": 1790722185072
   },
   {
    "id": "PHJBlNJt3cm9zsxwkKPd",
@@ -1626,8 +1626,8 @@
    "name": "Ramal A: Banfield → Luz y Fuerza → Puente La Noria",
    "discontinued": false,
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327161
+   "visible": false,
+   "updatedAt": 1790722185124
   },
   {
    "id": "aFC6bsbLOfFEE2aPB3Xs",
@@ -2399,8 +2399,8 @@
     }
    ],
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327180
+   "visible": false,
+   "updatedAt": 1790722185226
   },
   {
    "id": "X7tK4sGciwkATvcxE9lX",
@@ -3296,8 +3296,8 @@
     }
    ],
    "folderId": "YaUf0fgn0pQKDnYYfzpd",
-   "visible": true,
-   "updatedAt": 1790554327194
+   "visible": false,
+   "updatedAt": 1790722185264
   }
  ]
 }

@@ -2408,8 +2408,8 @@
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "name": "Cementerio de Flores → x Carabobo → Terminal Retiro",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554299151
+   "visible": false,
+   "updatedAt": 1790722142528
   },
   {
    "id": "REvNCOLUQaSPGNaB1u69",
@@ -4650,8 +4650,8 @@
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "name": "Terminal Retiro → x Carabobo → Cementerio de Flores",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554299186
+   "visible": false,
+   "updatedAt": 1790722142574
   },
   {
    "id": "I7AV5clhHHrREpviDIrO",
@@ -7116,8 +7116,8 @@
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "name": "Cementerio de Flores → x Plaza Flores → Terminal Retiro",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554299218
+   "visible": false,
+   "updatedAt": 1790722142697
   },
   {
    "id": "xta9aBSwCDwoSMN5qjcI",
@@ -9426,8 +9426,8 @@
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "name": "Terminal Retiro → x Plaza Flores → Cementerio de Flores",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554299252
+   "visible": false,
+   "updatedAt": 1790722142833
   },
   {
    "id": "UD3PruOz3Qrx2l2jSRwZ",
@@ -11843,8 +11843,8 @@
     }
    ],
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
-   "visible": true,
-   "updatedAt": 1790554299292
+   "visible": false,
+   "updatedAt": 1790722142986
   },
   {
    "id": "LZeK9jrF7ZAG0jz7770C",
@@ -14173,8 +14173,8 @@
    "folderId": "Pq1htEPTtPDdC9cGSBlu",
    "discontinued": false,
    "name": "Ramal Min. de Educación: Villa 31 → x Plaza Flores → Cementerio de Flores",
-   "visible": true,
-   "updatedAt": 1790554299355
+   "visible": false,
+   "updatedAt": 1790722143015
   }
  ]
 }

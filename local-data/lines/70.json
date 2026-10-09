@@ -2724,8 +2724,8 @@
    ],
    "name": "Valentín Alsina → Terminal Retiro",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554292010
+   "visible": false,
+   "updatedAt": 1790722093956
   },
   {
    "id": "E3wuKJwooEMUIk5y19HK",
@@ -5098,8 +5098,8 @@
    ],
    "name": "Terminal Retiro → Valentín Alsina",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554292059
+   "visible": false,
+   "updatedAt": 1790722093984
   }
  ]
 }

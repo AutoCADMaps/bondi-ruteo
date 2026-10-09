@@ -3608,8 +3608,8 @@
    "ramalRef": "71A",
    "ref": "71",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1790554053938
+   "visible": false,
+   "updatedAt": 1790721928620
   },
   {
    "id": "BgJbzLRVBr6wabdGJA2O",
@@ -7230,8 +7230,8 @@
    "ramalRef": "71A.",
    "ref": "71",
    "order": 1,
-   "visible": true,
-   "updatedAt": 1790554074951
+   "visible": false,
+   "updatedAt": 1790721954842
   },
   {
    "id": "hJvyaHI9ZEgH3AoMQ44M",
@@ -10880,8 +10880,8 @@
    "ramalRef": "71C",
    "ref": "71",
    "order": 2,
-   "visible": true,
-   "updatedAt": 1790554127562
+   "visible": false,
+   "updatedAt": 1790721966512
   },
   {
    "id": "PT8yBdrw54e7o0YMF45F",
@@ -14562,8 +14562,8 @@
    "ramalRef": "71C.",
    "ref": "71",
    "order": 3,
-   "visible": true,
-   "updatedAt": 1790554148510
+   "visible": false,
+   "updatedAt": 1790721975196
   },
   {
    "id": "hfcLIG5330F4DpD1bkWj",
@@ -17272,8 +17272,8 @@
    "ref": "71",
    "name": "Ramal P: Villa Adelina → x Panamericana → Once",
    "order": 4,
-   "visible": true,
-   "updatedAt": 1790554155319
+   "visible": false,
+   "updatedAt": 1790722003393
   },
   {
    "id": "a2KRHVwcCPba2yR8TaW6",
@@ -19854,8 +19854,8 @@
    "ref": "71",
    "name": "Ramal P: Once → x Panamericana → Villa Adelina",
    "order": 5,
-   "visible": true,
-   "updatedAt": 1790554163796
+   "visible": false,
+   "updatedAt": 1790722012610
   }
  ]
 }

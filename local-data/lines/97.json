@@ -4151,8 +4151,8 @@
     }
    ],
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554296397
+   "visible": false,
+   "updatedAt": 1790722098356
   },
   {
    "id": "HAUso3mMM9Jb5yhQemIi",
@@ -7952,8 +7952,8 @@
    "createdAt": 1785714288534,
    "ramalRef": "97.",
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "visible": true,
-   "updatedAt": 1790554296434
+   "visible": false,
+   "updatedAt": 1790722102403
   }
  ]
 }

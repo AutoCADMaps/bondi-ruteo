@@ -1307,8 +1307,8 @@
      "lon": -58.315207337646406
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554343710
+   "visible": false,
+   "updatedAt": 1790722201115
   },
   {
    "id": "0Zl9GxJnbpEUWQWzxvSr",
@@ -2628,8 +2628,8 @@
      "lon": -58.22321262658427
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554343969
+   "visible": false,
+   "updatedAt": 1790722201514
   },
   {
    "id": "voDb9JNXxqk4DlL5hhVG",
@@ -4046,8 +4046,8 @@
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
    "name": "Cementerio de Ezpeleta → San Francisco Solano",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554344001
+   "visible": false,
+   "updatedAt": 1790722201547
   },
   {
    "id": "CdtKdciLoNBPSXmBC8og",
@@ -5528,8 +5528,8 @@
    "folderId": "Ho9XwS3eqdRhPc9UPKzg",
    "name": "San Francisco Solano → Cementerio de Ezpeleta",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1790554344033
+   "visible": false,
+   "updatedAt": 1790722201577
   }
  ]
 }

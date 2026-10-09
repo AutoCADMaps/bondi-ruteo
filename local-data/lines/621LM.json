@@ -3048,8 +3048,8 @@
    "ramalRef": "621LMA",
    "order": 0,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554057561
+   "visible": false,
+   "updatedAt": 1790721945560
   },
   {
    "id": "49FXcOzmzF82T156sWRd",
@@ -6270,8 +6270,8 @@
    ],
    "order": 1,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554121977
+   "visible": false,
+   "updatedAt": 1790721963245
   },
   {
    "id": "RO2fcqHRYPMFPuiFuMA5",
@@ -8568,8 +8568,8 @@
    ],
    "order": 2,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554142793
+   "visible": false,
+   "updatedAt": 1790721970250
   },
   {
    "id": "ovDXJ32D3s8S2iCTAD8A",
@@ -10762,8 +10762,8 @@
    ],
    "order": 3,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554152369
+   "visible": false,
+   "updatedAt": 1790721994046
   },
   {
    "id": "oQ4C6z4V1b89YJXLaK3Z",
@@ -12893,8 +12893,8 @@
    "discontinued": false,
    "order": 4,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554156934
+   "visible": false,
+   "updatedAt": 1790722005505
   },
   {
    "id": "T7coCGYbVHtGRLqoH3r3",
@@ -14891,15 +14891,15 @@
    ],
    "order": 5,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554164995
+   "visible": false,
+   "updatedAt": 1790722017220
   },
   {
    "id": "q4WkfCg3sFxDXlMcOf3t",
    "ref": "621LM",
    "color": "#ff0000",
    "createdAt": 1786054856037,
-   "ramalRef": "621D",
+   "ramalRef": "621LMD",
    "name": "Ramos Mejía → x Da Vinci → Russo y Ruta 1001",
    "points": [
     {
@@ -17085,8 +17085,9 @@
    ],
    "order": 6,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554174235
+   "visible": false,
+   "updatedAt": 1791049409076,
+   "discontinued": false
   },
   {
    "id": "JP3VHHjVVrWa4ucunhLd",
@@ -19175,8 +19176,8 @@
    ],
    "order": 7,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554213985
+   "visible": false,
+   "updatedAt": 1790722041314
   },
   {
    "id": "3oUNxQVyaMVYNdmlxBCo",
@@ -21633,8 +21634,8 @@
    "ramalRef": "621LME",
    "order": 8,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554234446
+   "visible": false,
+   "updatedAt": 1790722046557
   },
   {
    "id": "V8RM038fBKJYHrTXszNG",
@@ -23875,15 +23876,15 @@
    "ramalRef": "621LME.",
    "order": 9,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554245900
+   "visible": false,
+   "updatedAt": 1790722052917
   },
   {
    "id": "tWWW4tqM7veX7PjkzgI7",
    "ref": "621LM",
    "color": "#ff0000",
    "createdAt": 1786055282717,
-   "ramalRef": "621F",
+   "ramalRef": "621LMF",
    "name": "Ramos Mejía → x Casares → Rafael Castillo",
    "points": [
     {
@@ -25593,8 +25594,9 @@
    ],
    "order": 10,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554250825
+   "visible": false,
+   "updatedAt": 1791049422202,
+   "discontinued": false
   },
   {
    "id": "ivtjVYNGyTqqQUXtiMLg",
@@ -27151,8 +27153,8 @@
    ],
    "order": 11,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554257178
+   "visible": false,
+   "updatedAt": 1790722063474
   },
   {
    "id": "qHC3ykchmy3Z1ghX04Ub",
@@ -30857,8 +30859,8 @@
    ],
    "order": 12,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554259225
+   "visible": false,
+   "updatedAt": 1790722065477
   },
   {
    "id": "vSVOToFR4BatTo7MXVhG",
@@ -34355,8 +34357,8 @@
      "lon": -58.489525348380944
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554261164
+   "visible": false,
+   "updatedAt": 1790722067991
   },
   {
    "id": "Rc4FMvp2nhA7LT6DnWGl",
@@ -37901,8 +37903,8 @@
    ],
    "order": 14,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554266609
+   "visible": false,
+   "updatedAt": 1790722070567
   },
   {
    "id": "sjjSof6Gv537fdafEKw9",
@@ -41363,8 +41365,8 @@
      "lon": -58.489525348380944
     }
    ],
-   "visible": true,
-   "updatedAt": 1790554273458
+   "visible": false,
+   "updatedAt": 1790722073414
   },
   {
    "id": "aNJiAePch57sYoZ7uSAU",
@@ -42382,8 +42384,8 @@
    "discontinued": false,
    "order": 16,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554274717
+   "visible": false,
+   "updatedAt": 1790722075678
   },
   {
    "id": "O7Bc7na4w2n87lHM3xhp",
@@ -43484,15 +43486,15 @@
    "ramalRef": "621LMI.",
    "order": 17,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554276056
+   "visible": false,
+   "updatedAt": 1790722076862
   },
   {
    "id": "08ihIjVRigLa3Jq7bWXd",
    "ref": "621LM",
    "color": "#ff0000",
    "createdAt": 1786056375180,
-   "ramalRef": "621J",
+   "ramalRef": "621LMJ",
    "name": "Ruta 1001 y Russo → Primavera → x Russo → Laferrere",
    "points": [
     {
@@ -44550,8 +44552,9 @@
    ],
    "order": 18,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554277079
+   "visible": false,
+   "updatedAt": 1791049432665,
+   "discontinued": false
   },
   {
    "id": "BOS8hN843APPXLqffEky",
@@ -45740,8 +45743,8 @@
    ],
    "order": 19,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554277776
+   "visible": false,
+   "updatedAt": 1790722078809
   },
   {
    "id": "Cqsci9gh8TzrrCAxHekY",
@@ -46686,8 +46689,8 @@
    ],
    "order": 20,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554279246
+   "visible": false,
+   "updatedAt": 1790722079464
   },
   {
    "id": "0rQd3m8ak8uhESrqKHSq",
@@ -47644,8 +47647,8 @@
    ],
    "order": 21,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554282340
+   "visible": false,
+   "updatedAt": 1790722081185
   },
   {
    "id": "xnYiWZbtP80E0rVjaLIY",
@@ -48315,8 +48318,8 @@
    "discontinued": false,
    "order": 22,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554283392
+   "visible": false,
+   "updatedAt": 1790722083658
   },
   {
    "id": "oUSjA9dssjauyAxhREey",
@@ -48993,8 +48996,8 @@
    "ramalRef": "621LML.",
    "order": 23,
    "folderId": "q4eS6ayKKihbijjAGjPj",
-   "visible": true,
-   "updatedAt": 1790554283825
+   "visible": false,
+   "updatedAt": 1790722088448
   }
  ]
 }

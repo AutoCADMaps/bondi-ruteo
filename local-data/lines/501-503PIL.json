@@ -7881,7 +7881,7 @@
   {
    "id": "YLZFin5WNJbRFBMRfUCR",
    "ref": "501-503PIL",
-   "name": "Pilar (Terminal) → Ex Fábrica Militar",
+   "name": "Terminal Pilar → Ex Fábrica Militar",
    "color": "#4ea7ca",
    "createdAt": 1786463621008,
    "ramalRef": "501-503PILE",
@@ -8322,12 +8322,13 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790722060835
+   "updatedAt": 1791938749303,
+   "discontinued": false
   },
   {
    "id": "2Ky6zP6sZDVjI7hSF6wU",
    "ref": "501-503PIL",
-   "name": "Ex Fábrica Militar → Pilar (Terminal)",
+   "name": "Ex Fábrica Militar → Terminal Pilar",
    "color": "#4ea7ca",
    "createdAt": 1786463692437,
    "ramalRef": "501-503PILE.",
@@ -8748,7 +8749,8 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790722063808
+   "updatedAt": 1791938743932,
+   "discontinued": false
   }
  ]
 }

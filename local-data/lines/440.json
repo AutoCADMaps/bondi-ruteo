@@ -5,7 +5,7 @@
    "id": "vqSc4n5QTUKWZGFyS1hB",
    "ref": "440",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789424665403,
    "ramalRef": "440-01",
    "discontinued": false,
@@ -1381,8 +1381,8 @@
    ],
    "name": "Código 01: Estación General Lemos → Parque Abascal → Tierras Altas",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1791043659316
+   "visible": false,
+   "updatedAt": 1793473561630
   },
   {
    "id": "j6GeaT8vqxZ66WXqNp53",
@@ -3066,20 +3066,20 @@
      "lon": -58.70219143767814
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789425563020,
    "ramalRef": "440-01.",
    "discontinued": false,
    "name": "Código 01: Tierras Altas → Parque Abascal → Estación General Lemos",
    "order": 1,
-   "visible": true,
-   "updatedAt": 1791043659387
+   "visible": false,
+   "updatedAt": 1793473561715
   },
   {
    "id": "ti4opCJknMLWVZhTZ5we",
    "ref": "440",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789426099879,
    "ramalRef": "440-02",
    "name": "Código 02: Estación General Lemos → Parque Abascal → José C. Paz",
@@ -3994,14 +3994,14 @@
     }
    ],
    "order": 2,
-   "visible": true,
-   "updatedAt": 1791043659412
+   "visible": false,
+   "updatedAt": 1793473561769
   },
   {
    "id": "w3yHfpYwIkb3HODu8okL",
    "ref": "440",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789426150295,
    "ramalRef": "440-02.",
    "name": "Código 02: José C. Paz → Parque Abascal → Estación General Lemos",
@@ -4892,8 +4892,8 @@
     }
    ],
    "order": 3,
-   "visible": true,
-   "updatedAt": 1791043659437
+   "visible": false,
+   "updatedAt": 1793473561888
   },
   {
    "id": "THf1i9btpKw4lV47HHog",
@@ -5706,12 +5706,12 @@
      "lon": -58.74000196957299
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789426538335,
    "ramalRef": "440-0312",
    "order": 4,
-   "visible": true,
-   "updatedAt": 1791043659464,
+   "visible": false,
+   "updatedAt": 1793473561992,
    "discontinued": false
   },
   {
@@ -6644,21 +6644,21 @@
      "lon": -58.71370762341743
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789426707791,
    "ramalRef": "440-0312.",
    "order": 5,
    "name": "Código 12: Tierras Altas → x José León Suárez → San Miguel",
    "discontinued": false,
-   "visible": true,
-   "updatedAt": 1791043659496
+   "visible": false,
+   "updatedAt": 1793473562054
   },
   {
    "id": "wV5qLFGR42VbrioGVhLL",
    "ref": "440",
    "name": "Código 06: San Miguel → El Jagüel → Los Polvorines",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789427590553,
    "ramalRef": "440-06",
    "points": [
@@ -7148,8 +7148,8 @@
     }
    ],
    "order": 6,
-   "visible": true,
-   "updatedAt": 1791043659525
+   "visible": false,
+   "updatedAt": 1793473562151
   },
   {
    "id": "0qR25bui9PhPgQrz7OwD",
@@ -7606,12 +7606,12 @@
      "lon": -58.71445124403598
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789427981808,
    "ramalRef": "440-06.",
    "order": 7,
-   "visible": true,
-   "updatedAt": 1791043659575
+   "visible": false,
+   "updatedAt": 1793473562207
   },
   {
    "id": "ji7HkajdEovoIAm2hLNH",
@@ -8388,12 +8388,12 @@
      "lon": -58.74000196957299
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789428272375,
    "ramalRef": "440-08",
    "order": 8,
-   "visible": true,
-   "updatedAt": 1791043659597
+   "visible": false,
+   "updatedAt": 1793473562300
   },
   {
    "id": "ckMCIE86x7O9epheKHSX",
@@ -9482,19 +9482,19 @@
      "lon": -58.7943739215194
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789428720817,
    "ramalRef": "440-08.",
    "order": 9,
-   "visible": true,
-   "updatedAt": 1791043659619
+   "visible": false,
+   "updatedAt": 1793473562408
   },
   {
    "id": "nQdXntrjXYLqh9yzrLFR",
    "ref": "440",
    "name": "Código 10: San Miguel → Parque Jardín → Namuncurá",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789429460177,
    "ramalRef": "440-10",
    "points": [
@@ -11024,15 +11024,15 @@
     }
    ],
    "order": 10,
-   "visible": true,
-   "updatedAt": 1791043659850
+   "visible": false,
+   "updatedAt": 1793473562481
   },
   {
    "id": "4z03oXPRuPvHo5UeIWc5",
    "ref": "440",
    "name": "Código 10: Namuncurá → Parque Jardín → San Miguel",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789429639239,
    "ramalRef": "440-10.",
    "points": [
@@ -12586,8 +12586,8 @@
     }
    ],
    "order": 11,
-   "visible": true,
-   "updatedAt": 1791043659875
+   "visible": false,
+   "updatedAt": 1793473562543
   },
   {
    "id": "EY9jmigodRnjtEaPPjMW",
@@ -13996,19 +13996,19 @@
      "lon": -58.70219143767814
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789430575632,
    "ramalRef": "440-12.",
    "order": 12,
-   "visible": true,
-   "updatedAt": 1791043659905,
+   "visible": false,
+   "updatedAt": 1793473562615,
    "discontinued": false
   },
   {
    "id": "MSX05aeOd1tMvdgOtFQJ",
    "ref": "440",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789430283324,
    "ramalRef": "440-91",
    "name": "Código 91: Estación General Lemos → x La Pinta → Marcos Sastre y Pichincha",
@@ -14411,14 +14411,14 @@
     }
    ],
    "order": 13,
-   "visible": true,
-   "updatedAt": 1791043659963
+   "visible": false,
+   "updatedAt": 1793473562703
   },
   {
    "id": "qJ8fNXO5lDCnbGo1s9OE",
    "ref": "440",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789730952896,
    "ramalRef": "440-03",
    "name": "Código 03: Marcos Sastre y Pichincha → x La Pinta → Universidad General Sarmiento",
@@ -15409,8 +15409,8 @@
      "lon": -58.701349969747724
     }
    ],
-   "visible": true,
-   "updatedAt": 1791043659993,
+   "visible": false,
+   "updatedAt": 1793473562772,
    "discontinued": false
   },
   {
@@ -16464,19 +16464,19 @@
      "lon": -58.7264076
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789505930667,
    "ramalRef": "440-19",
    "order": 15,
-   "visible": true,
-   "updatedAt": 1791043660047
+   "visible": false,
+   "updatedAt": 1793473562860
   },
   {
    "id": "bJyPWevXiMJn9hh191Su",
    "ref": "440",
    "name": "Código 19: Grand Bourg → Pablo Nogués → San Miguel",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789506219942,
    "ramalRef": "440-19.",
    "points": [
@@ -17482,15 +17482,15 @@
     }
    ],
    "order": 16,
-   "visible": true,
-   "updatedAt": 1791043660079
+   "visible": false,
+   "updatedAt": 1793473562919
   },
   {
    "id": "npmWlq0D79tNVBlzUiii",
    "ref": "440",
    "name": "Código 25: Estación General Lemos → Namuncurá",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789506925682,
    "ramalRef": "440-25",
    "points": [
@@ -18716,8 +18716,8 @@
     }
    ],
    "order": 17,
-   "visible": true,
-   "updatedAt": 1791043660105
+   "visible": false,
+   "updatedAt": 1793473563022
   },
   {
    "id": "1BkdfeuzVWWGYXMr7DPM",
@@ -19833,20 +19833,20 @@
      "lon": -58.70212227447862
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789512599373,
    "ramalRef": "440-25.",
    "name": "Código 25: Namuncurá → Estación General Lemos",
    "discontinued": false,
    "order": 18,
-   "visible": true,
-   "updatedAt": 1791043660127
+   "visible": false,
+   "updatedAt": 1793473564217
   },
   {
    "id": "fT2Lvj7myNKtZLG5f2mL",
    "ref": "440",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789513404307,
    "ramalRef": "440-48",
    "discontinued": false,
@@ -20706,14 +20706,14 @@
     }
    ],
    "order": 19,
-   "visible": true,
-   "updatedAt": 1791043660197
+   "visible": false,
+   "updatedAt": 1793473564328
   },
   {
    "id": "mgcZcjMmIvAnlY19gJer",
    "ref": "440",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789730272818,
    "ramalRef": "440-79",
    "name": "Código 79: San Ignacio y Ruta 197 → San Miguel → Santa Brígida",
@@ -21964,14 +21964,14 @@
     }
    ],
    "order": 20,
-   "visible": true,
-   "updatedAt": 1791043660474
+   "visible": false,
+   "updatedAt": 1793473564405
   },
   {
    "id": "dltt14cy6MlYb0KJSUUa",
    "ref": "440",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789513875008,
    "ramalRef": "440-792",
    "name": "Código 79: Santa Brígida → Parque Jardín → San Miguel",
@@ -22666,15 +22666,15 @@
     }
    ],
    "order": 21,
-   "visible": true,
-   "updatedAt": 1791043660638,
+   "visible": false,
+   "updatedAt": 1793473564450,
    "discontinued": false
   },
   {
    "id": "u5pCLmEMHoqBmW3YaFcK",
    "ref": "440",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789730739516,
    "ramalRef": "440-52",
    "name": "Código 52: San Miguel → Los Polvorines → José C. Paz → San Miguel",
@@ -24281,8 +24281,8 @@
     }
    ],
    "order": 22,
-   "visible": true,
-   "updatedAt": 1791043660718
+   "visible": false,
+   "updatedAt": 1793473564526
   },
   {
    "id": "IvibZqjiZVDjWjaJ7LsB",
@@ -24767,12 +24767,12 @@
      "lon": -58.76705631113251
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789757122744,
    "ramalRef": "440-52C",
    "order": 23,
-   "visible": true,
-   "updatedAt": 1791043660763
+   "visible": false,
+   "updatedAt": 1793473564582
   },
   {
    "id": "cwI16YJDnL4OR4U0W5Os",
@@ -25269,12 +25269,12 @@
      "lon": -58.71348658767004
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789757189663,
    "ramalRef": "440-52C.",
    "order": 24,
-   "visible": true,
-   "updatedAt": 1791043660792
+   "visible": false,
+   "updatedAt": 1793473564784
   },
   {
    "id": "rz43cXUz4188LQ1k2ifE",
@@ -26135,12 +26135,12 @@
      "lon": -58.7817472
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789732217495,
    "ramalRef": "440-97",
    "order": 25,
-   "visible": true,
-   "updatedAt": 1791043660821
+   "visible": false,
+   "updatedAt": 1793473564851
   },
   {
    "id": "2hLzLbaMKFvwQRxkWVIn",
@@ -27017,12 +27017,12 @@
      "lon": -58.70216516660627
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789732381312,
    "ramalRef": "440-97.",
    "order": 26,
-   "visible": true,
-   "updatedAt": 1791043660874
+   "visible": false,
+   "updatedAt": 1793473564912
   },
   {
    "id": "1bsecPBnI2Q2cfXCGZiR",
@@ -28794,14 +28794,14 @@
      "lon": -58.714550529280885
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789733385715,
    "ramalRef": "440-9899",
    "name": "Código 98: San Miguel → Grand Bourg → Los Polvorines → San Miguel",
    "discontinued": false,
    "order": 27,
-   "visible": true,
-   "updatedAt": 1791048882661
+   "visible": false,
+   "updatedAt": 1793473564976
   },
   {
    "id": "e79Ttl8QlLqlS7lL0CWu",
@@ -30538,12 +30538,12 @@
      "lon": -58.714537814870695
     }
    ],
-   "folderId": null,
+   "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1789732852434,
    "ramalRef": "440-9899.",
    "order": 28,
-   "visible": true,
-   "updatedAt": 1791048896783,
+   "visible": false,
+   "updatedAt": 1793473565203,
    "discontinued": false
   }
  ]

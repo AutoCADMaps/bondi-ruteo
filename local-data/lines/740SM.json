@@ -248,13 +248,13 @@
      "lon": -58.74551027346797
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789415220931,
    "ramalRef": "740SM-13",
    "discontinued": false,
    "order": 0,
    "visible": false,
-   "updatedAt": 1790721950512
+   "updatedAt": 1793473639484
   },
   {
    "id": "ABRPjTwmUSqk4nHgAwHu",
@@ -495,12 +495,12 @@
      "lon": -58.7134942887062
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789415306120,
    "ramalRef": "740SM-13.",
    "order": 1,
    "visible": false,
-   "updatedAt": 1790721965911
+   "updatedAt": 1793473639589
   },
   {
    "id": "fYZOJcqI3jiIA719sD81",
@@ -1125,12 +1125,12 @@
      "lon": -58.751855052674806
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789416096683,
    "ramalRef": "740SM-14",
    "order": 2,
    "visible": false,
-   "updatedAt": 1791049517559,
+   "updatedAt": 1793473639651,
    "discontinued": false
   },
   {
@@ -1720,12 +1720,12 @@
      "lon": -58.70219819645733
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789416385591,
    "ramalRef": "740SM-14.",
    "order": 3,
    "visible": false,
-   "updatedAt": 1790722002360
+   "updatedAt": 1793473639711
   },
   {
    "id": "z4Q8v4M9KwDCAW498JBA",
@@ -2389,14 +2389,14 @@
      "lon": -58.76706257825122
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789416872746,
    "ramalRef": "740SM-17",
    "name": "Código 17: Estación General Lemos → Santa Brígida",
    "discontinued": false,
    "order": 4,
    "visible": false,
-   "updatedAt": 1790722011782
+   "updatedAt": 1793473639829
   },
   {
    "id": "kYHD3xXpJDN6hQD98wT9",
@@ -3053,19 +3053,19 @@
      "lon": -58.70219819645733
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789416946045,
    "ramalRef": "740SM-17.",
    "order": 5,
    "visible": false,
-   "updatedAt": 1790722028742
+   "updatedAt": 1793473639870
   },
   {
    "id": "hjhsZQcXY5nkJIkfaPNV",
    "ref": "740SM",
    "name": "Código 21: San Miguel → Mitre",
    "color": "#ffff00",
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789414772672,
    "ramalRef": "740SM-21",
    "discontinued": false,
@@ -3521,7 +3521,7 @@
    ],
    "order": 6,
    "visible": false,
-   "updatedAt": 1790722040096
+   "updatedAt": 1793473639756
   },
   {
    "id": "m6WjwIAI8WE7TqTzCyXt",
@@ -3942,12 +3942,12 @@
      "lon": -58.7134942887062
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789415034303,
    "ramalRef": "740SM-21.",
    "order": 7,
    "visible": false,
-   "updatedAt": 1790722045166
+   "updatedAt": 1793473639918
   },
   {
    "id": "OSLldYDZZwRGoTVhjswE",
@@ -5156,12 +5156,12 @@
      "lon": -58.6824009
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789417330418,
    "ramalRef": "740SM-49",
    "order": 8,
    "visible": false,
-   "updatedAt": 1790722051577
+   "updatedAt": 1793473639964
   },
   {
    "id": "jhVipbvNiwQjFcTBRlK0",
@@ -6266,12 +6266,12 @@
      "lon": -58.70219819645733
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789417484761,
    "ramalRef": "740SM-49.",
    "order": 9,
    "visible": false,
-   "updatedAt": 1790722059660
+   "updatedAt": 1793473640002
   },
   {
    "id": "oQUHEF8PPS19KQwXT0N9",
@@ -6851,13 +6851,13 @@
      "lon": -58.76560619322472
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789424022914,
    "ramalRef": "740SM-54",
    "name": "Código 54: San Miguel → Santa Brígida - Escuela N°32",
    "discontinued": false,
    "visible": false,
-   "updatedAt": 1790722256157
+   "updatedAt": 1793473640845
   },
   {
    "id": "xmWl7pl4jxl4NcBFsGHF",
@@ -7417,13 +7417,13 @@
      "lon": -58.71370762341743
     }
    ],
-   "folderId": null,
+   "folderId": "90ca76d8-5bb2-4234-8cd8-7b4dcd1767a3",
    "createdAt": 1789424262535,
    "ramalRef": "740SM-54.",
    "name": "Código 54: Santa Brígida - Escuela N°32 → San Miguel",
    "discontinued": false,
    "visible": false,
-   "updatedAt": 1790722255308
+   "updatedAt": 1793473641028
   }
  ]
 }

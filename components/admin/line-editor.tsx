@@ -10,15 +10,17 @@ import L from "leaflet"
 
 import "leaflet/dist/leaflet.css"
 
-import { MoreVertical, PanelLeftClose, PanelLeftOpen, Eye, EyeOff, ChevronRight, ChevronDown, FolderPlus, Folder as FolderIcon, LogOut, Undo2, Redo2, Maximize2, Minimize2, UploadCloud, Database, Sun, Moon, MapPin, X, Save } from "lucide-react"
+import { MoreVertical, PanelLeftClose, PanelLeftOpen, Eye, EyeOff, ChevronRight, ChevronDown, FolderPlus, Folder as FolderIcon, LogOut, Undo2, Redo2, Maximize2, Minimize2, UploadCloud, Database, Sun, Moon, MapPin, X } from "lucide-react"
 import { useTheme } from "next-themes"
 
 import { Button } from "@/components/ui/button"
 
 import { Input } from "@/components/ui/input"
+import { ReportsPanel } from "@/components/admin/reports-panel"
 import { StopImageField } from "@/components/admin/stop-image-field"
 import { StopStreetView } from "@/components/admin/stop-street-view"
 import { MindMapIconPicker } from "@/components/admin/mind-map-icon-picker"
+import { LineZonesDialog } from "@/components/admin/line-zones-dialog"
 import { CheckToggle } from "@/components/ui/check-toggle"
 
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
@@ -52,6 +54,7 @@ import {
   nearestNode,
 
   snapNearNeighbors,
+  type SnapNeighbors,
 
   shortestPath,
 
@@ -988,7 +991,7 @@ export function LineEditor() {
   // Prender/apagar el dibujado de las paradas en el mapa del admin (no
   // afecta si están asignadas ni se publican, solo la vista mientras se
   // trabaja el trazado sin que las paradas tapen las calles).
-  const [stopsVisible, setStopsVisible] = useState(true)
+  const [stopsVisible, setStopsVisible] = useState(false)
 
   const [publishingStops, setPublishingStops] = useState(false)
 
@@ -1061,6 +1064,9 @@ export function LineEditor() {
   // convierte el trazado a waypoints — pesado quería evitarse justo para
   // esto, tocar solo etiquetas de un montón de ramales seguidos).
   const [lineToQuickEdit, setLineToQuickEdit] = useState<CustomLine | null>(null)
+
+  // Diálogo de partidos y localidades (por línea entera, no por ramal).
+  const [zonesOpen, setZonesOpen] = useState(false)
 
   const [quickEditRef, setQuickEditRef] = useState("")
 
@@ -2203,15 +2209,40 @@ export function LineEditor() {
         }
       }
       setDirtyStopIds(stillDirty)
+      autoSyncFailuresRef.current = failed > 0 ? autoSyncFailuresRef.current + 1 : 0
+      if (failed === 0 && created + updated + deleted === 0) {
+        setStopsSyncMessage(null)
+        return
+      }
       setStopsSyncMessage(
         failed > 0
-          ? `${created} creadas, ${updated} actualizadas, ${deleted} borradas — ${failed} fallaron y quedaron pendientes, reintentá sincronizar.`
-          : `Listo: ${created} creadas, ${updated} actualizadas, ${deleted} borradas.`
+          ? `${failed} cambio(s) de paradas no se pudieron guardar; se reintenta solo.`
+          : `Paradas guardadas (${created} creadas, ${updated} actualizadas, ${deleted} borradas).`
       )
     } finally {
       setSyncingStops(false)
     }
   }
+
+  // Las paradas se guardan solas poco después de cada cambio (ya no hay botón
+  // de guardar: escribe en local-data, no en Firebase). Si falla, reintenta con
+  // espera creciente en vez de quedar en bucle.
+  const syncStopsRef = useRef(syncStops)
+  syncStopsRef.current = syncStops
+  const autoSyncFailuresRef = useRef(0)
+  useEffect(() => {
+    if (stopsPendingCount === 0 || syncingStops) return
+    // Con el diálogo de una parada abierto no se guarda nada: una parada nueva
+    // todavía tiene id local, y si se crea en el servidor mientras se escribe
+    // el nombre y las líneas, el diálogo queda apuntando a un id viejo y al
+    // darle "Guardar parada" se pierde todo lo cargado. Se guarda al cerrarlo.
+    if (selectedStop) return
+    const failures = autoSyncFailuresRef.current
+    const delay = failures === 0 ? 1200 : Math.min(30000, 2000 * 2 ** failures)
+    const t = setTimeout(() => { void syncStopsRef.current() }, delay)
+    return () => clearTimeout(t)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dirtyStopIds, pendingDeleteStopIds, syncingStops, selectedStop])
 
   function openQuickEditLine(line: CustomLine) {
     setLineToQuickEdit(line)
@@ -3030,7 +3061,7 @@ export function LineEditor() {
   // recta, podía mostrar un lugar y enganchar en otro distinto al soltar.
   // Como corre Dijkstra por candidato, se throttlea para no llamarla en
   // cada pixel de movimiento del mouse.
-  function showSnapPreview(lat: number, lon: number, neighborKeys: string[]) {
+  function showSnapPreview(lat: number, lon: number, neighbors: SnapNeighbors) {
     const graph = graphRef.current
     const map = mapRef.current
     if (!graph || !map) return
@@ -3039,7 +3070,7 @@ export function LineEditor() {
     if (now - previewThrottleRef.current < 80) return
     previewThrottleRef.current = now
 
-    const key = snapNearNeighbors(graph, lat, lon, neighborKeys)
+    const key = snapNearNeighbors(graph, lat, lon, neighbors)
     const node = key ? graph.nodes.get(key) : null
     if (!node) {
       hideSnapPreview()
@@ -3124,7 +3155,7 @@ export function LineEditor() {
 
       const marker = L.marker([node.lat, node.lon], { icon: vertexIcon, draggable: true })
 
-      const neighbors = [keys[i - 1], keys[i + 1]].filter((k): k is string => k !== undefined)
+      const neighbors: SnapNeighbors = { prev: keys[i - 1], next: keys[i + 1] }
 
       marker.on("drag", () => {
 
@@ -3222,7 +3253,7 @@ export function LineEditor() {
 
         const ll = marker.getLatLng()
 
-        showSnapPreview(ll.lat, ll.lng, [keys[i], keys[i + 1]])
+        showSnapPreview(ll.lat, ll.lng, { prev: keys[i], next: keys[i + 1] })
 
       })
 
@@ -3232,7 +3263,7 @@ export function LineEditor() {
 
         const ll = marker.getLatLng()
 
-        const newKey = snapNearNeighbors(graph, ll.lat, ll.lng, [keys[i], keys[i + 1]])
+        const newKey = snapNearNeighbors(graph, ll.lat, ll.lng, { prev: keys[i], next: keys[i + 1] })
 
         if (!newKey) return
 
@@ -3300,7 +3331,7 @@ export function LineEditor() {
 
       const lastKey = waypointNodeKeys[waypointNodeKeys.length - 1]
 
-      const nodeKey = snapNearNeighbors(graph, e.latlng.lat, e.latlng.lng, lastKey ? [lastKey] : [])
+      const nodeKey = snapNearNeighbors(graph, e.latlng.lat, e.latlng.lng, { prev: lastKey })
 
       if (!nodeKey) return
 
@@ -3703,33 +3734,45 @@ export function LineEditor() {
     )
   }
 
-  async function publishAllLines() {
-    setPublishMessage("Publicando todas las líneas...")
-    const res = await fetch("/api/admin/custom-lines/publish", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({}),
-    })
-    const data = await res.json().catch(() => null)
-    if (!res.ok || !data) {
-      setPublishMessage("Error al publicar")
-      return
-    }
-    const failed: { ref: string; error: string }[] = data.failed ?? []
-    setPublishMessage(
-      failed.length === 0
-        ? `Publicadas ${data.published} línea(s)`
-        : `Publicadas ${data.published} línea(s) — fallaron ${failed.length}: ${failed.map((f) => f.ref).join(", ")}`
-    )
-  }
-
-  async function publishStops() {
+  // Una sola acción para publicar todo: guarda lo que haya pendiente de
+  // paradas, publica las líneas (public/variants) y después las paradas
+  // (public/stops).
+  async function publishEverything() {
+    if (publishingStops) return
     setPublishingStops(true)
-    setPublishMessage("Publicando paradas...")
+    setPublishMessage("Publicando líneas y paradas...")
     try {
-      const res = await fetch("/api/admin/stops/publish", { method: "POST" })
-      const data = await res.json()
-      setPublishMessage(res.ok ? `Publicadas paradas de ${data.published} ramal(es)` : "Error al publicar paradas")
+      if (stopsPendingCount > 0) {
+        await syncStopsRef.current()
+        if (autoSyncFailuresRef.current > 0) {
+          setPublishMessage("No se pudieron guardar todas las paradas, así que no se publicó nada. Probá de nuevo en unos segundos.")
+          return
+        }
+      }
+      const linesRes = await fetch("/api/admin/custom-lines/publish", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({}),
+      })
+      const linesData = await linesRes.json().catch(() => null)
+      if (!linesRes.ok || !linesData) {
+        setPublishMessage("Error al publicar las líneas (las paradas no se publicaron)")
+        return
+      }
+      const failed: { ref: string; error: string }[] = linesData.failed ?? []
+      const stopsRes = await fetch("/api/admin/stops/publish", { method: "POST" })
+      const stopsData = await stopsRes.json().catch(() => null)
+      const linesMsg =
+        failed.length === 0
+          ? `${linesData.published} línea(s)`
+          : `${linesData.published} línea(s) — fallaron ${failed.length}: ${failed.map((x) => x.ref).join(", ")}`
+      setPublishMessage(
+        stopsRes.ok && stopsData
+          ? `Publicado: ${linesMsg} y paradas de ${stopsData.published} ramal(es)`
+          : `Publicado: ${linesMsg}. Error al publicar las paradas`
+      )
+    } catch {
+      setPublishMessage("Error al publicar")
     } finally {
       setPublishingStops(false)
     }
@@ -3969,17 +4012,21 @@ export function LineEditor() {
 
               <button
 
-                title="Publicar todas las líneas (genera public/variants/*.json.gz)"
+                title="Publicar todo: líneas y paradas (genera public/variants y public/stops)"
 
                 className="p-1 text-muted-foreground hover:text-foreground"
 
-                onClick={publishAllLines}
+                onClick={publishEverything}
+
+                disabled={publishingStops}
 
               >
 
                 <UploadCloud className="h-4 w-4" />
 
               </button>
+
+              <ReportsPanel />
 
               <button
                 title="Editor de carteleras (ramaleras)"
@@ -4002,37 +4049,6 @@ export function LineEditor() {
                 onClick={() => setStopsVisible((v) => !v)}
               >
                 {stopsVisible ? <Eye className="h-4 w-4" /> : <EyeOff className="h-4 w-4" />}
-              </button>
-
-              <button
-                title={
-                  stopsPendingCount > 0
-                    ? `Guardar ${stopsPendingCount} cambio(s) de paradas pendientes`
-                    : "No hay cambios de paradas sin guardar"
-                }
-                className="relative p-1 text-muted-foreground hover:text-foreground disabled:opacity-30 disabled:hover:text-muted-foreground"
-                onClick={syncStops}
-                disabled={stopsPendingCount === 0 || syncingStops}
-              >
-                <Save className="h-4 w-4" />
-                {stopsPendingCount > 0 && (
-                  <span className="absolute -top-1 -right-1 flex h-3.5 min-w-3.5 items-center justify-center rounded-full bg-primary px-0.5 text-[9px] leading-none text-primary-foreground">
-                    {stopsPendingCount}
-                  </span>
-                )}
-              </button>
-
-              <button
-                title={
-                  stopsPendingCount > 0
-                    ? "Guardá los cambios de paradas primero — publicar todavía no los tiene"
-                    : "Publicar paradas (genera public/stops/*.json.gz)"
-                }
-                className="p-1 text-muted-foreground hover:text-foreground disabled:opacity-30 disabled:hover:text-muted-foreground"
-                onClick={publishStops}
-                disabled={publishingStops || stopsPendingCount > 0}
-              >
-                <UploadCloud className="h-4 w-4" />
               </button>
 
               <button
@@ -4063,6 +4079,13 @@ export function LineEditor() {
                 </option>
               ))}
             </select>
+            <button
+              title="Partidos y localidades de la línea (la línea entera, no cada ramal)"
+              className="p-1 shrink-0 text-muted-foreground hover:text-foreground border rounded"
+              onClick={() => setZonesOpen(true)}
+            >
+              <MapPin className="h-3.5 w-3.5" />
+            </button>
             {lineFilterRef && (
               <button
                 title="Mostrar/ocultar todos los ramales de esta línea"
@@ -4366,6 +4389,13 @@ export function LineEditor() {
           )}
         </div>
       )}
+      <LineZonesDialog
+        open={zonesOpen}
+        onOpenChange={setZonesOpen}
+        initialRef={lineFilterRef}
+        allLines={lines.map((l) => ({ ref: l.ref, color: l.color, discontinued: l.discontinued, points: l.points }))}
+      />
+
       <Dialog open={bulkOpen} onOpenChange={setBulkOpen}>
         <DialogContent>
           <DialogHeader>

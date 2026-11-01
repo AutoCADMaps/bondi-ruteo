@@ -115,6 +115,7 @@ export async function POST() {
     {
       lat: number; lng: number; name: string; order: number; img?: string; credit?: string
       mindMap?: boolean; mindMapIcon?: string; mindMapName?: string; combos?: { r: string; c: string }[]; metrobus?: boolean
+      st?: string; id?: string
     }[]
   >()
   for (const stop of allStops) {
@@ -132,6 +133,10 @@ export async function POST() {
         ...(images.has(stop.id) ? { img: `${stop.id}.webp`, credit: readCredit(stop.id) } : {}),
         ...(stop.mindMap === true ? { mindMap: true } : {}),
         ...(stop.metrobus === true ? { metrobus: true } : {}),
+        // Clasificación hecha en Ruteo (confirmada, dudosa, inventada…).
+        ...(stop.status ? { st: stop.status } : {}),
+        // Id de la parada: lo usa el sitio para los reportes de usuarios.
+        id: stop.id,
         // Símbolo elegido a mano para el mapa mental (si no hay, el sitio lo
         // deduce del nombre).
         ...(stop.mindMap === true && isMindMapIconKey(stop.mindMapIcon) ? { mindMapIcon: stop.mindMapIcon } : {}),

@@ -1,0 +1,7652 @@
+{
+ "1": {
+  "partidos": [
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 8",
+   "Comuna 9",
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Morón"
+  ],
+  "localidades": [
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Liniers",
+   "Ciudadela",
+   "Ramos Mejía",
+   "Villa Sarmiento",
+   "El Palomar",
+   "Haedo",
+   "Morón"
+  ],
+  "description": "Morón - Primera Junta"
+ },
+ "2": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 10",
+   "Comuna 9",
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "La Boca",
+   "Puerto Madero",
+   "San Telmo",
+   "Monserrat",
+   "Balvanera",
+   "Almagro",
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Liniers",
+   "Ciudadela",
+   "Lomas del Mirador"
+  ],
+  "description": "Lomas del Mirador - Dársena Sur"
+ },
+ "4": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 7",
+   "Comuna 9",
+   "Comuna 10",
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "La Boca",
+   "Puerto Madero",
+   "San Nicolás",
+   "Monserrat",
+   "San Telmo",
+   "Constitución",
+   "San Cristóbal",
+   "Parque Patricios",
+   "Boedo",
+   "Parque Chacabuco",
+   "Flores",
+   "Parque Avellaneda",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Liniers",
+   "Mataderos",
+   "Ciudadela",
+   "Lomas del Mirador"
+  ],
+  "description": "Lomas del Mirador - Plaza Roma - Dársena Sur"
+ },
+ "7": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 7",
+   "Comuna 9",
+   "Comuna 8"
+  ],
+  "localidades": [
+   "Retiro",
+   "San Nicolás",
+   "Monserrat",
+   "Balvanera",
+   "Almagro",
+   "Boedo",
+   "Parque Chacabuco",
+   "Flores",
+   "Parque Avellaneda",
+   "Villa Lugano"
+  ],
+  "description": "Retiro - Barrio Samoré - Parque Avellaneda"
+ },
+ "8": {
+  "partidos": [
+   "Comuna 14",
+   "Comuna 2",
+   "Comuna 1",
+   "Comuna 4",
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 10",
+   "Comuna 9",
+   "Comuna 8",
+   "Partido de La Matanza",
+   "Partido de Ezeiza",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Palermo",
+   "Recoleta",
+   "Retiro",
+   "San Nicolás",
+   "Monserrat",
+   "San Telmo",
+   "Constitución",
+   "La Boca",
+   "Balvanera",
+   "Almagro",
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Liniers",
+   "Ciudadela",
+   "Lomas del Mirador",
+   "Mataderos",
+   "La Tablada",
+   "Villa Lugano",
+   "Villa Madero",
+   "Villa Celina",
+   "Villa Riachuelo",
+   "Parque Avellaneda",
+   "Tapiales",
+   "Aldo Bonzi",
+   "Ciudad Evita",
+   "Aeropuerto Internacional Ezeiza"
+  ],
+  "description": "Aeroparque - Liniers - Aeropuerto Ezeiza - La Boca"
+ },
+ "9": {
+  "partidos": [
+   "Partido de Lanús",
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 5"
+  ],
+  "localidades": [
+   "Lanús Oeste",
+   "Valentín Alsina",
+   "Nueva Pompeya",
+   "Boedo",
+   "Parque Patricios",
+   "Barracas",
+   "Constitución",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro"
+  ],
+  "description": "Villa Caraza - Constitución - Retiro"
+ },
+ "10": {
+  "partidos": [
+   "Partido de Avellaneda",
+   "Partido de Lanús",
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14"
+  ],
+  "localidades": [
+   "Monte Chingolo",
+   "Wilde",
+   "Villa Domínico",
+   "Sarandí",
+   "Dock Sud",
+   "Avellaneda",
+   "Barracas",
+   "La Boca",
+   "San Telmo",
+   "Constitución",
+   "San Nicolás",
+   "Monserrat",
+   "Retiro",
+   "Recoleta",
+   "Palermo"
+  ],
+  "description": "Palermo - Villa Domínico - Belgrano y Cadorna"
+ },
+ "12": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14"
+  ],
+  "localidades": [
+   "Barracas",
+   "Constitución",
+   "Parque Patricios",
+   "San Cristóbal",
+   "Balvanera",
+   "Monserrat",
+   "San Nicolás",
+   "Recoleta",
+   "Palermo"
+  ],
+  "description": "Barracas - Constitución - Palermo"
+ },
+ "15": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 5",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 15",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de San Isidro",
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas",
+   "Partido de Escobar",
+   "Partido de Lanús"
+  ],
+  "localidades": [
+   "Benavídez",
+   "Garín",
+   "Ricardo Rojas",
+   "Área de Promoción El Triángulo",
+   "Pablo Nogués",
+   "El Talar",
+   "General Pacheco",
+   "Don Torcuato",
+   "Boulogne Sur Mer",
+   "Villa Adelina (San Isidro)",
+   "Martínez",
+   "Munro",
+   "Olivos",
+   "Florida Oeste",
+   "Florida",
+   "Saavedra",
+   "Núñez",
+   "Belgrano",
+   "Palermo",
+   "Villa Crespo",
+   "Caballito",
+   "Almagro",
+   "Boedo",
+   "Parque Chacabuco",
+   "Nueva Pompeya",
+   "Valentín Alsina"
+  ],
+  "description": "Puente Alsina - Pacheco - Benavídez"
+ },
+ "17": {
+  "partidos": [
+   "Partido de Avellaneda",
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 2"
+  ],
+  "localidades": [
+   "Wilde",
+   "Villa Domínico",
+   "Sarandí",
+   "Avellaneda",
+   "Barracas",
+   "Constitución",
+   "Monserrat",
+   "San Nicolás",
+   "Recoleta",
+   "Retiro"
+  ],
+  "description": "Facultad de Derecho - Wilde"
+ },
+ "19": {
+  "partidos": [],
+  "localidades": [],
+  "description": "Boulogne (Barrio Obrero) - Once"
+ },
+ "20": {
+  "partidos": [
+   "Partido de Esteban Echeverría",
+   "Partido de Lomas de Zamora",
+   "Partido de Avellaneda",
+   "Partido de Lanús",
+   "Comuna 4",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Luis Guillón",
+   "Parque Barón",
+   "Santa Marta",
+   "Villa Albertina",
+   "Villa Centenario",
+   "Remedios de Escalada",
+   "Lanús Oeste",
+   "Valentín Alsina",
+   "Piñeyro",
+   "Barracas",
+   "La Boca",
+   "Puerto Madero",
+   "San Telmo",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro",
+   "Lomas de Zamora",
+   "Villa Fiorito",
+   "Gerli (Lanús)"
+  ],
+  "description": "Cruce Lomas - Retiro"
+ },
+ "21": {
+  "partidos": [
+   "Comuna 8",
+   "Comuna 9",
+   "Comuna 11",
+   "Comuna 12",
+   "Comuna 10",
+   "Comuna 13",
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero",
+   "Partido de General San Martín",
+   "Partido de Vicente López",
+   "Partido de San Isidro",
+   "Partido de San Fernando",
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas",
+   "Partido de Escobar",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Villa Fiorito",
+   "Villa Celina",
+   "Villa Riachuelo",
+   "Villa Lugano",
+   "Mataderos",
+   "Liniers",
+   "Villa Real",
+   "Villa Devoto",
+   "Villa Pueyrredón",
+   "Saavedra",
+   "Núñez",
+   "Villa Madero",
+   "La Tablada",
+   "Lomas del Mirador",
+   "Ciudadela",
+   "José Ingenieros",
+   "Villa Raffo",
+   "Sáenz Peña",
+   "Villa Lynch",
+   "Villa Chacabuco",
+   "Villa Maipú",
+   "Villa Martelli",
+   "Florida",
+   "Vicente López",
+   "Olivos",
+   "La Lucila",
+   "Florida Oeste",
+   "Munro",
+   "Martínez",
+   "Villa Adelina (San Isidro)",
+   "Boulogne Sur Mer",
+   "Don Torcuato",
+   "El Talar",
+   "Ricardo Rojas",
+   "Garín",
+   "Área de Promoción El Triángulo",
+   "Pablo Nogués",
+   "Béccar",
+   "Victoria",
+   "Virreyes",
+   "San Fernando",
+   "Tigre",
+   "Versalles"
+  ],
+  "description": "Puente La Noria - Tigre - Fábrica Ford - Vicente López"
+ },
+ "22": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Retiro",
+   "Monserrat",
+   "San Nicolás",
+   "San Telmo",
+   "La Boca",
+   "Barracas",
+   "Avellaneda",
+   "Sarandí",
+   "Villa Domínico",
+   "Wilde",
+   "Bernal Oeste",
+   "Bernal Este",
+   "Don Bosco",
+   "Quilmes"
+  ],
+  "description": "Quilmes - Retiro"
+ },
+ "24": {
+  "partidos": [
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Villa del Parque",
+   "La Paternal",
+   "Villa General Mitre",
+   "Villa Crespo",
+   "Almagro",
+   "Caballito",
+   "Balvanera",
+   "San Nicolás",
+   "Monserrat",
+   "San Telmo",
+   "La Boca",
+   "Barracas",
+   "Avellaneda",
+   "Sarandí",
+   "Villa Domínico",
+   "Wilde",
+   "Bernal Oeste"
+  ],
+  "description": "Villa del Parque - Wilde"
+ },
+ "25": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Comuna 11",
+   "Comuna 10",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 4",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Villa Raffo",
+   "Villa Devoto",
+   "Monte Castro",
+   "Vélez Sarsfield",
+   "Floresta",
+   "Villa Santa Rita",
+   "Flores",
+   "Caballito",
+   "Parque Chacabuco",
+   "Boedo",
+   "Nueva Pompeya",
+   "Parque Patricios",
+   "Constitución",
+   "Barracas",
+   "La Boca",
+   "San Telmo"
+  ],
+  "description": "Estación Sáenz Peña - La Boca"
+ },
+ "26": {
+  "partidos": [
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Flores",
+   "Parque Chacabuco",
+   "Caballito",
+   "Almagro",
+   "Balvanera",
+   "San Nicolás",
+   "Retiro"
+  ],
+  "description": "Retiro - Bajo Flores"
+ },
+ "28": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Comuna 8",
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 12",
+   "Comuna 13",
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero",
+   "Partido de General San Martín",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "Retiro",
+   "San Nicolás",
+   "Monserrat",
+   "Constitución",
+   "Barracas",
+   "Parque Patricios",
+   "Nueva Pompeya",
+   "Villa Soldati",
+   "Villa Riachuelo",
+   "Valentín Alsina",
+   "Lanús Oeste",
+   "Villa Fiorito",
+   "Ingeniero Budge",
+   "Villa Celina",
+   "Tapiales",
+   "Villa Madero",
+   "Villa Lugano",
+   "La Tablada",
+   "Lomas del Mirador",
+   "Ciudadela",
+   "José Ingenieros",
+   "Villa Raffo",
+   "Sáenz Peña",
+   "Villa Lynch",
+   "Villa Chacabuco",
+   "Villa Maipú",
+   "Villa Martelli",
+   "Florida",
+   "Vicente López",
+   "Mataderos",
+   "Liniers",
+   "Villa Real",
+   "Villa Devoto",
+   "Villa Pueyrredón",
+   "Saavedra",
+   "Núñez",
+   "Belgrano"
+  ],
+  "description": "Retiro - Puente La Noria - Ciudad Universitaria"
+ },
+ "29": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "La Boca",
+   "San Telmo",
+   "Barracas",
+   "Monserrat",
+   "San Nicolás",
+   "Recoleta",
+   "Balvanera",
+   "Palermo",
+   "Belgrano",
+   "Núñez",
+   "Coghlan",
+   "Saavedra",
+   "Vicente López",
+   "Olivos"
+  ],
+  "description": "Olivos - Parque Sarmiento - La Boca"
+ },
+ "31": {
+  "partidos": [
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 4",
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Balvanera",
+   "San Cristóbal",
+   "Boedo",
+   "Parque Patricios",
+   "Nueva Pompeya",
+   "Valentín Alsina",
+   "Lanús Oeste",
+   "Villa Fiorito",
+   "Ingeniero Budge",
+   "Villa Lamadrid",
+   "Santa Catalina",
+   "9 de Abril"
+  ],
+  "description": "Olimpo y Ruta 4 - Once"
+ },
+ "32": {
+  "partidos": [
+   "Partido de Lanús",
+   "Comuna 4",
+   "Comuna 3"
+  ],
+  "localidades": [
+   "Lanús Oeste",
+   "Valentín Alsina",
+   "Nueva Pompeya",
+   "Parque Patricios",
+   "San Cristóbal",
+   "Balvanera"
+  ],
+  "description": "Lanús - Villa Jardín - Once"
+ },
+ "33": {
+  "partidos": [
+   "Comuna 13",
+   "Comuna 14",
+   "Comuna 2",
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de Quilmes",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Belgrano",
+   "Palermo",
+   "Recoleta",
+   "San Nicolás",
+   "Monserrat",
+   "San Telmo",
+   "La Boca",
+   "Barracas",
+   "Dock Sud",
+   "Avellaneda",
+   "Piñeyro",
+   "Gerli (Lanús)",
+   "Lanús Oeste",
+   "Remedios de Escalada",
+   "Sarandí",
+   "Villa Domínico",
+   "Gerli (Avellaneda)",
+   "Lanús Este",
+   "Monte Chingolo",
+   "San José (Lomas de Zamora)",
+   "San José (Almirante Brown)",
+   "Quilmes Oeste"
+  ],
+  "description": "San José - Dock Sud - Ciudad Universitaria"
+ },
+ "34": {
+  "partidos": [
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 13",
+   "Comuna 14",
+   "Comuna 15",
+   "Comuna 6",
+   "Comuna 9"
+  ],
+  "localidades": [
+   "Belgrano",
+   "Caballito",
+   "Floresta",
+   "Liniers",
+   "Palermo",
+   "Vélez Sarsfield",
+   "Versalles",
+   "Villa Crespo",
+   "Villa General Mitre",
+   "Villa Luro",
+   "Villa Santa Rita"
+  ],
+  "description": "Liniers - Aeroparque - Ciudad Universitaria"
+ },
+ "37": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Avellaneda",
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Remedios de Escalada",
+   "Lanús Oeste",
+   "Gerli (Lanús)",
+   "Piñeyro",
+   "Barracas",
+   "Parque Patricios",
+   "Constitución",
+   "San Cristóbal",
+   "Monserrat",
+   "San Nicolás",
+   "Balvanera",
+   "Recoleta",
+   "Palermo",
+   "Belgrano"
+  ],
+  "description": "Lanús - Plaza Italia - Aeroparque - Ciudad Universitaria"
+ },
+ "39": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 15"
+  ],
+  "localidades": [
+   "La Boca",
+   "Barracas",
+   "San Telmo",
+   "Constitución",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro",
+   "Recoleta",
+   "Palermo",
+   "Colegiales",
+   "Chacarita"
+  ],
+  "description": "Barracas - Constitución - Palermo - Chacarita"
+ },
+ "41": {
+  "partidos": [
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "Boedo",
+   "San Cristóbal",
+   "Balvanera",
+   "Recoleta",
+   "Palermo",
+   "Colegiales",
+   "Belgrano",
+   "Núñez",
+   "Coghlan",
+   "Villa Urquiza",
+   "Saavedra",
+   "Villa Martelli",
+   "Florida Oeste",
+   "Munro",
+   "Villa Adelina (Vicente López)",
+   "Carapachay"
+  ],
+  "description": "Carapachay - San Cristóbal"
+ },
+ "42": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 15",
+   "Comuna 14",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Barracas",
+   "Nueva Pompeya",
+   "Parque Chacabuco",
+   "Caballito",
+   "Villa Crespo",
+   "Chacarita",
+   "Colegiales",
+   "Palermo",
+   "Belgrano",
+   "Núñez"
+  ],
+  "description": "Nueva Pompeya - Chacarita - Ciudad Universitaria"
+ },
+ "44": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Nueva Pompeya",
+   "Parque Chacabuco",
+   "Flores",
+   "Caballito",
+   "Villa General Mitre",
+   "La Paternal",
+   "Chacarita",
+   "Colegiales",
+   "Belgrano"
+  ],
+  "description": "Puente Alsina - Chacarita - Belgrano"
+ },
+ "45": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Avellaneda",
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Lanús Oeste",
+   "Gerli (Lanús)",
+   "Piñeyro",
+   "Barracas",
+   "Constitución",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro",
+   "Palermo",
+   "Belgrano",
+   "Recoleta"
+  ],
+  "description": "Remedios de Escalada - Retiro - Ciudad Universitaria"
+ },
+ "46": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero",
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 7",
+   "Comuna 8",
+   "Comuna 4",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "San Justo",
+   "Ramos Mejía",
+   "Lomas del Mirador",
+   "Ciudadela",
+   "Liniers",
+   "Villa Luro",
+   "Vélez Sarsfield",
+   "Parque Avellaneda",
+   "Flores",
+   "Villa Soldati",
+   "Nueva Pompeya",
+   "Parque Patricios",
+   "Barracas",
+   "Constitución",
+   "San Telmo",
+   "La Boca"
+  ],
+  "description": "San Justo - Bajo Flores - La Boca"
+ },
+ "47": {
+  "partidos": [
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 8",
+   "Comuna 9",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Agronomía",
+   "Chacarita",
+   "Ciudadela",
+   "Floresta",
+   "La Paternal",
+   "Liniers",
+   "Mataderos",
+   "Monte Castro",
+   "Parque Avellaneda",
+   "Vélez Sarsfield",
+   "Versalles",
+   "Villa del Parque",
+   "Villa Devoto",
+   "Villa General Mitre",
+   "Villa Lugano",
+   "Villa Luro",
+   "Villa Real",
+   "Villa Riachuelo",
+   "Villa Santa Rita",
+   "Villa Soldati"
+  ],
+  "description": "Lugano 1 y 2 - Barrio Olímpico - Liniers - Chacarita"
+ },
+ "49": {
+  "partidos": [
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 10",
+   "Comuna 9",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Parque Avellaneda",
+   "Villa Luro",
+   "Mataderos",
+   "Lomas del Mirador",
+   "La Tablada",
+   "San Justo",
+   "Isidro Casanova",
+   "Gregorio de Laferrere"
+  ],
+  "description": "Km. 27 - Villa Constructora - Primera Junta"
+ },
+ "50": {
+  "partidos": [
+   "Comuna 8",
+   "Comuna 9",
+   "Comuna 7",
+   "Comuna 4",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Villa Lugano",
+   "Mataderos",
+   "Parque Avellaneda",
+   "Villa Soldati",
+   "Flores",
+   "Parque Chacabuco",
+   "Nueva Pompeya",
+   "Boedo",
+   "Parque Patricios",
+   "San Cristóbal",
+   "Constitución",
+   "Balvanera",
+   "Monserrat",
+   "San Nicolás"
+  ],
+  "description": "Av. del Trabajo - Villa Soldati - Correo Central"
+ },
+ "51": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de Almirante Brown",
+   "Partido de Presidente Perón",
+   "Partido de San Vicente",
+   "Partido de Brandsen",
+   "Partido de Esteban Echeverría",
+   "Partido de Ezeiza",
+   "Partido de La Matanza",
+   "Comuna 8",
+   "Partido de Cañuelas"
+  ],
+  "localidades": [
+   "Constitución",
+   "Barracas",
+   "Avellaneda",
+   "Piñeyro",
+   "Gerli (Lanús)",
+   "Lanús Oeste",
+   "Remedios de Escalada",
+   "Banfield",
+   "Lomas de Zamora",
+   "Turdera",
+   "Adrogué",
+   "Malvinas Argentinas (Almirante Brown)",
+   "Burzaco",
+   "Longchamps",
+   "Glew",
+   "Guernica",
+   "Alejandro Korn",
+   "San Vicente",
+   "Domselaar",
+   "Brandsen",
+   "Villa Lugano",
+   "Ciudad Evita",
+   "Aeropuerto Internacional Ezeiza",
+   "Llavallol",
+   "Luis Guillón",
+   "Monte Grande",
+   "El Jagüel",
+   "Ezeiza",
+   "La Unión",
+   "Tristán Suárez",
+   "Carlos Spegazzini",
+   "Máximo Paz",
+   "Vicente Casares",
+   "Alejandro Petión",
+   "Cañuelas",
+   "Temperley"
+  ],
+  "description": "Constitución - Brandsen - San Vicente - Cañuelas"
+ },
+ "53": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 11",
+   "Comuna 10",
+   "Partido de Tres de Febrero",
+   "Partido de Morón",
+   "Partido de Hurlingham",
+   "Partido de San Miguel",
+   "Partido de José C. Paz"
+  ],
+  "localidades": [
+   "La Boca",
+   "Barracas",
+   "San Telmo",
+   "Constitución",
+   "Boedo",
+   "Caballito",
+   "Flores",
+   "Villa Santa Rita",
+   "Floresta",
+   "Villa del Parque",
+   "Monte Castro",
+   "Villa Devoto",
+   "Villa Real",
+   "Villa Raffo",
+   "José Ingenieros",
+   "Caseros",
+   "El Palomar",
+   "Ciudad Jardín Lomas del Palomar",
+   "Hurlingham",
+   "William C. Morris",
+   "Bella Vista",
+   "Campo de Mayo",
+   "Muñiz",
+   "San Miguel",
+   "Santa María",
+   "José C. Paz"
+  ],
+  "description": "La Boca - José C. Paz"
+ },
+ "55": {
+  "partidos": [
+   "Comuna 13",
+   "Comuna 14",
+   "Comuna 15",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 10",
+   "Comuna 9",
+   "Partido de Morón",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Belgrano",
+   "Palermo",
+   "Villa Crespo",
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Parque Avellaneda",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Mataderos",
+   "Lomas del Mirador",
+   "San Justo",
+   "Villa Luzuriaga",
+   "Morón"
+  ],
+  "description": "Av. Don Bosco - San Justo - Belgrano"
+ },
+ "56": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Comuna 8",
+   "Comuna 9",
+   "Comuna 7"
+  ],
+  "localidades": [
+   "Flores",
+   "Parque Avellaneda",
+   "Villa Lugano",
+   "Villa Celina",
+   "Villa Madero",
+   "Tapiales",
+   "Aldo Bonzi",
+   "Ciudad Evita"
+  ],
+  "description": "Ciudad Evita - Aldo Bonzi - Plaza de los Virreyes"
+ },
+ "57": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 5",
+   "Partido de Morón",
+   "Partido de Hurlingham",
+   "Partido de Ituzaingó",
+   "Partido de Moreno",
+   "Partido de General Rodríguez",
+   "Partido de Luján",
+   "Partido de Mercedes",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de San Isidro",
+   "Partido de Escobar",
+   "Partido del Pilar",
+   "Partido de Malvinas Argentinas",
+   "Partido de General San Martín",
+   "Partido de Navarro"
+  ],
+  "localidades": [
+   "Constitución",
+   "Monserrat",
+   "Balvanera",
+   "San Cristóbal",
+   "Boedo",
+   "Palermo",
+   "Colegiales",
+   "Belgrano",
+   "Núñez",
+   "Saavedra",
+   "Florida",
+   "Olivos",
+   "Florida Oeste",
+   "Munro",
+   "Martínez",
+   "Villa Adelina (San Isidro)",
+   "Boulogne Sur Mer",
+   "Villa Independencia",
+   "William C. Morris",
+   "Villa Udaondo",
+   "Villa Sarmiento",
+   "El Palomar",
+   "Castelar",
+   "Villa Tesei",
+   "Ituzaingó",
+   "Paso del Rey",
+   "Moreno",
+   "Trujui",
+   "La Reja",
+   "General Rodríguez",
+   "Luján",
+   "Mercedes",
+   "Navarro",
+   "Garín",
+   "Tortuguitas",
+   "Manuel Alberti",
+   "Del Viso",
+   "La Lonja",
+   "Villa Rosa",
+   "Pilar",
+   "Olivera",
+   "Gowland"
+  ],
+  "description": "Once - Palermo - Moreno - Mercedes"
+ },
+ "59": {
+  "partidos": [
+   "Partido de San Isidro",
+   "Partido de Vicente López",
+   "Comuna 13",
+   "Comuna 12",
+   "Comuna 14",
+   "Comuna 2",
+   "Comuna 1",
+   "Comuna 4"
+  ],
+  "localidades": [
+   "Barracas",
+   "Parque Patricios",
+   "Constitución",
+   "San Nicolás",
+   "Monserrat",
+   "Retiro",
+   "Recoleta",
+   "Palermo",
+   "Colegiales",
+   "Belgrano",
+   "Núñez",
+   "Saavedra",
+   "Florida",
+   "Vicente López",
+   "Olivos",
+   "La Lucila",
+   "Munro",
+   "Martínez"
+  ],
+  "description": "Munro - La Lucila - Barracas"
+ },
+ "60": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de San Isidro",
+   "Partido de San Fernando",
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas",
+   "Partido de Escobar"
+  ],
+  "localidades": [
+   "Barracas",
+   "Constitución",
+   "San Nicolás",
+   "Monserrat",
+   "Balvanera",
+   "Recoleta",
+   "Palermo",
+   "Belgrano",
+   "Núñez",
+   "Saavedra",
+   "Vicente López",
+   "Florida",
+   "Florida Oeste",
+   "Olivos",
+   "La Lucila",
+   "Munro",
+   "Martínez",
+   "Villa Adelina (San Isidro)",
+   "Acassuso",
+   "San Isidro",
+   "Béccar",
+   "Boulogne Sur Mer",
+   "Victoria",
+   "San Fernando",
+   "Virreyes",
+   "Don Torcuato",
+   "El Talar",
+   "Tigre",
+   "Troncos del Talar",
+   "Rincón de Milberg",
+   "Nordelta",
+   "Benavídez",
+   "General Pacheco",
+   "Ricardo Rojas",
+   "Área de Promoción El Triángulo",
+   "Garín",
+   "Ingeniero Maschwitz",
+   "Belén de Escobar"
+  ],
+  "description": "Barracas - Belgrano - Maschwitz - Escobar"
+ },
+ "61": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 2"
+  ],
+  "localidades": [
+   "San Telmo",
+   "Constitución",
+   "San Cristóbal",
+   "Parque Patricios",
+   "Balvanera",
+   "Recoleta",
+   "Retiro",
+   "San Nicolás",
+   "Monserrat",
+   "Puerto Madero",
+   "La Boca"
+  ],
+  "description": "Constitución - Once - Puerto Madero - Microcentro"
+ },
+ "62": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 2"
+  ],
+  "localidades": [
+   "San Telmo",
+   "Constitución",
+   "San Cristóbal",
+   "Balvanera",
+   "Recoleta",
+   "Retiro",
+   "San Nicolás",
+   "Monserrat",
+   "Puerto Madero",
+   "La Boca"
+  ],
+  "description": "Constitución - Microcentro - Puerto Madero - Once"
+ },
+ "63": {
+  "partidos": [
+   "Comuna 13",
+   "Comuna 15",
+   "Comuna 11",
+   "Comuna 7",
+   "Comuna 10",
+   "Comuna 9",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Belgrano",
+   "Colegiales",
+   "Chacarita",
+   "La Paternal",
+   "Villa General Mitre",
+   "Villa del Parque",
+   "Villa Santa Rita",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Mataderos",
+   "Parque Avellaneda",
+   "Lomas del Mirador",
+   "La Tablada",
+   "Villa Madero"
+  ],
+  "description": "Villa Madero - Chacarita - Belgrano"
+ },
+ "64": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "La Boca",
+   "San Telmo",
+   "Monserrat",
+   "Balvanera",
+   "Recoleta",
+   "Palermo",
+   "Belgrano"
+  ],
+  "description": "La Boca - Once - Palermo - Belgrano"
+ },
+ "65": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Comuna 5",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 15",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Constitución",
+   "Barracas",
+   "Parque Patricios",
+   "Boedo",
+   "Parque Chacabuco",
+   "Caballito",
+   "Almagro",
+   "Villa Crespo",
+   "Chacarita",
+   "Colegiales",
+   "Belgrano"
+  ],
+  "description": "Constitución - Chacarita - Belgrano"
+ },
+ "67": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de General San Martín"
+  ],
+  "localidades": [
+   "Constitución",
+   "San Nicolás",
+   "Monserrat",
+   "Recoleta",
+   "Retiro",
+   "Palermo",
+   "Colegiales",
+   "Belgrano",
+   "Coghlan",
+   "Saavedra",
+   "Villa Martelli",
+   "Florida Oeste",
+   "Villa Granaderos de San Martín",
+   "Munro"
+  ],
+  "description": "Munro - Constitución"
+ },
+ "68": {
+  "partidos": [
+   "Comuna 3",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "Balvanera",
+   "Recoleta",
+   "Palermo",
+   "Colegiales",
+   "Belgrano",
+   "Núñez",
+   "Saavedra",
+   "Vicente López",
+   "Florida"
+  ],
+  "description": "Once - Puente Saavedra"
+ },
+ "70": {
+  "partidos": [
+   "Partido de Lanús",
+   "Comuna 4",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Valentín Alsina",
+   "Nueva Pompeya",
+   "Barracas",
+   "La Boca",
+   "Constitución",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro"
+  ],
+  "description": "Valentín Alsina - Constitución - Retiro"
+ },
+ "71": {
+  "partidos": [
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 6",
+   "Comuna 15",
+   "Comuna 12",
+   "Comuna 13",
+   "Partido de Vicente López",
+   "Partido de San Isidro"
+  ],
+  "localidades": [
+   "Balvanera",
+   "Almagro",
+   "Caballito",
+   "Villa Crespo",
+   "Chacarita",
+   "Villa Ortúzar",
+   "Parque Chas",
+   "Villa Urquiza",
+   "Saavedra",
+   "Núñez",
+   "Vicente López",
+   "Florida",
+   "Florida Oeste",
+   "Olivos",
+   "La Lucila",
+   "Martínez",
+   "Munro",
+   "Carapachay",
+   "Villa Adelina (San Isidro)",
+   "Villa Adelina (Vicente López)",
+   "Villa Martelli"
+  ],
+  "description": "Villa Adelina - Once"
+ },
+ "74": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Lanús",
+   "Partido de Almirante Brown",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Monserrat",
+   "San Nicolás",
+   "San Telmo",
+   "La Boca",
+   "Barracas",
+   "Avellaneda",
+   "Gerli (Avellaneda)",
+   "Gerli (Lanús)",
+   "Lanús Este",
+   "Remedios de Escalada",
+   "Banfield",
+   "Lomas de Zamora",
+   "Temperley",
+   "Adrogué",
+   "Burzaco",
+   "Ministro Rivadavia",
+   "Longchamps"
+  ],
+  "description": "Plaza del Correo - Longchamps"
+ },
+ "76": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 8",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 15",
+   "Comuna 13",
+   "Comuna 12"
+  ],
+  "localidades": [
+   "Nueva Pompeya",
+   "Villa Soldati",
+   "Flores",
+   "Caballito",
+   "Villa Crespo",
+   "Chacarita",
+   "Colegiales",
+   "Villa Ortúzar",
+   "Belgrano",
+   "Villa Urquiza",
+   "Coghlan",
+   "Saavedra"
+  ],
+  "description": "Puente Alsina - Bajo Flores - Saavedra"
+ },
+ "78": {
+  "partidos": [
+   "Comuna 15",
+   "Comuna 11",
+   "Partido de General San Martín",
+   "Partido de Vicente López",
+   "Partido de San Isidro",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Chacarita",
+   "La Paternal",
+   "Agronomía",
+   "Villa del Parque",
+   "Villa Devoto",
+   "Villa Lynch",
+   "Villa Chacabuco",
+   "Ciudad del Libertador General San Martín",
+   "Villa San Andrés",
+   "Villa Yapeyú",
+   "Villa General Juan Gregorio de Las Heras",
+   "Villa Juan Martín de Pueyrredón",
+   "Villa Coronel José María Zapiola",
+   "Villa General José Tomás Guido",
+   "Villa Ciudad Jardín El Libertador",
+   "Villa María Irene de Los Remedios de Escalada",
+   "Loma Hermosa",
+   "El Libertador",
+   "Villa Marqués Alejandro María de Aguado",
+   "Villa Ballester Noreste",
+   "Villa Ballester Noroeste",
+   "Villa General Eugenio Necochea",
+   "Villa Adelina (San Isidro)",
+   "Villa Adelina (Vicente López)"
+  ],
+  "description": "Chacarita - Villa Adelina - Loma Hermosa"
+ },
+ "79": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de Almirante Brown",
+   "Partido de Florencio Varela",
+   "Partido de Quilmes",
+   "Partido de Presidente Perón",
+   "Partido de San Vicente"
+  ],
+  "localidades": [
+   "Constitución",
+   "Barracas",
+   "Piñeyro",
+   "Gerli (Lanús)",
+   "Lanús Oeste",
+   "Remedios de Escalada",
+   "Banfield",
+   "Lomas de Zamora",
+   "Temperley",
+   "Adrogué",
+   "Burzaco",
+   "San Francisco de Asís",
+   "Claypole",
+   "Villa La Florida",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "San Juan Bautista",
+   "Berazategui",
+   "Longchamps",
+   "Glew",
+   "Guernica",
+   "Alejandro Korn",
+   "San Vicente"
+  ],
+  "description": "Constitución - San Vicente - Varela"
+ },
+ "80": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Comuna 8",
+   "Comuna 9",
+   "Partido de Tres de Febrero",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Villa Celina",
+   "Villa Riachuelo",
+   "Villa Lugano",
+   "Mataderos",
+   "Liniers",
+   "Ciudadela",
+   "Versalles",
+   "Villa Real",
+   "José Ingenieros",
+   "Villa Devoto",
+   "Villa del Parque",
+   "Agronomía",
+   "Parque Chas",
+   "Villa Ortúzar",
+   "Colegiales",
+   "Belgrano"
+  ],
+  "description": "Barrio Sarmiento - Liniers - Belgrano"
+ },
+ "84": {
+  "partidos": [
+   "Comuna 11",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Villa del Parque",
+   "Villa Santa Rita",
+   "Villa General Mitre",
+   "Caballito",
+   "Flores",
+   "Almagro",
+   "Balvanera",
+   "San Cristóbal",
+   "Constitución"
+  ],
+  "description": "Villa del Parque - Constitución"
+ },
+ "85": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 4",
+   "Partido de Lanús",
+   "Partido de Avellaneda",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Quilmes",
+   "Quilmes Oeste",
+   "Bernal Este",
+   "Bernal Oeste",
+   "Don Bosco",
+   "Wilde",
+   "Villa Domínico",
+   "Monte Chingolo",
+   "Lanús Este",
+   "Gerli (Avellaneda)",
+   "Gerli (Lanús)",
+   "Sarandí",
+   "Avellaneda",
+   "Piñeyro",
+   "Valentín Alsina",
+   "Nueva Pompeya",
+   "Boedo",
+   "Parque Chacabuco",
+   "Almagro",
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Monte Castro",
+   "Villa Devoto",
+   "Villa Real",
+   "Ciudadela",
+   "José Ingenieros"
+  ],
+  "description": "Balneario de Quilmes - Ciudadela Norte"
+ },
+ "86": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Comuna 8",
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1",
+   "Comuna 4"
+  ],
+  "localidades": [
+   "La Boca",
+   "San Telmo",
+   "Monserrat",
+   "Constitución",
+   "San Cristóbal",
+   "Balvanera",
+   "Almagro",
+   "Boedo",
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Parque Avellaneda",
+   "Villa Lugano",
+   "Villa Celina",
+   "Villa Madero",
+   "Tapiales",
+   "Aldo Bonzi",
+   "Ciudad Evita",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "González Catán",
+   "Virrey Del Pino"
+  ],
+  "description": "Km. 35 - Laferrere - Primera Junta - La Boca"
+ },
+ "87": {
+  "partidos": [
+   "Comuna 15",
+   "Comuna 12",
+   "Comuna 11",
+   "Partido de General San Martín",
+   "Partido de San Isidro",
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas",
+   "Partido de Escobar"
+  ],
+  "localidades": [
+   "Chacarita",
+   "Villa Ortúzar",
+   "Parque Chas",
+   "Agronomía",
+   "Villa Pueyrredón",
+   "Villa Devoto",
+   "Villa Lynch",
+   "Villa Chacabuco",
+   "Ciudad del Libertador General San Martín",
+   "Villa Yapeyú",
+   "Villa San Andrés",
+   "Villa General Juan Gregorio de Las Heras",
+   "Villa General José Tomás Guido",
+   "Villa Ballester Noreste",
+   "Villa Ballester Noroeste",
+   "Villa José León Suárez",
+   "Villa General Eugenio Necochea",
+   "Boulogne Sur Mer",
+   "Don Torcuato",
+   "General Pacheco",
+   "Ricardo Rojas",
+   "Área de Promoción El Triángulo",
+   "Garín"
+  ],
+  "description": "Chacarita - General Paz - Ford"
+ },
+ "88": {
+  "partidos": [
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 9",
+   "Comuna 10",
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Marcos Paz",
+   "Partido de Cañuelas",
+   "Partido de Lobos"
+  ],
+  "localidades": [
+   "Balvanera",
+   "San Cristóbal",
+   "Almagro",
+   "Boedo",
+   "Caballito",
+   "Parque Chacabuco",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Parque Avellaneda",
+   "Liniers",
+   "Mataderos",
+   "Lomas del Mirador",
+   "Ramos Mejía",
+   "San Justo",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "González Catán",
+   "Virrey Del Pino",
+   "Cañuelas",
+   "Uribelarrea",
+   "Lobos",
+   "San Esteban",
+   "Los Pozos",
+   "Paraje El Taladro",
+   "Empalme Lobos",
+   "San Miguel del Monte",
+   "Abbott"
+  ],
+  "description": "Once - Lobos - Monte"
+ },
+ "91": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Comuna 8",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "San Nicolás",
+   "Monserrat",
+   "Constitución",
+   "Barracas",
+   "Parque Patricios",
+   "Nueva Pompeya",
+   "Villa Soldati",
+   "Villa Lugano",
+   "Villa Riachuelo",
+   "Villa Celina",
+   "Tapiales",
+   "Aldo Bonzi",
+   "Ciudad Evita",
+   "Isidro Casanova"
+  ],
+  "description": "Barrio B.I.D. - Villa Celina - Constitución"
+ },
+ "92": {
+  "partidos": [
+   "Partido de Esteban Echeverría",
+   "Partido de La Matanza",
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 15",
+   "Comuna 5",
+   "Comuna 14",
+   "Comuna 2",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Retiro",
+   "Recoleta",
+   "Palermo",
+   "Almagro",
+   "Villa Crespo",
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Parque Avellaneda",
+   "Villa Luro",
+   "Mataderos",
+   "La Tablada",
+   "Villa Madero",
+   "Tapiales",
+   "Aldo Bonzi",
+   "Ciudad Evita",
+   "9 de Abril"
+  ],
+  "description": "Retiro - Flores - Transradio"
+ },
+ "93": {
+  "partidos": [
+   "Partido de Avellaneda",
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 15",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "Carapachay",
+   "Munro",
+   "Florida Oeste",
+   "Villa Martelli",
+   "Saavedra",
+   "Villa Urquiza",
+   "Villa Ortúzar",
+   "Chacarita",
+   "Colegiales",
+   "Palermo",
+   "Recoleta",
+   "Retiro",
+   "San Nicolás",
+   "Monserrat",
+   "San Telmo",
+   "La Boca",
+   "Barracas",
+   "Avellaneda",
+   "Piñeyro"
+  ],
+  "description": "Avellaneda - Munro"
+ },
+ "95": {
+  "partidos": [
+   "Comuna 13",
+   "Comuna 14",
+   "Comuna 2",
+   "Comuna 3",
+   "Comuna 4",
+   "Comuna 1",
+   "Partido de Avellaneda"
+  ],
+  "localidades": [
+   "Avellaneda",
+   "Gerli (Avellaneda)",
+   "Barracas",
+   "Parque Patricios",
+   "Constitución",
+   "San Cristóbal",
+   "Balvanera",
+   "Recoleta",
+   "Palermo",
+   "Colegiales"
+  ],
+  "description": "Avellaneda - Colegiales"
+ },
+ "96": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 10",
+   "Comuna 9",
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Merlo"
+  ],
+  "localidades": [
+   "Constitución",
+   "Monserrat",
+   "Balvanera",
+   "San Cristóbal",
+   "Almagro",
+   "Boedo",
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Liniers",
+   "Ciudadela",
+   "Ramos Mejía",
+   "San Justo",
+   "Isidro Casanova",
+   "Rafael Castillo",
+   "Gregorio de Laferrere",
+   "González Catán",
+   "Virrey Del Pino",
+   "Pontevedra",
+   "Ciudad Evita"
+  ],
+  "description": "Pontevedra - Laferrere - Esperanza - Constitución"
+ },
+ "97": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Comuna 5",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 9",
+   "Comuna 8",
+   "Partido de La Matanza",
+   "Partido de Morón"
+  ],
+  "localidades": [
+   "Constitución",
+   "Parque Patricios",
+   "San Cristóbal",
+   "Boedo",
+   "Parque Chacabuco",
+   "Flores",
+   "Parque Avellaneda",
+   "Mataderos",
+   "Villa Lugano",
+   "Villa Riachuelo",
+   "Villa Celina",
+   "Villa Madero",
+   "Tapiales",
+   "Aldo Bonzi",
+   "Ciudad Evita",
+   "La Tablada",
+   "San Justo",
+   "Villa Luzuriaga",
+   "Morón"
+  ],
+  "description": "Morón - Constitución"
+ },
+ "98": {
+  "partidos": [
+   "Comuna 3",
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Quilmes",
+   "Partido de Berazategui",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Balvanera",
+   "San Nicolás",
+   "Monserrat",
+   "Constitución",
+   "Barracas",
+   "Avellaneda",
+   "Sarandí",
+   "Villa Domínico",
+   "Wilde",
+   "Don Bosco",
+   "Bernal Este",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "Quilmes",
+   "Ezpeleta Este",
+   "Ezpeleta Oeste",
+   "San Juan Bautista",
+   "Berazategui",
+   "Villa España"
+  ],
+  "description": "Once - Balneario de Quilmes - Villa España - Gráfico"
+ },
+ "100": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Retiro",
+   "San Nicolás",
+   "Monserrat",
+   "Constitución",
+   "Barracas",
+   "Avellaneda",
+   "Piñeyro",
+   "Gerli (Avellaneda)",
+   "Gerli (Lanús)",
+   "Lanús Este",
+   "Remedios de Escalada",
+   "Monte Chingolo",
+   "Banfield",
+   "San José (Lomas de Zamora)"
+  ],
+  "description": "Retiro - Lanús - Monte Chingolo"
+ },
+ "101": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de La Matanza",
+   "Comuna 8",
+   "Comuna 4",
+   "Comuna 7",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 1",
+   "Comuna 9"
+  ],
+  "localidades": [
+   "Ingeniero Budge",
+   "Villa Fiorito",
+   "Villa Celina",
+   "Villa Riachuelo",
+   "Villa Soldati",
+   "Flores",
+   "Nueva Pompeya",
+   "Boedo",
+   "Parque Patricios",
+   "San Cristóbal",
+   "Balvanera",
+   "Recoleta",
+   "Retiro",
+   "Villa Lugano",
+   "Parque Chacabuco",
+   "Parque Avellaneda"
+  ],
+  "description": "Ingeniero Budge - Barrio Samoré - Retiro"
+ },
+ "102": {
+  "partidos": [
+   "Comuna 14",
+   "Comuna 2",
+   "Comuna 1",
+   "Comuna 4"
+  ],
+  "localidades": [
+   "Palermo",
+   "Recoleta",
+   "San Nicolás",
+   "Monserrat",
+   "Constitución",
+   "Barracas"
+  ],
+  "description": "Barracas - Estación Lisandro de la Torre"
+ },
+ "103": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 9",
+   "Comuna 8",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Puerto Madero",
+   "San Telmo",
+   "Monserrat",
+   "Balvanera",
+   "Almagro",
+   "Caballito",
+   "Parque Chacabuco",
+   "Flores",
+   "Parque Avellaneda",
+   "Mataderos",
+   "Villa Lugano",
+   "La Tablada",
+   "Villa Madero",
+   "Tapiales"
+  ],
+  "description": "Tapiales - Puerto Madero"
+ },
+ "105": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Caseros",
+   "Santos Lugares",
+   "Villa Raffo",
+   "Sáenz Peña",
+   "Villa Devoto",
+   "Villa del Parque",
+   "Agronomía",
+   "La Paternal",
+   "Villa Crespo",
+   "Caballito",
+   "Almagro",
+   "Balvanera",
+   "San Nicolás",
+   "Monserrat"
+  ],
+  "description": "Caseros - Villa Raffo - Correo Central"
+ },
+ "106": {
+  "partidos": [
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 15",
+   "Comuna 5",
+   "Comuna 14",
+   "Comuna 2",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Liniers",
+   "Versalles",
+   "Monte Castro",
+   "Floresta",
+   "Villa Luro",
+   "Vélez Sarsfield",
+   "Villa Santa Rita",
+   "Flores",
+   "Villa General Mitre",
+   "Caballito",
+   "Villa Crespo",
+   "Almagro",
+   "Balvanera",
+   "Palermo",
+   "Recoleta",
+   "San Nicolás",
+   "Retiro",
+   "Puerto Madero"
+  ],
+  "description": "Liniers - Puerto Madero - Retiro"
+ },
+ "107": {
+  "partidos": [
+   "Comuna 9",
+   "Comuna 11",
+   "Comuna 12",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Parque Avellaneda",
+   "Vélez Sarsfield",
+   "Monte Castro",
+   "Villa Devoto",
+   "Villa Pueyrredón",
+   "Villa Urquiza",
+   "Coghlan",
+   "Belgrano"
+  ],
+  "description": "Parque Avellaneda - Ciudad Universitaria"
+ },
+ "108": {
+  "partidos": [
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 12",
+   "Comuna 14",
+   "Comuna 2",
+   "Comuna 1",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Liniers",
+   "Versalles",
+   "Villa Real",
+   "José Ingenieros",
+   "Villa Devoto",
+   "Agronomía",
+   "Villa Pueyrredón",
+   "Parque Chas",
+   "Villa Urquiza",
+   "Villa Ortúzar",
+   "Chacarita",
+   "Palermo",
+   "Recoleta",
+   "Retiro"
+  ],
+  "description": "Liniers - Chacarita - Retiro"
+ },
+ "109": {
+  "partidos": [
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 5",
+   "Comuna 14",
+   "Comuna 2",
+   "Comuna 3",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Liniers",
+   "Versalles",
+   "Villa Real",
+   "Monte Castro",
+   "Villa Devoto",
+   "Villa del Parque",
+   "Villa Santa Rita",
+   "Villa General Mitre",
+   "La Paternal",
+   "Villa Crespo",
+   "Almagro",
+   "Palermo",
+   "Recoleta",
+   "Balvanera",
+   "San Nicolás",
+   "Puerto Madero",
+   "Retiro"
+  ],
+  "description": "Liniers - Puerto Madero"
+ },
+ "110": {
+  "partidos": [
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 15",
+   "Comuna 11",
+   "Comuna 6",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de General San Martín"
+  ],
+  "localidades": [
+   "Recoleta",
+   "Palermo",
+   "Villa Crespo",
+   "Caballito",
+   "Villa General Mitre",
+   "Villa Santa Rita",
+   "Villa del Parque",
+   "Agronomía",
+   "Villa Pueyrredón",
+   "Villa Devoto",
+   "Villa Urquiza",
+   "Saavedra",
+   "Villa Maipú",
+   "Villa Martelli"
+  ],
+  "description": "Facultad de Derecho - Villa Martelli"
+ },
+ "111": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 15",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de General San Martín",
+   "Partido de San Isidro"
+  ],
+  "localidades": [
+   "Puerto Madero",
+   "San Telmo",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro",
+   "Recoleta",
+   "Palermo",
+   "Chacarita",
+   "Villa Ortúzar",
+   "Parque Chas",
+   "Agronomía",
+   "Villa Pueyrredón",
+   "Villa Urquiza",
+   "Villa Martelli",
+   "Florida Oeste",
+   "Munro",
+   "Villa Adelina (Vicente López)",
+   "Villa Adelina (San Isidro)",
+   "Villa Maipú",
+   "Villa Granaderos de San Martín",
+   "Villa Gregoria Matorras",
+   "Villa General Eugenio Necochea"
+  ],
+  "description": "Villa General Necochea - Puerto Madero"
+ },
+ "113": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 7",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 12",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "San Justo",
+   "Ramos Mejía",
+   "Lomas del Mirador",
+   "Mataderos",
+   "Liniers",
+   "Villa Luro",
+   "Vélez Sarsfield",
+   "Floresta",
+   "Flores",
+   "Villa General Mitre",
+   "Villa del Parque",
+   "La Paternal",
+   "Agronomía",
+   "Parque Chas",
+   "Villa Ortúzar",
+   "Villa Urquiza",
+   "Belgrano",
+   "Colegiales"
+  ],
+  "description": "San Justo - Belgrano"
+ },
+ "114": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Comuna 8",
+   "Comuna 7",
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 12",
+   "Comuna 13",
+   "Comuna 14"
+  ],
+  "localidades": [
+   "Ingeniero Budge",
+   "Villa Fiorito",
+   "Villa Celina",
+   "Villa Riachuelo",
+   "Villa Soldati",
+   "Villa Lugano",
+   "Parque Avellaneda",
+   "Flores",
+   "Vélez Sarsfield",
+   "Floresta",
+   "Monte Castro",
+   "Villa Devoto",
+   "Villa Pueyrredón",
+   "Villa Urquiza",
+   "Coghlan",
+   "Belgrano",
+   "Palermo"
+  ],
+  "description": "Puente La Noria - Devoto - Aeroparque"
+ },
+ "115": {
+  "partidos": [
+   "Comuna 8",
+   "Comuna 7",
+   "Comuna 4",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Villa Riachuelo",
+   "Villa Lugano",
+   "Villa Soldati",
+   "Nueva Pompeya",
+   "Flores",
+   "Parque Chacabuco",
+   "Boedo",
+   "Almagro",
+   "Parque Patricios",
+   "Balvanera",
+   "San Nicolás",
+   "Retiro"
+  ],
+  "description": "Lugano 1 y 2 - Villa 1-11-14 - Retiro"
+ },
+ "117": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Tres de Febrero",
+   "Partido de General San Martín",
+   "Partido de Vicente López",
+   "Comuna 8",
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 12",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Parque Barón",
+   "Santa Marta",
+   "Villa Albertina",
+   "Villa Lamadrid",
+   "Ingeniero Budge",
+   "Villa Fiorito",
+   "Villa Riachuelo",
+   "Villa Celina",
+   "Villa Lugano",
+   "Mataderos",
+   "Liniers",
+   "Villa Real",
+   "Villa Devoto",
+   "Villa Pueyrredón",
+   "Saavedra",
+   "Núñez",
+   "Ciudadela",
+   "José Ingenieros",
+   "Villa Raffo",
+   "Sáenz Peña",
+   "Villa Lynch",
+   "Villa Chacabuco",
+   "Villa Maipú",
+   "Villa Martelli",
+   "Florida",
+   "Vicente López"
+  ],
+  "description": "Parque Barón - Santa Marta - Estación Rivadavia"
+ },
+ "118": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Barracas",
+   "Parque Patricios",
+   "San Cristóbal",
+   "Balvanera",
+   "Recoleta",
+   "Palermo",
+   "Belgrano"
+  ],
+  "description": "Belgrano - Estación Buenos Aires"
+ },
+ "119": {
+  "partidos": [
+   "Comuna 15",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 7",
+   "Comuna 4",
+   "Partido de Lanús"
+  ],
+  "localidades": [
+   "Chacarita",
+   "La Paternal",
+   "Villa Crespo",
+   "Caballito",
+   "Almagro",
+   "Boedo",
+   "Parque Chacabuco",
+   "Nueva Pompeya",
+   "Valentín Alsina",
+   "Lanús Oeste",
+   "Remedios de Escalada"
+  ],
+  "description": "Remedios de Escalada - Chacarita"
+ },
+ "123": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Tres de Febrero",
+   "Partido de General San Martín",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 12"
+  ],
+  "localidades": [
+   "El Palomar",
+   "Caseros",
+   "Ciudad Jardín Lomas del Palomar",
+   "Santos Lugares",
+   "Sáenz Peña",
+   "Villa Parque Presidente Figueroa Alcorta",
+   "Villa Bernardo de Monteagudo",
+   "Villa Lynch",
+   "Villa Chacabuco",
+   "Villa Devoto",
+   "Villa Pueyrredón",
+   "Agronomía",
+   "Parque Chas",
+   "Villa Urquiza",
+   "Villa Ortúzar",
+   "La Paternal",
+   "Chacarita"
+  ],
+  "description": "El Palomar - Chacarita"
+ },
+ "124": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Comuna 11",
+   "Comuna 10",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 15",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Villa Raffo",
+   "Villa Real",
+   "Villa Devoto",
+   "Monte Castro",
+   "Villa del Parque",
+   "Villa Santa Rita",
+   "Villa General Mitre",
+   "Flores",
+   "Caballito",
+   "Villa Crespo",
+   "Almagro",
+   "Balvanera",
+   "San Nicolás",
+   "Recoleta"
+  ],
+  "description": "Villa Raffo - Facultad de Derecho"
+ },
+ "126": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Comuna 9",
+   "Comuna 8",
+   "Comuna 10",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Retiro",
+   "San Nicolás",
+   "Monserrat",
+   "San Telmo",
+   "Constitución",
+   "San Cristóbal",
+   "Boedo",
+   "Caballito",
+   "Parque Chacabuco",
+   "Flores",
+   "Parque Avellaneda",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Mataderos",
+   "Villa Lugano",
+   "La Tablada",
+   "Ciudad Evita",
+   "San Justo"
+  ],
+  "description": "Villegas - La Tablada - Retiro"
+ },
+ "127": {
+  "partidos": [
+   "Partido de General San Martín",
+   "Comuna 12",
+   "Comuna 15",
+   "Comuna 5",
+   "Comuna 3"
+  ],
+  "localidades": [
+   "San Cristóbal",
+   "Boedo",
+   "Almagro",
+   "Villa Crespo",
+   "Chacarita",
+   "Villa Ortúzar",
+   "Parque Chas",
+   "Villa Urquiza",
+   "Villa Pueyrredón",
+   "Villa Maipú",
+   "Villa Parque San Lorenzo",
+   "Villa Granaderos de San Martín",
+   "Florida Oeste",
+   "Munro",
+   "Villa Gregoria Matorras",
+   "Villa Ballester Noreste",
+   "Villa Ballester Noroeste",
+   "Villa José León Suárez",
+   "Villa General Eugenio Necochea"
+  ],
+  "description": "Villa Hidalgo - San Cristóbal"
+ },
+ "128": {
+  "partidos": [
+   "Partido de Lanús",
+   "Comuna 4",
+   "Comuna 5",
+   "Comuna 14",
+   "Comuna 2"
+  ],
+  "localidades": [
+   "Valentín Alsina",
+   "Gerli (Lanús)",
+   "Nueva Pompeya",
+   "Boedo",
+   "Parque Patricios",
+   "Boedo",
+   "Almagro",
+   "Recoleta",
+   "Palermo"
+  ],
+  "description": "Valentín Alsina - Plaza Italia"
+ },
+ "129": {
+  "partidos": [
+   "Comuna 3",
+   "Comuna 1",
+   "Partido de Berazategui",
+   "Partido de La Plata",
+   "Partido de Florencio Varela",
+   "Comuna 4"
+  ],
+  "localidades": [
+   "Balvanera",
+   "Constitución",
+   "La Boca",
+   "Hudson",
+   "Ingeniero Juan Allan",
+   "Pereyra",
+   "Villa Elisa",
+   "City Bell",
+   "Manuel B. Gonnet",
+   "Ringuelet",
+   "Tolosa",
+   "La Plata",
+   "Villa Castells",
+   "Savoia",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro",
+   "San Telmo"
+  ],
+  "description": "Once - Retiro - La Plata"
+ },
+ "130": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de San Isidro"
+  ],
+  "localidades": [
+   "La Boca",
+   "San Telmo",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro",
+   "Recoleta",
+   "Palermo",
+   "Belgrano",
+   "Núñez",
+   "Coghlan",
+   "Saavedra",
+   "Vicente López",
+   "Florida",
+   "Villa Martelli",
+   "Florida Oeste",
+   "Munro",
+   "Olivos",
+   "Martínez",
+   "Villa Adelina (San Isidro)",
+   "Villa Adelina (Vicente López)",
+   "Boulogne Sur Mer"
+  ],
+  "description": "La Boca - Boulogne"
+ },
+ "132": {
+  "partidos": [
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Flores",
+   "Parque Chacabuco",
+   "Caballito",
+   "Almagro",
+   "Balvanera",
+   "Recoleta",
+   "San Nicolás",
+   "Retiro"
+  ],
+  "description": "Bajo Flores - Retiro - Villa 31"
+ },
+ "133": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 5",
+   "Comuna 7",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 12",
+   "Comuna 13",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "Barracas",
+   "Constitución",
+   "Parque Patricios",
+   "Boedo",
+   "Nueva Pompeya",
+   "Parque Chacabuco",
+   "Flores",
+   "Villa Santa Rita",
+   "Villa General Mitre",
+   "Villa del Parque",
+   "La Paternal",
+   "Agronomía",
+   "Parque Chas",
+   "Villa Ortúzar",
+   "Villa Urquiza",
+   "Belgrano",
+   "Coghlan",
+   "Núñez",
+   "Saavedra",
+   "Vicente López",
+   "Florida"
+  ],
+  "description": "Barracas - Flores - Puente Saavedra"
+ },
+ "134": {
+  "partidos": [
+   "Partido de Avellaneda",
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 5",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 11"
+  ],
+  "localidades": [
+   "Villa Devoto",
+   "Villa del Parque",
+   "Villa Santa Rita",
+   "Flores",
+   "Caballito",
+   "Parque Chacabuco",
+   "Boedo",
+   "Nueva Pompeya",
+   "Parque Patricios",
+   "Constitución",
+   "Barracas",
+   "Avellaneda",
+   "Dock Sud"
+  ],
+  "description": "Dock Sud - Villa Devoto"
+ },
+ "135": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Tres de Febrero",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 4"
+  ],
+  "localidades": [
+   "Nueva Pompeya",
+   "Parque Chacabuco",
+   "Caballito",
+   "Villa Crespo",
+   "La Paternal",
+   "Villa General Mitre",
+   "Villa Santa Rita",
+   "Villa del Parque",
+   "Monte Castro",
+   "Villa Real",
+   "Villa Devoto",
+   "Villa Raffo",
+   "José Ingenieros",
+   "Caseros",
+   "Ciudadela",
+   "Villa Sarmiento"
+  ],
+  "description": "Hospital Posadas - Puente Alsina"
+ },
+ "136": {
+  "partidos": [
+   "Comuna 9",
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Morón",
+   "Partido de Ituzaingó",
+   "Partido de Merlo",
+   "Partido de Marcos Paz",
+   "Partido de General Las Heras",
+   "Partido de Navarro"
+  ],
+  "localidades": [
+   "Liniers",
+   "Ciudadela",
+   "Ramos Mejía",
+   "Haedo",
+   "Morón",
+   "Castelar",
+   "Ituzaingó",
+   "San Antonio de Padua",
+   "Merlo",
+   "Mariano Acosta",
+   "Marcos Paz",
+   "Villars",
+   "Plomer",
+   "General Hornos",
+   "General Las Heras",
+   "Navarro"
+  ],
+  "description": "Primera Junta - Pque. San Martín - Marcos Paz - Navarro"
+ },
+ "140": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 5",
+   "Comuna 14",
+   "Comuna 15",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de San Isidro",
+   "Partido de General San Martín"
+  ],
+  "localidades": [
+   "Puerto Madero",
+   "San Nicolás",
+   "Balvanera",
+   "Recoleta",
+   "Almagro",
+   "Palermo",
+   "Villa Crespo",
+   "Chacarita",
+   "Colegiales",
+   "Villa Ortúzar",
+   "Villa Urquiza",
+   "Villa Pueyrredón",
+   "Villa Maipú",
+   "Villa Martelli",
+   "Villa Granaderos de San Martín",
+   "Florida Oeste",
+   "Munro",
+   "Villa Gregoria Matorras",
+   "Villa General Eugenio Necochea",
+   "Villa Adelina (San Isidro)",
+   "Villa Adelina (Vicente López)",
+   "Boulogne Sur Mer"
+  ],
+  "description": "Boulogne (Barrio Obrero) - Puerto Madero"
+ },
+ "143": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Lomas de Zamora",
+   "Comuna 8",
+   "Comuna 4",
+   "Comuna 5",
+   "Comuna 7",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Villa Madero",
+   "Tapiales",
+   "Villa Celina",
+   "Ingeniero Budge",
+   "Villa Fiorito",
+   "Villa Riachuelo",
+   "Villa Lugano",
+   "Villa Soldati",
+   "Flores",
+   "Nueva Pompeya",
+   "Boedo",
+   "Parque Patricios",
+   "Constitución",
+   "San Telmo",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro"
+  ],
+  "description": "Tapiales - Retiro"
+ },
+ "145": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de La Matanza",
+   "Comuna 8",
+   "Comuna 9",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 15",
+   "Comuna 14"
+  ],
+  "localidades": [
+   "Villa Albertina",
+   "Villa Lamadrid",
+   "Ingeniero Budge",
+   "Villa Fiorito",
+   "Villa Celina",
+   "Tapiales",
+   "Villa Lugano",
+   "Villa Riachuelo",
+   "Mataderos",
+   "Parque Avellaneda",
+   "Flores",
+   "Caballito",
+   "Villa Crespo",
+   "Palermo"
+  ],
+  "description": "Villa Albertina - Tapiales - Plaza Italia"
+ },
+ "146": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Tres de Febrero",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "San Nicolás",
+   "Balvanera",
+   "Almagro",
+   "Caballito",
+   "Villa Crespo",
+   "Villa General Mitre",
+   "La Paternal",
+   "Villa del Parque",
+   "Agronomía",
+   "Villa Devoto",
+   "Villa Real",
+   "José Ingenieros",
+   "Ciudadela",
+   "Caseros",
+   "Villa Sarmiento"
+  ],
+  "description": "Hospital Posadas - Correo Central"
+ },
+ "148": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Quilmes",
+   "Partido de Florencio Varela",
+   "Partido de Almirante Brown",
+   "Partido de Berazategui"
+  ],
+  "localidades": [
+   "Constitución",
+   "Barracas",
+   "Avellaneda",
+   "Sarandí",
+   "Villa Domínico",
+   "Wilde",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "Villa La Florida",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "San Juan Bautista",
+   "Rafael Calzada",
+   "Villa Santa Rosa",
+   "Villa Vatteone",
+   "Villa San Luis",
+   "Villa Brown",
+   "La Capilla",
+   "Berazategui",
+   "Ezpeleta Oeste"
+  ],
+  "description": "Constitución - La Capilla - Solano - Villa del Plata"
+ },
+ "150": {
+  "partidos": [
+   "Comuna 8",
+   "Comuna 7",
+   "Comuna 4",
+   "Comuna 3",
+   "Comuna 1",
+   "Comuna 2"
+  ],
+  "localidades": [
+   "Villa Riachuelo",
+   "Villa Lugano",
+   "Villa Soldati",
+   "Flores",
+   "Nueva Pompeya",
+   "Parque Patricios",
+   "Constitución",
+   "San Cristóbal",
+   "Balvanera",
+   "Monserrat",
+   "San Nicolás",
+   "Recoleta",
+   "Retiro"
+  ],
+  "description": "Lugano 1 y 2 - Hospitales - Retiro"
+ },
+ "151": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 14",
+   "Comuna 15",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "Vicente López",
+   "Florida",
+   "Saavedra",
+   "Núñez",
+   "Belgrano",
+   "Colegiales",
+   "Chacarita",
+   "Villa Crespo",
+   "Palermo",
+   "Almagro",
+   "Balvanera",
+   "Monserrat",
+   "San Cristóbal",
+   "San Nicolás",
+   "San Cristóbal",
+   "Constitución",
+   "Parque Patricios",
+   "Barracas",
+   "Nueva Pompeya"
+  ],
+  "description": "Villa 21-24 - Puente Saavedra"
+ },
+ "152": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "La Boca",
+   "San Telmo",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro",
+   "Recoleta",
+   "Palermo",
+   "Belgrano",
+   "Colegiales",
+   "Núñez",
+   "Saavedra",
+   "Vicente López",
+   "Florida",
+   "Olivos",
+   "La Lucila"
+  ],
+  "description": "Olivos - La Boca"
+ },
+ "153": {
+  "partidos": [
+   "Partido de Merlo",
+   "Partido de Ituzaingó",
+   "Partido de Morón",
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero",
+   "Comuna 9"
+  ],
+  "localidades": [
+   "Liniers",
+   "Ciudadela",
+   "Ramos Mejía",
+   "Haedo",
+   "Morón",
+   "Castelar",
+   "Ituzaingó",
+   "Libertad",
+   "San Antonio de Padua"
+  ],
+  "description": "Barrio Nuevo - Morón - Liniers"
+ },
+ "154": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Avellaneda",
+   "Comuna 4",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Gerli (Avellaneda)",
+   "Gerli (Lanús)",
+   "Sarandí",
+   "Avellaneda",
+   "Barracas",
+   "Constitución"
+  ],
+  "description": "Lanús - Constitución"
+ },
+ "158": {
+  "partidos": [
+   "Partido de Lanús",
+   "Comuna 4"
+  ],
+  "localidades": [
+   "Lanús Oeste",
+   "Valentín Alsina",
+   "Nueva Pompeya"
+  ],
+  "description": "Lanús - Villa Jardín - Hospitales"
+ },
+ "159": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Quilmes",
+   "Partido de Berazategui",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Retiro",
+   "Puerto Madero",
+   "San Nicolás",
+   "Monserrat",
+   "San Telmo",
+   "La Boca",
+   "Dock Sud",
+   "Avellaneda",
+   "Sarandí",
+   "Villa Domínico",
+   "Wilde",
+   "Don Bosco",
+   "Bernal Este",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "Quilmes",
+   "Villa La Florida",
+   "Ezpeleta Este",
+   "Ezpeleta Oeste",
+   "Berazategui",
+   "San Juan Bautista",
+   "Villa España",
+   "Plátanos",
+   "Hudson",
+   "Juan María Gutiérrez",
+   "Ingeniero Juan Allan",
+   "Bosques",
+   "Sourigues",
+   "Ranelagh"
+  ],
+  "description": "Correo Central - Quilmes - Berazategui - Hudson - Alpargatas"
+ },
+ "160": {
+  "partidos": [
+   "Comuna 13",
+   "Comuna 14",
+   "Comuna 5",
+   "Comuna 4",
+   "Partido de Lanús",
+   "Partido de Almirante Brown",
+   "Partido de Lomas de Zamora",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Belgrano",
+   "Palermo",
+   "Almagro",
+   "Boedo",
+   "Nueva Pompeya",
+   "Valentín Alsina",
+   "Lanús Oeste",
+   "Remedios de Escalada",
+   "Banfield",
+   "Lomas de Zamora",
+   "Temperley",
+   "Adrogué",
+   "Burzaco",
+   "Claypole",
+   "San Francisco de Asís",
+   "Gobernador Julio A. Costa"
+  ],
+  "description": "Ciudad Universitaria - Claypole - Don Orione"
+ },
+ "161": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de General San Martín",
+   "Partido de Vicente López",
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 12",
+   "Comuna 13",
+   "Comuna 14"
+  ],
+  "localidades": [
+   "Liniers",
+   "Ciudadela",
+   "José Ingenieros",
+   "Villa Real",
+   "Villa Raffo",
+   "Sáenz Peña",
+   "Santos Lugares",
+   "Villa Devoto",
+   "Villa Lynch",
+   "Villa Chacabuco",
+   "Villa Ayacucho",
+   "Villa Libertad",
+   "Villa Bernardo de Monteagudo",
+   "Ciudad del Libertador General San Martín",
+   "Villa San Andrés",
+   "Villa Maipú",
+   "Villa Parque San Lorenzo",
+   "Villa Marqués Alejandro María de Aguado",
+   "Villa Granaderos de San Martín",
+   "Villa Martelli",
+   "Florida Oeste",
+   "Florida",
+   "Vicente López",
+   "Saavedra",
+   "Núñez",
+   "Belgrano",
+   "Colegiales",
+   "Palermo"
+  ],
+  "description": "Liniers - Martelli - Florida - Plaza Italia"
+ },
+ "163": {
+  "partidos": [
+   "Comuna 9",
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero",
+   "Partido de Morón",
+   "Partido de Hurlingham",
+   "Partido de San Miguel",
+   "Comuna 6",
+   "Comuna 7",
+   "Comuna 10",
+   "Partido de Malvinas Argentinas",
+   "Partido de José C. Paz"
+  ],
+  "localidades": [
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Liniers",
+   "Ciudadela",
+   "Ramos Mejía",
+   "Haedo",
+   "Morón",
+   "Castelar",
+   "Villa Tesei",
+   "Hurlingham",
+   "William C. Morris",
+   "Bella Vista",
+   "Muñiz",
+   "San Miguel",
+   "Los Polvorines",
+   "José C. Paz"
+  ],
+  "description": "Liniers - San Miguel - Cruce José C. Paz"
+ },
+ "164": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 3",
+   "Comuna 1",
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Valentín Alsina",
+   "Gerli (Lanús)",
+   "Lanús Oeste",
+   "Remedios de Escalada",
+   "Banfield",
+   "Lomas de Zamora",
+   "Temperley",
+   "Turdera",
+   "Llavallol",
+   "Parque Barón",
+   "Luis Guillón",
+   "Monte Grande",
+   "Malvinas Argentinas (Almirante Brown)",
+   "Burzaco",
+   "9 de Abril",
+   "Constitución",
+   "Balvanera",
+   "Nueva Pompeya"
+  ],
+  "description": "Nueva Pompeya - Monte Grande - Burzaco"
+ },
+ "166": {
+  "partidos": [
+   "Partido de Merlo",
+   "Partido de Morón",
+   "Partido de Tres de Febrero",
+   "Comuna 9",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 15",
+   "Comuna 14",
+   "Comuna 13"
+  ],
+  "localidades": [
+   "Belgrano",
+   "Palermo",
+   "Villa Crespo",
+   "Villa General Mitre",
+   "Caballito",
+   "Villa Santa Rita",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Versalles",
+   "Liniers",
+   "Ciudadela",
+   "Ramos Mejía",
+   "Villa Sarmiento",
+   "Haedo",
+   "El Palomar",
+   "Morón",
+   "Castelar",
+   "Villa Tesei",
+   "Libertad"
+  ],
+  "description": "Barrio Nuevo - Morón - Ciudad Universitaria"
+ },
+ "168": {
+  "partidos": [
+   "Comuna 4",
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 5",
+   "Comuna 15",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de San Isidro"
+  ],
+  "localidades": [
+   "La Boca",
+   "Barracas",
+   "Constitución",
+   "Monserrat",
+   "Balvanera",
+   "Almagro",
+   "Palermo",
+   "Villa Crespo",
+   "Chacarita",
+   "Colegiales",
+   "Belgrano",
+   "Núñez",
+   "Saavedra",
+   "Florida",
+   "Vicente López",
+   "Olivos",
+   "La Lucila",
+   "Martínez",
+   "Acassuso",
+   "San Isidro"
+  ],
+  "description": "La Boca - San Isidro"
+ },
+ "169": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de General San Martín",
+   "Comuna 12",
+   "Comuna 13",
+   "Comuna 11"
+  ],
+  "localidades": [
+   "Remedios de Escalada de San Martín",
+   "Once de Septiembre",
+   "Loma Hermosa",
+   "Pablo Podestá",
+   "Martín Coronado",
+   "Villa Bosch",
+   "Villa Billinghurst",
+   "Barrio Para Jefes y Oficiales General San Martín",
+   "Villa María Irene de Los Remedios de Escalada",
+   "Villa Coronel José María Zapiola",
+   "Villa Juan Martín de Pueyrredón",
+   "Villa General Juan Gregorio de Las Heras",
+   "Villa Yapeyú",
+   "Ciudad del Libertador General San Martín",
+   "Villa Maipú",
+   "Villa Chacabuco",
+   "Villa Libertad",
+   "Villa Devoto",
+   "Villa Pueyrredón",
+   "Villa Urquiza",
+   "Coghlan",
+   "Núñez",
+   "Belgrano"
+  ],
+  "description": "Remedios de Escalada - San Martín - Av. Cabildo"
+ },
+ "172": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero",
+   "Comuna 10",
+   "Comuna 7",
+   "Comuna 9",
+   "Comuna 6"
+  ],
+  "localidades": [
+   "Caballito",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Versalles",
+   "Liniers",
+   "Ciudadela",
+   "Ramos Mejía",
+   "Villa Luzuriaga",
+   "San Justo",
+   "Isidro Casanova"
+  ],
+  "description": "Atalaya - Ing. Brian - Caballito"
+ },
+ "174": {
+  "partidos": [
+   "Comuna 9",
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Morón"
+  ],
+  "localidades": [
+   "Liniers",
+   "Ciudadela",
+   "Ramos Mejía",
+   "Lomas del Mirador",
+   "San Justo",
+   "Villa Luzuriaga",
+   "Isidro Casanova",
+   "Rafael Castillo",
+   "Morón",
+   "Gregorio de Laferrere"
+  ],
+  "description": "Liniers - Rafael Castillo - Casanova"
+ },
+ "176": {
+  "partidos": [
+   "Comuna 15",
+   "Comuna 13",
+   "Comuna 12",
+   "Comuna 11",
+   "Partido de General San Martín",
+   "Partido de Tres de Febrero",
+   "Partido de San Miguel",
+   "Partido de José C. Paz",
+   "Partido de Malvinas Argentinas",
+   "Partido del Pilar",
+   "Partido de Escobar"
+  ],
+  "localidades": [
+   "Chacarita",
+   "Villa Ortúzar",
+   "Villa Urquiza",
+   "Parque Chas",
+   "Agronomía",
+   "Villa Pueyrredón",
+   "Saavedra",
+   "Villa Devoto",
+   "Villa Lynch",
+   "Villa Chacabuco",
+   "Ciudad del Libertador General San Martín",
+   "Villa Maipú",
+   "Villa Yapeyú",
+   "Villa Juan Martín de Pueyrredón",
+   "Villa Coronel José María Zapiola",
+   "Barrio Para Jefes y Oficiales General San Martín",
+   "Villa Ciudad Jardín El Libertador",
+   "Villa María Irene de Los Remedios de Escalada",
+   "Loma Hermosa",
+   "El Libertador",
+   "Churruca",
+   "Once de Septiembre",
+   "Campo de Mayo",
+   "Bella Vista",
+   "Muñiz",
+   "San Miguel",
+   "José C. Paz",
+   "Grand Bourg",
+   "Tierras Altas",
+   "Tortuguitas",
+   "Manuel Alberti",
+   "Garín",
+   "Área de Promoción El Triángulo",
+   "Del Viso",
+   "Lagomarsino",
+   "Maquinista Savio",
+   "Ingeniero Maschwitz",
+   "Belén de Escobar",
+   "La Lonja",
+   "Pilar",
+   "Champagnat",
+   "San Francisco",
+   "Fátima"
+  ],
+  "description": "Chacarita - Escobar - Pilar - Fonavi"
+ },
+ "177": {
+  "partidos": [
+   "Comuna 4",
+   "Partido de Lanús",
+   "Partido de Almirante Brown",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Burzaco",
+   "San Francisco de Asís",
+   "Claypole",
+   "Rafael Calzada",
+   "San José (Almirante Brown)",
+   "San José (Lomas de Zamora)",
+   "Banfield",
+   "Monte Chingolo",
+   "Remedios de Escalada",
+   "Lanús Oeste",
+   "Gerli (Lanús)",
+   "Valentín Alsina",
+   "Nueva Pompeya"
+  ],
+  "description": "Puente Alsina - Burzaco"
+ },
+ "178": {
+  "partidos": [
+   "Comuna 4",
+   "Partido de Lanús",
+   "Partido de Avellaneda",
+   "Partido de Quilmes",
+   "Partido de Florencio Varela",
+   "Partido de Berazategui"
+  ],
+  "localidades": [
+   "Nueva Pompeya",
+   "Valentín Alsina",
+   "Gerli (Avellaneda)",
+   "Gerli (Lanús)",
+   "Piñeyro",
+   "Avellaneda",
+   "Sarandí",
+   "Villa Domínico",
+   "Wilde",
+   "Lanús Este",
+   "Monte Chingolo",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "Villa La Florida",
+   "San Juan Bautista",
+   "Berazategui",
+   "Estanislao Severo Zeballos",
+   "Villa Vatteone"
+  ],
+  "description": "Nueva Pompeya - Estanislao Severo Zeballos"
+ },
+ "179": {
+  "partidos": [
+   "Comuna 4",
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Nueva Pompeya",
+   "Valentín Alsina",
+   "Lanús Oeste",
+   "Remedios de Escalada",
+   "Villa Centenario",
+   "Villa Fiorito",
+   "Banfield",
+   "San José (Almirante Brown)",
+   "San José (Lomas de Zamora)",
+   "Monte Chingolo",
+   "Gerli (Lanús)"
+  ],
+  "description": "Nueva Pompeya - Fiorito - San José"
+ },
+ "180": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Comuna 9",
+   "Comuna 8",
+   "Comuna 7",
+   "Comuna 10",
+   "Comuna 6",
+   "Comuna 5",
+   "Comuna 3",
+   "Comuna 1"
+  ],
+  "localidades": [
+   "Puerto Madero",
+   "San Nicolás",
+   "Retiro",
+   "Balvanera",
+   "Almagro",
+   "Boedo",
+   "Caballito",
+   "Parque Chacabuco",
+   "Flores",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Parque Avellaneda",
+   "Villa Luro",
+   "Mataderos",
+   "Villa Lugano",
+   "La Tablada",
+   "San Justo",
+   "Ciudad Evita",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "González Catán"
+  ],
+  "description": "Km. 29 - Laferrere - San Alberto - Puerto Madero"
+ },
+ "181": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero",
+   "Comuna 10",
+   "Comuna 11",
+   "Comuna 7",
+   "Comuna 6",
+   "Comuna 5"
+  ],
+  "localidades": [
+   "Boedo",
+   "Almagro",
+   "Caballito",
+   "Villa General Mitre",
+   "Flores",
+   "Villa Santa Rita",
+   "Floresta",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Monte Castro",
+   "Villa Devoto",
+   "Villa Real",
+   "José Ingenieros",
+   "Caseros",
+   "El Palomar",
+   "Villa Sarmiento",
+   "Ramos Mejía"
+  ],
+  "description": "Ramos Mejía - Boedo"
+ },
+ "182": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de Morón",
+   "Partido de La Matanza",
+   "Partido de Hurlingham",
+   "Partido de San Miguel",
+   "Partido de José C. Paz",
+   "Comuna 9",
+   "Comuna 10"
+  ],
+  "localidades": [
+   "Parque Avellaneda",
+   "Vélez Sarsfield",
+   "Villa Luro",
+   "Liniers",
+   "Ciudadela",
+   "Ramos Mejía",
+   "Villa Sarmiento",
+   "Haedo",
+   "El Palomar",
+   "Ciudad Jardín Lomas del Palomar",
+   "Hurlingham",
+   "William C. Morris",
+   "Bella Vista",
+   "Campo de Mayo",
+   "Muñiz",
+   "San Miguel",
+   "José C. Paz"
+  ],
+  "description": "Liniers - El Palomar - José C. Paz"
+ },
+ "184": {
+  "partidos": [
+   "Comuna 15",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de San Isidro"
+  ],
+  "localidades": [
+   "Chacarita",
+   "Colegiales",
+   "Belgrano",
+   "Núñez",
+   "Saavedra",
+   "Vicente López",
+   "Florida",
+   "Olivos",
+   "Florida Oeste",
+   "Munro",
+   "Carapachay",
+   "Villa Adelina (San Isidro)",
+   "Villa Adelina (Vicente López)",
+   "Boulogne Sur Mer"
+  ],
+  "description": "Boulogne (Barrio Obrero) - Chacarita"
+ },
+ "185": {
+  "partidos": [
+   "Comuna 9",
+   "Comuna 8",
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Villa Riachuelo",
+   "Villa Lugano",
+   "Mataderos",
+   "La Tablada",
+   "Tapiales",
+   "Lomas del Mirador",
+   "Ramos Mejía",
+   "San Justo",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "Ciudadela",
+   "Liniers"
+  ],
+  "description": "Km. 27 - Lugano 1 y 2 - Liniers"
+ },
+ "188": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría",
+   "Partido de Lanús",
+   "Comuna 4",
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 14"
+  ],
+  "localidades": [
+   "Luis Guillón",
+   "Parque Barón",
+   "Santa Marta",
+   "Villa Albertina",
+   "Ingeniero Budge",
+   "Villa Fiorito",
+   "Lanús Oeste",
+   "Valentín Alsina",
+   "Nueva Pompeya",
+   "Barracas",
+   "Parque Patricios",
+   "San Cristóbal",
+   "Balvanera",
+   "Recoleta",
+   "Palermo",
+   "Villa Lamadrid",
+   "Remedios de Escalada",
+   "Gerli (Lanús)",
+   "Lomas de Zamora"
+  ],
+  "description": "Cruce Lomas - Plaza Italia"
+ },
+ "193": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Comuna 8",
+   "Comuna 9",
+   "Comuna 7",
+   "Comuna 4"
+  ],
+  "localidades": [
+   "Nueva Pompeya",
+   "Flores",
+   "Villa Soldati",
+   "Parque Avellaneda",
+   "Villa Lugano",
+   "Aldo Bonzi",
+   "Ciudad Evita",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "González Catán",
+   "Virrey Del Pino"
+  ],
+  "description": "Km. 32 - Nueva Pompeya"
+ },
+ "194": {
+  "partidos": [
+   "Comuna 3",
+   "Comuna 2",
+   "Comuna 14",
+   "Comuna 13",
+   "Comuna 12",
+   "Partido de Vicente López",
+   "Partido de San Isidro",
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas",
+   "Partido de Escobar",
+   "Partido de Campana",
+   "Partido de Zárate"
+  ],
+  "localidades": [
+   "Balvanera",
+   "Recoleta",
+   "Palermo",
+   "Colegiales",
+   "Belgrano",
+   "Núñez",
+   "Saavedra",
+   "Florida",
+   "Olivos",
+   "Munro",
+   "Martínez",
+   "Villa Adelina (Vicente López)",
+   "Boulogne Sur Mer",
+   "Don Torcuato",
+   "El Talar",
+   "Ricardo Rojas",
+   "Área de Promoción El Triángulo",
+   "Garín",
+   "Ingeniero Maschwitz",
+   "Belén de Escobar",
+   "Loma Verde",
+   "Campana",
+   "Zárate"
+  ],
+  "description": "Once - Escobar - Zárate"
+ },
+ "195": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4",
+   "Partido de Berazategui",
+   "Partido de Florencio Varela",
+   "Partido de La Plata"
+  ],
+  "localidades": [
+   "Retiro",
+   "Monserrat",
+   "San Nicolás",
+   "San Telmo",
+   "La Boca",
+   "Hudson",
+   "Juan María Gutiérrez",
+   "Ingeniero Juan Allan",
+   "Pereyra",
+   "Villa Elisa",
+   "City Bell",
+   "Savoia",
+   "Manuel B. Gonnet",
+   "Villa Castells",
+   "Ringuelet",
+   "Tolosa",
+   "La Plata"
+  ],
+  "description": "Retiro - La Plata"
+ },
+ "197": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 3",
+   "Comuna 4",
+   "Partido de Avellaneda",
+   "Partido de Quilmes",
+   "Partido de Florencio Varela",
+   "Partido de Berazategui"
+  ],
+  "localidades": [
+   "Retiro",
+   "San Nicolás",
+   "Monserrat",
+   "Puerto Madero",
+   "Constitución",
+   "San Telmo",
+   "La Boca",
+   "Barracas",
+   "Parque Patricios",
+   "San Cristóbal",
+   "Balvanera",
+   "Avellaneda",
+   "Dock Sud",
+   "Sarandí",
+   "Villa Domínico",
+   "Wilde",
+   "Don Bosco",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "Ezpeleta Oeste",
+   "San Juan Bautista",
+   "Berazategui",
+   "Hudson",
+   "Juan María Gutiérrez",
+   "Ingeniero Juan Allan",
+   "Bosques",
+   "Estanislao Severo Zeballos",
+   "Sourigues"
+  ],
+  "description": "Retiro - Once - Ing. J. Allan - Alpargatas"
+ },
+ "200": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de San Vicente",
+   "Partido de Presidente Perón",
+   "Partido de Ezeiza"
+  ],
+  "localidades": [
+   "Glew",
+   "Guernica",
+   "Canning (Ezeiza)"
+  ],
+  "description": "Glew - Canning - Alejandro Korn"
+ },
+ "202": {
+  "partidos": [
+   "Partido de La Plata",
+   "Partido de Berisso",
+   "Partido de Ensenada"
+  ],
+  "localidades": [
+   "La Plata",
+   "Altos de San Lorenzo",
+   "Villa Elvira"
+  ],
+  "description": "Berisso - La Plata - El Carmen - Punta Lara"
+ },
+ "203": {
+  "partidos": [
+   "Partido de Vicente López",
+   "Partido de San Isidro",
+   "Partido de San Fernando",
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas",
+   "Partido de San Miguel",
+   "Partido de Moreno",
+   "Partido de Luján",
+   "Partido de Escobar",
+   "Partido del Pilar",
+   "Partido de José C. Paz",
+   "Partido de Moreno",
+   "Partido de General Rodríguez"
+  ],
+  "localidades": [
+   "Vicente López",
+   "Florida",
+   "Florida Oeste",
+   "Olivos",
+   "La Lucila",
+   "Munro",
+   "Martínez",
+   "Villa Adelina (San Isidro)",
+   "Boulogne Sur Mer",
+   "Acassuso",
+   "San Isidro",
+   "Béccar",
+   "Victoria",
+   "Virreyes",
+   "San Fernando",
+   "Tigre",
+   "Troncos del Talar",
+   "General Pacheco",
+   "Benavídez",
+   "Don Torcuato",
+   "El Talar",
+   "Área de Promoción El Triángulo",
+   "Ricardo Rojas",
+   "Tortuguitas",
+   "Garín",
+   "Manuel Alberti",
+   "Del Viso",
+   "José C. Paz",
+   "La Lonja",
+   "Villa Rosa",
+   "Pilar",
+   "Pilar Sur",
+   "Ingeniero Maschwitz",
+   "Maquinista Savio",
+   "Lagomarsino",
+   "Campo de Mayo",
+   "Ingeniero Adolfo Sourdeaux",
+   "Villa de Mayo",
+   "Los Polvorines",
+   "San Miguel",
+   "Santa María",
+   "Trujui",
+   "Moreno",
+   "La Reja"
+  ],
+  "description": "Puente Saavedra - Moreno - Luján - Pilar - Maq. Savio"
+ },
+ "205": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Merlo"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "San Justo",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "González Catán",
+   "Pontevedra"
+  ],
+  "description": "Pontevedra - Liniers"
+ },
+ "214": {
+  "partidos": [
+   "Partido de Berisso",
+   "Partido de La Plata"
+  ],
+  "localidades": [
+   "La Plata",
+   "Los Hornos"
+  ],
+  "description": "El Retiro - Puerto de Berisso"
+ },
+ "215": {
+  "partidos": [
+   "Partido de Berazategui",
+   "Partido de Brandsen",
+   "Partido de La Plata"
+  ],
+  "localidades": [
+   "Abasto",
+   "Ángel Etcheverry",
+   "Arturo Seguí",
+   "Colonia Urquiza",
+   "El Pato",
+   "El Peligro",
+   "La Plata",
+   "Lisandro Olmos",
+   "Malvinas Argentinas (La Plata)",
+   "Melchor Romero",
+   "San Carlos"
+  ],
+  "description": "La Plata - El Pato"
+ },
+ "218": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Marcos Paz",
+   "Partido de Cañuelas"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "Lomas del Mirador",
+   "San Justo",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "González Catán",
+   "Virrey Del Pino",
+   "Cañuelas",
+   "San Esteban",
+   "Los Pozos"
+  ],
+  "description": "Liniers - San Javier - Oro Verde - Cañuelas"
+ },
+ "219": {
+  "partidos": [
+   "Partido de Quilmes",
+   "Partido de Berazategui",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Quilmes",
+   "Ezpeleta Este",
+   "Berazategui",
+   "Plátanos",
+   "Hudson",
+   "Juan María Gutiérrez",
+   "Ingeniero Juan Allan",
+   "San Juan Bautista"
+  ],
+  "description": "Quilmes - Cruce Varela - Gutiérrez"
+ },
+ "222": {
+  "partidos": [
+   "Partido de Ezeiza",
+   "Partido de Cañuelas"
+  ],
+  "localidades": [
+   "Ezeiza",
+   "La Unión",
+   "Tristán Suárez",
+   "Carlos Spegazzini",
+   "Máximo Paz"
+  ],
+  "description": "Ezeiza - Máximo Paz"
+ },
+ "225": {
+  "partidos": [
+   "Partido de Brandsen",
+   "Partido de La Plata"
+  ],
+  "localidades": [
+   "Abasto",
+   "Ángel Etcheverry",
+   "La Plata",
+   "Lisandro Olmos",
+   "Malvinas Argentinas (La Plata)"
+  ],
+  "description": "La Plata - Gómez - Haras del Sur"
+ },
+ "236": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Morón",
+   "Partido de Ituzaingó",
+   "Partido de Merlo",
+   "Partido de Marcos Paz"
+  ],
+  "localidades": [
+   "Ramos Mejía",
+   "Morón",
+   "Castelar",
+   "Ituzaingó",
+   "Libertad",
+   "Merlo",
+   "Pontevedra",
+   "González Catán",
+   "Rafael Castillo",
+   "Gregorio de Laferrere",
+   "Haedo",
+   "Isidro Casanova",
+   "Marcos Paz",
+   "Mariano Acosta"
+  ],
+  "description": "Morón - Catán - Merlo - Laferrere - Pontevedra"
+ },
+ "237": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Morón",
+   "Partido de Hurlingham",
+   "Partido de General San Martín",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Villa Independencia",
+   "Villa Godoy Cruz",
+   "Villa General Antonio José de Sucre",
+   "Villa General José Tomás Guido",
+   "Villa General Juan Gregorio de Las Heras",
+   "Villa Yapeyú",
+   "Ciudad del Libertador General San Martín",
+   "Villa Chacabuco",
+   "Villa Lynch",
+   "Villa Parque Presidente Figueroa Alcorta",
+   "Villa Bernardo de Monteagudo",
+   "Sáenz Peña",
+   "Villa Raffo",
+   "José Ingenieros",
+   "Villa Juan Martín de Pueyrredón",
+   "Villa Coronel José María Zapiola",
+   "Barrio Para Jefes y Oficiales General San Martín",
+   "Villa María Irene de Los Remedios de Escalada",
+   "Villa Ciudad Jardín El Libertador",
+   "Loma Hermosa",
+   "El Libertador",
+   "Churruca",
+   "Once de Septiembre",
+   "Remedios de Escalada de San Martín",
+   "Pablo Podestá",
+   "Martín Coronado",
+   "Caseros",
+   "Villa Sarmiento",
+   "Ciudadela",
+   "Ramos Mejía",
+   "Hurlingham",
+   "William C. Morris",
+   "Villa Libertad"
+  ],
+  "description": "Villa Lanzone - Liniers - Beiró - William Morris"
+ },
+ "238": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Morón",
+   "Partido de Ituzaingó",
+   "Partido de Merlo"
+  ],
+  "localidades": [
+   "Ramos Mejía",
+   "Haedo",
+   "Morón",
+   "Castelar",
+   "Ituzaingó",
+   "San Antonio de Padua",
+   "Libertad",
+   "Pontevedra",
+   "Merlo"
+  ],
+  "description": "Haedo - Santa Rosa - La Teja - Vergara"
+ },
+ "242": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de Merlo",
+   "Partido de Morón",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "Villa Luzuriaga",
+   "Morón",
+   "San Justo",
+   "La Tablada",
+   "Ciudad Evita",
+   "Isidro Casanova",
+   "Rafael Castillo",
+   "Haedo",
+   "Libertad"
+  ],
+  "description": "Liniers - Morón - Castillo - Barrio B.I.D. - El Cortijo"
+ },
+ "244": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Hurlingham",
+   "Partido de San Miguel",
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Villa Tesei",
+   "Hurlingham",
+   "William C. Morris",
+   "Campo de Mayo",
+   "Bella Vista",
+   "Muñiz",
+   "San Miguel",
+   "Los Polvorines",
+   "Villa de Mayo",
+   "Ingeniero Adolfo Sourdeaux",
+   "Don Torcuato"
+  ],
+  "description": "Morón - 202 y Panamericana"
+ },
+ "245": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Malvinas Argentinas (Almirante Brown)",
+   "Luis Guillón",
+   "Monte Grande"
+  ],
+  "description": "Monte Grande - Barrio Lindo"
+ },
+ "247": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Quilmes",
+   "Partido de Lomas de Zamora",
+   "Partido de Lanús",
+   "Partido de Avellaneda"
+  ],
+  "localidades": [
+   "Claypole",
+   "San Francisco Solano (Quilmes)",
+   "San Francisco Solano (Almirante Brown)",
+   "Rafael Calzada",
+   "San José (Almirante Brown)",
+   "San José (Lomas de Zamora)",
+   "Quilmes Oeste",
+   "Bernal Oeste",
+   "Monte Chingolo",
+   "Wilde",
+   "Villa Domínico",
+   "Sarandí",
+   "Gerli (Avellaneda)",
+   "Avellaneda",
+   "Piñeyro",
+   "Gerli (Lanús)",
+   "Valentín Alsina",
+   "Lanús Oeste",
+   "Remedios de Escalada",
+   "Villa Fiorito"
+  ],
+  "description": "San Francisco Solano - Avellaneda - Fiorito"
+ },
+ "252": {
+  "partidos": [
+   "Partido de Vicente López",
+   "Partido de General San Martín",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Ciudad Jardín Lomas del Palomar",
+   "Martín Coronado",
+   "Villa Bosch",
+   "Villa Billinghurst",
+   "Villa Libertad",
+   "Villa Juan Martín de Pueyrredón",
+   "Villa Ayacucho",
+   "Ciudad del Libertador General San Martín",
+   "Villa Chacabuco",
+   "Villa Coronel José María Zapiola",
+   "Villa General José Tomás Guido",
+   "Villa General Juan Gregorio de Las Heras",
+   "Villa Ballester Noreste",
+   "Villa Ballester Noroeste",
+   "Villa General Eugenio Necochea",
+   "Villa Gregoria Matorras",
+   "Villa Adelina (Vicente López)",
+   "Carapachay"
+  ],
+  "description": "San Martín - Carapachay - El Palomar"
+ },
+ "253": {
+  "partidos": [
+   "Partido de Merlo",
+   "Partido de Ituzaingó",
+   "Partido de Morón",
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "Haedo",
+   "Morón",
+   "Castelar",
+   "Ituzaingó",
+   "Libertad",
+   "San Antonio de Padua"
+  ],
+  "description": "Barrio Nuevo - Morón - Puente Liniers"
+ },
+ "257": {
+  "partidos": [
+   "Partido de Quilmes",
+   "Partido de Lomas de Zamora",
+   "Partido de Almirante Brown",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Ezpeleta Este",
+   "Quilmes",
+   "Quilmes Oeste",
+   "Bernal Oeste",
+   "San Francisco Solano (Quilmes)",
+   "San Francisco Solano (Almirante Brown)",
+   "Villa La Florida",
+   "San José (Almirante Brown)",
+   "San José (Lomas de Zamora)",
+   "Rafael Calzada",
+   "San Juan Bautista"
+  ],
+  "description": "Cementerio de Ezpeleta - Quilmes - Solano"
+ },
+ "266": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Quilmes",
+   "Partido de Almirante Brown",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Lomas de Zamora",
+   "Temperley",
+   "Banfield",
+   "San José (Lomas de Zamora)",
+   "San José (Almirante Brown)",
+   "José Mármol",
+   "Rafael Calzada",
+   "Claypole",
+   "Burzaco",
+   "Ministro Rivadavia",
+   "Longchamps",
+   "Bernal Oeste",
+   "Bernal Este",
+   "Don Bosco",
+   "Quilmes Oeste",
+   "San Francisco Solano (Quilmes)",
+   "Villa La Florida",
+   "San Juan Bautista",
+   "Villa Vatteone"
+  ],
+  "description": "Lomas de Zamora - Solano - Varela - Ministro Rivadavia"
+ },
+ "269": {
+  "partidos": [
+   "Partido de Moreno",
+   "Partido de Morón",
+   "Partido de San Miguel",
+   "Partido de Ituzaingó"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Ituzaingó",
+   "Villa Udaondo",
+   "Paso del Rey",
+   "Moreno",
+   "Trujui",
+   "Santa María",
+   "San Miguel"
+  ],
+  "description": "Morón - Lemos - Las Catonas - Mariló"
+ },
+ "271": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Quilmes",
+   "Partido de Lanús",
+   "Partido de Avellaneda",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Burzaco",
+   "Rafael Calzada",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "Quilmes Oeste",
+   "San José (Almirante Brown)",
+   "San José (Lomas de Zamora)",
+   "Bernal Oeste",
+   "Monte Chingolo",
+   "Wilde",
+   "Villa Domínico",
+   "Sarandí",
+   "Gerli (Avellaneda)",
+   "Avellaneda",
+   "Piñeyro",
+   "Gerli (Lanús)",
+   "Lanús Oeste",
+   "Remedios de Escalada",
+   "Lanús Este",
+   "Villa Centenario",
+   "Villa Fiorito",
+   "Ingeniero Budge"
+  ],
+  "description": "Burzaco - Castellino - Puente La Noria"
+ },
+ "273": {
+  "partidos": [
+   "Partido de Berazategui",
+   "Partido de Florencio Varela",
+   "Partido de La Plata"
+  ],
+  "localidades": [
+   "Altos de San Lorenzo",
+   "Arturo Seguí",
+   "City Bell",
+   "El Rincón",
+   "Ingeniero Juan Allan",
+   "Joaquín Gorina",
+   "José Hernández",
+   "Juan María Gutiérrez",
+   "La Plata",
+   "Los Porteños - Las Banderitas",
+   "Manuel B. Gonnet",
+   "Pereyra",
+   "Ringuelet",
+   "Savoia",
+   "Tolosa",
+   "Villa Castells",
+   "Villa Elisa"
+  ],
+  "description": "Cementerio - Gorina - Arturo Seguí - City Bell - Gutiérrez"
+ },
+ "275": {
+  "partidos": [
+   "Partido de La Plata",
+   "Partido de Ensenada",
+   "Partido de Berisso"
+  ],
+  "localidades": [
+   "Altos de San Lorenzo",
+   "Villa Elvira",
+   "La Plata",
+   "Ensenada",
+   "Punta Lara"
+  ],
+  "description": "Altos de San Lorenzo - Ensenada - Punta Lara"
+ },
+ "276": {
+  "partidos": [
+   "Partido de Carmen de Areco",
+   "Partido de Escobar",
+   "Partido de General Rodríguez",
+   "Partido de Luján",
+   "Partido de San Andrés de Giles",
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Belén de Escobar",
+   "Champagnat",
+   "El Cazador",
+   "Matheu",
+   "Pilar",
+   "Pilar Sur",
+   "Primera Sección",
+   "Villa Rosa",
+   "Zelaya"
+  ],
+  "description": "Escobar - Luján - Carmen de Areco"
+ },
+ "277": {
+  "partidos": [
+   "Partido de Esteban Echeverría",
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "9 de Abril",
+   "Banfield",
+   "Lanús Oeste",
+   "Lomas de Zamora",
+   "Luis Guillón",
+   "Parque Barón",
+   "Remedios de Escalada",
+   "Santa Marta",
+   "Villa Centenario"
+  ],
+  "description": "Lanús - Transradio"
+ },
+ "278": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Quilmes",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Banfield",
+   "Lomas de Zamora",
+   "Temperley",
+   "San José (Lomas de Zamora)",
+   "San José (Almirante Brown)",
+   "Rafael Calzada",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "Quilmes"
+  ],
+  "description": "Banfield - Balneario de Quilmes - Los Eucaliptus"
+ },
+ "281": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Monte Chingolo",
+   "San José (Lomas de Zamora)",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "Quilmes"
+  ],
+  "description": "Lanús - Balneario de Quilmes"
+ },
+ "283": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Lanús"
+  ],
+  "localidades": [
+   "Villa Fiorito",
+   "Ingeniero Budge",
+   "Villa Centenario",
+   "Remedios de Escalada",
+   "Lanús Oeste",
+   "Villa Albertina"
+  ],
+  "description": "Villa Albertina - Puente La Noria - Lanús"
+ },
+ "284": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "Lomas del Mirador",
+   "San Justo",
+   "Villa Luzuriaga",
+   "Isidro Casanova",
+   "Rafael Castillo"
+  ],
+  "description": "Liniers - Altos de Castillo - El Torero"
+ },
+ "288": {
+  "partidos": [
+   "Partido de Moreno",
+   "Partido de Merlo"
+  ],
+  "localidades": [
+   "Moreno",
+   "La Reja",
+   "Mariano Acosta"
+  ],
+  "description": "Moreno - Barrio Policial - Río Alegre"
+ },
+ "291": {
+  "partidos": [
+   "Partido de Escobar",
+   "Partido de José C. Paz",
+   "Partido de Tigre",
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Belén de Escobar",
+   "Benavídez",
+   "Del Viso",
+   "Dique Luján",
+   "Ingeniero Maschwitz",
+   "José C. Paz",
+   "La Lonja",
+   "Lagomarsino",
+   "Manuel Alberti",
+   "Maquinista Savio",
+   "Nordelta",
+   "Pilar"
+  ],
+  "description": "Escobar - Pilar - Dique Luján - Amancay"
+ },
+ "295": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Avellaneda"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Remedios de Escalada",
+   "Gerli (Avellaneda)",
+   "Gerli (Lanús)",
+   "Avellaneda",
+   "Villa Domínico",
+   "Wilde"
+  ],
+  "description": "Lanús - Barrio Gráfico - Puente Pueyrredón"
+ },
+ "297": {
+  "partidos": [
+   "Partido de Merlo",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Merlo",
+   "Libertad",
+   "Pontevedra",
+   "Veinte de Junio"
+  ],
+  "description": "Merlo - 20 de Junio"
+ },
+ "298": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Lomas de Zamora",
+   "Partido de Morón",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Isidro Casanova",
+   "Villa Fiorito",
+   "Ingeniero Budge",
+   "Villa Celina",
+   "Tapiales",
+   "La Tablada",
+   "Villa Madero",
+   "Lomas del Mirador",
+   "Ramos Mejía",
+   "Ciudadela",
+   "San Justo",
+   "Villa Luzuriaga",
+   "Morón"
+  ],
+  "description": "Puente La Noria - Liniers - Morón"
+ },
+ "299": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Monte Chingolo",
+   "Remedios de Escalada",
+   "Banfield",
+   "San José (Lomas de Zamora)"
+  ],
+  "description": "Lanús - Banfield - San José"
+ },
+ "300": {
+  "partidos": [
+   "Partido de Quilmes",
+   "Partido de Berazategui",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Quilmes",
+   "Ezpeleta Este",
+   "Berazategui",
+   "Villa España",
+   "Ranelagh",
+   "Sourigues",
+   "Estanislao Severo Zeballos",
+   "Bosques"
+  ],
+  "description": "Quilmes - Ducilo - Bosques"
+ },
+ "302": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Morón",
+   "Partido de Ituzaingó",
+   "Partido de Moreno"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "Villa Sarmiento",
+   "Haedo",
+   "El Palomar",
+   "Morón",
+   "Villa Tesei",
+   "Castelar",
+   "Ituzaingó",
+   "Villa Udaondo",
+   "Paso del Rey",
+   "Moreno"
+  ],
+  "description": "Moreno - Morón - Puente Liniers"
+ },
+ "303": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Hurlingham",
+   "Partido de San Miguel",
+   "Partido de Malvinas Argentinas",
+   "Partido de Tigre",
+   "Partido de Escobar",
+   "Partido de José C. Paz"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Villa Tesei",
+   "Hurlingham",
+   "William C. Morris",
+   "Bella Vista",
+   "Muñiz",
+   "San Miguel",
+   "Santa María",
+   "Los Polvorines",
+   "José C. Paz",
+   "Grand Bourg",
+   "Pablo Nogués",
+   "Malvinas Argentinas (Malvinas Argentinas)",
+   "Villa de Mayo",
+   "El Talar",
+   "Ricardo Rojas",
+   "Garín",
+   "Área de Promoción El Triángulo"
+  ],
+  "description": "Morón - Ruta 197 y Panamericana - Ford"
+ },
+ "306": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de La Matanza",
+   "Partido de Ezeiza",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Carlos Spegazzini",
+   "Tristán Suárez",
+   "La Unión",
+   "Ezeiza",
+   "El Jagüel",
+   "Monte Grande",
+   "Luis Guillón",
+   "9 de Abril",
+   "Llavallol",
+   "Santa Catalina",
+   "Ciudad Evita",
+   "Aldo Bonzi",
+   "La Tablada",
+   "San Justo",
+   "Villa Lamadrid",
+   "Ingeniero Budge",
+   "Villa Fiorito"
+  ],
+  "description": "Spegazzini - Puente La Noria - San Justo - Transradio"
+ },
+ "310": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de General San Martín"
+  ],
+  "localidades": [
+   "Ciudad del Libertador General San Martín",
+   "Villa San Andrés",
+   "Villa Yapeyú",
+   "Villa General Juan Gregorio de Las Heras",
+   "Villa Juan Martín de Pueyrredón",
+   "Villa Coronel José María Zapiola",
+   "Barrio Para Jefes y Oficiales General San Martín",
+   "Villa María Irene de Los Remedios de Escalada",
+   "Villa Ciudad Jardín El Libertador",
+   "El Libertador",
+   "Churruca",
+   "Loma Hermosa"
+  ],
+  "description": "El Libertador - San Martín"
+ },
+ "311": {
+  "partidos": [
+   "Partido de Moreno",
+   "Partido de San Miguel",
+   "Partido de José C. Paz"
+  ],
+  "localidades": [
+   "Moreno",
+   "Trujui",
+   "Santa María",
+   "Cuartel V",
+   "José C. Paz"
+  ],
+  "description": "Moreno - Cruce Derqui - La Perlita - Pfizer"
+ },
+ "312": {
+  "partidos": [
+   "Partido de Merlo",
+   "Partido de Moreno",
+   "Partido de Ituzaingó"
+  ],
+  "localidades": [
+   "Villa Udaondo",
+   "Ituzaingó",
+   "San Antonio de Padua",
+   "Merlo",
+   "Paso del Rey",
+   "Moreno"
+  ],
+  "description": "Moreno - Merlo - Villa León"
+ },
+ "313": {
+  "partidos": [
+   "Partido de Escobar",
+   "Partido de Campana",
+   "Partido de Exaltación de la Cruz"
+  ],
+  "localidades": [
+   "Belén de Escobar",
+   "Loma Verde",
+   "Alto Los Cardales",
+   "Los Cardales",
+   "Lomas del Río Luján"
+  ],
+  "description": "Escobar - Los Cardales"
+ },
+ "314": {
+  "partidos": [
+   "Partido de San Isidro",
+   "Partido de General San Martín",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "Boulogne Sur Mer",
+   "Villa General Eugenio Necochea",
+   "Villa Ballester Noreste",
+   "Villa Ballester Noroeste",
+   "Villa Adelina (San Isidro)",
+   "Villa Adelina (Vicente López)",
+   "Martínez",
+   "La Lucila",
+   "Florida",
+   "Vicente López",
+   "Olivos",
+   "Villa Martelli",
+   "Florida Oeste",
+   "Munro"
+  ],
+  "description": "Barrio San Isidro - Ballester - Puente Saavedra"
+ },
+ "315": {
+  "partidos": [
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas",
+   "Partido de José C. Paz",
+   "Partido de San Miguel",
+   "Partido de Moreno"
+  ],
+  "localidades": [
+   "El Talar",
+   "Villa de Mayo",
+   "Pablo Nogués",
+   "Malvinas Argentinas (Malvinas Argentinas)",
+   "Los Polvorines",
+   "Grand Bourg",
+   "José C. Paz",
+   "Cuartel V",
+   "Santa María",
+   "San Miguel",
+   "Campo de Mayo",
+   "Don Torcuato",
+   "Ingeniero Adolfo Sourdeaux"
+  ],
+  "description": "197 y Panamericana - 202 y Panamericana"
+ },
+ "317": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Morón",
+   "Villa Luzuriaga",
+   "Rafael Castillo",
+   "Isidro Casanova",
+   "Ciudad Evita"
+  ],
+  "description": "Morón - Casanova - Barrio B.I.D."
+ },
+ "318": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Lanús",
+   "Partido de Almirante Brown",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Villa Fiorito",
+   "Ingeniero Budge",
+   "Santa Marta",
+   "Villa Albertina",
+   "Villa Centenario",
+   "Remedios de Escalada",
+   "Banfield",
+   "Lomas de Zamora",
+   "Temperley",
+   "Turdera",
+   "Llavallol",
+   "Adrogué",
+   "Malvinas Argentinas (Almirante Brown)",
+   "Burzaco",
+   "Claypole",
+   "San Francisco de Asís",
+   "Luis Guillón",
+   "Monte Grande"
+  ],
+  "description": "Puente La Noria - Claypole - Las Colinas - Lomas de Zamora"
+ },
+ "320": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de Hurlingham",
+   "Partido de Morón"
+  ],
+  "localidades": [
+   "Martín Coronado",
+   "Ciudad Jardín Lomas del Palomar",
+   "Hurlingham",
+   "Villa Tesei",
+   "Morón",
+   "Castelar"
+  ],
+  "description": "Morón - Martín Coronado"
+ },
+ "321": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Ituzaingó",
+   "Partido de Merlo"
+  ],
+  "localidades": [
+   "Castelar",
+   "Ituzaingó",
+   "Libertad"
+  ],
+  "description": "Castelar - Barrio Nuevo"
+ },
+ "323": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de Almirante Brown",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Monte Chingolo",
+   "Remedios de Escalada",
+   "Banfield",
+   "Lomas de Zamora",
+   "Temperley",
+   "José Mármol",
+   "San José (Almirante Brown)",
+   "Rafael Calzada",
+   "Claypole",
+   "San Francisco Solano (Quilmes)",
+   "San Francisco Solano (Almirante Brown)"
+  ],
+  "description": "Lanús - San Francisco Solano"
+ },
+ "324": {
+  "partidos": [
+   "Partido de Avellaneda",
+   "Partido de Quilmes",
+   "Partido de Berazategui",
+   "Partido de Florencio Varela",
+   "Partido de La Plata",
+   "Partido de Brandsen"
+  ],
+  "localidades": [
+   "Abasto",
+   "El Peligro",
+   "El Pato",
+   "Ingeniero Juan Allan",
+   "Villa San Luis",
+   "Bosques",
+   "Villa Vatteone",
+   "Estanislao Severo Zeballos",
+   "San Juan Bautista",
+   "Sourigues",
+   "Juan María Gutiérrez",
+   "Hudson",
+   "Berazategui",
+   "Villa La Florida",
+   "Quilmes Oeste",
+   "Ezpeleta Oeste",
+   "Quilmes",
+   "Bernal Este",
+   "Don Bosco",
+   "Wilde",
+   "Villa Domínico",
+   "Sarandí"
+  ],
+  "description": "Don Bosco - Varela - La Carolina - El Pato"
+ },
+ "325": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "Lomas del Mirador",
+   "San Justo",
+   "Isidro Casanova",
+   "Rafael Castillo",
+   "Gregorio de Laferrere"
+  ],
+  "description": "Liniers - Don Juan"
+ },
+ "326": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de Morón",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Pablo Podestá",
+   "Martín Coronado",
+   "Ciudad Jardín Lomas del Palomar",
+   "Caseros",
+   "Villa Bosch",
+   "El Palomar",
+   "Haedo",
+   "Villa Sarmiento",
+   "Ramos Mejía"
+  ],
+  "description": "Podestá - Coronado - El Palomar - Ramos Mejía"
+ },
+ "327": {
+  "partidos": [
+   "Partido de Merlo",
+   "Partido de Moreno",
+   "Partido de General Rodríguez"
+  ],
+  "localidades": [
+   "San Antonio de Padua",
+   "Merlo",
+   "Paso del Rey",
+   "Moreno",
+   "La Reja",
+   "Francisco Álvarez",
+   "General Rodríguez"
+  ],
+  "description": "Padua - Güemes - Arco Iris - Pque. San Martín"
+ },
+ "328": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de General San Martín"
+  ],
+  "localidades": [
+   "Remedios de Escalada de San Martín",
+   "Once de Septiembre",
+   "Loma Hermosa",
+   "Pablo Podestá",
+   "Martín Coronado",
+   "Villa Bosch",
+   "Caseros",
+   "Villa María Irene de Los Remedios de Escalada",
+   "Barrio Para Jefes y Oficiales General San Martín",
+   "Villa Billinghurst",
+   "Villa Libertad",
+   "Villa Pueyrredón",
+   "Villa Ayacucho",
+   "Villa Yapeyú",
+   "Ciudad del Libertador General San Martín"
+  ],
+  "description": "R. de Escalada - Villa Bosch - Caseros - San Martín"
+ },
+ "329": {
+  "partidos": [
+   "Partido de Merlo",
+   "Partido de Moreno"
+  ],
+  "localidades": [
+   "San Antonio de Padua",
+   "Merlo",
+   "Paso del Rey",
+   "Moreno"
+  ],
+  "description": "Padua - Moreno"
+ },
+ "333": {
+  "partidos": [
+   "Partido de Vicente López",
+   "Partido de San Fernando",
+   "Partido de San Isidro",
+   "Partido de General San Martín"
+  ],
+  "localidades": [
+   "Boulogne Sur Mer",
+   "Villa Adelina (San Isidro)",
+   "Villa Adelina (Vicente López)",
+   "Carapachay",
+   "Munro",
+   "Martínez",
+   "Acassuso",
+   "San Isidro",
+   "Béccar",
+   "Victoria",
+   "Villa General Eugenio Necochea"
+  ],
+  "description": "Boulogne - Acassuso - Carapachay"
+ },
+ "336": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Ituzaingó",
+   "Partido de Merlo",
+   "Partido de Moreno"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Ituzaingó",
+   "San Antonio de Padua",
+   "Merlo",
+   "Paso del Rey"
+  ],
+  "description": "Morón - Paso del Rey"
+ },
+ "338": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Berazategui",
+   "Partido de Esteban Echeverría",
+   "Partido de Florencio Varela",
+   "Partido de General San Martín",
+   "Partido de Hurlingham",
+   "Partido de La Matanza",
+   "Partido de La Plata",
+   "Partido de Lomas de Zamora",
+   "Partido de Morón",
+   "Partido de Quilmes",
+   "Partido de San Isidro",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "9 de Abril",
+   "Aldo Bonzi",
+   "Altos de San Lorenzo",
+   "Barrio Para Jefes y Oficiales General San Martín",
+   "Berazategui",
+   "Bernal Oeste",
+   "Bosques",
+   "Boulogne Sur Mer",
+   "Burzaco",
+   "Castelar",
+   "City Bell",
+   "Ciudad Evita",
+   "Claypole",
+   "El Rincón",
+   "Estanislao Severo Zeballos",
+   "Hurlingham",
+   "Ingeniero Juan Allan",
+   "José Hernández",
+   "Juan María Gutiérrez",
+   "La Plata",
+   "La Tablada",
+   "Llavallol",
+   "Loma Hermosa",
+   "Lomas de Zamora",
+   "Luis Guillón",
+   "Malvinas Argentinas (Almirante Brown)",
+   "Manuel B. Gonnet",
+   "Martín Coronado",
+   "Morón",
+   "Pablo Podestá",
+   "Parque Barón",
+   "Pereyra",
+   "Quilmes Oeste",
+   "Ringuelet",
+   "San Francisco de Asís",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "San Isidro",
+   "San José (Lomas de Zamora)",
+   "San Juan Bautista",
+   "San Justo",
+   "Savoia",
+   "Temperley",
+   "Tolosa",
+   "Villa Ballester Noroeste",
+   "Villa Bosch",
+   "Villa Castells",
+   "Villa Ciudad Jardín El Libertador",
+   "Villa Coronel José María Zapiola",
+   "Villa Elisa",
+   "Villa Elvira",
+   "Villa General Eugenio Necochea",
+   "Villa Godoy Cruz",
+   "Villa Independencia",
+   "Villa José León Suárez",
+   "Villa La Florida",
+   "Villa Luzuriaga",
+   "Villa María Irene de Los Remedios de Escalada",
+   "Villa Tesei"
+  ],
+  "description": "San Isidro - Morón - La Plata"
+ },
+ "341": {
+  "partidos": [
+   "Partido de Malvinas Argentinas",
+   "Partido de Tigre",
+   "Partido de San Miguel",
+   "Partido de Escobar"
+  ],
+  "localidades": [
+   "El Talar",
+   "Ricardo Rojas",
+   "Don Torcuato",
+   "Ingeniero Adolfo Sourdeaux",
+   "Villa de Mayo",
+   "Los Polvorines",
+   "Malvinas Argentinas (Malvinas Argentinas)",
+   "Pablo Nogués",
+   "Grand Bourg",
+   "Tierras Altas",
+   "Tortuguitas",
+   "Área de Promoción El Triángulo",
+   "Garín",
+   "San Miguel",
+   "Campo de Mayo"
+  ],
+  "description": "Don Torcuato - Fonavi - Grand Bourg - Los Polvorines"
+ },
+ "343": {
+  "partidos": [
+   "Partido de General San Martín",
+   "Partido de La Matanza",
+   "Partido de Morón",
+   "Partido de San Fernando",
+   "Partido de San Isidro",
+   "Partido de Tigre",
+   "Partido de Tres de Febrero",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "Acassuso",
+   "Béccar",
+   "Caseros",
+   "Ciudad del Libertador General San Martín",
+   "Ciudadela",
+   "El Palomar",
+   "La Lucila",
+   "Martínez",
+   "Munro",
+   "Olivos",
+   "Ramos Mejía",
+   "San Fernando",
+   "San Isidro",
+   "Santos Lugares",
+   "Tigre",
+   "Victoria",
+   "Villa Adelina (San Isidro)",
+   "Villa Adelina (Vicente López)",
+   "Villa Ayacucho",
+   "Villa Ballester Noreste",
+   "Villa Bernardo de Monteagudo",
+   "Villa General Antonio José de Sucre",
+   "Villa General Eugenio Necochea",
+   "Villa General José Tomás Guido",
+   "Villa General Juan Gregorio de Las Heras",
+   "Villa Gregoria Matorras",
+   "Villa Libertad",
+   "Villa San Andrés",
+   "Villa Sarmiento",
+   "Virreyes"
+  ],
+  "description": "Liniers - Tigre - San Martín - Ramos Mejía"
+ },
+ "350": {
+  "partidos": [
+   "Partido de Exaltación de la Cruz",
+   "Partido de Luján",
+   "Partido de Moreno",
+   "Partido de San Andrés de Giles",
+   "Partido de San Antonio de Areco",
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Cuartel V",
+   "Fátima",
+   "Francisco Álvarez",
+   "La Reja",
+   "Manzanares",
+   "Manzone",
+   "Moreno",
+   "Pilar",
+   "Pilar Sur",
+   "Presidente Derqui",
+   "San Francisco",
+   "Villa Astolfi"
+  ],
+  "description": "Moreno - Pilar - Luján - San Antonio de Areco"
+ },
+ "354": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora",
+   "Partido de Almirante Brown",
+   "Partido de Quilmes",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Valentín Alsina",
+   "Gerli (Lanús)",
+   "Lanús Oeste",
+   "Lanús Este",
+   "Monte Chingolo",
+   "San José (Lomas de Zamora)",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "San Francisco Solano (Quilmes)",
+   "Villa La Florida",
+   "San Juan Bautista",
+   "San José (Almirante Brown)",
+   "Rafael Calzada",
+   "San Francisco Solano (Almirante Brown)"
+  ],
+  "description": "Puente Alsina - Lanús - La Sirena - Cruce Varela"
+ },
+ "365": {
+  "partidos": [
+   "Partido de General Rodríguez",
+   "Partido de José C. Paz",
+   "Partido de Luján",
+   "Partido de Malvinas Argentinas",
+   "Partido de Moreno",
+   "Partido de San Fernando",
+   "Partido de San Isidro",
+   "Partido de San Miguel",
+   "Partido de Tigre",
+   "Partido de Vicente López",
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Acassuso",
+   "Béccar",
+   "Boulogne Sur Mer",
+   "Cuartel V",
+   "Don Torcuato",
+   "El Talar",
+   "Florida",
+   "Florida Oeste",
+   "Francisco Álvarez",
+   "General Pacheco",
+   "Grand Bourg",
+   "José C. Paz",
+   "La Lucila",
+   "Los Polvorines",
+   "Malvinas Argentinas (Malvinas Argentinas)",
+   "Martínez",
+   "Munro",
+   "Olivos",
+   "Pablo Nogués",
+   "Presidente Derqui",
+   "San Fernando",
+   "San Isidro",
+   "San Miguel",
+   "Santa María",
+   "Tigre",
+   "Troncos del Talar",
+   "Vicente López",
+   "Victoria",
+   "Villa Adelina (San Isidro)",
+   "Villa de Mayo"
+  ],
+  "description": "Puente Saavedra - Stefani - Derqui - Luján - Cuartel V"
+ },
+ "371": {
+  "partidos": [
+   "Partido de Vicente López",
+   "Partido de San Isidro",
+   "Partido de San Fernando",
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas",
+   "Partido de San Miguel"
+  ],
+  "localidades": [
+   "Bella Vista",
+   "Muñiz",
+   "San Miguel",
+   "Campo de Mayo",
+   "Los Polvorines",
+   "Grand Bourg",
+   "Pablo Nogués",
+   "Malvinas Argentinas (Malvinas Argentinas)",
+   "Villa de Mayo",
+   "Ingeniero Adolfo Sourdeaux",
+   "Don Torcuato",
+   "Virreyes",
+   "San Fernando",
+   "Victoria",
+   "Béccar",
+   "San Isidro",
+   "Acassuso",
+   "Boulogne Sur Mer",
+   "Villa Adelina (San Isidro)",
+   "Martínez",
+   "Munro",
+   "Olivos",
+   "Florida Oeste",
+   "Florida"
+  ],
+  "description": "Don Torcuato - Boulogne - Acassuso - Obligado"
+ },
+ "372": {
+  "partidos": [
+   "Partido de Quilmes",
+   "Partido de Berazategui",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Quilmes",
+   "Ezpeleta Este",
+   "Berazategui",
+   "Ranelagh",
+   "Sourigues",
+   "Estanislao Severo Zeballos",
+   "Bosques"
+  ],
+  "description": "Quilmes - Villa Augusta - Bosques"
+ },
+ "373": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Quilmes",
+   "Partido de Avellaneda",
+   "Partido de Lanús"
+  ],
+  "localidades": [
+   "Dock Sud",
+   "Avellaneda",
+   "Piñeyro",
+   "Gerli (Avellaneda)",
+   "Gerli (Lanús)",
+   "Lanús Este",
+   "Monte Chingolo",
+   "Wilde",
+   "Villa Domínico",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "San Francisco Solano (Quilmes)",
+   "San Francisco Solano (Almirante Brown)",
+   "Rafael Calzada"
+  ],
+  "description": "Solano - Isla Maciel - Destilería"
+ },
+ "378": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "Lomas del Mirador",
+   "San Justo",
+   "Gregorio de Laferrere",
+   "Rafael Castillo",
+   "González Catán",
+   "Isidro Casanova"
+  ],
+  "description": "Liniers - Castillo - Laferrere - Catán"
+ },
+ "382": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Merlo",
+   "Partido de Marcos Paz"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "San Justo",
+   "Lomas del Mirador",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "González Catán",
+   "Pontevedra",
+   "Virrey Del Pino"
+  ],
+  "description": "General Paz - Liniers - Pontevedra - Esc. 88"
+ },
+ "383": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Claypole",
+   "San Francisco de Asís",
+   "Gobernador Julio A. Costa",
+   "San Juan Bautista",
+   "Villa Vatteone",
+   "Estanislao Severo Zeballos"
+  ],
+  "description": "Florencio Varela - Claypole"
+ },
+ "384": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Adrogué",
+   "José Mármol",
+   "Rafael Calzada",
+   "Claypole",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)"
+  ],
+  "description": "Adrogué - San Francisco Solano"
+ },
+ "386": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Morón"
+  ],
+  "localidades": [
+   "José Ingenieros",
+   "Caseros",
+   "Ciudadela",
+   "Villa Sarmiento",
+   "Ramos Mejía",
+   "Haedo",
+   "El Palomar",
+   "Morón"
+  ],
+  "description": "Morón - Haedo - Ramos Mejía - Beiró"
+ },
+ "390": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza",
+   "Partido de Morón",
+   "Partido de Ituzaingó",
+   "Partido de Hurlingham"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "Villa Sarmiento",
+   "El Palomar",
+   "Haedo",
+   "Morón",
+   "Villa Tesei",
+   "Hurlingham",
+   "William C. Morris",
+   "Villa Udaondo",
+   "Ituzaingó",
+   "Castelar"
+  ],
+  "description": "Liniers - Hurlingham - Ituzaingó - Morón"
+ },
+ "391": {
+  "partidos": [
+   "Partido de Tigre",
+   "Partido de Malvinas Argentinas",
+   "Partido de José C. Paz",
+   "Partido de Moreno"
+  ],
+  "localidades": [
+   "El Talar",
+   "Villa de Mayo",
+   "Pablo Nogués",
+   "Los Polvorines",
+   "Malvinas Argentinas (Malvinas Argentinas)",
+   "Grand Bourg",
+   "José C. Paz",
+   "Cuartel V"
+  ],
+  "description": "Ruta 197 y Panamericana - San Atilo"
+ },
+ "392": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Ituzaingó",
+   "Partido de Merlo"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Ituzaingó",
+   "San Antonio de Padua",
+   "Merlo"
+  ],
+  "description": "Barrio Rivadavia - Merlo - Morón"
+ },
+ "394": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Ezeiza"
+  ],
+  "localidades": [
+   "Llavallol",
+   "Luis Guillón",
+   "Monte Grande",
+   "El Jagüel",
+   "Aeropuerto Internacional Ezeiza",
+   "Ezeiza",
+   "Canning (Esteban Echeverría)",
+   "Canning (Ezeiza)"
+  ],
+  "description": "Aeropuerto Ezeiza - Canning - Monte Grande - Cruce Lomas"
+ },
+ "395": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Ituzaingó"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Ituzaingó",
+   "Villa Udaondo"
+  ],
+  "description": "Morón - Ituzaingó - Las Naciones - Villa Udaondo"
+ },
+ "403": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Berazategui",
+   "Partido de Florencio Varela",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Burzaco",
+   "San Francisco de Asís",
+   "Claypole",
+   "San Francisco Solano (Quilmes)",
+   "San Francisco Solano (Almirante Brown)",
+   "Villa La Florida",
+   "San Juan Bautista",
+   "Berazategui"
+  ],
+  "description": "Burzaco - Florencio Varela"
+ },
+ "405": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Remedios de Escalada",
+   "Lanús Oeste",
+   "Villa Fiorito",
+   "Ingeniero Budge"
+  ],
+  "description": "Lanús - Puente La Noria"
+ },
+ "406": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Ramos Mejía",
+   "Lomas del Mirador",
+   "San Justo",
+   "La Tablada",
+   "Ciudad Evita",
+   "Aldo Bonzi",
+   "9 de Abril",
+   "Luis Guillón",
+   "Llavallol",
+   "Malvinas Argentinas (Almirante Brown)",
+   "Burzaco",
+   "Adrogué",
+   "José Mármol",
+   "San José (Almirante Brown)",
+   "San José (Lomas de Zamora)",
+   "Parque Barón",
+   "Lomas de Zamora"
+  ],
+  "description": "Ramos Mejía - San José - Lomas de Zamora"
+ },
+ "422": {
+  "partidos": [
+   "Partido de Moreno",
+   "Partido de Ituzaingó",
+   "Partido de Merlo",
+   "Partido de General Rodríguez"
+  ],
+  "localidades": [
+   "Ituzaingó",
+   "San Antonio de Padua",
+   "Merlo",
+   "Paso del Rey",
+   "Moreno",
+   "La Reja",
+   "Francisco Álvarez",
+   "General Rodríguez"
+  ],
+  "description": "General Rodríguez - Ituzaingó"
+ },
+ "429": {
+  "partidos": [
+   "Partido del Pilar",
+   "Partido de Exaltación de la Cruz",
+   "Partido de Campana",
+   "Partido de Zárate"
+  ],
+  "localidades": [
+   "Pilar",
+   "San Francisco",
+   "Fátima",
+   "Parque Sakura",
+   "Pavón",
+   "Parada Orlando",
+   "Capilla del Señor"
+  ]
+ },
+ "430": {
+  "partidos": [
+   "Partido de San Fernando",
+   "Partido de San Isidro",
+   "Partido de Tigre",
+   "Partido de Vicente López"
+  ],
+  "localidades": [
+   "Béccar",
+   "Benavídez",
+   "Boulogne Sur Mer",
+   "Florida",
+   "Florida Oeste",
+   "Martínez",
+   "Munro",
+   "Nordelta",
+   "Olivos",
+   "Rincón de Milberg",
+   "San Fernando",
+   "San Isidro",
+   "Tigre",
+   "Victoria",
+   "Villa Adelina (San Isidro)",
+   "Virreyes"
+  ],
+  "description": "Puente Saavedra - Benavídez"
+ },
+ "436": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Banfield",
+   "Lomas de Zamora",
+   "Temperley",
+   "San José (Almirante Brown)",
+   "San José (Lomas de Zamora)",
+   "José Mármol"
+  ],
+  "description": "Banfield - Plaza de Mármol"
+ },
+ "437": {
+  "partidos": [
+   "Partido de Escobar",
+   "Partido de Malvinas Argentinas",
+   "Partido de San Isidro",
+   "Partido de Tigre"
+  ],
+  "localidades": [
+   "Acassuso",
+   "Área de Promoción El Triángulo",
+   "Boulogne Sur Mer",
+   "Don Torcuato",
+   "El Talar",
+   "Garín",
+   "Pablo Nogués",
+   "Ricardo Rojas",
+   "San Isidro"
+  ],
+  "description": "San Isidro - Garín"
+ },
+ "440": {
+  "partidos": [
+   "Partido de Moreno",
+   "Partido de José C. Paz",
+   "Partido de San Miguel",
+   "Partido de Malvinas Argentinas"
+  ],
+  "localidades": [
+   "Trujui",
+   "Cuartel V",
+   "Santa María",
+   "San Miguel",
+   "José C. Paz",
+   "Tierras Altas",
+   "Grand Bourg",
+   "Los Polvorines",
+   "Malvinas Argentinas (Malvinas Argentinas)",
+   "Pablo Nogués",
+   "Campo de Mayo"
+  ],
+  "description": "San Miguel - Polvorines - J. C. Paz - Grand Bourg"
+ },
+ "441": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Hurlingham",
+   "Partido de Ituzaingó"
+  ],
+  "localidades": [
+   "Morón",
+   "Villa Tesei",
+   "Castelar",
+   "Ituzaingó",
+   "Villa Udaondo"
+  ],
+  "description": "Morón - Parque Leloir - San Alberto - Ituzaingó"
+ },
+ "443": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Ituzaingó"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Ituzaingó"
+  ],
+  "description": "Morón - Villa León"
+ },
+ "448": {
+  "partidos": [
+   "Partido de San Miguel",
+   "Partido de Malvinas Argentinas",
+   "Partido de José C. Paz",
+   "Partido de Tigre",
+   "Partido de Escobar",
+   "Partido del Pilar",
+   "Partido de Moreno"
+  ],
+  "localidades": [
+   "Trujui",
+   "Santa María",
+   "Muñiz",
+   "San Miguel",
+   "Campo de Mayo",
+   "Los Polvorines",
+   "José C. Paz",
+   "Grand Bourg",
+   "Tierras Altas",
+   "Tortuguitas",
+   "Del Viso",
+   "Área de Promoción El Triángulo",
+   "Garín",
+   "Ricardo Rojas"
+  ],
+  "description": "Grand Bourg - Ford - Del Viso - Trujui"
+ },
+ "449": {
+  "partidos": [
+   "Partido de San Miguel",
+   "Partido de José C. Paz",
+   "Partido de Malvinas Argentinas"
+  ],
+  "localidades": [
+   "Muñiz",
+   "San Miguel",
+   "Los Polvorines",
+   "José C. Paz",
+   "Campo de Mayo"
+  ],
+  "description": "Sargento Cabral - San Atilo"
+ },
+ "461": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Hurlingham",
+   "Partido de Ituzaingó"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Villa Tesei",
+   "Hurlingham",
+   "William C. Morris",
+   "Villa Udaondo"
+  ],
+  "description": "Morón - Barrio La Tradición"
+ },
+ "462": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Hurlingham"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Villa Tesei",
+   "Hurlingham"
+  ],
+  "description": "Morón - Barrio Jorge Newbery"
+ },
+ "464": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Hurlingham"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Villa Tesei",
+   "Hurlingham",
+   "William C. Morris"
+  ],
+  "description": "Morón - San Damián - Buen Ayre"
+ },
+ "eBus": {
+  "partidos": [
+   "Comuna 1",
+   "Comuna 4"
+  ],
+  "localidades": [
+   "La Boca",
+   "Barracas",
+   "San Telmo",
+   "Monserrat",
+   "San Nicolás",
+   "Retiro"
+  ],
+  "description": "Retiro - Parque Lezama - Caminito"
+ },
+ "239EVGSJ": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Monte Chingolo",
+   "Remedios de Escalada",
+   "San José (Lomas de Zamora)",
+   "Banfield"
+  ],
+  "description": "Banfield - Lanús"
+ },
+ "239COVEMASA": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Lanús",
+   "Partido de Almirante Brown",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Banfield",
+   "Monte Chingolo",
+   "San José (Lomas de Zamora)",
+   "San José (Almirante Brown)",
+   "Rafael Calzada",
+   "José Mármol",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)"
+  ],
+  "description": "Banfield - Los Eucaliptus"
+ },
+ "263DOTA": {
+  "partidos": [
+   "Partido de Quilmes",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Bernal Este",
+   "Quilmes",
+   "Quilmes Oeste",
+   "Villa La Florida",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "Claypole",
+   "San Francisco de Asís",
+   "Burzaco"
+  ],
+  "description": "Burzaco - La Matera - Villa Alcira"
+ },
+ "263EVGSJ": {
+  "partidos": [
+   "Partido de Quilmes",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Bernal Este",
+   "Quilmes",
+   "Quilmes Oeste",
+   "Villa La Florida",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "Claypole",
+   "San Francisco de Asís",
+   "Burzaco"
+  ],
+  "description": "Burzaco - Villa Alcira"
+ },
+ "293COVEMASA": {
+  "partidos": [
+   "Partido de Avellaneda",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Avellaneda",
+   "Gerli (Avellaneda)",
+   "Sarandí",
+   "Villa Domínico",
+   "Wilde",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "Ezpeleta Oeste",
+   "Ezpeleta Este",
+   "Quilmes"
+  ],
+  "description": "Avellaneda - El Dorado - Luz y Fuerza"
+ },
+ "293EVGSJ": {
+  "partidos": [
+   "Partido de Avellaneda",
+   "Partido de Quilmes",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Avellaneda",
+   "Sarandí",
+   "Villa Domínico",
+   "Gerli (Avellaneda)",
+   "Wilde",
+   "Bernal Oeste",
+   "Quilmes Oeste",
+   "Villa La Florida",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "Claypole",
+   "San Francisco de Asís",
+   "Ministro Rivadavia"
+  ],
+  "description": "Avellaneda - Don Orione"
+ },
+ "463-443": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Hurlingham"
+  ],
+  "localidades": [
+   "Morón",
+   "Castelar",
+   "Haedo",
+   "El Palomar",
+   "Villa Tesei",
+   "Hurlingham",
+   "William C. Morris"
+  ],
+  "description": "Morón - Villa Club - El Destino - Gaona - William Morris"
+ },
+ "500FV": {
+  "partidos": [
+   "Partido de Florencio Varela",
+   ""
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Villa Vatteone",
+   "Villa Santa Rosa",
+   "Gobernador Julio A. Costa"
+  ],
+  "description": "Hospital El Cruce - San Jorge​‌​​‌‍‌​‍​"
+ },
+ "500GR": {
+  "partidos": [
+   "Partido de General Rodríguez",
+   "Partido de Moreno"
+  ],
+  "localidades": [
+   "General Rodríguez",
+   "Francisco Álvarez"
+  ],
+  "description": "General Rodríguez - Hospital Sommer - Güemes - Marabó"
+ },
+ "500MER": {
+  "partidos": [
+   "Partido de Merlo",
+   "Partido de Ituzaingó"
+  ],
+  "localidades": [
+   "Ituzaingó",
+   "Merlo",
+   "Libertad",
+   "San Antonio de Padua",
+   "Mariano Acosta",
+   "Pontevedra"
+  ],
+  "description": "Padua - Merlo - Campanillas - La Teja - Pontevedra"
+ },
+ "501AB": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Presidente Perón"
+  ],
+  "localidades": [
+   "Adrogué",
+   "Rafael Calzada",
+   "Claypole",
+   "San Francisco de Asís",
+   "Burzaco",
+   "Ministro Rivadavia",
+   "Glew",
+   "Longchamps",
+   "Ministro Rivadavia",
+   "Malvinas Argentinas (Almirante Brown)",
+   "Guernica"
+  ],
+  "description": "Longchamps - Glew - UOCRA - Adrogué"
+ },
+ "501EE": {
+  "partidos": [
+   "Partido de Esteban Echeverría",
+   "Partido de Ezeiza"
+  ],
+  "localidades": [
+   "9 de Abril",
+   "Monte Grande",
+   "Luis Guillón",
+   "El Jagüel",
+   "Canning (Esteban Echeverría)",
+   "Ezeiza"
+  ],
+  "description": "Cruce Lomas - El Pial - El Jagüel - Cementerio"
+ },
+ "501FV": {
+  "partidos": [
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Villa Vatteone",
+   "Estanislao Severo Zeballos",
+   "Bosques",
+   "Villa San Luis",
+   "Ingeniero Juan Allan"
+  ],
+  "description": "Florencio Varela - La Carolina"
+ },
+ "501MA": {
+  "partidos": [
+   "Partido de San Miguel",
+   "Partido de Malvinas Argentinas",
+   "Partido de Escobar",
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Campo de Mayo",
+   "Los Polvorines",
+   "Malvinas Argentinas (Malvinas Argentinas)",
+   "Pablo Nogués",
+   "Grand Bourg",
+   "Tierras Altas",
+   "Tortuguitas",
+   "Manuel Alberti",
+   "Garín",
+   "Área de Promoción El Triángulo"
+  ],
+  "description": "General Lemos - Fonavi"
+ },
+ "501MORE": {
+  "partidos": [
+   "Partido de Moreno",
+   "Partido de San Miguel",
+   "Partido de José C. Paz"
+  ],
+  "localidades": [
+   "Moreno",
+   "Paso del Rey",
+   "La Reja",
+   "Francisco Álvarez",
+   "Cuartel V",
+   "Trujui",
+   "Santa María",
+   "José C. Paz"
+  ],
+  "description": "Moreno - Cruce Castelar - La Reja - Cortejarena"
+ },
+ "501-503PIL": {
+  "partidos": [
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Pilar Sur",
+   "Pilar",
+   "Manzone",
+   "Villa Astolfi",
+   "Champagnat",
+   "Villa Rosa"
+  ],
+  "description": "Pilar - San Alejo - Manzone - Astolfi"
+ },
+ "502CAÑ": {
+  "partidos": [
+   "Partido de Cañuelas",
+   "Partido de Marcos Paz"
+  ],
+  "localidades": [
+   "Cañuelas",
+   "Máximo Paz",
+   "Uribelarrea",
+   "Alejandro Petión",
+   "Vicente Casares",
+   "Los Pozos",
+   "San Esteban",
+   "Paraje El Taladro"
+  ],
+  "description": "Cañuelas - Máximo Paz - Uribelarrea - Pque. Industrial"
+ },
+ "503FV": {
+  "partidos": [
+   "Partido de Florencio Varela",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Villa La Florida",
+   "San Juan Bautista",
+   "Villa Vatteone",
+   "Villa Santa Rosa",
+   "Villa San Luis",
+   "Villa Brown",
+   "La Capilla",
+   ""
+  ],
+  "description": "Monteverde - Penal de Varela - Los Tronquitos"
+ },
+ "503MER": {
+  "partidos": [
+   "Partido de Merlo"
+  ],
+  "localidades": [
+   "Libertad",
+   "Merlo",
+   "Mariano Acosta"
+  ],
+  "description": "Merlo - Ferrari - Mariano Acosta - Barrio Nuevo"
+ },
+ "504ITU": {
+  "partidos": [
+   "Partido de Ituzaingó"
+  ],
+  "localidades": [
+   "Ituzaingó",
+   "Villa Udaondo"
+  ],
+  "description": "Barrio Iparraguirre - Barrio Nuevo"
+ },
+ "504MER": {
+  "partidos": [
+   "Partido de Merlo",
+   "Partido de Marcos Paz"
+  ],
+  "localidades": [
+   "Merlo",
+   "Pontevedra",
+   "Libertad",
+   "Mariano Acosta"
+  ],
+  "description": "Merlo - Pque. San Martín - Campanillas - Barrio Nuevo"
+ },
+ "504PP": {
+  "partidos": [
+   "Partido de Presidente Perón",
+   "Partido de Ezeiza",
+   "Partido de Esteban Echeverría",
+   "Partido de San Vicente",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Guernica",
+   "Canning (Ezeiza)",
+   "Canning (Esteban Echeverría)",
+   "Longchamps"
+  ],
+  "description": "Guernica - Parque Americano - Canning"
+ },
+ "505AB": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Burzaco",
+   "San Francisco de Asís",
+   "Claypole",
+   "Adrogué",
+   "José Mármol",
+   "Rafael Calzada",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)"
+  ],
+  "description": "Solano - Rafael Calzada - Claypole"
+ },
+ "505FV": {
+  "partidos": [
+   "Partido de Florencio Varela",
+   "Partido de Berazategui"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Berazategui",
+   "Villa Vatteone",
+   "Villa Santa Rosa"
+  ],
+  "description": "Hospital El Cruce - San Jorge"
+ },
+ "506AB": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Quilmes",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Glew",
+   "Ministro Rivadavia",
+   "Longchamps",
+   "Burzaco",
+   "San Francisco de Asís",
+   "Claypole",
+   "Adrogué",
+   "José Mármol",
+   "San José (Almirante Brown)",
+   "San José (Lomas de Zamora)",
+   "Quilmes Oeste",
+   "Rafael Calzada"
+  ],
+  "description": "San José - Gendarmería - Claypole"
+ },
+ "506FV": {
+  "partidos": [
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Villa Vatteone",
+   "Villa San Luis"
+  ],
+  "description": "Rotonda de Monteverde - Mayol"
+ },
+ "506PIL": {
+  "partidos": [
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Presidente Derqui"
+  ],
+  "description": "Derqui - Monterrey - El Toro"
+ },
+ "507FV": {
+  "partidos": [
+   "Partido de Florencio Varela",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Estanislao Severo Zeballos",
+   "Bosques",
+   "Villa La Florida"
+  ],
+  "description": "Cruce Varela - La Sirena - Bosques"
+ },
+ "508FV": {
+  "partidos": [
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Gobernador Julio A. Costa",
+   "Villa Santa Rosa",
+   "Villa Vatteone"
+  ],
+  "description": "Rotonda de Monteverde - Cementerio de Varela"
+ },
+ "509ES": {
+  "partidos": [
+   "Partido de Escobar"
+  ],
+  "localidades": [
+   "Matheu",
+   "Belén de Escobar",
+   "El Cazador"
+  ],
+  "description": "El Cazador - Escobar - Matheu - Coprovi"
+ },
+ "509FV": {
+  "partidos": [
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Villa Vatteone",
+   "Villa Santa Rosa",
+   "Villa Brown",
+   "Villa San Luis",
+   "Ingeniero Juan Allan",
+   "Bosques"
+  ],
+  "description": "Hospital El Cruce - La Sirena - La Carolina"
+ },
+ "509PIL": {
+  "partidos": [
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Presidente Derqui"
+  ],
+  "description": "Presidente Derqui - La Escondida - El Triángulo"
+ },
+ "510AB": {
+  "partidos": [
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Burzaco",
+   "Claypole",
+   "San Francisco de Asís",
+   "Ministro Rivadavia",
+   "Glew",
+   "Longchamps"
+  ],
+  "description": "Burzaco - Libertad - Los Altos"
+ },
+ "510PIL": {
+  "partidos": [
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Fátima",
+   "San Francisco",
+   "Champagnat",
+   "Pilar",
+   "La Lonja",
+   "Villa Rosa",
+   "Del Viso",
+   "Manuel Alberti",
+   "Manzanares"
+  ],
+  "description": "Pilar - Parque Industrial - Alberti - Del Viso - Villa Rosa"
+ },
+ "511FV": {
+  "partidos": [
+   "Partido de Florencio Varela",
+   "Partido de Berazategui",
+   "Partido de Quilmes",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Berazategui",
+   "Ezpeleta Oeste",
+   "Villa La Florida",
+   "San Juan Bautista",
+   "Villa Vatteone",
+   "Villa Santa Rosa",
+   "Gobernador Julio A. Costa",
+   "Claypole"
+  ],
+  "description": "Cruce Varela - Hospital El Cruce - Gobernador A. Costa"
+ },
+ "511PIL": {
+  "partidos": [
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Pilar Sur",
+   "Pilar",
+   "Villa Astolfi",
+   "Champagnat",
+   "San Francisco",
+   "Fátima",
+   "Manzanares"
+  ],
+  "description": "Pilar - Agustoni - Carabassa - Manzanares - Golfer's"
+ },
+ "512FV": {
+  "partidos": [
+   "Partido de Florencio Varela",
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Villa La Florida",
+   "Villa Vatteone",
+   "Villa San Luis",
+   "Villa Brown",
+   "Villa Santa Rosa"
+  ],
+  "description": "Cruce Varela - La Sirena - Mayol"
+ },
+ "513FV": {
+  "partidos": [
+   "Partido de Florencio Varela",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Villa Vatteone",
+   "Villa Santa Rosa",
+   "Gobernador Julio A. Costa",
+   "San Francisco de Asís"
+  ],
+  "description": "Florencio Varela - Santa Inés - San Jorge"
+ },
+ "514AB": {
+  "partidos": [
+   "Partido de Esteban Echeverría",
+   "Partido de Lomas de Zamora",
+   "Partido de Almirante Brown",
+   "Partido de Quilmes",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "Gobernador Julio A. Costa",
+   "Rafael Calzada",
+   "San Francisco de Asís",
+   "San José (Almirante Brown)",
+   "José Mármol",
+   "Adrogué",
+   "Burzaco",
+   "Malvinas Argentinas (Almirante Brown)",
+   "Luis Guillón",
+   "Llavallol",
+   "Ministro Rivadavia"
+  ],
+  "description": "Barrio Lindo - Adrogué - Burzaco - Solano"
+ },
+ "515AB": {
+  "partidos": [
+   "Partido de Presidente Perón",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Burzaco",
+   "Longchamps",
+   "Guernica"
+  ],
+  "description": "Burzaco - Sakura - Longchamps"
+ },
+ "518EZ": {
+  "partidos": [
+   "Partido de Ezeiza",
+   "Partido de San Vicente",
+   "Partido de Presidente Perón",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Aeropuerto Internacional Ezeiza",
+   "Ezeiza",
+   "La Unión",
+   "Tristán Suárez",
+   "Carlos Spegazzini",
+   "Canning (Ezeiza)",
+   "Canning (Esteban Echeverría)",
+   "El Jagüel",
+   "Guernica"
+  ],
+  "description": "Ezeiza - Aeropuerto - Sol de Oro - Canning - El Porvenir"
+ },
+ "520PIL": {
+  "partidos": [
+   "Partido del Pilar",
+   "Partido de José C. Paz"
+  ],
+  "localidades": [
+   "Pilar",
+   "Villa Astolfi",
+   "Manzone",
+   "Presidente Derqui",
+   "Villa Rosa",
+   "Zelaya",
+   "Lagomarsino",
+   "Pilar Sur",
+   "Manuel Alberti",
+   "Del Viso",
+   "La Lonja",
+   "Champagnat",
+   "Fátima",
+   "José C. Paz"
+  ],
+  "description": "Pilar - Zelaya - Derqui - Lagomarsino"
+ },
+ "520LAN": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Lanús Oeste",
+   "Valentín Alsina",
+   "Remedios de Escalada",
+   "Villa Fiorito"
+  ],
+  "description": "Villa Caraza - Lanús"
+ },
+ "521AB": {
+  "partidos": [
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Burzaco"
+  ],
+  "description": "Burzaco - Parque Industrial"
+ },
+ "521LAN": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Avellaneda"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Gerli (Lanús)",
+   "Monte Chingolo",
+   "Wilde"
+  ],
+  "description": "Lanús - Belgrano y Cadorna"
+ },
+ "523LAN": {
+  "partidos": [
+   "Partido de Lanús"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Remedios de Escalada"
+  ],
+  "description": "Lanús - Remedios de Escalada"
+ },
+ "524LAN": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Avellaneda"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Monte Chingolo",
+   "Wilde"
+  ],
+  "description": "Lanús - Monte Chingolo - Belgrano y Cadorna"
+ },
+ "526LAN": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Avellaneda"
+  ],
+  "localidades": [
+   "Lanús Este",
+   "Monte Chingolo",
+   "Wilde"
+  ],
+  "description": "Lanús - Monte Chingolo - Belgrano y Cadorna"
+ },
+ "527-522LAN": {
+  "partidos": [
+   "Partido de Lanús",
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Lanús Oeste",
+   "Lanús Este",
+   "Monte Chingolo",
+   "Villa Domínico",
+   "Wilde",
+   "Banfield",
+   "San José (Lomas de Zamora)"
+  ],
+  "description": "Lanús - Lynch y Caaguazú - Hospital Evita"
+ },
+ "540LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Lomas de Zamora",
+   "Parque Barón",
+   "Santa Marta",
+   "Villa Albertina",
+   "Villa Lamadrid",
+   "Ingeniero Budge",
+   "Villa Fiorito",
+   "Santa Catalina"
+  ],
+  "description": "Lomas de Zamora - Puente La Noria"
+ },
+ "541LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Banfield",
+   "Villa Centenario",
+   "Villa Albertina",
+   "Ingeniero Budge",
+   "Villa Fiorito"
+  ],
+  "description": "Banfield - Puente La Noria"
+ },
+ "542LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Lomas de Zamora",
+   "Parque Barón",
+   "Santa Marta",
+   "Villa Albertina",
+   "Villa Centenario",
+   "Ingeniero Budge",
+   "Villa Fiorito"
+  ],
+  "description": "Lomas de Zamora - Camino Negro - Puente La Noria"
+ },
+ "543LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Luis Guillón",
+   "Parque Barón",
+   "Lomas de Zamora",
+   "Santa Marta",
+   "Villa Albertina",
+   "Santa Catalina",
+   "9 de Abril"
+  ],
+  "description": "Lomas de Zamora - Parque Barón - Ruta 4 - Cruce Lomas"
+ },
+ "544LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Lomas de Zamora",
+   "Santa Catalina",
+   "Banfield",
+   "Villa Centenario",
+   "Santa Marta",
+   "Villa Albertina",
+   "Villa Lamadrid",
+   "Ingeniero Budge",
+   "Villa Fiorito",
+   "9 de Abril",
+   "Parque Barón"
+  ],
+  "description": "Lomas de Zamora - Santa Catalina - La Salada - La Noria"
+ },
+ "548LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Banfield",
+   "Villa Centenario",
+   "Santa Marta",
+   "Villa Albertina",
+   "Villa Fiorito",
+   "Ingeniero Budge",
+   "Santa Catalina"
+  ],
+  "description": "Banfield - Santa Marta - La Noria - Penal"
+ },
+ "549LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Temperley",
+   "Lomas de Zamora",
+   "Llavallol",
+   "Parque Barón",
+   "Luis Guillón"
+  ],
+  "description": "Temperley - Cruce Lomas"
+ },
+ "550LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Lanús"
+  ],
+  "localidades": [
+   "Lomas de Zamora",
+   "Banfield",
+   "Villa Centenario",
+   "Remedios de Escalada",
+   "Villa Fiorito",
+   "Lanús Oeste",
+   "Ingeniero Budge"
+  ],
+  "description": "Lomas de Zamora - Fiorito - Puente La Noria"
+ },
+ "551LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Lomas de Zamora",
+   "Banfield",
+   "Santa Marta",
+   "Villa Albertina",
+   "Santa Catalina",
+   "Villa Fiorito",
+   "Ingeniero Budge",
+   "Villa Lamadrid",
+   "9 de Abril"
+  ],
+  "description": "Lomas de Zamora - Puente La Noria - Penal - Ruta 4"
+ },
+ "552LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Banfield",
+   "Lomas de Zamora",
+   "Santa Marta",
+   "Parque Barón",
+   "Luis Guillón",
+   "Villa Albertina",
+   "Santa Catalina",
+   "Villa Fiorito",
+   "Ingeniero Budge",
+   "Villa Lamadrid",
+   "9 de Abril"
+  ],
+  "description": "Banfield - Cruce Lomas - Puente La Noria - Ruta 4"
+ },
+ "553LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora"
+  ],
+  "localidades": [
+   "Lomas de Zamora",
+   "Santa Marta",
+   "Villa Albertina",
+   "Villa Lamadrid",
+   "Ingeniero Budge",
+   "Villa Fiorito"
+  ],
+  "description": "Lomas de Zamora - Puente La Noria"
+ },
+ "561LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Esteban Echeverría"
+  ],
+  "localidades": [
+   "Lomas de Zamora",
+   "Temperley",
+   "Turdera",
+   "Llavallol",
+   "Luis Guillón"
+  ],
+  "description": "Lomas de Zamora - Cruce Lomas"
+ },
+ "562LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Turdera",
+   "Lomas de Zamora",
+   "Temperley",
+   "Llavallol",
+   "Parque Barón",
+   "Malvinas Argentinas (Almirante Brown)"
+  ],
+  "description": "Lomas de Zamora - Llavallol - Loma Verde"
+ },
+ "564LZ": {
+  "partidos": [
+   "Partido de Lomas de Zamora",
+   "Partido de Quilmes",
+   "Partido de Almirante Brown"
+  ],
+  "localidades": [
+   "Temperley",
+   "San José (Almirante Brown)",
+   "San José (Lomas de Zamora)",
+   "Lomas de Zamora",
+   "Quilmes Oeste"
+  ],
+  "description": "Lomas de Zamora - San José - Temperley"
+ },
+ "580Q": {
+  "partidos": [
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Ezpeleta Oeste",
+   "Quilmes Oeste",
+   "Quilmes",
+   "Ezpeleta Este"
+  ],
+  "description": "Cementerio de Ezpeleta - El Jalón"
+ },
+ "582Q": {
+  "partidos": [
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Ezpeleta Este",
+   "Ezpeleta Oeste",
+   "Quilmes",
+   "Quilmes Oeste",
+   "Villa La Florida",
+   "San Francisco Solano (Quilmes)",
+   "Bernal Oeste"
+  ],
+  "description": "Cementerio de Ezpeleta - Quilmes - Solano"
+ },
+ "583Q": {
+  "partidos": [
+   "Partido de Quilmes"
+  ],
+  "localidades": [
+   "Ezpeleta Oeste",
+   "Ezpeleta Este",
+   "Quilmes",
+   "Bernal Este"
+  ],
+  "description": "Quilmes - La Nueva Ribera - Villa Argentina"
+ },
+ "584Q": {
+  "partidos": [
+   "Partido de Quilmes",
+   "Partido de Berazategui",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Bernal Oeste",
+   "Bernal Este",
+   "Quilmes",
+   "Ezpeleta Este",
+   "Berazategui",
+   "Ezpeleta Oeste",
+   "San Juan Bautista"
+  ],
+  "description": "Bernal Oeste - Quilmes - Cruce Varela"
+ },
+ "585Q": {
+  "partidos": [
+   "Partido de Quilmes",
+   "Partido de Almirante Brown",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Quilmes",
+   "Quilmes Oeste",
+   "Villa La Florida",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "Gobernador Julio A. Costa"
+  ],
+  "description": "Balneario de Quilmes - Los Eucaliptus"
+ },
+ "586Q": {
+  "partidos": [
+   "Partido de Quilmes",
+   "Partido de Almirante Brown",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "Quilmes",
+   "Quilmes Oeste",
+   "Villa La Florida",
+   "San Francisco Solano (Almirante Brown)",
+   "San Francisco Solano (Quilmes)",
+   "Gobernador Julio A. Costa"
+  ],
+  "description": "Balneario de Quilmes - Los Eucaliptus"
+ },
+ "603BER": {
+  "partidos": [
+   "Partido de Berazategui",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Berazategui",
+   "Villa España",
+   "Plátanos",
+   "Ranelagh",
+   "Sourigues",
+   "Hudson",
+   "Juan María Gutiérrez",
+   "Bosques"
+  ],
+  "description": "Cruce Varela - Berazategui - Marítimo"
+ },
+ "619BER": {
+  "partidos": [
+   "Partido de Berazategui",
+   "Partido de Florencio Varela"
+  ],
+  "localidades": [
+   "San Juan Bautista",
+   "Berazategui",
+   "Ranelagh",
+   "Plátanos",
+   "Hudson",
+   "Juan María Gutiérrez",
+   "Ingeniero Juan Allan",
+   "El Pato"
+  ],
+  "description": "Cruce Varela - El Pato - Countrys - Parque Industrial"
+ },
+ "620LM": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Tres de Febrero",
+   "Partido de Marcos Paz"
+  ],
+  "localidades": [
+   "Ciudadela",
+   "Ramos Mejía",
+   "Lomas del Mirador",
+   "San Justo",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "Rafael Castillo",
+   "González Catán",
+   "Virrey Del Pino"
+  ],
+  "description": "Ruta 3 y Gral. Paz - Catán - Virrey del Pino"
+ },
+ "621LM": {
+  "partidos": [
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Ramos Mejía",
+   "San Justo",
+   "Ciudad Evita",
+   "La Tablada",
+   "Aldo Bonzi",
+   "Tapiales",
+   "Isidro Casanova",
+   "Rafael Castillo",
+   "Gregorio de Laferrere",
+   "González Catán",
+   "Virrey Del Pino"
+  ],
+  "description": "Ramos Mejía - Catán - Mercado Central - Ciudad Evita"
+ },
+ "622LM": {
+  "partidos": [
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "La Tablada",
+   "Lomas del Mirador",
+   "San Justo",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "Rafael Castillo",
+   "González Catán",
+   "Virrey Del Pino"
+  ],
+  "description": "Crovara y Gral. Paz - Catán - Oro Verde - San Marino"
+ },
+ "624LM": {
+  "partidos": [
+   "Partido de La Matanza",
+   "Partido de Morón"
+  ],
+  "localidades": [
+   "Ramos Mejía",
+   "San Justo",
+   "Ciudad Evita",
+   "Isidro Casanova",
+   "Villa Luzuriaga",
+   "Rafael Castillo",
+   "Morón"
+  ],
+  "description": "Cementerio Villegas - B.I.D. - San Justo - Ramos Mejía"
+ },
+ "628LM": {
+  "partidos": [
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "San Justo",
+   "La Tablada",
+   "Aldo Bonzi"
+  ],
+  "description": "Barrio Mendeville - San Justo"
+ },
+ "630LM": {
+  "partidos": [
+   "Comuna 8",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Villa Lugano",
+   "La Tablada",
+   "San Justo",
+   "Ciudad Evita",
+   "Isidro Casanova",
+   "Gregorio de Laferrere",
+   "González Catán"
+  ],
+  "description": "Crovara y Gral. Paz - Km. 29 - Laferrere - San Alberto"
+ },
+ "634MOR": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de Tres de Febrero",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Ciudad Jardín Lomas del Palomar",
+   "El Palomar",
+   "Haedo",
+   "Morón",
+   "Castelar",
+   "Rafael Castillo"
+  ],
+  "description": "El Palomar - Morón - Merlo Gómez - Barrio Gaona"
+ },
+ "635MOR": {
+  "partidos": [
+   "Partido de Morón",
+   "Partido de La Matanza"
+  ],
+  "localidades": [
+   "Morón",
+   "Villa Luzuriaga",
+   "Rafael Castillo",
+   "Castelar"
+  ],
+  "description": "Morón - Merlo Gómez"
+ },
+ "670SM": {
+  "partidos": [
+   "Partido de Tres de Febrero",
+   "Partido de General San Martín"
+  ],
+  "localidades": [
+   "El Libertador",
+   "Villa Ciudad Jardín El Libertador",
+   "Villa Independencia",
+   "Villa Godoy Cruz",
+   "Villa Coronel José María Zapiola",
+   "Villa General Antonio José de Sucre",
+   "Villa General José Tomás Guido",
+   "Villa General Juan Gregorio de Las Heras",
+   "Villa Juan Martín de Pueyrredón",
+   "Villa Yapeyú",
+   "Ciudad del Libertador General San Martín",
+   "Villa Chacabuco",
+   "Villa Lynch"
+  ],
+  "description": "El Libertador - San Martín - Barrio Uta - Villa Lynch"
+ },
+ "710SF": {
+  "partidos": [
+   "Partido de San Fernando",
+   "Partido de San Isidro",
+   "Partido de Tigre"
+  ],
+  "localidades": [
+   "Béccar",
+   "Boulogne Sur Mer",
+   "Victoria",
+   "Virreyes",
+   "San Fernando",
+   "Tigre"
+  ],
+  "description": "Virreyes - Carupá - Villa Jardín - Punta Chica"
+ },
+ "720T": {
+  "partidos": [
+   "Partido de Tigre",
+   "Partido de San Fernando",
+   "Partido de Malvinas Argentinas",
+   "Partido de Escobar"
+  ],
+  "localidades": [
+   "Don Torcuato",
+   "El Talar",
+   "General Pacheco",
+   "Troncos del Talar",
+   "San Fernando",
+   "Tigre",
+   "Rincón de Milberg",
+   "Nordelta",
+   "Dique Luján",
+   "Benavídez",
+   "Ricardo Rojas",
+   "Villa de Mayo",
+   "Ingeniero Adolfo Sourdeaux",
+   "Área de Promoción El Triángulo",
+   "Garín",
+   "San Fernando"
+  ],
+  "description": "Carupá - Don Torcuato - Ford - El Arco - Dique Luján"
+ },
+ "721T": {
+  "partidos": [
+   "Partido de Tigre",
+   "Partido de San Fernando"
+  ],
+  "localidades": [
+   "El Talar",
+   "Ricardo Rojas",
+   "General Pacheco",
+   "Troncos del Talar",
+   "Tigre",
+   "San Fernando",
+   "Rincón de Milberg"
+  ],
+  "description": "El Talar - El Ahorcado - Puerto de Frutos"
+ },
+ "722T": {
+  "partidos": [
+   "Partido de Tigre",
+   "Partido de San Fernando",
+   "Partido de Malvinas Argentinas"
+  ],
+  "localidades": [
+   "Don Torcuato",
+   "General Pacheco",
+   "Troncos del Talar",
+   "Tigre",
+   "Rincón de Milberg",
+   "Nordelta",
+   "Dique Luján",
+   "Benavídez",
+   "El Talar",
+   "Villa de Mayo",
+   "Ingeniero Adolfo Sourdeaux"
+  ],
+  "description": "Don Torcuato - Tigre - Carupá - Benavídez"
+ },
+ "723T": {
+  "partidos": [
+   "Partido de Tigre",
+   "Partido de San Fernando"
+  ],
+  "localidades": [
+   "Don Torcuato",
+   "El Talar",
+   "General Pacheco",
+   "Troncos del Talar",
+   "Nordelta",
+   "Benavídez",
+   "Dique Luján",
+   "Virreyes"
+  ],
+  "description": "Don Torcuato - Aviación - Nordelta - Bancalari"
+ },
+ "740SM": {
+  "partidos": [
+   "Partido de San Miguel",
+   "Partido de Moreno"
+  ],
+  "localidades": [
+   "San Miguel",
+   "Santa María",
+   "Bella Vista",
+   "Trujui"
+  ],
+  "description": "San Miguel - Lemos - Santa Brígida - Manuelita"
+ },
+ "741JCP": {
+  "partidos": [
+   "Partido de José C. Paz",
+   "Partido de San Miguel"
+  ],
+  "localidades": [
+   "José C. Paz",
+   "Santa María"
+  ],
+  "description": "José C. Paz - Sol y Verde - P.U.I."
+ },
+ "749JCP": {
+  "partidos": [
+   "Partido de José C. Paz",
+   "Partido de Moreno",
+   "Partido de San Miguel"
+  ],
+  "localidades": [
+   "Cuartel V",
+   "José C. Paz",
+   "Santa María"
+  ],
+  "description": "José C. Paz - San Atilo - Las Acacias - Sol y Verde"
+ },
+ "SUR": {
+  "partidos": [
+   "Partido de La Plata"
+  ],
+  "localidades": [
+   "Altos de San Lorenzo",
+   "Los Hornos",
+   "La Plata"
+  ],
+  "description": "Puente de Fierro - Los Hornos - La Plata"
+ },
+ "204B": {
+  "partidos": [
+   "Partido de Escobar",
+   "Partido de Malvinas Argentinas",
+   "Partido de San Fernando",
+   "Partido de Tigre"
+  ],
+  "localidades": [
+   "Área de Promoción El Triángulo",
+   "Belén de Escobar",
+   "Benavídez",
+   "Garín",
+   "General Pacheco",
+   "Ingeniero Maschwitz",
+   "Ricardo Rojas",
+   "San Fernando",
+   "Tigre",
+   "Troncos del Talar"
+  ],
+  "description": "Carupá - Garín - Escobar"
+ },
+ "204A": {
+  "partidos": [
+   "Partido de Campana",
+   "Partido de Escobar",
+   "Partido de Zárate"
+  ],
+  "localidades": [
+   "Belén de Escobar",
+   "Loma Verde"
+  ],
+  "description": "Escobar - Zárate"
+ },
+ "228CE": {
+  "partidos": [
+   "Partido de Campana",
+   "Partido de Escobar",
+   "Partido de Exaltación de la Cruz",
+   "Partido de Luján",
+   "Partido de Malvinas Argentinas",
+   "Partido de San Isidro",
+   "Partido de Tigre",
+   "Partido de Vicente López",
+   "Partido de Zárate",
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Área de Promoción El Triángulo",
+   "Benavídez",
+   "Boulogne Sur Mer",
+   "Don Torcuato",
+   "El Talar",
+   "Florida",
+   "Florida Oeste",
+   "Garín",
+   "General Pacheco",
+   "Manuel Alberti",
+   "Manzanares",
+   "Martínez",
+   "Munro",
+   "Nordelta",
+   "Olivos",
+   "Ricardo Rojas",
+   "Vicente López",
+   "Villa Adelina (San Isidro)"
+  ],
+  "description": "Puente Saavedra - Garín - Zárate - Luján"
+ },
+ "228B": {
+  "partidos": [
+   "Partido de Escobar",
+   "Partido de Malvinas Argentinas",
+   "Partido de San Isidro",
+   "Partido de Tigre",
+   "Partido de Vicente López",
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Área de Promoción El Triángulo",
+   "Boulogne Sur Mer",
+   "Don Torcuato",
+   "El Talar",
+   "Florida",
+   "Florida Oeste",
+   "Garín",
+   "Manuel Alberti",
+   "Martínez",
+   "Munro",
+   "Olivos",
+   "Pablo Nogués",
+   "Ricardo Rojas",
+   "Tortuguitas",
+   "Vicente López",
+   "Villa Adelina (San Isidro)"
+  ],
+  "description": "Puente Saavedra - Garín"
+ },
+ "228A": {
+  "partidos": [
+   "Partido de Campana",
+   "Partido de Zárate"
+  ],
+  "localidades": [],
+  "description": "Campana - Lima"
+ },
+ "228F": {
+  "partidos": [
+   "Partido de Escobar",
+   "Partido de José C. Paz",
+   "Partido de Malvinas Argentinas",
+   "Partido de San Isidro",
+   "Partido de Tigre",
+   "Partido de Vicente López",
+   "Partido del Pilar"
+  ],
+  "localidades": [
+   "Área de Promoción El Triángulo",
+   "Boulogne Sur Mer",
+   "Del Viso",
+   "Don Torcuato",
+   "El Talar",
+   "Florida",
+   "Florida Oeste",
+   "Garín",
+   "José C. Paz",
+   "La Lonja",
+   "Manuel Alberti",
+   "Martínez",
+   "Munro",
+   "Olivos",
+   "Pablo Nogués",
+   "Pilar",
+   "Presidente Derqui",
+   "Ricardo Rojas",
+   "Tortuguitas",
+   "Vicente López",
+   "Villa Adelina (San Isidro)"
+  ],
+  "description": "Puente Saavedra - Presidente Derqui"
+ }
+}

@@ -701,7 +701,18 @@ function insertVirtualNode(graph: StreetGraph, aKey: string, bKey: string, lat: 
   return key
 }
 
-export function snapNearNeighbors(graph: StreetGraph, lat: number, lon: number, neighborKeys: string[]): string | null {
+// Waypoints vecinos del punto que se está enganchando. El SENTIDO importa
+// cuando hay calles de mano única: el tramo real es anterior -> punto y
+// punto -> siguiente. Medirlo siempre "desde el punto hacia el vecino" (como
+// se hacía antes) enganchaba el click a la calzada de ENFRENTE de un
+// boulevard: la que permite ir de vuelta hacia el punto anterior, que es la
+// del sentido contrario al que se está trazando.
+export interface SnapNeighbors {
+  prev?: string | null
+  next?: string | null
+}
+
+export function snapNearNeighbors(graph: StreetGraph, lat: number, lon: number, neighbors: SnapNeighbors): string | null {
   const nodeCandidates = nearestNodes(graph, lat, lon, CANDIDATE_COUNT).map((key) => {
     const n = graph.nodes.get(key)!
     return { key, distToClick: haversineKm(lat, lon, n.lat, n.lon) }
@@ -718,46 +729,34 @@ export function snapNearNeighbors(graph: StreetGraph, lat: number, lon: number, 
   }
 
   if (candidates.length === 0) return null
-  if (neighborKeys.length === 0) {
+  const { prev, next } = neighbors
+  if (!prev && !next) {
     candidates.sort((a, b) => a.distToClick - b.distToClick)
     return candidates[0].key
   }
-
   let best = candidates[0].key
   let bestScore = Infinity
-
   for (const candidate of candidates) {
-
     let score = 0
-
     let reachable = true
-
-    for (const neighborKey of neighborKeys) {
-
-      const segment = shortestPath(graph, candidate.key, neighborKey)
-
+    // Tramo que llega al punto (anterior -> candidato) y tramo que sale
+    // (candidato -> siguiente), cada uno en su sentido real.
+    const legs: [string, string][] = []
+    if (prev) legs.push([prev, candidate.key])
+    if (next) legs.push([candidate.key, next])
+    for (const [from, to] of legs) {
+      const segment = shortestPath(graph, from, to)
       if (!segment) {
-
         reachable = false
-
         break
-
       }
-
       score += pathLengthKm(segment)
-
     }
-
     if (reachable && score < bestScore) {
-
       bestScore = score
-
       best = candidate.key
-
     }
-
   }
-
   return best
 
 }

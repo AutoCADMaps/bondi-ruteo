@@ -4,13 +4,13 @@
   {
    "id": "RGXyrW2F4roQ4jJ9qYd0",
    "ref": "2",
-   "name": "Lomas del Mirador → Central Costera",
+   "name": "Lomas del Mirador → Central Costanera",
    "color": "#ff0000",
    "createdAt": 1784413287752,
    "points": [
     {
-     "lat": -34.65780897903089,
-     "lon": -58.54025629025403
+     "lat": -34.6580793,
+     "lon": -58.5399561
     },
     {
      "lat": -34.6580793,
@@ -3209,10 +3209,6 @@
      "lon": -58.3428414
     },
     {
-     "lat": -34.623728466666165,
-     "lon": -58.34246450707755
-    },
-    {
      "lat": -34.6236883,
      "lon": -58.3423607
     },
@@ -3239,6 +3235,28 @@
     {
      "lat": -34.6235485,
      "lon": -58.3420069
+    }
+   ],
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
+   "order": 0,
+   "ramalRef": "2",
+   "visible": false,
+   "updatedAt": 1792437864577,
+   "discontinued": false
+  },
+  {
+   "id": "M3hZOMi0ZYVI4ve71WFy",
+   "ref": "2",
+   "name": "Central Costanera → Lomas del Mirador",
+   "color": "#ff0000",
+   "createdAt": 1784413680929,
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
+   "order": 1,
+   "ramalRef": "2.",
+   "points": [
+    {
+     "lat": -34.623545927548236,
+     "lon": -58.34200530752987
     },
     {
      "lat": -34.6235359,
@@ -3248,27 +3266,6 @@
      "lat": -34.6235213,
      "lon": -58.3419947
     },
-    {
-     "lat": -34.6235056,
-     "lon": -58.341992
-    }
-   ],
-   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "order": 0,
-   "ramalRef": "2",
-   "visible": false,
-   "updatedAt": 1790721926463
-  },
-  {
-   "id": "M3hZOMi0ZYVI4ve71WFy",
-   "ref": "2",
-   "name": "Central Costera → Lomas del Mirador",
-   "color": "#ff0000",
-   "createdAt": 1784413680929,
-   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "order": 1,
-   "ramalRef": "2.",
-   "points": [
     {
      "lat": -34.6235056,
      "lon": -58.341992
@@ -6783,7 +6780,8 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790721951537
+   "updatedAt": 1793494740870,
+   "discontinued": false
   }
  ]
 }

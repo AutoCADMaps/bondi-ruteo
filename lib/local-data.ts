@@ -12,6 +12,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync, renameSync, unlinkSync } from "fs"
 import path from "path"
 import { randomUUID } from "crypto"
+import { getAllSiteLineZones } from "@/lib/zones"
 
 const ROOT = path.join(process.cwd(), "local-data")
 const LINES_DIR = path.join(ROOT, "lines")
@@ -274,4 +275,64 @@ export function deleteStop(id: string): boolean {
   stopsById!.delete(id)
   persistStops()
   return true
+}
+
+// ---------------------------------------------------------------- zonas
+// Partidos y localidades de cada línea (por "ref", no por ramal). Se guardan
+// aparte de las líneas para no tocar sus archivos; se publican a
+// public/lines.json del sitio con /api/admin/line-zones/publish.
+// Los nombres son los mismos que usa el sitio: "Partido de La Plata",
+// "Comuna 4", "Villa Adelina (Vicente López)" para localidades homónimas.
+const ZONES_FILE = path.join(ROOT, "line-zones.json")
+
+// operator (empresa) y owner (grupo) solo se guardan si se cambiaron en Ruteo
+// respecto de lines.json; sin ellos, manda lo que dice lines.json.
+export interface LineZones { partidos: string[]; localidades: string[]; description?: string; operator?: string; owner?: string }
+
+let zonesByRef: Record<string, LineZones> | null = null
+function loadZones() {
+  if (zonesByRef) return
+  const saved = readJson<Record<string, LineZones>>(ZONES_FILE, {})
+  // Primera vez (o línea nueva en lines.json): se toman los partidos y
+  // localidades que ya estaban anotados en public/lines.json, para no volver a
+  // asignar las líneas. Lo ya guardado en Ruteo nunca se pisa.
+  // La descripción se siembra igual; si lo guardado en Ruteo es de antes de
+  // que existiera la descripción, se completa desde lines.json.
+  let seeded = 0
+  for (const [ref, z] of Object.entries(getAllSiteLineZones())) {
+    if (saved[ref]) {
+      if (saved[ref].description === undefined && z.description) {
+        saved[ref].description = z.description
+        seeded++
+      }
+      continue
+    }
+    if (z.partidos.length === 0 && z.localidades.length === 0 && !z.description) continue
+    saved[ref] = { partidos: [...z.partidos], localidades: [...z.localidades], description: z.description }
+    seeded++
+  }
+  zonesByRef = saved
+  if (seeded > 0) writeJson(ZONES_FILE, saved)
+}
+
+export function getAllLineZones(): Record<string, LineZones> {
+  loadZones()
+  return { ...zonesByRef! }
+}
+
+export function getLineZones(ref: string): LineZones | null {
+  loadZones()
+  return zonesByRef![ref] ?? null
+}
+
+export function setLineZones(ref: string, zones: LineZones) {
+  loadZones()
+  zonesByRef![ref] = {
+    partidos: [...new Set(zones.partidos)].sort((a, b) => a.localeCompare(b, "es")),
+    localidades: [...new Set(zones.localidades)].sort((a, b) => a.localeCompare(b, "es")),
+    description: (zones.description ?? "").trim(),
+    ...(zones.operator !== undefined ? { operator: zones.operator.trim() } : {}),
+    ...(zones.owner !== undefined ? { owner: zones.owner.trim() } : {}),
+  }
+  writeJson(ZONES_FILE, zonesByRef)
 }

@@ -420,11 +420,11 @@
      "lon": -58.80625042893385
     }
    ],
-   "folderId": null,
+   "folderId": "4eafc3a9-ae15-4bd1-b1c7-63090192f74f",
    "createdAt": 1789839272216,
    "ramalRef": "741JCPA",
    "visible": false,
-   "updatedAt": 1790722257901
+   "updatedAt": 1793473664469
   },
   {
    "id": "6MB88RqQn0WBhtY4r7wv",
@@ -905,17 +905,17 @@
      "lon": -58.75231137775613
     }
    ],
-   "folderId": null,
+   "folderId": "4eafc3a9-ae15-4bd1-b1c7-63090192f74f",
    "createdAt": 1789839360212,
    "ramalRef": "741JCPA.",
    "visible": false,
-   "updatedAt": 1790722257974
+   "updatedAt": 1793473664546
   },
   {
    "id": "i2ACYDoS39Ah3OvjXk1t",
    "ref": "741JCP",
    "color": "#787878",
-   "folderId": null,
+   "folderId": "4eafc3a9-ae15-4bd1-b1c7-63090192f74f",
    "createdAt": 1789839367170,
    "ramalRef": "741JCPB",
    "name": "José C. Paz → x Viena → Sol y Verde",
@@ -1390,13 +1390,13 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790722258008
+   "updatedAt": 1793473664611
   },
   {
    "id": "aFOzl9VkDf77NlQGdYZU",
    "ref": "741JCP",
    "color": "#787878",
-   "folderId": null,
+   "folderId": "4eafc3a9-ae15-4bd1-b1c7-63090192f74f",
    "createdAt": 1789839428608,
    "ramalRef": "741JCPB.",
    "name": "Sol y Verde → x Viena → José C. Paz",
@@ -1923,13 +1923,13 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790722258035
+   "updatedAt": 1793473664643
   },
   {
    "id": "wfnzs4PRDtnjMULBbohG",
    "ref": "741JCP",
    "color": "#787878",
-   "folderId": null,
+   "folderId": "4eafc3a9-ae15-4bd1-b1c7-63090192f74f",
    "createdAt": 1789839513426,
    "ramalRef": "741JCPC",
    "name": "Polo Universitario Internacional → x Ugarteche → Sol y Verde",
@@ -3048,13 +3048,13 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790722258198
+   "updatedAt": 1793473664674
   },
   {
    "id": "K48NRfpOheP5mCR4EzMs",
    "ref": "741JCP",
    "color": "#787878",
-   "folderId": null,
+   "folderId": "4eafc3a9-ae15-4bd1-b1c7-63090192f74f",
    "createdAt": 1789839697941,
    "ramalRef": "741JCPC.",
    "name": "Sol y Verde → x Ugarteche → Polo Universitario Internacional",
@@ -4145,7 +4145,7 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790722258222
+   "updatedAt": 1793473664705
   }
  ]
 }

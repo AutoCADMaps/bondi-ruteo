@@ -13,7 +13,10 @@ const OVERPASS_ENDPOINTS = [
 // escaleras, etc.). highway=construction SÍ se deja pasar: en la práctica
 // son calles reales (a veces en obra parcial, no cortadas) y el router las
 // necesitaba para no perder tramos enteros.
-const EXCLUDED_HIGHWAY = new Set(["footway", "path", "steps", "pedestrian", "cycleway", "proposed"])
+const EXCLUDED_HIGHWAY = new Set([
+  "footway", "path", "steps", "pedestrian", "cycleway", "proposed",
+  "bridleway", "corridor", "platform", "elevator", "escalator", "ladder", "via_ferrata",
+])
 
 // "yes": solo se puede circular en el sentido en que están los puntos de
 // geometry (el orden nativo del "way" en OSM); "-1": solo al revés; "no":

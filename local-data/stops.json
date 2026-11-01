@@ -2924,7 +2924,7 @@
   "lng": -58.466692864894874,
   "name": "Centro de Trasbordo Flores",
   "createdAt": 1790522143931,
-  "note": "",
+  "note": "1 2 88 96",
   "lines": [
    {
     "ramalRef": "1-B.",
@@ -2933,9 +2933,10 @@
   ],
   "status": "confirmed",
   "mindMap": true,
-  "updatedAt": 1791089952306,
+  "updatedAt": 1792423523767,
   "metrobus": true,
-  "mindMapIcon": ""
+  "mindMapIcon": "",
+  "mindMapName": ""
  },
  {
   "id": "EVCZS9AO8AJI7Z4BT4A8",
@@ -3703,10 +3704,10 @@
   "id": "IHx6iEfO8FaUQ5fdm9Ml",
   "lat": -34.62389851336805,
   "lng": -58.449862003326416,
-  "name": "Rivadavia y Oroño",
+  "name": "Estación Puán",
   "createdAt": 1790522142705,
   "note": "",
-  "mindMap": false,
+  "mindMap": true,
   "lines": [
    {
     "ramalRef": "1-B.",
@@ -3714,7 +3715,10 @@
    }
   ],
   "status": "confirmed",
-  "updatedAt": 1790522142878
+  "updatedAt": 1792425088341,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": ""
  },
  {
   "id": "IIqnhiLXW91G97F72nsp",
@@ -4843,7 +4847,7 @@
   "name": "Plazoleta Vicente Bellini",
   "createdAt": 1790522145711,
   "note": "",
-  "mindMap": true,
+  "mindMap": false,
   "lines": [
    {
     "ramalRef": "1-B.",
@@ -4851,9 +4855,10 @@
    }
   ],
   "status": "confirmed",
-  "updatedAt": 1791089951191,
+  "updatedAt": 1792421433136,
   "metrobus": false,
-  "mindMapIcon": ""
+  "mindMapIcon": "",
+  "mindMapName": ""
  },
  {
   "id": "Ntg7do0kV2vlbrNugRHR",
@@ -9513,20 +9518,20 @@
  },
  {
   "id": "lBaHEcIItY29m9jouHlc",
-  "lat": -34.62068919950867,
-  "lng": -58.44015777111054,
+  "lat": -34.62058325030489,
+  "lng": -58.439809083938606,
   "createdAt": 1785616071606,
-  "note": "",
+  "note": "8 86",
   "name": "Estación Primera Junta",
   "status": "confirmed",
   "lines": [
    {
     "ramalRef": "86A.",
-    "order": 1297
+    "order": 1298
    },
    {
     "ramalRef": "86B.",
-    "order": 1225
+    "order": 1226
    },
    {
     "ramalRef": "86E.",
@@ -9537,7 +9542,11 @@
     "order": 1068
    }
   ],
-  "updatedAt": 1785621419222
+  "updatedAt": 1792425587486,
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": ""
  },
  {
   "id": "lCbDXOELKXlRAGraDT3W",
@@ -15094,93 +15103,101 @@
   "name": "Rivadavia y Tuyú",
   "lines": [],
   "createdAt": 1791089950093,
-  "updatedAt": 1791089950170,
+  "updatedAt": 1792419868646,
   "id": "9d59fefc-65c5-4912-b9a5-78de3b5d5993",
   "note": "",
   "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "unused",
+  "mindMapName": ""
  },
  {
-  "lat": -34.639440077674465,
-  "lng": -58.511745929718025,
+  "lat": -34.63943566412467,
+  "lng": -58.51208925247193,
   "name": "Rivadavia y Miralla",
-  "lines": [
-   {
-    "ramalRef": "1-B",
-    "order": 427
-   }
-  ],
+  "lines": [],
   "createdAt": 1791089950248,
-  "updatedAt": 1791089950323,
+  "updatedAt": 1792420254166,
   "id": "4759e6a6-7098-4a25-a011-6e6efe08a410",
-  "note": "",
+  "note": "182",
   "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
-  "lat": -34.639073752241636,
-  "lng": -58.50950628519059,
+  "lat": -34.639162023578244,
+  "lng": -58.509498238563545,
   "name": "Plaza Ejército de los Andes",
   "lines": [
+   {
+    "ramalRef": "2",
+    "order": 185
+   },
    {
     "ramalRef": "1-B",
     "order": 439
    }
   ],
   "createdAt": 1791089950406,
-  "updatedAt": 1791089950535,
+  "updatedAt": 1792420404504,
   "id": "969451a6-3777-4781-9549-691aae25201d",
   "note": "",
   "mindMap": true,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
-  "lat": -34.63833226930489,
-  "lng": -58.50484728813172,
+  "lat": -34.638352130541385,
+  "lng": -58.504981398582466,
   "name": "Plazoleta Arana",
   "lines": [
+   {
+    "ramalRef": "2",
+    "order": 197
+   },
    {
     "ramalRef": "1-B",
     "order": 451
    }
   ],
   "createdAt": 1791089950590,
-  "updatedAt": 1791089950654,
+  "updatedAt": 1792420664844,
   "id": "24b69ca0-0562-486d-b5d6-46da8343f221",
   "note": "1 2 88 96",
   "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
-  "lat": -34.63793945720578,
-  "lng": -58.50244402885438,
+  "lat": -34.63800124799637,
+  "lng": -58.50259423255921,
   "name": "Rivadavia y Byron",
   "lines": [
    {
     "ramalRef": "1-B",
-    "order": 459
+    "order": 458
    }
   ],
   "createdAt": 1791089950710,
-  "updatedAt": 1791089950785,
+  "updatedAt": 1792420839626,
   "id": "e4c9cfa0-f6ed-4ac8-a481-45422bc58e4c",
   "note": "",
   "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
-  "lat": -34.63759960703465,
-  "lng": -58.49980473518372,
+  "lat": -34.63760622750584,
+  "lng": -58.49983423948289,
   "name": "Estación Villa Luro",
   "lines": [
    {
@@ -15189,13 +15206,14 @@
    }
   ],
   "createdAt": 1791089950844,
-  "updatedAt": 1791089950908,
+  "updatedAt": 1792421119684,
   "id": "e4d3edf1-783f-4449-aef6-c4c8fc124a13",
   "note": "1 8",
   "mindMap": true,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
   "lat": -34.63719355045882,
@@ -15217,23 +15235,24 @@
   "status": "confirmed"
  },
  {
-  "lat": -34.63654032483936,
-  "lng": -58.49286854267121,
+  "lat": -34.63654473854324,
+  "lng": -58.49281489849091,
   "name": "Plazoleta Vicente Bellini",
   "lines": [
    {
     "ramalRef": "1-B",
-    "order": 500
+    "order": 499
    }
   ],
   "createdAt": 1791089951078,
-  "updatedAt": 1791089951134,
+  "updatedAt": 1792421430019,
   "id": "ccb59eda-98d8-4f29-9b61-91396749b6e1",
   "note": "",
-  "mindMap": true,
+  "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
   "lat": -34.6354192364472,
@@ -15241,37 +15260,47 @@
   "name": "Rivadavia y Olivera",
   "lines": [
    {
+    "ramalRef": "2",
+    "order": 258
+   },
+   {
     "ramalRef": "1-B",
     "order": 512
    }
   ],
   "createdAt": 1791089951244,
-  "updatedAt": 1791089951303,
+  "updatedAt": 1792421700459,
   "id": "370e6c23-82b7-4367-86c3-210248f26631",
   "note": "",
   "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
-  "lat": -34.63492489344463,
-  "lng": -58.48564803600312,
-  "name": "Rivadavia y Bolaños",
+  "lat": -34.63486310036215,
+  "lng": -58.48557829856873,
+  "name": "Teatro Gran Rivadavia",
   "lines": [
+   {
+    "ramalRef": "2",
+    "order": 264
+   },
    {
     "ramalRef": "1-B",
     "order": 516
    }
   ],
   "createdAt": 1791089951433,
-  "updatedAt": 1791089951495,
+  "updatedAt": 1792422034882,
   "id": "a029c858-f0d0-4dd9-8dec-cf078e900abc",
   "note": "",
   "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
   "lat": -34.63434668494442,
@@ -15298,56 +15327,38 @@
   "name": "Estación Floresta",
   "lines": [
    {
+    "ramalRef": "2",
+    "order": 283
+   },
+   {
     "ramalRef": "1-B",
     "order": 535
    }
   ],
   "createdAt": 1791089951687,
-  "updatedAt": 1791089951751,
+  "updatedAt": 1792422344371,
   "id": "2f0a2d94-2357-47c6-9914-38e190da9948",
-  "note": "",
+  "note": "1 2 92",
   "mindMap": true,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
   "lat": -34.63257231003388,
-  "lng": -58.47603499889374,
-  "name": "Rivadavia y Dolores",
-  "lines": [
-   {
-    "ramalRef": "1-B",
-    "order": 558
-   }
-  ],
+  "lng": -58.475925028324134,
+  "name": "Rivadavia y Azul",
+  "lines": [],
   "createdAt": 1791089951804,
-  "updatedAt": 1791089951868,
+  "updatedAt": 1792422906655,
   "id": "ad008b18-0fe5-4b50-98f9-6060379c6074",
-  "note": "",
+  "note": "8 86",
   "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
- },
- {
-  "lat": -34.6319676014551,
-  "lng": -58.473749756813056,
-  "name": "Rivadavia y Portela",
-  "lines": [
-   {
-    "ramalRef": "1-B",
-    "order": 566
-   }
-  ],
-  "createdAt": 1791089951925,
-  "updatedAt": 1791089951989,
-  "id": "1efa0bfd-e0bd-4297-8ba8-45985ef942e1",
-  "note": "",
-  "mindMap": false,
-  "metrobus": false,
-  "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
   "lat": -34.63128785078291,
@@ -15369,23 +15380,28 @@
   "status": "confirmed"
  },
  {
-  "lat": -34.630449189681045,
-  "lng": -58.4685704112053,
+  "lat": -34.63046905280517,
+  "lng": -58.46862405538559,
   "name": "Centro de Trasbordo Flores",
   "lines": [
+   {
+    "ramalRef": "2",
+    "order": 342
+   },
    {
     "ramalRef": "1-B",
     "order": 594
    }
   ],
   "createdAt": 1791089952175,
-  "updatedAt": 1791089952237,
+  "updatedAt": 1792423410495,
   "id": "67df38bf-c944-4511-af03-b75f2f1c59fc",
-  "note": "",
+  "note": "1 2 5 49",
   "mindMap": true,
   "metrobus": true,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
   "lat": -34.628542307622794,
@@ -15398,13 +15414,14 @@
    }
   ],
   "createdAt": 1791089952391,
-  "updatedAt": 1791089952498,
+  "updatedAt": 1792423825905,
   "id": "3b5a9faa-594f-4c21-95d4-fee725c7c72a",
-  "note": "",
+  "note": "1 49",
   "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
   "lat": -34.627129774137444,
@@ -15417,13 +15434,14 @@
    }
   ],
   "createdAt": 1791089952588,
-  "updatedAt": 1791089952680,
+  "updatedAt": 1792424335477,
   "id": "6841b4d9-8565-499d-80f7-89d1f9ca674b",
-  "note": "",
+  "note": "49 53 1 5",
   "mindMap": false,
   "metrobus": false,
   "mindMapIcon": "",
-  "status": "confirmed"
+  "status": "confirmed",
+  "mindMapName": ""
  },
  {
   "lat": -34.62633521348394,
@@ -20951,6 +20969,3807 @@
   "updatedAt": 1791482593758,
   "id": "8a6665f3-c9cf-4dfa-bf29-fba59e698af6",
   "note": "95 98 100",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.625010928819556,
+  "lng": -58.452136516571045,
+  "name": "Rivadavia y Malvinas Argentinas",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 424
+   },
+   {
+    "ramalRef": "1-B",
+    "order": 676
+   }
+  ],
+  "createdAt": 1792345236421,
+  "updatedAt": 1792424810182,
+  "id": "dd4b2cca-bfc3-42bf-adf8-14129a765938",
+  "note": "1 2 8 86",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62370428056949,
+  "lng": -58.4487408399582,
+  "name": "Estación Puán",
+  "lines": [
+   {
+    "ramalRef": "1-B",
+    "order": 693
+   }
+  ],
+  "createdAt": 1792345819734,
+  "updatedAt": 1792345819812,
+  "id": "fb98aaf4-8bfb-4c7a-b755-f89d927dadad",
+  "note": "",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.622733109757185,
+  "lng": -58.44627588987351,
+  "name": "Rivadavia y Víctor Martínez",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 453
+   },
+   {
+    "ramalRef": "1-B",
+    "order": 705
+   }
+  ],
+  "createdAt": 1792349142163,
+  "updatedAt": 1792425281380,
+  "id": "9e99cca3-976b-48b6-a127-f39b23b9b53d",
+  "note": "1 2",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.621029118957686,
+  "lng": -58.44164639711381,
+  "name": "Estación Primera Junta",
+  "lines": [
+   {
+    "ramalRef": "1-B",
+    "order": 731
+   }
+  ],
+  "createdAt": 1792349153736,
+  "updatedAt": 1792425512984,
+  "id": "087d8e65-d39a-4026-bed4-6bd19f8e63ed",
+  "note": "1 53",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.65777193636952,
+  "lng": -58.54021757841111,
+  "name": "Terminal 22 de Septiembre",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 0
+   }
+  ],
+  "createdAt": 1792349454040,
+  "updatedAt": 1792349455028,
+  "id": "ceca4dfb-d874-411a-ba5c-57ded3ee2b97",
+  "note": "",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "terminal",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.65988773852936,
+  "lng": -58.53810131549836,
+  "name": "Las Heras y Hernandarias",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 5
+   }
+  ],
+  "createdAt": 1792349597905,
+  "updatedAt": 1792349597997,
+  "id": "52027df4-7fc6-49ec-aab2-5ce5257ddde4",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.65844264488311,
+  "lng": -58.535982370376594,
+  "name": "Hernandarias y Colón",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 9
+   }
+  ],
+  "createdAt": 1792349655140,
+  "updatedAt": 1792349655231,
+  "id": "3f1c5058-c94e-4cd2-8b26-18439e4f2bb3",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.65790431347976,
+  "lng": -58.53457152843476,
+  "name": "Hernandarias y Palacios",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 12
+   }
+  ],
+  "createdAt": 1792349715716,
+  "updatedAt": 1792349715773,
+  "id": "94016052-ad87-4210-8acb-dc74058920c4",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "invented"
+ },
+ {
+  "lat": -34.65707915937706,
+  "lng": -58.53350937366486,
+  "name": "Hernandarias y Larrea",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 14
+   }
+  ],
+  "createdAt": 1792349751793,
+  "updatedAt": 1792349754733,
+  "id": "778405fe-463b-4ea4-83d6-d2d440c79b06",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "unsure"
+ },
+ {
+  "lat": -34.65620987050028,
+  "lng": -58.53237211704255,
+  "name": "Hernandarias y Charcas",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 16
+   }
+  ],
+  "createdAt": 1792349781674,
+  "updatedAt": 1792349781805,
+  "id": "35e081ee-38f4-4d81-bccf-b8de4e443089",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.65420649999549,
+  "lng": -58.529706001281745,
+  "name": "Hernandarias y Díaz Vélez",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 19
+   }
+  ],
+  "createdAt": 1792349828692,
+  "updatedAt": 1792349882716,
+  "id": "07bf5b19-f0f2-4899-9306-42b4268e161d",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "unsure"
+ },
+ {
+  "lat": -34.65027022132196,
+  "lng": -58.52832734584809,
+  "name": "General Paz y Chávez",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 46
+   }
+  ],
+  "createdAt": 1792349900621,
+  "updatedAt": 1792349900692,
+  "id": "b191363a-e419-4738-8948-08a8950d067c",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.64783863740554,
+  "lng": -58.528456091880805,
+  "name": "General Paz y Peribebuy",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 52
+   }
+  ],
+  "createdAt": 1792349952858,
+  "updatedAt": 1792349952952,
+  "id": "11a7c4b1-8946-499a-92c1-ec20191bb143",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.64547759385448,
+  "lng": -58.52863848209382,
+  "name": "General Paz y Tuyutí",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 62
+   }
+  ],
+  "createdAt": 1792350015687,
+  "updatedAt": 1792350070169,
+  "id": "a3405cd0-f12b-45d1-8670-2c579db52d65",
+  "note": "2 161",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.64532313071827,
+  "lng": -58.52864921092988,
+  "name": "General Paz y Tuyutí",
+  "lines": [],
+  "createdAt": 1792350065889,
+  "updatedAt": 1792350065961,
+  "id": "1d5e243f-4aa9-4fb9-8190-ac71bfa4b021",
+  "note": "21 28",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.64518411364964,
+  "lng": -58.52864921092988,
+  "name": "General Paz y Tuyutí",
+  "lines": [],
+  "createdAt": 1792350076703,
+  "updatedAt": 1792350092329,
+  "id": "ea6adf4b-3b3f-4308-8abb-838cc887f9a1",
+  "note": "4 185",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.645031856592766,
+  "lng": -58.52865993976594,
+  "name": "General Paz y Tuyutí",
+  "lines": [],
+  "createdAt": 1792350086944,
+  "updatedAt": 1792350089978,
+  "id": "675093a9-9a74-4ffb-bdd6-f522c2caf4ed",
+  "note": "8 86",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.64312972312997,
+  "lng": -58.52873504161835,
+  "name": "Terminal de Ómnibus Liniers",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 73
+   }
+  ],
+  "createdAt": 1792350187223,
+  "updatedAt": 1792350662686,
+  "id": "60cd005e-f594-4c8f-a858-7bb99cf5fd1b",
+  "note": "UNIFICADA",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.64148131928176,
+  "lng": -58.52889597415925,
+  "name": "Puente Liniers",
+  "lines": [],
+  "createdAt": 1792350344693,
+  "updatedAt": 1792350650034,
+  "id": "6fe9124c-484a-41c0-b255-3c4214d96ba9",
+  "note": "21 28",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.64125402675621,
+  "lng": -58.52891206741333,
+  "name": "Puente Liniers",
+  "lines": [],
+  "createdAt": 1792350403177,
+  "updatedAt": 1792350649949,
+  "id": "290e44e5-6906-46b6-a5c9-3b187e180538",
+  "note": "28 Semis?",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.64104880093096,
+  "lng": -58.52891743183137,
+  "name": "Puente Liniers",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 80
+   }
+  ],
+  "createdAt": 1792350485841,
+  "updatedAt": 1792350649878,
+  "id": "abf74bdc-59e5-4957-a773-c8062a757304",
+  "note": "2 161",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6408457813353,
+  "lng": -58.52892816066743,
+  "name": "Puente Liniers",
+  "lines": [],
+  "createdAt": 1792350522192,
+  "updatedAt": 1792350609888,
+  "id": "e3be0898-e4e5-4314-b216-853f35c389d9",
+  "note": "4 185",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.640627314041296,
+  "lng": -58.528938889503486,
+  "name": "Puente Liniers",
+  "lines": [],
+  "createdAt": 1792350543836,
+  "updatedAt": 1792350609714,
+  "id": "f43b3831-0d97-4592-ae77-f4a2f37e0f29",
+  "note": "8 86",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63895679257592,
+  "lng": -58.52160573005677,
+  "name": "Rivadavia y Lisandro de la Torre",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 126
+   }
+  ],
+  "createdAt": 1792419194937,
+  "updatedAt": 1792419205591,
+  "id": "17ddf640-cc1c-4acc-ad10-1776f84d0e16",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63906823527998,
+  "lng": -58.52002859115601,
+  "name": "Rivadavia y Leguizamón",
+  "lines": [],
+  "createdAt": 1792419289864,
+  "updatedAt": 1792419321514,
+  "id": "ab4bb061-1f00-454b-8c92-cb87e75e1515",
+  "note": "46 47",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63907706241846,
+  "lng": -58.519885092973716,
+  "name": "Rivadavia y Leguizamón",
+  "lines": [],
+  "createdAt": 1792419309812,
+  "updatedAt": 1792419321473,
+  "id": "d0ce2a83-eca5-443e-a7ec-4f09e476340c",
+  "note": "96 y 96 x Aut",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.639109060787554,
+  "lng": -58.518982529640205,
+  "name": "Rivadavia y Murguiondo",
+  "lines": [],
+  "createdAt": 1792419407445,
+  "updatedAt": 1792419407572,
+  "id": "71f64644-dd19-4827-9bca-cee0ed3e650c",
+  "note": "185???",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6392502948209,
+  "lng": -58.516624867916114,
+  "name": "Rivadavia y Oliden",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 151
+   }
+  ],
+  "createdAt": 1792419506703,
+  "updatedAt": 1792419509652,
+  "id": "5a5c2850-dfbb-4d0f-8a79-7fc2878eb666",
+  "note": "96 88",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63930546429985,
+  "lng": -58.51583898067475,
+  "name": "Rivadavia y Fonrouge",
+  "lines": [],
+  "createdAt": 1792419661119,
+  "updatedAt": 1792419790492,
+  "id": "c0fe379d-8674-4a8e-a6b5-07ba0fdcf267",
+  "note": "136 163",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63932091174738,
+  "lng": -58.51531058549882,
+  "name": "Rivadavia y Fonrouge",
+  "lines": [],
+  "createdAt": 1792419703712,
+  "updatedAt": 1792419787812,
+  "id": "93b2eb18-328b-4956-9f1e-e9d0dbe6f76a",
+  "note": "47",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63934297952457,
+  "lng": -58.51484656333924,
+  "name": "Rivadavia y Tuyú",
+  "lines": [],
+  "createdAt": 1792419773187,
+  "updatedAt": 1792419776506,
+  "id": "08dc8be9-97c7-4218-95b6-9c539a0f50b8",
+  "note": "46 182",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63937608117935,
+  "lng": -58.51383805274964,
+  "name": "Rivadavia y Tuyú",
+  "lines": [],
+  "createdAt": 1792419875450,
+  "updatedAt": 1792419875588,
+  "id": "e5db8838-6b15-468b-99ac-298cf9a8c171",
+  "note": "96 88",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.639391528613736,
+  "lng": -58.513336479663856,
+  "name": "Rivadavia y Pola",
+  "lines": [
+   {
+    "ramalRef": "1-B",
+    "order": 422
+   }
+  ],
+  "createdAt": 1792419946558,
+  "updatedAt": 1792420042744,
+  "id": "4fae69e4-351a-4339-bae2-218b1fa38682",
+  "note": "8 86 1 136 163",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63921719311591,
+  "lng": -58.50980401039124,
+  "name": "Plaza Ejército de los Andes",
+  "lines": [],
+  "createdAt": 1792420364488,
+  "updatedAt": 1792420364546,
+  "id": "a5119f94-8c69-4753-9ff6-e0b2c71aad10",
+  "note": "182",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63918629817935,
+  "lng": -58.509645760059364,
+  "name": "Plaza Ejército de los Andes",
+  "lines": [],
+  "createdAt": 1792420391442,
+  "updatedAt": 1792420391558,
+  "id": "90083845-0b36-4e29-9ceb-0f245c7b0916",
+  "note": "136 163",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63910244043634,
+  "lng": -58.50913345813752,
+  "name": "Plaza Ejército de los Andes",
+  "lines": [],
+  "createdAt": 1792420446840,
+  "updatedAt": 1792420490492,
+  "id": "dfc60171-861b-4131-9061-e1982406cb5e",
+  "note": "8 96 46",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.638314614868456,
+  "lng": -58.50479096174241,
+  "name": "Plazoleta Arana",
+  "lines": [],
+  "createdAt": 1792420672876,
+  "updatedAt": 1792420672928,
+  "id": "ca0be64b-5bad-424d-8d72-52465b5ea2ce",
+  "note": "136 163",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63813365667831,
+  "lng": -58.503522276878364,
+  "name": "Plazoleta Arana",
+  "lines": [],
+  "createdAt": 1792420744285,
+  "updatedAt": 1792420744368,
+  "id": "50aec175-024a-4182-99c3-84baabff2975",
+  "note": "46 182",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63797586964152,
+  "lng": -58.50239977240564,
+  "name": "Rivadavia y Byron",
+  "lines": [],
+  "createdAt": 1792420823959,
+  "updatedAt": 1792420852966,
+  "id": "04912e58-8b2f-45f7-9a1a-7acb95526173",
+  "note": "88 96",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63795821512922,
+  "lng": -58.50229114294052,
+  "name": "Rivadavia y Byron",
+  "lines": [],
+  "createdAt": 1792420837010,
+  "updatedAt": 1792420852905,
+  "id": "6c60ae6d-28b6-4e0d-bdc7-4e346a9f3b94",
+  "note": "8 86",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.637584159266524,
+  "lng": -58.49970281124116,
+  "name": "Estación Villa Luro",
+  "lines": [],
+  "createdAt": 1792420977477,
+  "updatedAt": 1792421132477,
+  "id": "a6f97fe4-12cd-4106-9505-a8bac6270a46",
+  "note": "136 163",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.637440715567834,
+  "lng": -58.49861383438111,
+  "name": "Estación Villa Luro",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 220
+   }
+  ],
+  "createdAt": 1792421072426,
+  "updatedAt": 1792421072493,
+  "id": "8957239e-140a-43cf-9c6f-cfda6567aab4",
+  "note": "2 182",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.637405406311636,
+  "lng": -58.49842607975007,
+  "name": "Estación Villa Luro",
+  "lines": [],
+  "createdAt": 1792421091471,
+  "updatedAt": 1792421091606,
+  "id": "8a763204-f1af-48a9-b4d5-b0dafb2d189f",
+  "note": "8 96",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63738554484842,
+  "lng": -58.49828392267227,
+  "name": "Estación Villa Luro",
+  "lines": [],
+  "createdAt": 1792421103886,
+  "updatedAt": 1792421103946,
+  "id": "f38c4b44-671d-494d-ac70-248e0e8d849c",
+  "note": "46",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63691990251468,
+  "lng": -58.49480241537094,
+  "name": "Puente Au. Perito Moreno",
+  "lines": [],
+  "createdAt": 1792421230760,
+  "updatedAt": 1792421265140,
+  "id": "9d476166-8eb3-4d6f-8baa-293592c6cc10",
+  "note": "113 136 163",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63690666146222,
+  "lng": -58.494646847248084,
+  "name": "Puente Au. Perito Moreno",
+  "lines": [],
+  "createdAt": 1792421272477,
+  "updatedAt": 1792421272634,
+  "id": "3a27f561-4140-445f-ae22-79e4be39eecd",
+  "note": "46 182",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.636871351978684,
+  "lng": -58.494410812854774,
+  "name": "Puente Au. Perito Moreno",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 237
+   }
+  ],
+  "createdAt": 1792421302268,
+  "updatedAt": 1792421302348,
+  "id": "d69dbe8d-0aa3-4028-95b4-cc4a246fd73c",
+  "note": "2",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6368360424801,
+  "lng": -58.49420428276063,
+  "name": "Puente Au. Perito Moreno",
+  "lines": [],
+  "createdAt": 1792421315454,
+  "updatedAt": 1792421315582,
+  "id": "d0758853-c411-4de6-9cd9-ce625577405a",
+  "note": "88 96",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63658887556914,
+  "lng": -58.49296778440476,
+  "name": "Plazoleta Vicente Bellini",
+  "lines": [],
+  "createdAt": 1792421426165,
+  "updatedAt": 1792421430074,
+  "id": "31833a0e-0b9a-4d17-9488-5851cc8f3d07",
+  "note": "8 86",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.636368190204784,
+  "lng": -58.491916358470924,
+  "name": "Rivadavia y Mozart",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 248
+   }
+  ],
+  "createdAt": 1792421492142,
+  "updatedAt": 1792421492220,
+  "id": "7f70c81e-4e2a-48b9-9c0c-be4a57682c98",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63558475241916,
+  "lng": -58.4884724020958,
+  "name": "Rivadavia y Olivera",
+  "lines": [],
+  "createdAt": 1792421632764,
+  "updatedAt": 1792421646536,
+  "id": "fb8255e7-419e-4098-ae33-22dc09b9abb6",
+  "note": "136 163",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.635531787344064,
+  "lng": -58.48830074071885,
+  "name": "Rivadavia y Olivera",
+  "lines": [],
+  "createdAt": 1792421651484,
+  "updatedAt": 1792421651712,
+  "id": "0d75dbe8-e550-4e00-8c70-77000cc8a1ee",
+  "note": "63",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63548764975565,
+  "lng": -58.48809689283372,
+  "name": "Rivadavia y Olivera",
+  "lines": [],
+  "createdAt": 1792421667442,
+  "updatedAt": 1792421667578,
+  "id": "2063cf69-8c2a-405b-a72b-c162ec8f5648",
+  "note": "182",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63545454654892,
+  "lng": -58.48795205354691,
+  "name": "Rivadavia y Olivera",
+  "lines": [],
+  "createdAt": 1792421678283,
+  "updatedAt": 1792421686468,
+  "id": "fe3e0e75-e778-43a6-aae5-04f871bd71f3",
+  "note": "88 8",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.634896203804914,
+  "lng": -58.48572313785554,
+  "name": "Teatro Gran Rivadavia",
+  "lines": [],
+  "createdAt": 1792421801488,
+  "updatedAt": 1792422034790,
+  "id": "8c75171a-a875-451c-b86b-f5a51a3f4d32",
+  "note": "88 96",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.634785858944326,
+  "lng": -58.48527520895005,
+  "name": "Teatro Gran Rivadavia",
+  "lines": [],
+  "createdAt": 1792421855446,
+  "updatedAt": 1792422034925,
+  "id": "293f4599-7269-4078-8002-6f4a71f1deca",
+  "note": "8",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63463137589287,
+  "lng": -58.48463416099549,
+  "name": "Rivadavia y Bolaños",
+  "lines": [],
+  "createdAt": 1792421905427,
+  "updatedAt": 1792422083289,
+  "id": "c38fb057-3055-4402-a3e2-49cdabe696e7",
+  "note": "88",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.634496754713446,
+  "lng": -58.484006524086006,
+  "name": "Rivadavia y Gualeguaychú",
+  "lines": [],
+  "createdAt": 1792422103041,
+  "updatedAt": 1792422103118,
+  "id": "cfdb0f1d-98d5-4e8a-a1c9-c49742e71dd8",
+  "note": "5",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63443716822001,
+  "lng": -58.48382681608201,
+  "name": "Rivadavia y Gualeguaychú",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 268
+   }
+  ],
+  "createdAt": 1792422126080,
+  "updatedAt": 1792422161368,
+  "id": "fcbb662c-31be-4153-9eff-3ce69ac6c7b9",
+  "note": "2 92",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63439413350368,
+  "lng": -58.483632355928435,
+  "name": "Rivadavia y Benedetti",
+  "lines": [],
+  "createdAt": 1792422150477,
+  "updatedAt": 1792422171626,
+  "id": "1d923e28-c559-41e6-8f2c-3dd0b1a926f3",
+  "note": "136 163",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63391412938516,
+  "lng": -58.481670320034034,
+  "name": "Estación Floresta",
+  "lines": [],
+  "createdAt": 1792422249471,
+  "updatedAt": 1792422324365,
+  "id": "aaf3c96d-f2b1-4e4c-93d0-6e3d31c62ce5",
+  "note": "113 63",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63383688708365,
+  "lng": -58.48137259483338,
+  "name": "Estación Floresta",
+  "lines": [],
+  "createdAt": 1792422319353,
+  "updatedAt": 1792422321489,
+  "id": "87485688-2c96-44a5-a526-33c40d2c39b4",
+  "note": "5 49",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.633700057687264,
+  "lng": -58.480782508850105,
+  "name": "Estación Floresta",
+  "lines": [],
+  "createdAt": 1792422371484,
+  "updatedAt": 1792422440468,
+  "id": "22b74195-8973-446b-a16a-a6c5e92ad67b",
+  "note": "85",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63364709140871,
+  "lng": -58.480541110038764,
+  "name": "Estación Floresta",
+  "lines": [],
+  "createdAt": 1792422392573,
+  "updatedAt": 1792422440560,
+  "id": "b04f5d81-0910-40f6-8304-749433a9a207",
+  "note": "8 86 96 88 posiblemente",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.633152737844675,
+  "lng": -58.47832828760148,
+  "name": "Rivadavia y Baradero",
+  "lines": [],
+  "createdAt": 1792422488477,
+  "updatedAt": 1792422549468,
+  "id": "94881129-6a87-4159-8d1a-5b55665213a2",
+  "note": "136 163",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63310859899034,
+  "lng": -58.478135168552406,
+  "name": "Rivadavia y Baradero",
+  "lines": [],
+  "createdAt": 1792422501511,
+  "updatedAt": 1792422547015,
+  "id": "8a18707a-f727-4694-b3d6-0750b86846b3",
+  "note": "63",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63293866418186,
+  "lng": -58.47738146781922,
+  "name": "Rivadavia y Baradero",
+  "lines": [],
+  "createdAt": 1792422585159,
+  "updatedAt": 1792422667039,
+  "id": "6802b583-dfc1-4ef9-96a8-7372aa30177e",
+  "note": "49 85",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.632850386221875,
+  "lng": -58.476995229721076,
+  "name": "Rivadavia y Dolores",
+  "lines": [],
+  "createdAt": 1792422649804,
+  "updatedAt": 1792422655664,
+  "id": "c85b985a-8132-4803-8283-c72c963e0a6e",
+  "note": "96 113",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63267383002008,
+  "lng": -58.47633808851243,
+  "name": "Rivadavia y Dolores",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 302
+   },
+   {
+    "ramalRef": "1-B",
+    "order": 554
+   }
+  ],
+  "createdAt": 1792422757499,
+  "updatedAt": 1792422898024,
+  "id": "d6d626c7-883e-4c40-a7df-0d2594ae726c",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63262307004251,
+  "lng": -58.47613692283631,
+  "name": "Rivadavia y Dolores",
+  "lines": [],
+  "createdAt": 1792422813456,
+  "updatedAt": 1792422909152,
+  "id": "678aa44a-cfe1-46a4-a130-d29b1073717b",
+  "note": "88 92",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.632152987035404,
+  "lng": -58.47429156303406,
+  "name": "Teatro Flores",
+  "lines": [],
+  "createdAt": 1792422989445,
+  "updatedAt": 1792423005451,
+  "id": "fba0b28b-e1a8-4834-afce-da200f0b1fc1",
+  "note": "136 163",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.632084570976616,
+  "lng": -58.47407162189484,
+  "name": "Teatro Flores",
+  "lines": [
+   {
+    "ramalRef": "1-B",
+    "order": 565
+   }
+  ],
+  "createdAt": 1792423021464,
+  "updatedAt": 1792423021531,
+  "id": "224a7758-5e16-4cad-b46e-b9bb47d8c19f",
+  "note": "63 1",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.631817527110485,
+  "lng": -58.47313821315766,
+  "name": "Rivadavia y Portela",
+  "lines": [],
+  "createdAt": 1792423101465,
+  "updatedAt": 1792423198651,
+  "id": "64835d7d-b3fb-4f86-a992-b97ee78b245e",
+  "note": "5",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63177559452449,
+  "lng": -58.472990691661835,
+  "name": "Rivadavia y Portela",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 318
+   }
+  ],
+  "createdAt": 1792423150612,
+  "updatedAt": 1792423181552,
+  "id": "cef0e380-db0e-4366-89ea-356cd38595ee",
+  "note": "2 92",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.631698350231645,
+  "lng": -58.4727144241333,
+  "name": "Rivadavia y José Martí",
+  "lines": [],
+  "createdAt": 1792423198465,
+  "updatedAt": 1792423219777,
+  "id": "218d4b7f-9851-44c8-9112-bb23762fd439",
+  "note": "25 85 88",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63163876172802,
+  "lng": -58.472526669502265,
+  "name": "Rivadavia y José Martí",
+  "lines": [],
+  "createdAt": 1792423231082,
+  "updatedAt": 1792423243507,
+  "id": "df4d271b-9a06-459f-8e76-5c1238cae4d4",
+  "note": "8 86 96",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63061912958924,
+  "lng": -58.46921682357789,
+  "name": "Centro de Trasbordo Flores",
+  "lines": [],
+  "createdAt": 1792423388472,
+  "updatedAt": 1792423538959,
+  "id": "fe678c53-f5dc-43d3-ae96-0e04b8f54717",
+  "note": "25 53 85 92",
+  "mindMap": true,
+  "metrobus": true,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.630310147679054,
+  "lng": -58.46798837184907,
+  "name": "Centro de Trasbordo Flores",
+  "lines": [],
+  "createdAt": 1792423433897,
+  "updatedAt": 1792423534529,
+  "id": "29878ba6-fbb8-47eb-a794-9fa7fda03294",
+  "note": "88 96 113 133",
+  "mindMap": true,
+  "metrobus": true,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.63019758969723,
+  "lng": -58.46749216318131,
+  "name": "Centro de Trasbordo Flores",
+  "lines": [],
+  "createdAt": 1792423455586,
+  "updatedAt": 1792423534491,
+  "id": "c2c25f60-695a-48fa-82b7-73c11229032b",
+  "note": "55 76 145",
+  "mindMap": true,
+  "metrobus": true,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.630087238586405,
+  "lng": -58.46708178520203,
+  "name": "Centro de Trasbordo Flores",
+  "lines": [],
+  "createdAt": 1792423482490,
+  "updatedAt": 1792423534450,
+  "id": "657fb470-f9d4-40d3-9a47-196970a25d7b",
+  "note": "136 163 8 86",
+  "mindMap": true,
+  "metrobus": true,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62982239532157,
+  "lng": -58.46621543169022,
+  "name": "Centro de Trasbordo Flores",
+  "lines": [],
+  "createdAt": 1792423567842,
+  "updatedAt": 1792423567896,
+  "id": "2eec74e5-afbf-4b44-8e56-86e5193965fa",
+  "note": "8 86 136 163",
+  "mindMap": true,
+  "metrobus": true,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.629701008542625,
+  "lng": -58.465788960456855,
+  "name": "Centro de Trasbordo Flores",
+  "lines": [],
+  "createdAt": 1792423637935,
+  "updatedAt": 1792423638148,
+  "id": "37abb6e7-dc6b-4040-bd25-0652ed47087f",
+  "note": "92 145",
+  "mindMap": true,
+  "metrobus": true,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62957079343685,
+  "lng": -58.46533030271531,
+  "name": "Centro de Trasbordo Flores",
+  "lines": [],
+  "createdAt": 1792423660577,
+  "updatedAt": 1792423660642,
+  "id": "d104399e-fd61-401a-97fc-5998f4daf84a",
+  "note": "53 25 76 85",
+  "mindMap": true,
+  "metrobus": true,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62944940628978,
+  "lng": -58.46483677625657,
+  "name": "Centro de Trasbordo Flores",
+  "lines": [],
+  "createdAt": 1792423683954,
+  "updatedAt": 1792423686521,
+  "id": "b92f3105-e7b2-4427-b512-3c5d69347559",
+  "note": "55 113 133",
+  "mindMap": true,
+  "metrobus": true,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62931698374496,
+  "lng": -58.464396893978126,
+  "name": "Centro de Trasbordo Flores",
+  "lines": [],
+  "createdAt": 1792423704010,
+  "updatedAt": 1792423704063,
+  "id": "d06c8eaa-c345-4695-b119-5ff4888f17ee",
+  "note": "5 49 132",
+  "mindMap": true,
+  "metrobus": true,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62870563025599,
+  "lng": -58.461819291114814,
+  "name": "Rivadavia y Membrillar",
+  "lines": [],
+  "createdAt": 1792423788475,
+  "updatedAt": 1792423788603,
+  "id": "7eba8778-2960-4f77-b8f8-7245b52cf4f2",
+  "note": "25 53",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62865266078856,
+  "lng": -58.461677134037025,
+  "name": "Rivadavia y Membrillar",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 367
+   }
+  ],
+  "createdAt": 1792423797496,
+  "updatedAt": 1792423830414,
+  "id": "a71fb131-1659-4c2a-a225-ec925d16a7bd",
+  "note": "2 5",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6284120906984,
+  "lng": -58.4608080983162,
+  "name": "Rivadavia y Membrillar",
+  "lines": [],
+  "createdAt": 1792423903494,
+  "updatedAt": 1792423903591,
+  "id": "b809fa6b-7cb3-4087-ae83-02f3c3feffcb",
+  "note": "55 145",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.628237732123665,
+  "lng": -58.46027702093125,
+  "name": "Rivadavia y Bonorio",
+  "lines": [],
+  "createdAt": 1792423963606,
+  "updatedAt": 1792423994402,
+  "id": "aa0c3096-ef8a-4502-ac12-dfbd6e729de4",
+  "note": "86 76 88 96 8",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.628160484536714,
+  "lng": -58.46005707979203,
+  "name": "Rivadavia y Bonorio",
+  "lines": [],
+  "createdAt": 1792424000487,
+  "updatedAt": 1792424000641,
+  "id": "8547f021-88ea-4e60-83aa-1490476d59fe",
+  "note": "85",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62798612543323,
+  "lng": -58.459587693214424,
+  "name": "Rivadavia y Bonorio",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 380
+   }
+  ],
+  "createdAt": 1792424048284,
+  "updatedAt": 1792424082622,
+  "id": "5ca1a707-25c7-432d-ab9e-6c5b7cfb426a",
+  "note": "49 2",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62788680679275,
+  "lng": -58.45935702323914,
+  "name": "Rivadavia y Bonorio",
+  "lines": [],
+  "createdAt": 1792424096463,
+  "updatedAt": 1792424134881,
+  "id": "aea1e45c-5504-4f92-951d-5864ae1f7fa8",
+  "note": "132 25",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6277941092877,
+  "lng": -58.459120988845825,
+  "name": "Rivadavia y Camacuá",
+  "lines": [],
+  "createdAt": 1792424125660,
+  "updatedAt": 1792424166278,
+  "id": "531609d6-4983-44b2-9d1f-eba90e1bf50f",
+  "note": "145",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62733282730596,
+  "lng": -58.458032011985786,
+  "name": "Rivadavia y Lautaro",
+  "lines": [],
+  "createdAt": 1792424240489,
+  "updatedAt": 1792424240612,
+  "id": "92605a99-ba25-4b65-bf6a-c395a28553c2",
+  "note": "88 8 86",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62703045447187,
+  "lng": -58.457302451133735,
+  "name": "Rivadavia y Lautaro",
+  "lines": [],
+  "createdAt": 1792424368249,
+  "updatedAt": 1792424368329,
+  "id": "9817ba36-a2b6-4b79-a376-a0b4a32e0c30",
+  "note": "55 132",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62649191910406,
+  "lng": -58.45591843128205,
+  "name": "Estación Carabobo",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 401
+   }
+  ],
+  "createdAt": 1792424430704,
+  "updatedAt": 1792424435448,
+  "id": "a2b9ee69-fe4b-4ef2-913b-ff58704f10a0",
+  "note": "",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62611008658211,
+  "lng": -58.4549367427826,
+  "name": "Estación Carabobo",
+  "lines": [],
+  "createdAt": 1792424488443,
+  "updatedAt": 1792424509559,
+  "id": "43d571dd-62b3-4c9d-84f4-112db967097b",
+  "note": "136 163",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62600855856379,
+  "lng": -58.4546846151352,
+  "name": "Estación Carabobo",
+  "lines": [],
+  "createdAt": 1792424509444,
+  "updatedAt": 1792424509514,
+  "id": "63065e23-9d66-4c42-9529-a7d65b561a27",
+  "note": "25 88",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62591806609492,
+  "lng": -58.45443785190583,
+  "name": "Rivadavia y Curapaligüe",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 410
+   }
+  ],
+  "createdAt": 1792424558522,
+  "updatedAt": 1792424674125,
+  "id": "90dcaf78-fe5c-44a0-9fee-7cab41efeec4",
+  "note": "2 96",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62583198780125,
+  "lng": -58.45422863960266,
+  "name": "Rivadavia y Curapaligüe",
+  "lines": [],
+  "createdAt": 1792424581961,
+  "updatedAt": 1792424582037,
+  "id": "9dd08bcb-0a02-4091-ae0e-873cff982dc0",
+  "note": "86 49 76",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.625606859534045,
+  "lng": -58.45363855361939,
+  "name": "Rivadavia y Curapaligüe",
+  "lines": [],
+  "createdAt": 1792424680804,
+  "updatedAt": 1792424723511,
+  "id": "dbde55a7-9591-4603-ab7e-9d48c23a2131",
+  "note": "85",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.625456773683254,
+  "lng": -58.45326840877534,
+  "name": "Rivadavia y Curapaligüe",
+  "lines": [],
+  "createdAt": 1792424720146,
+  "updatedAt": 1792424720234,
+  "id": "d689eb96-fa6e-4b46-ab00-66d66838f3d4",
+  "note": "5",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.625337587667154,
+  "lng": -58.4529921412468,
+  "name": "Rivadavia y Curapaligüe",
+  "lines": [],
+  "createdAt": 1792424747358,
+  "updatedAt": 1792424747462,
+  "id": "a0ab506c-452a-4a49-9549-1a2f544dc2fb",
+  "note": "145",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62524930161895,
+  "lng": -58.45276415348054,
+  "name": "Rivadavia y Malvinas Argentinas",
+  "lines": [],
+  "createdAt": 1792424780326,
+  "updatedAt": 1792424780403,
+  "id": "4501b998-a4da-4919-ba02-74cf28235d83",
+  "note": "53 55",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62437305749769,
+  "lng": -58.450465500354774,
+  "name": "Estación Puán",
+  "lines": [],
+  "createdAt": 1792424913444,
+  "updatedAt": 1792425065376,
+  "id": "9d6ead42-2eb5-4c4f-b103-4e5c1b7525a4",
+  "note": "136 163",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62428918477918,
+  "lng": -58.45023214817048,
+  "name": "Estación Puán",
+  "lines": [],
+  "createdAt": 1792424942574,
+  "updatedAt": 1792425071233,
+  "id": "69432aa9-11cc-4bb8-aae3-03abd4045812",
+  "note": "8 86 88 49",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62420972633609,
+  "lng": -58.4500390291214,
+  "name": "Estación Puán",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 431
+   }
+  ],
+  "createdAt": 1792424956440,
+  "updatedAt": 1792425079115,
+  "id": "f2159504-ad0b-445a-ac9f-d739fe2e791d",
+  "note": "2 55",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.624059637958204,
+  "lng": -58.44964474439622,
+  "name": "Estación Puán",
+  "lines": [],
+  "createdAt": 1792424983295,
+  "updatedAt": 1792425083844,
+  "id": "88b2109c-111b-4fc6-9e92-8a024388fd9e",
+  "note": "25 96",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62388968461434,
+  "lng": -58.449220955371864,
+  "name": "Estación Puán",
+  "lines": [],
+  "createdAt": 1792425014899,
+  "updatedAt": 1792425036467,
+  "id": "16a377d4-28ea-4206-bb03-9b5b6f80936b",
+  "note": "85 132",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62295603860778,
+  "lng": -58.446815013885505,
+  "name": "Rivadavia y Hortiguera",
+  "lines": [],
+  "createdAt": 1792425187927,
+  "updatedAt": 1792425188074,
+  "id": "9b1eadcc-0961-4273-a9a1-371c0fd69987",
+  "note": "88 25",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6228787861036,
+  "lng": -58.44664335250855,
+  "name": "Rivadavia y Hortiguera",
+  "lines": [],
+  "createdAt": 1792425208153,
+  "updatedAt": 1792425263549,
+  "id": "3921df31-26fb-479e-a742-06047aedd7ef",
+  "note": "96 145",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62282139848251,
+  "lng": -58.44646900892258,
+  "name": "Rivadavia y Hortiguera",
+  "lines": [],
+  "createdAt": 1792425243598,
+  "updatedAt": 1792425263595,
+  "id": "f8d632dc-763d-4ec2-a75b-e56ab2c29ea6",
+  "note": "86 49 53 55",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62260067649307,
+  "lng": -58.44590306282044,
+  "name": "Rivadavia y Víctor Martínez",
+  "lines": [],
+  "createdAt": 1792425286495,
+  "updatedAt": 1792425293464,
+  "id": "aec16256-1109-4dfc-aed7-094996422c72",
+  "note": "8 132",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6212719177117,
+  "lng": -58.4425100684166,
+  "name": "Estación Primera Junta",
+  "lines": [],
+  "createdAt": 1792425347003,
+  "updatedAt": 1792425347158,
+  "id": "6bee7e8e-8930-4649-ac6e-5b735bb915b9",
+  "note": "88",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.621174798295336,
+  "lng": -58.442215025424964,
+  "name": "Estación Primera Junta",
+  "lines": [],
+  "createdAt": 1792425381445,
+  "updatedAt": 1792425516140,
+  "id": "5791a958-a988-4f80-9eb8-0a18709c20ad",
+  "note": "136 163",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62110637318374,
+  "lng": -58.4419333934784,
+  "name": "Estación Primera Junta",
+  "lines": [],
+  "createdAt": 1792425409501,
+  "updatedAt": 1792425514466,
+  "id": "3d96b900-5d7e-426b-9579-ad32c71da12c",
+  "note": "180 49 96",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62095186465971,
+  "lng": -58.441332578659065,
+  "name": "Estación Primera Junta",
+  "lines": [],
+  "createdAt": 1792425497467,
+  "updatedAt": 1792425497662,
+  "id": "a19ac885-faa2-4a3e-af22-0005bbdb0ef6",
+  "note": "55",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.620781904951016,
+  "lng": -58.440691530704505,
+  "name": "Estación Primera Junta",
+  "lines": [],
+  "createdAt": 1792425541439,
+  "updatedAt": 1792425541515,
+  "id": "2f4f7a06-a785-4955-8b45-5c14386eb18b",
+  "note": "25 85",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62068478496121,
+  "lng": -58.44027578830719,
+  "name": "Estación Primera Junta",
+  "lines": [],
+  "createdAt": 1792425569483,
+  "updatedAt": 1792425569612,
+  "id": "4fd279d1-9086-430e-b7d2-97ada3124890",
+  "note": "26 132",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.620477300965845,
+  "lng": -58.439396023750305,
+  "name": "Estación Primera Junta",
+  "lines": [],
+  "createdAt": 1792425619479,
+  "updatedAt": 1792425619566,
+  "id": "1988c042-6cb2-4e73-85e2-0bf269973783",
+  "note": "2 103",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.619960796001116,
+  "lng": -58.437556028366096,
+  "name": "Rosario y Riglos",
+  "lines": [],
+  "createdAt": 1792425671988,
+  "updatedAt": 1792425672074,
+  "id": "9c8a74bf-4724-45d4-af13-3d44d12089b1",
+  "note": "25 88",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61976876128423,
+  "lng": -58.43697130680085,
+  "name": "Instituto Universitario Policía Federal Argentina",
+  "lines": [],
+  "createdAt": 1792432629213,
+  "updatedAt": 1792432751958,
+  "id": "9ba10ea2-2530-46a9-bdd6-3f05d8b40e7b",
+  "note": "85 5",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61968046931126,
+  "lng": -58.436638712883,
+  "name": "Instituto Universitario Policía Federal Argentina",
+  "lines": [],
+  "createdAt": 1792432648515,
+  "updatedAt": 1792432742531,
+  "id": "5f3bfe63-8640-4bb8-803d-d4a862b269e7",
+  "note": "8 86",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.619601006455284,
+  "lng": -58.43640267848969,
+  "name": "Instituto Universitario Policía Federal Argentina",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 496
+   }
+  ],
+  "createdAt": 1792432734478,
+  "updatedAt": 1792432752444,
+  "id": "0361cfe3-5e1d-42e7-a64e-29cf82976401",
+  "note": "103 2",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6194089709059,
+  "lng": -58.43565165996552,
+  "name": "Rosario y Mariano Moreno",
+  "lines": [],
+  "createdAt": 1792432805271,
+  "updatedAt": 1792432806008,
+  "id": "69185514-6f58-4ef6-bb9b-9c6add906b0f",
+  "note": "84",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61934275164792,
+  "lng": -58.43539416790009,
+  "name": "Rosario y Mariano Moreno",
+  "lines": [],
+  "createdAt": 1792432830277,
+  "updatedAt": 1792432830780,
+  "id": "7cd2f64e-f93a-4582-a007-c4be8d30c777",
+  "note": "132 26",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61891011786222,
+  "lng": -58.43218624591828,
+  "name": "Parque Rivadavia",
+  "lines": [],
+  "createdAt": 1792433193220,
+  "updatedAt": 1792433246684,
+  "id": "1cb0e6c3-69fc-4387-9a75-f60f71be0b9b",
+  "note": "26 84 5 132",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61883948356059,
+  "lng": -58.43177855014802,
+  "name": "Parque Rivadavia",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 507
+   }
+  ],
+  "createdAt": 1792433246255,
+  "updatedAt": 1792433252972,
+  "id": "c8abb97c-fd4a-4496-8291-f59a9116a571",
+  "note": "2 86 8 85",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61854811643101,
+  "lng": -58.42969715595246,
+  "name": "Rosario y Senillosa",
+  "lines": [],
+  "createdAt": 1792433337688,
+  "updatedAt": 1792433338100,
+  "id": "ee7f8ac4-06b5-4945-bb54-4a9a9e9c2ce8",
+  "note": "88",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61850176247518,
+  "lng": -58.429463803768165,
+  "name": "Rosario y Senillosa",
+  "lines": [],
+  "createdAt": 1792433360283,
+  "updatedAt": 1792433377753,
+  "id": "3ed8989b-527c-4f25-8fde-e1a4b2fcff4d",
+  "note": "84 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61847306715621,
+  "lng": -58.429233133792884,
+  "name": "Rosario y La Plata",
+  "lines": [],
+  "createdAt": 1792433374081,
+  "updatedAt": 1792433470819,
+  "id": "69f9ed52-9c79-4c8c-a8cd-3bf4d8746c1b",
+  "note": "26 132",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61842892049228,
+  "lng": -58.42901587486268,
+  "name": "Rosario y La Plata",
+  "lines": [],
+  "createdAt": 1792433401267,
+  "updatedAt": 1792433449073,
+  "id": "7cebd9f0-7989-458e-b9d4-d6137b0df268",
+  "note": "8 86",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61840022514813,
+  "lng": -58.428822755813606,
+  "name": "Rosario y La Plata",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 517
+   }
+  ],
+  "createdAt": 1792433420507,
+  "updatedAt": 1792433474278,
+  "id": "544cae00-7eb4-44f1-9168-1016fe6177ba",
+  "note": "2 85",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61815521065177,
+  "lng": -58.42594206333161,
+  "name": "Venezuela y José Mármol",
+  "lines": [],
+  "createdAt": 1792433534654,
+  "updatedAt": 1792433542681,
+  "id": "7e5ed523-7165-4284-aba3-c5af551f2bbc",
+  "note": "84 88",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6174885909737,
+  "lng": -58.42722415924073,
+  "name": "Muñiz y Quito",
+  "lines": [],
+  "createdAt": 1792433601776,
+  "updatedAt": 1792433602275,
+  "id": "12d3ddee-8f61-405f-b038-1bca17af9220",
+  "note": "8 86",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61729434317274,
+  "lng": -58.42722952365876,
+  "name": "Muñiz y Quito",
+  "lines": [],
+  "createdAt": 1792433617312,
+  "updatedAt": 1792433617787,
+  "id": "4ad1a5fe-ded2-48dd-8b09-37e7beec4292",
+  "note": "132",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6167910626646,
+  "lng": -58.42725098133088,
+  "name": "Muñiz y Quito",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 527
+   }
+  ],
+  "createdAt": 1792433650311,
+  "updatedAt": 1792433650879,
+  "id": "9f2f8075-80b7-4a3d-b1e2-e052ee270d3e",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61635841557804,
+  "lng": -58.42725098133088,
+  "name": "Muñiz y Belgrano",
+  "lines": [],
+  "createdAt": 1792433672286,
+  "updatedAt": 1792433680331,
+  "id": "3db11708-b946-48f7-883b-0b7697b77d82",
+  "note": "26",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61609794328533,
+  "lng": -58.426113724708564,
+  "name": "Belgrano y José Mármol",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 530
+   }
+  ],
+  "createdAt": 1792433725745,
+  "updatedAt": 1792433726306,
+  "id": "a58e4eff-6fa4-4c9f-b545-c589848d473b",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.615903692229885,
+  "lng": -58.423082828521736,
+  "name": "Belgrano y Bocayuva",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 533
+   }
+  ],
+  "createdAt": 1792433776039,
+  "updatedAt": 1792433776356,
+  "id": "ab23adb5-4cfb-4979-a289-b8d7df0270ea",
+  "note": "2 103 26",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61595666983554,
+  "lng": -58.420330882072456,
+  "name": "Belgrano y Castro Barros",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 536
+   }
+  ],
+  "createdAt": 1792433845875,
+  "updatedAt": 1792433846171,
+  "id": "feefa3ea-fba9-472c-9f4f-8987493536d2",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.615903692229885,
+  "lng": -58.4186464548111,
+  "name": "Belgrano y Colombres",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 540
+   }
+  ],
+  "createdAt": 1792433888291,
+  "updatedAt": 1792433903394,
+  "id": "303623d7-30d3-4c9c-8c72-9300f34741f6",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61586395900344,
+  "lng": -58.41822266578675,
+  "name": "Belgrano y Colombres",
+  "lines": [],
+  "createdAt": 1792433912879,
+  "updatedAt": 1792433913362,
+  "id": "39913809-1c65-47e7-8088-8f704c9f430a",
+  "note": "7 84",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61561452220302,
+  "lng": -58.4139633178711,
+  "name": "Belgrano y Liniers",
+  "lines": [],
+  "createdAt": 1792434040271,
+  "updatedAt": 1792434055486,
+  "id": "45a3eb88-09d4-41bc-9997-3403763471db",
+  "note": "84",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.615581411066955,
+  "lng": -58.41320157051087,
+  "name": "Belgrano y Sánchez de Loria",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 551
+   }
+  ],
+  "createdAt": 1792434075270,
+  "updatedAt": 1792434075624,
+  "id": "0d50d470-52e1-4e98-9f49-9e9761063d4a",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.615572581428445,
+  "lng": -58.41298162937165,
+  "name": "Belgrano y Sánchez de Loria",
+  "lines": [],
+  "createdAt": 1792434092285,
+  "updatedAt": 1792434092803,
+  "id": "c08812fa-246f-4a02-88c9-6424126f3cc0",
+  "note": "7 115",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61526795832458,
+  "lng": -58.409081697463996,
+  "name": "Belgrano y Urquiza",
+  "lines": [],
+  "createdAt": 1792434200281,
+  "updatedAt": 1792434200789,
+  "id": "ddad53ad-1c41-4480-b6c1-5d99baa36225",
+  "note": "56 115 84",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61521498027937,
+  "lng": -58.40873837471009,
+  "name": "Belgrano y La Rioja",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 556
+   }
+  ],
+  "createdAt": 1792434222383,
+  "updatedAt": 1792434222918,
+  "id": "45fa0bb1-33b4-4114-9230-ea046427c350",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61481543643259,
+  "lng": -58.40568602085114,
+  "name": "Plaza Manzana 66",
+  "lines": [],
+  "createdAt": 1792434332309,
+  "updatedAt": 1792434357274,
+  "id": "3b5aa4cf-8db0-416c-88d0-60739e9d955c",
+  "note": "56 84",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6147470060781,
+  "lng": -58.40521395206452,
+  "name": "Plaza Manzana 66",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 566
+   }
+  ],
+  "createdAt": 1792434348465,
+  "updatedAt": 1792434353533,
+  "id": "d4aef666-9db2-4ff3-9b05-8653e942cdc7",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61459248571528,
+  "lng": -58.4019684791565,
+  "name": "Belgrano y Alberti",
+  "lines": [],
+  "createdAt": 1792434505285,
+  "updatedAt": 1792434505733,
+  "id": "1e682b39-f45c-42a3-9c75-bca021e1043e",
+  "note": "98",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61456820391783,
+  "lng": -58.40172171592713,
+  "name": "Belgrano y Alberti",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 573
+   }
+  ],
+  "createdAt": 1792434537295,
+  "updatedAt": 1792434576312,
+  "id": "82042aab-8bdc-403c-99c2-e58860bf8506",
+  "note": "2 103 ¿98?",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.614548336987355,
+  "lng": -58.40150713920594,
+  "name": "Belgrano y Alberti",
+  "lines": [],
+  "createdAt": 1792434576634,
+  "updatedAt": 1792434576803,
+  "id": "f528a124-9508-4f22-8a0f-5663237ad92c",
+  "note": "56 84",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61437174184086,
+  "lng": -58.39817583560944,
+  "name": "Belgrano y Pasco",
+  "lines": [],
+  "createdAt": 1792434630315,
+  "updatedAt": 1792434630929,
+  "id": "ca55fede-0280-45b7-a869-0d74c86195b9",
+  "note": "98 56",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6142525399046,
+  "lng": -58.396724760532386,
+  "name": "Belgrano y Rincón",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 580
+   }
+  ],
+  "createdAt": 1792434694296,
+  "updatedAt": 1792434694764,
+  "id": "3a33cc2a-af35-44ae-aba0-ded43d69bfd9",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61422605056218,
+  "lng": -58.3963492512703,
+  "name": "Belgrano y Rincón",
+  "lines": [],
+  "createdAt": 1792434714400,
+  "updatedAt": 1792434722359,
+  "id": "b81ed33e-9cf4-4e5b-96cc-876cf87d1fa2",
+  "note": "84",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61414216758877,
+  "lng": -58.395330011844635,
+  "name": "Belgrano y Sarandí",
+  "lines": [],
+  "createdAt": 1792434771101,
+  "updatedAt": 1792434778105,
+  "id": "8f158f16-9c18-47ee-bdca-56ddd7e16cb1",
+  "note": "98",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61411567821112,
+  "lng": -58.395118117332466,
+  "name": "Belgrano y Sarandí",
+  "lines": [],
+  "createdAt": 1792434808305,
+  "updatedAt": 1792434808876,
+  "id": "804976a6-329d-4a2b-96b3-dcb83a896af9",
+  "note": "56",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613956741767794,
+  "lng": -58.392452001571655,
+  "name": "Belgrano y Entre Ríos",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 587
+   }
+  ],
+  "createdAt": 1792434895308,
+  "updatedAt": 1792434895933,
+  "id": "c8de2c88-36ec-4aa5-b831-a398b074820e",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613956741767794,
+  "lng": -58.39200675487519,
+  "name": "Belgrano y Entre Ríos",
+  "lines": [],
+  "createdAt": 1792434915943,
+  "updatedAt": 1792434916273,
+  "id": "ff6548e5-3424-4ae0-9c4d-622f2ffe223b",
+  "note": "98",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613623415738616,
+  "lng": -58.38772326707841,
+  "name": "Brigada Especial Federal de Rescate",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 594
+   }
+  ],
+  "createdAt": 1792435045073,
+  "updatedAt": 1792435109785,
+  "id": "938785f2-18fb-4a71-9346-4c571e667089",
+  "note": "2 98 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613550569474555,
+  "lng": -58.38632047176362,
+  "name": "Belgrano y San José",
+  "lines": [],
+  "createdAt": 1792435197684,
+  "updatedAt": 1792435198195,
+  "id": "f8ce1a39-0d64-440a-ae3c-91c7836a9f45",
+  "note": "60",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61327242860558,
+  "lng": -58.38250100612641,
+  "name": "Estación Moreno",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 600
+   }
+  ],
+  "createdAt": 1792435301273,
+  "updatedAt": 1792435422585,
+  "id": "d93a6b24-9bfe-4069-a41d-31ade5d0edcb",
+  "note": "2 103",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613245938950406,
+  "lng": -58.38206112384797,
+  "name": "Estación Moreno",
+  "lines": [],
+  "createdAt": 1792435322895,
+  "updatedAt": 1792435422845,
+  "id": "a87df0dd-5751-4eee-adcb-ed8423839ea7",
+  "note": "98",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61302519149526,
+  "lng": -58.378418684005744,
+  "name": "Estación Belgrano",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 611
+   }
+  ],
+  "createdAt": 1792435450551,
+  "updatedAt": 1792435451082,
+  "id": "dca54aaa-adf6-4ada-865f-eb9aa5cb2121",
+  "note": "2 103",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61273821892598,
+  "lng": -58.37429344654084,
+  "name": "Belgrano y Perú",
+  "lines": [],
+  "createdAt": 1792435545208,
+  "updatedAt": 1792435550311,
+  "id": "cf88c3f6-951a-41e8-8430-5f5d89d1e66a",
+  "note": "28 126",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61268523926626,
+  "lng": -58.37380528450013,
+  "name": "Belgrano y Bolívar",
+  "lines": [],
+  "createdAt": 1792435580319,
+  "updatedAt": 1792435580887,
+  "id": "2819cfff-4f13-4786-b15c-0b39bddafdf2",
+  "note": "24",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61265433444913,
+  "lng": -58.37356388568879,
+  "name": "Belgrano y Bolívar",
+  "lines": [],
+  "createdAt": 1792435599475,
+  "updatedAt": 1792435599836,
+  "id": "67db5daf-61c9-4758-9c16-86eb815416da",
+  "note": "22 126",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61261018469044,
+  "lng": -58.3725768327713,
+  "name": "Belgrano y Defensa",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 626
+   }
+  ],
+  "createdAt": 1792435666287,
+  "updatedAt": 1792435679815,
+  "id": "3f05980d-7583-43c1-95a1-ccb94dde1fb2",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61231438070146,
+  "lng": -58.36822628974915,
+  "name": "Plaza Juan Domingo Perón",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 643
+   }
+  ],
+  "createdAt": 1792435773701,
+  "updatedAt": 1792435774008,
+  "id": "178e6191-b30d-4b84-9699-4a11f44064d3",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61217530831253,
+  "lng": -58.36171925067902,
+  "name": "Villaflor y Aimé Painé",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 681
+   }
+  ],
+  "createdAt": 1792435895728,
+  "updatedAt": 1792435903958,
+  "id": "135739fc-8e16-4c53-8ac6-92fe9979851d",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61196118052805,
+  "lng": -58.359297215938575,
+  "name": "Villaflor y Calabria",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 688
+   }
+  ],
+  "createdAt": 1792436033382,
+  "updatedAt": 1792436033731,
+  "id": "2d9e880f-8120-4b59-a713-8a22d12cfc70",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61694557893471,
+  "lng": -58.3582216501236,
+  "name": "Calabria y Peñaloza",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 703
+   }
+  ],
+  "createdAt": 1792436154949,
+  "updatedAt": 1792436155306,
+  "id": "2ff5ffd2-c153-4672-8f0e-069c6805aebb",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.618707044083045,
+  "lng": -58.35689127445222,
+  "name": "Dellepiane y España",
+  "lines": [],
+  "createdAt": 1792436220317,
+  "updatedAt": 1792436220799,
+  "id": "ed52260a-6dd4-407f-837a-75339dd672fd",
+  "note": "4",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61836270045235,
+  "lng": -58.35661500692368,
+  "name": "Dellepiane y España",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 717
+   }
+  ],
+  "createdAt": 1792436279400,
+  "updatedAt": 1792436407467,
+  "id": "c1c127b1-ef3e-44bf-af53-4e3ed0ff49b3",
+  "note": "2 ¿61 62?",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62057442119847,
+  "lng": -58.35527658462525,
+  "name": "Servicio Hidrográfico Naval",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 727
+   }
+  ],
+  "createdAt": 1792436521450,
+  "updatedAt": 1792436521795,
+  "id": "76ab502a-c9c5-4365-97a6-448ace8ac745",
+  "note": "2 4",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62265585704547,
+  "lng": -58.354576528072364,
+  "name": "España y Francisco Pareja",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 742
+   }
+  ],
+  "createdAt": 1792436591230,
+  "updatedAt": 1792436591690,
+  "id": "6bc57635-4c7d-4118-9710-c87e0dced1a4",
+  "note": "2 4",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62428256324517,
+  "lng": -58.350716829299934,
+  "name": "Ministerio de Justicia",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 769
+   }
+  ],
+  "createdAt": 1792436845674,
+  "updatedAt": 1792436978653,
+  "id": "98081c9d-68dd-4f33-90e7-dacb8871a148",
+  "note": "",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "municipalidad",
+  "status": "invented"
+ },
+ {
+  "lat": -34.62432229244135,
+  "lng": -58.346352875232704,
+  "name": "Tandanor S.A.C.I. y N.",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 783
+   }
+  ],
+  "createdAt": 1792436920234,
+  "updatedAt": 1792437204779,
+  "id": "6d35c752-ca5f-4d24-b31a-0af24fc0c454",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "invented"
+ },
+ {
+  "lat": -34.62409495289508,
+  "lng": -58.34389328956605,
+  "name": "S.A.C.M.E.",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 794
+   }
+  ],
+  "createdAt": 1792436957710,
+  "updatedAt": 1792437189989,
+  "id": "0ac60639-1367-462b-9928-14b6d6fa4de6",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.623558605672216,
+  "lng": -58.34197953343393,
+  "name": "Central Costanera Enel",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 806
+   },
+   {
+    "ramalRef": "2.",
+    "order": 0
+   }
+  ],
+  "createdAt": 1792437030775,
+  "updatedAt": 1792437122731,
+  "id": "1c6d21ac-cad9-463d-9a1a-8646a41ffc5d",
+  "note": "",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "fabrica",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62400335474651,
+  "lng": -58.34391340613366,
+  "name": "S.A.C.M.E.",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 24
+   }
+  ],
+  "createdAt": 1792437198576,
+  "updatedAt": 1792437199042,
+  "id": "1c8d7ad2-8e82-425c-b49e-993e0484c2f6",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62423179813348,
+  "lng": -58.34632873535157,
+  "name": "Tandanor S.A.C.I. y N.",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 35
+   }
+  ],
+  "createdAt": 1792437210785,
+  "updatedAt": 1792437210927,
+  "id": "357b4aac-9941-4c37-9e2a-0a02ae63f531",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "invented"
+ },
+ {
+  "lat": -34.62414571809049,
+  "lng": -58.35076779127122,
+  "name": "Ministerio de Justicia",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 49
+   }
+  ],
+  "createdAt": 1792437223783,
+  "updatedAt": 1792437223851,
+  "id": "47b36c52-0b37-4e74-9df9-7a1bd522eeae",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "invented"
+ },
+ {
+  "lat": -34.621903191147716,
+  "lng": -58.35410177707673,
+  "name": "España y Francisco Pareja",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 70
+   }
+  ],
+  "createdAt": 1792437300832,
+  "updatedAt": 1792437300910,
+  "id": "55da6e51-f349-45c4-ba30-8c44b653bef0",
+  "note": "2 4",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.62019918330734,
+  "lng": -58.3549439907074,
+  "name": "Servicio Hidrográfico Naval",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 72
+   }
+  ],
+  "createdAt": 1792437381840,
+  "updatedAt": 1792437381995,
+  "id": "90198c8d-95d2-4cdf-839c-3b2367a5f691",
+  "note": "2 4",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61843995716047,
+  "lng": -58.355904221534736,
+  "name": "España y Delia Degliuomini",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 82
+   }
+  ],
+  "createdAt": 1792437460413,
+  "updatedAt": 1792437460572,
+  "id": "305260ba-b980-4751-bfe8-3e30814eef25",
+  "note": "2 4 61 62",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.620419911684074,
+  "lng": -58.35904777050019,
+  "name": "Dellepiane y Lanteri",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 98
+   }
+  ],
+  "createdAt": 1792437558119,
+  "updatedAt": 1792437558188,
+  "id": "a6a98299-1603-40ff-b16c-81b765b4ade5",
+  "note": "2 4",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61800952601375,
+  "lng": -58.359533250331886,
+  "name": "Lanteri y Peñaloza",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 105
+   }
+  ],
+  "createdAt": 1792437632237,
+  "updatedAt": 1792437681182,
+  "id": "2ba73038-0515-4c8a-8b12-9a8af2696ccb",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "invented"
+ },
+ {
+  "lat": -34.61734731989081,
+  "lng": -58.36070269346238,
+  "name": "Peñaloza y Aimé Painé",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 114
+   }
+  ],
+  "createdAt": 1792437681012,
+  "updatedAt": 1792437681108,
+  "id": "58cf2ab2-547e-40e1-add0-c3b33499aad8",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61357043664381,
+  "lng": -58.36124986410142,
+  "name": "Aimé Painé y Martha Salotti",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 124
+   }
+  ],
+  "createdAt": 1792437735108,
+  "updatedAt": 1792437735173,
+  "id": "b81aeada-11af-46c1-9146-498fe24ab9d6",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61158811121301,
+  "lng": -58.36231470108033,
+  "name": "Villaflor y Juana Manso",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 136
+   }
+  ],
+  "createdAt": 1792437805874,
+  "updatedAt": 1792437812796,
+  "id": "a2132449-e70d-4ec2-9cf6-8de5a3e89a1e",
+  "note": "",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.612058310725544,
+  "lng": -58.36410641670228,
+  "name": "Puente Villaflor",
+  "lines": [
+   {
+    "ramalRef": "2",
+    "order": 662
+   }
+  ],
+  "createdAt": 1792437848114,
+  "updatedAt": 1792437861951,
+  "id": "a7b534a2-f696-419b-8b2f-d4fa713b059c",
+  "note": "",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61205168821568,
+  "lng": -58.36591690778733,
+  "name": "Puente Villaflor",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 161
+   }
+  ],
+  "createdAt": 1792437907723,
+  "updatedAt": 1792437907817,
+  "id": "cdc6478c-16e8-4f58-9913-f40cfc3f36d9",
+  "note": "",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6124622828277,
+  "lng": -58.36719900369645,
+  "name": "Ingeniero Huergo y Belgrano",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 185
+   }
+  ],
+  "createdAt": 1792438078889,
+  "updatedAt": 1792438079019,
+  "id": "e13c407a-9a24-4834-aa5a-82603d1b121c",
+  "note": "111 103 2 4",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61603172138569,
+  "lng": -58.36679935455323,
+  "name": "Ingeniero Huergo y Chile",
+  "lines": [],
+  "createdAt": 1792438208154,
+  "updatedAt": 1792438208231,
+  "id": "8deb0502-5f51-4f4f-b9b6-a27837decb25",
+  "note": "20 129",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.616272327368335,
+  "lng": -58.36677789688111,
+  "name": "Ingeniero Huergo y Chile",
+  "lines": [],
+  "createdAt": 1792438234317,
+  "updatedAt": 1792438234402,
+  "id": "775f3489-71bf-4cf5-8751-adc7e4c915db",
+  "note": "111 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6165239695765,
+  "lng": -58.36674839258195,
+  "name": "Ingeniero Huergo e Independencia",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 196
+   }
+  ],
+  "createdAt": 1792438257095,
+  "updatedAt": 1792438261292,
+  "id": "ceb1007a-98d8-4e0c-b129-ef034a6773cf",
+  "note": "2 4",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.616927919946974,
+  "lng": -58.368304073810584,
+  "name": "Facultad de Ingeniería",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 201
+   }
+  ],
+  "createdAt": 1792438310301,
+  "updatedAt": 1792438342515,
+  "id": "4fce4275-be19-4207-9ac0-5a996851120b",
+  "note": "22",
+  "mindMap": true,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61710450965531,
+  "lng": -58.371402025222785,
+  "name": "Independencia y Defensa",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 208
+   }
+  ],
+  "createdAt": 1792438384287,
+  "updatedAt": 1792438384392,
+  "id": "2b5d81a3-b7ad-4dc7-bc1c-0c65e80d02f1",
+  "note": "2 126",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61713099807915,
+  "lng": -58.374175429344184,
+  "name": "Independencia y Perú",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 211
+   }
+  ],
+  "createdAt": 1792438430477,
+  "updatedAt": 1792438437300,
+  "id": "eb278afa-f7a3-44ef-bf25-e14039f505e2",
+  "note": "2 126",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61740029657506,
+  "lng": -58.37855279445649,
+  "name": "Independencia y Tacuarí",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 215
+   }
+  ],
+  "createdAt": 1792438501092,
+  "updatedAt": 1792438501173,
+  "id": "e66ebba6-f64c-40ce-a3d4-49fb9b4b71c6",
+  "note": "2 126",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61711775386828,
+  "lng": -58.38298916816712,
+  "name": "Salta y Chile",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 233
+   }
+  ],
+  "createdAt": 1792438576287,
+  "updatedAt": 1792438576415,
+  "id": "b166c6cf-33b0-4a6b-b35a-881eb4ef9009",
+  "note": "2 98",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.614799984421985,
+  "lng": -58.38301599025727,
+  "name": "Salta y Venezuela",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 239
+   }
+  ],
+  "createdAt": 1792438625331,
+  "updatedAt": 1792438625511,
+  "id": "399ef108-e002-4333-86b1-4b38cc333725",
+  "note": "2 98",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.614477698973836,
+  "lng": -58.38575184345246,
+  "name": "Venezuela y San José",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 244
+   }
+  ],
+  "createdAt": 1792438763283,
+  "updatedAt": 1792438763386,
+  "id": "2b1b0c70-550e-4529-8d1b-3908bdd76447",
+  "note": "2 98",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61463001211555,
+  "lng": -58.3886405825615,
+  "name": "Venezuela y Cevallos",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 247
+   }
+  ],
+  "createdAt": 1792438790964,
+  "updatedAt": 1792438791040,
+  "id": "7980287e-2c95-405d-9b2f-a4796fcb2db4",
+  "note": "2 98",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.614808814142684,
+  "lng": -58.39150249958039,
+  "name": "Venezuela y Entre Ríos",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 250
+   }
+  ],
+  "createdAt": 1792438828280,
+  "updatedAt": 1792438828413,
+  "id": "ea7e18b4-1f29-4793-960a-78b2827077aa",
+  "note": "2 98",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.614045039829435,
+  "lng": -58.391604423522956,
+  "name": "Entre Ríos y Belgrano",
+  "lines": [],
+  "createdAt": 1792439003391,
+  "updatedAt": 1792439003593,
+  "id": "de69ab1d-00c6-40ab-8d8c-870cd9524c6e",
+  "note": "50",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613228279175594,
+  "lng": -58.391620516777046,
+  "name": "Entre Ríos y Moreno",
+  "lines": [],
+  "createdAt": 1792439046288,
+  "updatedAt": 1792439046404,
+  "id": "77c55192-a98a-4682-8f50-ee18ad777e64",
+  "note": "12",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.612914817547555,
+  "lng": -58.391615152359016,
+  "name": "Entre Ríos y Moreno",
+  "lines": [],
+  "createdAt": 1792439075302,
+  "updatedAt": 1792439075446,
+  "id": "7caeb8c6-935b-4c00-b0a4-4c99bde9af42",
+  "note": "37 150",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6127823686166,
+  "lng": -58.39453876018525,
+  "name": "Moreno y Sarandí",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 264
+   }
+  ],
+  "createdAt": 1792439145307,
+  "updatedAt": 1792439145704,
+  "id": "af5b38ac-8342-4b76-ac8b-a348b78cd608",
+  "note": "2 103 168",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61293247738904,
+  "lng": -58.39707076549531,
+  "name": "Moreno y Pasco",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 269
+   }
+  ],
+  "createdAt": 1792439194767,
+  "updatedAt": 1792439194985,
+  "id": "6c76e467-8f79-4447-b285-c7c67e5da684",
+  "note": "168 2",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61293689234883,
+  "lng": -58.39726924896241,
+  "name": "Moreno y Pasco",
+  "lines": [],
+  "createdAt": 1792439206343,
+  "updatedAt": 1792439221365,
+  "id": "0b4f579e-6226-4bf2-9fee-d6e4b2d1f562",
+  "note": "5 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613135565296204,
+  "lng": -58.40120136737824,
+  "name": "Moreno y Alberti",
+  "lines": [],
+  "createdAt": 1792439288278,
+  "updatedAt": 1792439288396,
+  "id": "8f41606a-8152-454e-b595-d9f810fb64b6",
+  "note": "56 168",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613215034342026,
+  "lng": -58.40248882770539,
+  "name": "Moreno y Saavedra",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 278
+   }
+  ],
+  "createdAt": 1792439356324,
+  "updatedAt": 1792439371310,
+  "id": "21116732-5f09-44b7-bc0f-f95e3d17a44a",
+  "note": "2 188",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613228279175594,
+  "lng": -58.402907252311714,
+  "name": "Moreno y Saavedra",
+  "lines": [],
+  "createdAt": 1792439356518,
+  "updatedAt": 1792439356908,
+  "id": "23140ec6-4411-4b37-8d6a-aea71724c093",
+  "note": "103 168",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61328125848876,
+  "lng": -58.403604626655586,
+  "name": "Moreno y Misiones",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 281
+   }
+  ],
+  "createdAt": 1792439430945,
+  "updatedAt": 1792439432266,
+  "id": "63008cb5-60b8-44a4-8396-cdd5ef869596",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61351966497958,
+  "lng": -58.406378030776985,
+  "name": "Plaza Manzana 66",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 288
+   }
+  ],
+  "createdAt": 1792439498271,
+  "updatedAt": 1792439498381,
+  "id": "b73fd441-e0e5-4253-b361-2a87ac0e95a9",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61347551568108,
+  "lng": -58.40599179267884,
+  "name": "Plaza Manzana 66",
+  "lines": [],
+  "createdAt": 1792439516272,
+  "updatedAt": 1792439516390,
+  "id": "4c382b92-286c-4d35-88ff-0087ea0e9720",
+  "note": "56 115",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.613925837424034,
+  "lng": -58.40955913066864,
+  "name": "Moreno y Urquiza",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 294
+   }
+  ],
+  "createdAt": 1792439588531,
+  "updatedAt": 1792439588809,
+  "id": "ecb660c1-3561-4064-adb3-dcbaacc2240f",
+  "note": "2 103",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.61391700760942,
+  "lng": -58.40972006320954,
+  "name": "Moreno y Urquiza",
+  "lines": [],
+  "createdAt": 1792439597273,
+  "updatedAt": 1792439597380,
+  "id": "08962e32-2221-4ea0-a3ea-3c7e596dbad8",
+  "note": "115",
+  "mindMap": false,
+  "metrobus": false,
+  "mindMapName": "",
+  "mindMapIcon": "",
+  "status": "confirmed"
+ },
+ {
+  "lat": -34.6140185504208,
+  "lng": -58.412590026855476,
+  "name": "Moreno y Sánchez de Loria",
+  "lines": [
+   {
+    "ramalRef": "2.",
+    "order": 298
+   }
+  ],
+  "createdAt": 1792439670283,
+  "updatedAt": 1792439670487,
+  "id": "0ee2e60d-62a8-4a09-a06c-9ca7fb0a3217",
+  "note": "2 103",
   "mindMap": false,
   "metrobus": false,
   "mindMapName": "",

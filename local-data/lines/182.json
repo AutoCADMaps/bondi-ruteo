@@ -6,7 +6,7 @@
    "ref": "182",
    "name": "Barrio Alvear → x Marconi → Kilómetro 41",
    "color": "#787878",
-   "folderId": null,
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "createdAt": 1789837449255,
    "ramalRef": "182A",
    "points": [
@@ -3808,7 +3808,7 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790722256921
+   "updatedAt": 1793473533401
   },
   {
    "id": "szBm8jLYlSVyF0bXRXPz",
@@ -7549,18 +7549,18 @@
      "lon": -58.4854463
     }
    ],
-   "folderId": null,
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "createdAt": 1789837770714,
    "ramalRef": "182A.",
    "visible": false,
-   "updatedAt": 1790722257178
+   "updatedAt": 1793473533482
   },
   {
    "id": "LesF6PQICZ4GXcCzTGcr",
    "ref": "182",
    "name": "Liniers → x Rosales → Barrio León",
    "color": "#787878",
-   "folderId": null,
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "createdAt": 1789838227527,
    "ramalRef": "182B",
    "points": [
@@ -10582,14 +10582,14 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790722257384
+   "updatedAt": 1793473533548
   },
   {
    "id": "lN5m3lEek2euLoyP57rs",
    "ref": "182",
    "name": "Barrio León → x Rosales → Liniers",
    "color": "#787878",
-   "folderId": null,
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "createdAt": 1789838407448,
    "ramalRef": "182B.",
    "points": [
@@ -14043,7 +14043,7 @@
     }
    ],
    "visible": false,
-   "updatedAt": 1790722257439
+   "updatedAt": 1793473533596
   },
   {
    "id": "6VVkBOzaHPEiN1LWCb81",
@@ -15420,11 +15420,11 @@
      "lon": -58.596346565313816
     }
    ],
-   "folderId": null,
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "createdAt": 1789838652355,
    "ramalRef": "182C",
    "visible": false,
-   "updatedAt": 1790722257490
+   "updatedAt": 1793473533658
   },
   {
    "id": "M6OHaAHD4HnlsuaAqFoL",
@@ -16961,11 +16961,11 @@
      "lon": -58.526633946668845
     }
    ],
-   "folderId": null,
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "createdAt": 1789838773618,
    "ramalRef": "182C.",
    "visible": false,
-   "updatedAt": 1790722257530
+   "updatedAt": 1793473533767
   },
   {
    "id": "KuDEwPeqMTYVhTXck3tn",
@@ -17526,11 +17526,11 @@
      "lon": -58.595060101751365
     }
    ],
-   "folderId": null,
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "createdAt": 1789838882579,
    "ramalRef": "182D",
    "visible": false,
-   "updatedAt": 1790722257555
+   "updatedAt": 1793473533860
   },
   {
    "id": "BtH8ovhynFCHElodninY",
@@ -18091,11 +18091,11 @@
      "lon": -58.5645583
     }
    ],
-   "folderId": null,
+   "folderId": "CEYrs7CEodFuG9Pe4ZGM",
    "createdAt": 1789838930597,
    "ramalRef": "182D.",
    "visible": false,
-   "updatedAt": 1790722257584
+   "updatedAt": 1793473533955
   }
  ]
 }

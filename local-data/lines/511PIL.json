@@ -3529,8 +3529,8 @@
    ],
    "order": 2,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790721971158
+   "visible": true,
+   "updatedAt": 1792587896370
   },
   {
    "id": "YsAWVC7Rja79OdKQ6sTN",
@@ -3541,8 +3541,8 @@
    "name": "Luchetti → Manzanares → Pilar",
    "points": [
     {
-     "lat": -34.45859522532947,
-     "lon": -58.99250894192422
+     "lat": -34.458436062220166,
+     "lon": -58.99247337058204
     },
     {
      "lat": -34.4584946,
@@ -4507,8 +4507,8 @@
    ],
    "order": 3,
    "folderId": "9BM5H43sjX83p5DIeHfw",
-   "visible": false,
-   "updatedAt": 1790721995203
+   "visible": true,
+   "updatedAt": 1792588030976
   },
   {
    "id": "Ku06JvTvZb0eAXItSBn9",

@@ -3241,7 +3241,7 @@
    "order": 0,
    "ramalRef": "2",
    "visible": false,
-   "updatedAt": 1792437864577,
+   "updatedAt": 1794095906961,
    "discontinued": false
   },
   {
@@ -6779,8 +6779,8 @@
      "lon": -58.541634920644555
     }
    ],
-   "visible": false,
-   "updatedAt": 1793494740870,
+   "visible": true,
+   "updatedAt": 1794095906916,
    "discontinued": false
   }
  ]

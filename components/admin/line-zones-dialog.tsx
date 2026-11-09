@@ -23,7 +23,7 @@ const TILE_LIGHT = `https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.p
 const TILE_ATTRIBUTION =
   '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
 
-const PARTIDO_COLOR = "#2563eb"
+const PARTIDO_COLOR = "#7F00FF"
 const LOCALIDAD_COLOR = "#db2777"
 
 type Kind = "partidos" | "localidades"

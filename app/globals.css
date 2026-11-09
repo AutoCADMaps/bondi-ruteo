@@ -4,13 +4,15 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  --brand: #7f00ff;
+  --brand-soft: color-mix(in oklab, #7f00ff 14%, transparent);
   --background: oklch(0.97 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.6 0.15 250);
+  --primary: #7f00ff;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.93 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -22,7 +24,7 @@
   --destructive-foreground: oklch(0.577 0.245 27.325);
   --border: oklch(0.88 0 0);
   --input: oklch(0.88 0 0);
-  --ring: oklch(0.6 0.15 250);
+  --ring: #7f00ff;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -31,12 +33,12 @@
   --radius: 0.625rem;
   --sidebar: oklch(1 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.6 0.15 250);
+  --sidebar-primary: #7f00ff;
   --sidebar-primary-foreground: oklch(0.985 0 0);
   --sidebar-accent: oklch(0.93 0 0);
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.88 0 0);
-  --sidebar-ring: oklch(0.6 0.15 250);
+  --sidebar-ring: #7f00ff;
 }
 
 .dark {
@@ -46,8 +48,8 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.145 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
+  --primary: #7f00ff;
+  --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -58,7 +60,7 @@
   --destructive-foreground: oklch(0.637 0.237 25.331);
   --border: oklch(0.269 0 0);
   --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
+  --ring: #a855f7;
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
@@ -66,38 +68,38 @@
   --chart-5: oklch(0.645 0.246 16.439);
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary: #7f00ff;
   --sidebar-primary-foreground: oklch(0.985 0 0);
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+  --sidebar-ring: #a855f7;
 }
 
 /* Acento violeta clarito, solo para el panel de admin (LineEditor) —
    no toca la paleta de la página pública. */
 .admin-theme {
-  --primary: oklch(0.72 0.14 300);
-  --primary-foreground: oklch(0.145 0 0);
-  --ring: oklch(0.72 0.14 300);
+  --primary: #7f00ff;
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: #7f00ff;
   --accent: oklch(0.93 0.035 300);
   --accent-foreground: oklch(0.32 0.06 300);
-  --sidebar-primary: oklch(0.72 0.14 300);
+  --sidebar-primary: #7f00ff;
   --sidebar-accent: oklch(0.93 0.035 300);
   --sidebar-accent-foreground: oklch(0.32 0.06 300);
-  --sidebar-ring: oklch(0.72 0.14 300);
+  --sidebar-ring: #7f00ff;
 }
 
 .dark .admin-theme {
-  --primary: oklch(0.75 0.13 300);
-  --primary-foreground: oklch(0.145 0 0);
-  --ring: oklch(0.75 0.13 300);
+  --primary: #7f00ff;
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: #a855f7;
   --accent: oklch(0.32 0.08 300);
   --accent-foreground: oklch(0.95 0.02 300);
-  --sidebar-primary: oklch(0.75 0.13 300);
+  --sidebar-primary: #7f00ff;
   --sidebar-accent: oklch(0.32 0.08 300);
   --sidebar-accent-foreground: oklch(0.95 0.02 300);
-  --sidebar-ring: oklch(0.75 0.13 300);
+  --sidebar-ring: #a855f7;
 }
 
 /* Nombre de parada flotando arriba del pin, en el admin — sin recuadro,
@@ -265,4 +267,62 @@
 .stop-multi-selected {
   filter: drop-shadow(0 0 3px #22d3ee) drop-shadow(0 0 6px #22d3ee) !important;
   z-index: 1000 !important;
+}
+
+/* ───────── Estética común con el sitio público ───────── */
+
+/* Casillas, botones de opción y barras de desplazamiento del navegador en el
+   violeta de la marca (por defecto salen en azul). */
+:root {
+  accent-color: var(--brand);
+}
+::selection {
+  background: color-mix(in oklab, var(--brand) 28%, transparent);
+}
+select {
+  border-radius: 0.65rem;
+}
+
+/* Controles de zoom del mapa: los mismos del sitio público (tarjeta redondeada,
+   ícono violeta de la marca). Sólido y no translúcido al pasar el mouse, y con
+   su variante para cada tema. */
+.leaflet-control-zoom {
+  border: none !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35) !important;
+}
+.leaflet-control-zoom a {
+  background: var(--card, #1a1a1a) !important;
+  color: var(--brand) !important;
+  width: 34px !important;
+  height: 34px !important;
+  line-height: 34px !important;
+  font-size: 18px !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease;
+}
+.leaflet-control-zoom a:hover {
+  background: #f0e4ff !important;
+}
+.dark .leaflet-control-zoom a:hover {
+  background: #2a1640 !important;
+}
+.leaflet-control-zoom-in {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+.dark .leaflet-control-zoom-in {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Enlaces de atribución del mapa (Leaflet, OpenStreetMap, CARTO): sin el celeste
+   por defecto. */
+.leaflet-control-attribution a {
+  color: var(--brand) !important;
+}
+.dark .leaflet-control-attribution a {
+  color: #a855f7 !important;
 }

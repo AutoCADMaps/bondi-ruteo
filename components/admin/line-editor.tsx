@@ -17,6 +17,7 @@ import { Button } from "@/components/ui/button"
 
 import { Input } from "@/components/ui/input"
 import { ReportsPanel } from "@/components/admin/reports-panel"
+import { AlertsPanel } from "@/components/admin/alerts-panel"
 import { StopImageField } from "@/components/admin/stop-image-field"
 import { StopStreetView } from "@/components/admin/stop-street-view"
 import { MindMapIconPicker } from "@/components/admin/mind-map-icon-picker"
@@ -4027,6 +4028,7 @@ export function LineEditor() {
               </button>
 
               <ReportsPanel />
+              <AlertsPanel />
 
               <button
                 title="Editor de carteleras (ramaleras)"

@@ -2283,10 +2283,10 @@
      "lon": -58.17428297588445
     }
    ],
-   "visible": false,
+   "visible": true,
    "folderId": "bviAZLddBfa4Ay99pHZV",
    "createdAt": 1792758770136,
-   "updatedAt": 1793473549759,
+   "updatedAt": 1793628040885,
    "ramalRef": "215-A",
    "id": "53194090-bec5-4fbe-8d66-be4277428520"
   },

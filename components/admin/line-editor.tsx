@@ -10,12 +10,14 @@ import L from "leaflet"
 
 import "leaflet/dist/leaflet.css"
 
-import { MoreVertical, PanelLeftClose, PanelLeftOpen, Eye, EyeOff, ChevronRight, ChevronDown, FolderPlus, Folder as FolderIcon, LogOut, Undo2, Redo2, Maximize2, Minimize2, UploadCloud, Database, Sun, Moon, MapPin, X } from "lucide-react"
+import { MoreVertical, PanelLeftClose, PanelLeftOpen, Eye, EyeOff, ChevronRight, ChevronDown, FolderPlus, Folder as FolderIcon, LogOut, Undo2, Redo2, Maximize2, Minimize2, UploadCloud, Database, Sun, Moon, MapPin, Trash2, X } from "lucide-react"
 import { useTheme } from "next-themes"
 
 import { Button } from "@/components/ui/button"
 
 import { Input } from "@/components/ui/input"
+import { Checkbox, CheckboxLabel, RadioLabel } from "@/components/ui/checkbox"
+import { SelectMenu } from "@/components/ui/select-menu"
 import { ReportsPanel } from "@/components/admin/reports-panel"
 import { AlertsPanel } from "@/components/admin/alerts-panel"
 import { StopImageField } from "@/components/admin/stop-image-field"
@@ -212,6 +214,9 @@ interface Stop {
   mindMapIcon?: string
   // Nombre alternativo para el mapa mental (vacío = el nombre real).
   mindMapName?: string
+  // Líneas (ref) en cuyo mapa mental aparece la parada cuando la comparten
+  // varias. Vacío o ausente = en todas.
+  mindMapLines?: string[]
   // Parada del sistema Metrobús (carril exclusivo).
   metrobus?: boolean
 }
@@ -1034,6 +1039,7 @@ export function LineEditor() {
   const [stopMindMapIconDraft, setStopMindMapIconDraft] = useState("")
   const [stopMetrobusDraft, setStopMetrobusDraft] = useState(false)
   const [stopMindMapNameDraft, setStopMindMapNameDraft] = useState("")
+  const [stopMindMapLinesDraft, setStopMindMapLinesDraft] = useState<string[]>([])
   // Selección múltiple de paradas (Shift + click sobre el pin) para asignarlas
   // todas juntas a un ramal.
   const [multiSelectedIds, setMultiSelectedIds] = useState<Set<string>>(new Set())
@@ -1043,7 +1049,9 @@ export function LineEditor() {
   const [bulkRamalRef, setBulkRamalRef] = useState("")
   const [bulkFilter, setBulkFilter] = useState("")
   const [bulkMode, setBulkMode] = useState<"assign" | "remove">("assign")
-  const [bulkChoice, setBulkChoice] = useState<"first" | "second" | "both">("first")
+  const [bulkChoice, setBulkChoice] = useState<"auto" | "first" | "second" | "both">("auto")
+  // Asignar también las paradas que no pasan cerca del trazado (a mano).
+  const [bulkForce, setBulkForce] = useState(false)
   const [bulkSummary, setBulkSummary] = useState<string | null>(null)
   // ids de paradas con foto (se leen de la carpeta public/paradas, no de Firebase)
   const [stopImages, setStopImages] = useState<Set<string>>(new Set())
@@ -1187,6 +1195,15 @@ export function LineEditor() {
   const alertPreviewLayerRef = useRef<L.LayerGroup | null>(null)
 
   const stopsLayerRef = useRef<L.LayerGroup | null>(null)
+  // Paradas dibujadas como puntos en el lienzo (mapa alejado), con el color de
+  // borde que les corresponde cuando no están en la selección múltiple.
+  const stopDotsRef = useRef<Map<string, { dot: L.CircleMarker; base: string }>>(new Map())
+  // Trazado simplificado de cada línea de fondo, por su lista de puntos: no se
+  // vuelve a calcular mientras esa línea no cambie.
+  const simplifiedCacheRef = useRef(new WeakMap<object, [number, number][]>())
+  // Zonas cuyas calles ya se cargaron en el grafo actual: si la vista cae
+  // entera adentro de una, no se vuelven a pedir.
+  const streetBoxesRef = useRef(new WeakMap<object, L.LatLngBounds[]>())
 
   // En true recién después del primer load (cache o red) de cada dataset —
   // así el efecto que persiste a localStorage no pisa el cache bueno con
@@ -1518,7 +1535,7 @@ export function LineEditor() {
 
       if (l.visible === false || l.id === editingId) continue
 
-      const rawPts: [number, number][] = l.points.map((p) => [p.lat, p.lon])
+      let pts = simplifiedCacheRef.current.get(l.points)
 
       // Estas polylines son solo de fondo/referencia (no editables acá):
       // los trazados reales calcados de calles pueden traer cientos o miles
@@ -1527,9 +1544,15 @@ export function LineEditor() {
       // nota visualmente pero baja muchísimo la cantidad de vértices; los
       // puntos guardados de la línea (l.points) no se tocan, esto es solo
       // para lo que se dibuja acá.
-      const pts = rawPts.length > 50 ? simplifyPath(rawPts, 0.01) : rawPts
+      if (!pts) {
+        const rawPts: [number, number][] = l.points.map((p) => [p.lat, p.lon])
+        pts = rawPts.length > 50 ? simplifyPath(rawPts, 0.01) : rawPts
+        simplifiedCacheRef.current.set(l.points, pts)
+      }
 
-      if (pts.length > 1) L.polyline(pts, { color: l.color, weight: 3, opacity: 0.7 }).addTo(layer)
+      // interactive: false — son de referencia, no se les hace click; así el
+      // mapa no tiene que revisar cada trazado con cada movimiento del mouse.
+      if (pts.length > 1) L.polyline(pts, { color: l.color, weight: 3, opacity: 0.7, interactive: false }).addTo(layer)
 
     }
 
@@ -1629,14 +1652,22 @@ export function LineEditor() {
     [stopGlyphColor]
   )
 
-  // Recién a partir de este zoom se muestra el nombre arriba del pin — con
-  // muchas paradas juntas y poco zoom, los carteles se empastan entre sí.
-  const STOP_LABEL_MIN_ZOOM = 18
+  // A partir de este zoom cada parada muestra su cartel (nombre y líneas);
+  // más lejos se ven como puntos y el cartel sale al pasar el mouse. Con menos
+  // zoom que esto los carteles se empastan entre sí.
+  const STOP_LABEL_MIN_ZOOM = 16
 
   // Por debajo de este zoom, el pin se reemplaza por el puntito chico —
   // varias paradas juntas (ej. una estación con múltiples andenes) se ven
   // como puntos separados en vez de un montón de pines superpuestos.
   const STOP_PIN_MIN_ZOOM = 17
+
+  // Por debajo de este zoom las paradas se dibujan como puntos en el lienzo
+  // del mapa (un solo dibujo para todas) en vez de un elemento por parada: con
+  // el mapa alejado entran miles en pantalla, y mover miles de elementos en
+  // cada zoom es lo que trababa. Se les puede hacer click (y Shift + click),
+  // pero para arrastrarlas hay que acercarse.
+  const STOP_DOM_MIN_ZOOM = 15
 
   // Distancia (en grados) que se agranda el recuadro de agrupación
   // alrededor del bounding box de las paradas con el mismo nombre.
@@ -1685,11 +1716,17 @@ export function LineEditor() {
 
     if (!stopsVisible) return
 
-    const viewBounds = map.getBounds().pad(1)
+    // Margen de un tercio de pantalla: alcanza para que al arrastrar el mapa
+    // no se vea el borde vacío antes de que se redibujen.
+    const viewBounds = map.getBounds().pad(0.3)
     const stopsInView = stops.filter((s) => viewBounds.contains([s.lat, s.lng]))
+    const dotsOnly = map.getZoom() < STOP_DOM_MIN_ZOOM
+    // El cartel con el nombre se arma recién cuando hace falta mostrarlo.
+    const tooltipMakers = new Map<L.Marker, () => void>()
 
     const markers: L.Marker[] = []
     stopMarkersRef.current.clear()
+    stopDotsRef.current.clear()
     const groupShapes: L.Polygon[] = []
 
     const byName = new Map<string, Stop[]>()
@@ -1716,6 +1753,7 @@ export function LineEditor() {
           fillOpacity: 0.08,
           smoothFactor: 3,
           lineJoin: "round",
+          interactive: false,
         })
         shape.addTo(layer)
         groupShapes.push(shape)
@@ -1752,7 +1790,6 @@ export function LineEditor() {
 
     for (const stop of stopsInView) {
       const status: StopStatus = stop.status ?? "confirmed"
-      const marker = L.marker([stop.lat, stop.lng], { icon: stopPinIcons[status], draggable: true })
 
       const badgeByRef = new Map<string, StopBadge>()
       let inSelected = false
@@ -1770,28 +1807,7 @@ export function LineEditor() {
         : activeRamales
           ? inSelected ? "full" : inVisible ? "mid" : "low"
           : inVisible ? "full" : "low"
-      const dimmed = tier === "low"
-      const badges = [...badgeByRef.values()].sort(
-        (a, b) =>
-          (b.ref === lineFilterRef ? 1 : 0) - (a.ref === lineFilterRef ? 1 : 0) ||
-          a.ref.localeCompare(b.ref, undefined, { numeric: true })
-      )
-
-      marker.bindTooltip(makeStopTooltipContent(stop.name, badges, lineFilterRef), {
-        permanent: true,
-        direction: "top",
-        offset: [0, -30],
-        className: tier === "low" ? "stop-name-tooltip stop-dim" : tier === "mid" ? "stop-name-tooltip stop-dim-mid" : "stop-name-tooltip",
-      })
-      if (tier === "low") {
-        marker.setOpacity(0.28)
-        marker.setZIndexOffset(-1000)
-      } else if (tier === "mid") {
-        marker.setOpacity(0.65)
-        marker.setZIndexOffset(-500)
-      }
-
-      marker.on("click", (e) => {
+      const onStopClick = (e: L.LeafletMouseEvent) => {
         L.DomEvent.stopPropagation(e)
         // Shift + click: suma o saca la parada de la selección múltiple, sin
         // abrir el diálogo de edición.
@@ -1805,6 +1821,77 @@ export function LineEditor() {
           return
         }
         openStopDialog(stop)
+      }
+
+      if (dotsOnly) {
+        const base = status === "unused" ? "white" : stopGlyphColor
+        const alpha = tier === "low" ? 0.28 : tier === "mid" ? 0.65 : 1
+        const dot = L.circleMarker([stop.lat, stop.lng], {
+          radius: 5,
+          weight: 1.5,
+          color: base,
+          opacity: alpha,
+          fillColor: STOP_STATUS_COLORS[status],
+          fillOpacity: alpha,
+        })
+        dot.on("click", onStopClick)
+        // Al pasar el mouse: el mismo cartel de siempre (nombre y líneas
+        // asignadas), para revisar sin tener que acercarse. Se arma en ese
+        // momento, no para las miles de paradas de entrada.
+        const showDotTip = () => {
+          if (dot.getTooltip()) return
+          const hoverBadges = [...badgeByRef.values()].sort(
+            (a, b) =>
+              (b.ref === lineFilterRef ? 1 : 0) - (a.ref === lineFilterRef ? 1 : 0) ||
+              a.ref.localeCompare(b.ref, undefined, { numeric: true })
+          )
+          dot.bindTooltip(makeStopTooltipContent(stop.name, hoverBadges, lineFilterRef), {
+            direction: "top",
+            offset: [0, -6],
+            className: tier === "low" ? "stop-name-tooltip stop-dim" : tier === "mid" ? "stop-name-tooltip stop-dim-mid" : "stop-name-tooltip",
+          })
+          dot.openTooltip()
+        }
+        dot.on("mouseover", showDotTip)
+        dot.addTo(layer)
+        stopDotsRef.current.set(stop.id, { dot, base })
+        continue
+      }
+
+      const marker = L.marker([stop.lat, stop.lng], { icon: stopPinIcons[status], draggable: true })
+      const badges = [...badgeByRef.values()].sort(
+        (a, b) =>
+          (b.ref === lineFilterRef ? 1 : 0) - (a.ref === lineFilterRef ? 1 : 0) ||
+          a.ref.localeCompare(b.ref, undefined, { numeric: true })
+      )
+
+      tooltipMakers.set(marker, () => {
+        marker.bindTooltip(makeStopTooltipContent(stop.name, badges, lineFilterRef), {
+          permanent: true,
+          direction: "top",
+          offset: [0, map.getZoom() >= STOP_PIN_MIN_ZOOM ? -30 : -6],
+          className: tier === "low" ? "stop-name-tooltip stop-dim" : tier === "mid" ? "stop-name-tooltip stop-dim-mid" : "stop-name-tooltip",
+        })
+      })
+      if (tier === "low") {
+        marker.setOpacity(0.28)
+        marker.setZIndexOffset(-1000)
+      } else if (tier === "mid") {
+        marker.setOpacity(0.65)
+        marker.setZIndexOffset(-500)
+      }
+
+      marker.on("click", onStopClick)
+      // Mientras el nombre no está fijo (zoom menor al de los carteles), se ve
+      // al pasar el mouse por la parada.
+      marker.on("mouseover", () => {
+        if (marker.getTooltip()) return
+        marker.bindTooltip(makeStopTooltipContent(stop.name, badges, lineFilterRef), {
+          direction: "top",
+          offset: [0, map.getZoom() >= STOP_PIN_MIN_ZOOM ? -30 : -6],
+          className: "stop-name-tooltip",
+        })
+        marker.openTooltip()
       })
 
       // El botón del medio (rueda) se usa para moverse por el mapa y, en
@@ -1839,10 +1926,18 @@ export function LineEditor() {
       for (const marker of markers) {
         const status = (marker as L.Marker & { __status?: StopStatus }).__status ?? "confirmed"
         marker.setIcon(showPin ? stopPinIcons[status] : stopDotIcons[status])
-        const tooltip = marker.getTooltip()
-        if (!tooltip) continue
-        if (showLabel) marker.openTooltip()
-        else marker.closeTooltip()
+        // El cartel existe solo mientras se muestra: miles de carteles
+        // cerrados igual pesaban en cada zoom.
+        // (Un cartel no permanente es el de pasar el mouse: se reemplaza.)
+        const isFixed = marker.getTooltip()?.options.permanent === true
+        if (showLabel) {
+          if (!isFixed) {
+            if (marker.getTooltip()) marker.unbindTooltip()
+            tooltipMakers.get(marker)?.()
+          }
+        } else if (marker.getTooltip()) {
+          marker.unbindTooltip()
+        }
       }
       applyMultiSelection()
       void groupShapes
@@ -1889,6 +1984,11 @@ export function LineEditor() {
     for (const [id, marker] of stopMarkersRef.current) {
       marker.getElement()?.classList.toggle("stop-multi-selected", multiSelRef.current.has(id))
     }
+    // Las que están dibujadas como puntos: borde celeste grueso.
+    for (const [id, { dot, base }] of stopDotsRef.current) {
+      const on = multiSelRef.current.has(id)
+      if ((dot.options.weight === 3) !== on) dot.setStyle(on ? { color: "#22d3ee", weight: 3 } : { color: base, weight: 1.5 })
+    }
   }
 
   useEffect(() => {
@@ -1920,13 +2020,18 @@ export function LineEditor() {
         if (rest.length !== st.lines.length) updates.set(st.id, { ...st, lines: rest })
         continue
       }
-      const passages = findStopPassages(st, ramal)
-      if (passages.length === 0) { skipped++; continue }
+      let passages = findStopPassages(st, ramal)
+      if (passages.length === 0) {
+        const np = bulkForce ? nearestPoint(st, ramal) : null
+        if (np === null) { skipped++; continue }
+        passages = [np]
+      }
       const rest = st.lines.filter((l) => l.ramalRef !== bulkRamalRef)
+      const useSecond = bulkChoice === "second" || (bulkChoice === "auto" && passages.length > 1 && sidePassage(st, ramal, passages) === 1)
       const add: StopLineRef[] =
         bulkChoice === "both" && passages.length > 1
           ? passages.map((order) => ({ ramalRef: bulkRamalRef, order }))
-          : bulkChoice === "second" && passages.length > 1
+          : useSecond && passages.length > 1
             ? [{ ramalRef: bulkRamalRef, order: passages[1] }]
             : [{ ramalRef: bulkRamalRef, order: passages[0] }]
       updates.set(st.id, { ...st, lines: [...rest, ...add] })
@@ -1971,6 +2076,41 @@ export function LineEditor() {
     )
   }
 
+  // Cuando el ramal pasa dos veces por el mismo lugar (va por una calle, da la
+  // vuelta y vuelve por la misma), dice a cuál de las dos pasadas corresponde
+  // la parada según la vereda: los colectivos paran a la derecha del sentido
+  // de marcha. Devuelve 0 (1ª pasada), 1 (2ª) o null si no se puede saber
+  // (queda a la derecha de las dos, o de ninguna).
+  function sidePassage(stop: { lat: number; lng: number }, ramal: CustomLine, passages: number[]): 0 | 1 | null {
+    const onRight = passages.slice(0, 2).map((idx) => {
+      const a = ramal.points[Math.max(0, idx - 2)]
+      const b = ramal.points[Math.min(ramal.points.length - 1, idx + 2)]
+      const p = ramal.points[idx]
+      const k = Math.cos((p.lat * Math.PI) / 180)
+      const dx = (b.lon - a.lon) * k
+      const dy = b.lat - a.lat
+      const sx = (stop.lng - p.lon) * k
+      const sy = stop.lat - p.lat
+      // Producto cruz: negativo = la parada está a la derecha del sentido de marcha.
+      return dx * sy - dy * sx < 0
+    })
+    if (onRight.length < 2 || onRight[0] === onRight[1]) return null
+    return onRight[0] ? 0 : 1
+  }
+
+  // Punto del trazado más cercano a la parada, sin importar a qué distancia
+  // esté. Sirve para asignar a mano una parada que findStopPassages no
+  // reconoce como cercana (el radio de 40 m a veces se queda corto).
+  function nearestPoint(stop: { lat: number; lng: number }, ramal: CustomLine): number | null {
+    let best: number | null = null
+    let bestKm = Infinity
+    ramal.points.forEach((p, i) => {
+      const d = haversineKm(stop.lat, stop.lng, p.lat, p.lon)
+      if (d < bestKm) { bestKm = d; best = i }
+    })
+    return best
+  }
+
   function openStopDialog(stop: Stop) {
     setSelectedStop(stop)
     setStopNameDraft(stop.name)
@@ -1979,6 +2119,7 @@ export function LineEditor() {
     setStopMindMapIconDraft(stop.mindMapIcon ?? "")
     setStopMetrobusDraft(!!stop.metrobus)
     setStopMindMapNameDraft(stop.mindMapName ?? "")
+    setStopMindMapLinesDraft(stop.mindMapLines ?? [])
     setStopStatusDraft(stop.status ?? "confirmed")
     const draft: Record<string, { checked: boolean; choice: "first" | "second" | "both" }> = {}
     for (const l of stop.lines) {
@@ -2002,10 +2143,30 @@ export function LineEditor() {
     setStopAssignDraft(draft)
   }
 
+  // Desvincula una parada de un ramal (solo esa pasada, si pasa dos veces).
+  // La parada sigue existiendo con sus otras líneas; se guarda con el
+  // autoguardado de paradas, como cualquier otro cambio.
+  function unassignStopFromRamal(stopId: string, ramalRef: string, order: number) {
+    setStops((prev) =>
+      prev.map((s) =>
+        s.id === stopId ? { ...s, lines: s.lines.filter((l) => !(l.ramalRef === ramalRef && l.order === order)) } : s,
+      ),
+    )
+    setDirtyStopIds((prev) => new Set(prev).add(stopId))
+  }
+
   function toggleStopAssign(ramalRef: string, checked: boolean) {
+    // Al tildar un ramal que pasa dos veces, la pasada sale de la vereda de la
+    // parada (se puede cambiar a mano en el desplegable).
+    let auto: "first" | "second" = "first"
+    const ramal = lines.find((l) => (l.ramalRef ?? "").trim() === ramalRef)
+    if (checked && selectedStop && ramal) {
+      const passages = findStopPassages(selectedStop, ramal)
+      if (passages.length > 1 && sidePassage(selectedStop, ramal, passages) === 1) auto = "second"
+    }
     setStopAssignDraft((prev) => ({
       ...prev,
-      [ramalRef]: { checked, choice: prev[ramalRef]?.choice ?? "first" },
+      [ramalRef]: { checked, choice: prev[ramalRef]?.choice ?? auto },
     }))
   }
 
@@ -2020,8 +2181,20 @@ export function LineEditor() {
       if (!sel.checked) continue
       const ramal = lines.find((l) => (l.ramalRef ?? "") === ramalRef)
       if (!ramal) continue
-      const passages = findStopPassages(selectedStop, ramal)
-      if (passages.length === 0) continue
+      let passages = findStopPassages(selectedStop, ramal)
+      if (passages.length === 0) {
+        // Asignación a mano: la parada no está cerca del trazado según el
+        // cálculo. Si ya estaba asignada se respeta tal cual; si es nueva, va
+        // al punto más cercano del recorrido.
+        const kept = selectedStop.lines.filter((x) => x.ramalRef === ramalRef)
+        if (kept.length > 0) {
+          for (const x of kept) newLines.push({ ramalRef, order: x.order })
+          continue
+        }
+        const np = nearestPoint(selectedStop, ramal)
+        if (np === null) continue
+        passages = [np]
+      }
       if (sel.choice === "both" && passages.length > 1) {
         newLines.push({ ramalRef, order: passages[0] }, { ramalRef, order: passages[1] })
       } else if (sel.choice === "second" && passages.length > 1) {
@@ -2030,6 +2203,14 @@ export function LineEditor() {
         newLines.push({ ramalRef, order: passages[0] })
       }
     }
+
+    // Líneas que siguen usando la parada; si la elección cubre a todas (o a
+    // ninguna) no hace falta guardarla: vale para todas.
+    const refsNow = new Set(
+      newLines.map((nl) => lines.find((r) => (r.ramalRef ?? "") === nl.ramalRef)?.ref).filter((r): r is string => !!r),
+    )
+    let mindMapLines = stopMindMapDraft ? stopMindMapLinesDraft.filter((r) => refsNow.has(r)) : []
+    if (mindMapLines.length >= refsNow.size) mindMapLines = []
 
     const updated: Stop = {
       ...selectedStop,
@@ -2040,6 +2221,7 @@ export function LineEditor() {
       mindMapIcon: stopMindMapDraft ? stopMindMapIconDraft : "",
       metrobus: stopMetrobusDraft,
       mindMapName: stopMindMapDraft ? stopMindMapNameDraft.trim() : "",
+      mindMapLines,
       status: stopStatusDraft,
     }
     setStops((prev) => prev.map((s) => (s.id === updated.id ? updated : s)))
@@ -2161,7 +2343,7 @@ export function LineEditor() {
               const assignRes = await fetch(`/api/admin/stops/${data.id}`, {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ lines: stop.lines, note: stop.note ?? "", status: stop.status ?? "confirmed", mindMap: stop.mindMap ?? false, mindMapIcon: stop.mindMapIcon ?? "", mindMapName: stop.mindMapName ?? "", metrobus: stop.metrobus ?? false }),
+                body: JSON.stringify({ lines: stop.lines, note: stop.note ?? "", status: stop.status ?? "confirmed", mindMap: stop.mindMap ?? false, mindMapIcon: stop.mindMapIcon ?? "", mindMapName: stop.mindMapName ?? "", mindMapLines: stop.mindMapLines ?? [], metrobus: stop.metrobus ?? false }),
               }).catch(() => null)
               assignOk = assignRes?.ok ?? false
             }
@@ -2186,6 +2368,7 @@ export function LineEditor() {
               mindMapIcon: stop.mindMapIcon ?? "",
               metrobus: stop.metrobus ?? false,
               mindMapName: stop.mindMapName ?? "",
+              mindMapLines: stop.mindMapLines ?? [],
             }),
           }).catch(() => null)
           if (res?.ok) {
@@ -2282,6 +2465,26 @@ export function LineEditor() {
       })
       if (res.ok) {
         setLines((prev) => prev.map((l) => (l.id === lineToQuickEdit.id ? { ...l, ...body } : l)))
+        // Las paradas se enganchan al ramal por su ref: si el ref cambia, las
+        // asignadas al ref viejo pasan al nuevo (mismo orden). Si no, quedaban
+        // colgadas del ref viejo, y al intercambiar la ida y la vuelta de un
+        // ramal (con un ref temporal en el medio) cada sentido se quedaba con
+        // las paradas del otro. Se guardan con el autoguardado de paradas.
+        const oldRamalRef = (lineToQuickEdit.ramalRef ?? "").trim()
+        if (oldRamalRef && trimmedRamalRef && oldRamalRef !== trimmedRamalRef) {
+          const moved = new Map<string, (typeof stops)[number]>()
+          for (const st of stops) {
+            if (!st.lines.some((l) => l.ramalRef.trim() === oldRamalRef)) continue
+            moved.set(st.id, {
+              ...st,
+              lines: st.lines.map((l) => (l.ramalRef.trim() === oldRamalRef ? { ...l, ramalRef: trimmedRamalRef } : l)),
+            })
+          }
+          if (moved.size > 0) {
+            setStops((prev) => prev.map((st) => moved.get(st.id) ?? st))
+            setDirtyStopIds((prev) => new Set([...prev, ...moved.keys()]))
+          }
+        }
         setLineToQuickEdit(null)
       }
     } finally {
@@ -2789,6 +2992,9 @@ export function LineEditor() {
 
 
 
+  // Zoom mínimo para cargar calles al mover el mapa (ver loadStreetsForView).
+  const STREETS_MIN_ZOOM = 13
+
   const loadStreetsForView = useCallback(async () => {
 
     const map = mapRef.current
@@ -2802,6 +3008,17 @@ export function LineEditor() {
       const b = map.getBounds()
 
       const bbox = `${b.getSouth()},${b.getWest()},${b.getNorth()},${b.getEast()}`
+      // Las calles solo sirven para enganchar y rutear, y eso se hace de cerca.
+      // Con el mapa alejado, pedirlas era bajar y procesar las de toda la
+      // ciudad en cada movimiento. Dos casos en los que no se piden:
+      //   - la vista ya está entera dentro de una zona cargada antes;
+      //   - el mapa está alejado (salvo que haya una línea recién abierta que
+      //     todavía necesita enganchar sus esquinas a las calles).
+      const needsCorners = path.length > 0 && waypointNodeKeys.length === 0
+      const loadedBoxes = graphRef.current ? streetBoxesRef.current.get(graphRef.current) ?? [] : []
+      const skipFetch = loadedBoxes.some((k) => k.contains(b)) || (map.getZoom() < STREETS_MIN_ZOOM && !needsCorners)
+      let ways: StreetWay[] = []
+      if (!skipFetch) {
 
       const res = await fetch(`/api/admin/streets?bbox=${bbox}`)
 
@@ -2811,7 +3028,8 @@ export function LineEditor() {
 
 
 
-      const ways: StreetWay[] = data.ways
+      ways = data.ways
+      }
 
       // Las calles son solo la base para el snapping/ruteo, no se dibujan:
 
@@ -2850,6 +3068,7 @@ export function LineEditor() {
       }
 
       addWaysToGraph(graph, ways)
+      if (!skipFetch) streetBoxesRef.current.set(graph, [...(streetBoxesRef.current.get(graph) ?? []), b].slice(-60))
 
 
 
@@ -4069,21 +4288,18 @@ export function LineEditor() {
 
 
           <div className="flex items-center gap-1 mb-2">
-            <select
-              className="w-full text-xs border rounded px-2 py-1 bg-background"
+            <SelectMenu
+              size="sm"
               value={lineFilterRef}
-              onChange={(e) => setLineFilterRef(e.target.value)}
-            >
-              <option value="">Todas las carpetas (sin filtro)</option>
-              {[...new Set(lines.map((l) => l.ref).filter(Boolean))].sort(compareRefValues).map((r) => (
-                <option key={r} value={r}>
-                  Línea {r}
-                </option>
-              ))}
-            </select>
+              onChange={setLineFilterRef}
+              options={[
+                { value: "", label: "Todas las carpetas (sin filtro)" },
+                ...[...new Set(lines.map((l) => l.ref).filter(Boolean))].sort(compareRefValues).map((r) => ({ value: r, label: `Línea ${r}` })),
+              ]}
+            />
             <button
               title="Partidos y localidades de la línea (la línea entera, no cada ramal)"
-              className="p-1 shrink-0 text-muted-foreground hover:text-foreground border rounded"
+              className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border text-muted-foreground transition-colors hover:border-primary/50 hover:text-foreground"
               onClick={() => setZonesOpen(true)}
             >
               <MapPin className="h-3.5 w-3.5" />
@@ -4403,29 +4619,33 @@ export function LineEditor() {
           <DialogHeader>
             <DialogTitle>Asignar {multiSelectedIds.size} parada{multiSelectedIds.size === 1 ? "" : "s"} a un ramal</DialogTitle>
             <DialogDescription>
-              Elegí el ramal. Las paradas que no pasan cerca de su trazado se omiten. Tené en cuenta que después hay que sincronizar.
+              Elegí el ramal. Las paradas que no pasan cerca de su trazado se omiten, salvo que tildes la opción de abajo. Tené en cuenta que después hay que sincronizar.
             </DialogDescription>
           </DialogHeader>
           <div className="flex items-center gap-3 text-xs">
-            <label className="flex items-center gap-1">
-              <input type="radio" checked={bulkMode === "assign"} onChange={() => setBulkMode("assign")} /> Asignar
-            </label>
-            <label className="flex items-center gap-1">
-              <input type="radio" checked={bulkMode === "remove"} onChange={() => setBulkMode("remove")} /> Quitar del ramal
-            </label>
+            <RadioLabel checked={bulkMode === "assign"} onSelect={() => setBulkMode("assign")}>Asignar</RadioLabel>
+            <RadioLabel checked={bulkMode === "remove"} onSelect={() => setBulkMode("remove")}>Quitar del ramal</RadioLabel>
             {bulkMode === "assign" && (
-              <select
-                className="ml-auto text-xs border rounded px-1 py-1 bg-background"
-                value={bulkChoice}
-                onChange={(e) => setBulkChoice(e.target.value as "first" | "second" | "both")}
-                title="Qué hacer con las paradas por las que el ramal pasa dos veces"
-              >
-                <option value="first">Si pasa 2 veces: 1ª pasada</option>
-                <option value="second">Si pasa 2 veces: 2ª pasada</option>
-                <option value="both">Si pasa 2 veces: ambas</option>
-              </select>
+              <div className="ml-auto w-56" title="Qué hacer con las paradas por las que el ramal pasa dos veces">
+                <SelectMenu
+                  size="sm"
+                  value={bulkChoice}
+                  onChange={(v) => setBulkChoice(v as "auto" | "first" | "second" | "both")}
+                  options={[
+                    { value: "auto", label: "Si pasa 2 veces: según la vereda" },
+                    { value: "first", label: "Si pasa 2 veces: 1ª pasada" },
+                    { value: "second", label: "Si pasa 2 veces: 2ª pasada" },
+                    { value: "both", label: "Si pasa 2 veces: ambas" },
+                  ]}
+                />
+              </div>
             )}
           </div>
+          {bulkMode === "assign" && (
+            <CheckboxLabel className="text-xs" checked={bulkForce} onCheckedChange={setBulkForce}>
+              Asignar también las que no pasan cerca (van al punto más cercano del trazado)
+            </CheckboxLabel>
+          )}
           <Input placeholder="Buscar ramal…" value={bulkFilter} onChange={(e) => setBulkFilter(e.target.value)} />
           <div className="sidebar-scroll max-h-64 overflow-y-auto flex flex-col gap-1">
             {lines
@@ -4518,6 +4738,54 @@ export function LineEditor() {
               onChange={setStopMindMapIconDraft}
             />
           )}
+          {stopMindMapDraft && (() => {
+            // Líneas (no ramales) que usan la parada, según los ramales tildados abajo.
+            const used = new Map<string, string>()
+            for (const [ramalRef, sel] of Object.entries(stopAssignDraft)) {
+              if (!sel.checked) continue
+              const l = lines.find((x) => (x.ramalRef ?? "") === ramalRef)
+              if (l && !used.has(l.ref)) used.set(l.ref, l.color)
+            }
+            if (used.size < 2) return null
+            const picked = stopMindMapLinesDraft.filter((r) => used.has(r))
+            const all = picked.length === 0 || picked.length >= used.size
+            const toggle = (ref: string) => {
+              const next = picked.includes(ref) ? picked.filter((r) => r !== ref) : [...picked, ref]
+              setStopMindMapLinesDraft(next.length >= used.size ? [] : next)
+            }
+            return (
+              <div className="mt-2 rounded border p-2">
+                <p className="text-xs text-muted-foreground">
+                  Esta parada la comparten varias líneas. Elegí en el mapa mental de cuáles aparece:
+                </p>
+                <div className="mt-1.5 flex flex-wrap gap-1.5">
+                  <button
+                    type="button"
+                    onClick={() => setStopMindMapLinesDraft([])}
+                    className={"rounded-full border px-2.5 py-0.5 text-xs font-semibold " + (all ? "bg-primary text-primary-foreground" : "hover:bg-muted")}
+                  >
+                    Todas
+                  </button>
+                  {[...used.entries()]
+                    .sort((a, b) => a[0].localeCompare(b[0], "es", { numeric: true }))
+                    .map(([ref, color]) => {
+                      const on = !all && picked.includes(ref)
+                      return (
+                        <button
+                          key={ref}
+                          type="button"
+                          onClick={() => toggle(ref)}
+                          className={"rounded-full border px-2.5 py-0.5 text-xs font-semibold " + (on ? "" : "hover:bg-muted")}
+                          style={on ? { backgroundColor: color, color: readableTextColor(color), borderColor: color } : undefined}
+                        >
+                          {ref}
+                        </button>
+                      )
+                    })}
+                </div>
+              </div>
+            )
+          })()}
           {selectedStop && <StopStreetView lat={selectedStop.lat} lng={selectedStop.lng} />}
           {selectedStop && (
             <StopImageField
@@ -4543,32 +4811,47 @@ export function LineEditor() {
                 const ramalRef = (l.ramalRef ?? "").trim()
                 const sel = stopAssignDraft[ramalRef]
                 return (
-                  <div key={l.id} className="flex items-center gap-2 text-xs py-0.5">
-                    <input
-                      type="checkbox"
+                  <div
+                    key={l.id}
+                    className={`flex cursor-pointer items-center gap-2 rounded-lg px-1.5 py-1 text-xs transition-colors ${sel?.checked ? "bg-primary/10" : "hover:bg-muted/60"}`}
+                    onClick={(e) => {
+                      // Toda la fila tilda/destilda (salvo el selector de pasada).
+                      if ((e.target as HTMLElement).closest('[role="checkbox"],[data-slot="dropdown-menu-trigger"],button')) return
+                      toggleStopAssign(ramalRef, !(sel?.checked ?? false))
+                    }}
+                  >
+                    <Checkbox
                       checked={sel?.checked ?? false}
-                      onChange={(e) => toggleStopAssign(ramalRef, e.target.checked)}
+                      onCheckedChange={(v) => toggleStopAssign(ramalRef, v)}
                     />
                     <span
-                      className="inline-flex items-center justify-center rounded px-1.5 py-0.5 text-[10px] font-semibold text-white"
+                      className="inline-flex items-center justify-center rounded-md px-1.5 py-0.5 text-[10px] font-semibold text-white shadow-sm"
                       style={{ backgroundColor: l.color, minWidth: "2.5rem" }}
                     >
                       {l.ref}
                     </span>
                     <span className="text-muted-foreground truncate">{l.name}</span>
                     {sel?.checked && passages.length > 1 && (
-                      <select
-                        className="ml-auto text-[10px] border rounded px-1 py-0.5 bg-background"
-                        value={sel.choice}
-                        onChange={(e) => setStopAssignChoice(ramalRef, e.target.value as "first" | "second" | "both")}
-                      >
-                        <option value="first">1ª pasada</option>
-                        <option value="second">2ª pasada</option>
-                        <option value="both">Ambas</option>
-                      </select>
+                      <div className="ml-auto w-28 shrink-0">
+                        <SelectMenu
+                          size="sm"
+                          value={sel.choice}
+                          onChange={(v) => setStopAssignChoice(ramalRef, v as "first" | "second" | "both")}
+                          options={[
+                            { value: "first", label: "1ª pasada" },
+                            { value: "second", label: "2ª pasada" },
+                            { value: "both", label: "Ambas" },
+                          ]}
+                        />
+                      </div>
                     )}
                     {passages.length === 0 && (
-                      <span className="ml-auto text-[10px] text-destructive">no pasa cerca</span>
+                      <span
+                        className={"ml-auto shrink-0 text-[10px] " + (sel?.checked ? "text-muted-foreground" : "text-destructive")}
+                        title="El cálculo no la ve cerca del trazado, pero podés asignarla igual: queda en el punto más cercano del recorrido."
+                      >
+                        {sel?.checked ? "asignada a mano" : "no pasa cerca"}
+                      </span>
                     )}
                   </div>
                 )
@@ -4789,14 +5072,9 @@ export function LineEditor() {
               onChange={(e) => setQuickEditColor(e.target.value)}
               className="h-8 w-10 rounded border"
             />
-            <label className="flex items-center gap-2 text-xs">
-              <input
-                type="checkbox"
-                checked={quickEditDiscontinued}
-                onChange={(e) => setQuickEditDiscontinued(e.target.checked)}
-              />
+            <CheckboxLabel className="gap-2 text-xs" checked={quickEditDiscontinued} onCheckedChange={setQuickEditDiscontinued}>
               Ramal descontinuado (no se publica ni se descarga)
-            </label>
+            </CheckboxLabel>
             {quickEditError && <p className="text-xs text-destructive">{quickEditError}</p>}
             {quickEditRamalRef.trim() && (
               <div className="border-t pt-2">
@@ -4808,14 +5086,50 @@ export function LineEditor() {
                   if (assigned.length === 0) {
                     return <p className="text-xs text-muted-foreground">Todavía no tiene ninguna parada asignada.</p>
                   }
+                  // Trazado actual del ramal (puede haber cambiado desde que se
+                  // abrió el diálogo): con él se ve qué paradas no pasan cerca.
+                  const ramalLine = lines.find((l) => l.id === lineToQuickEdit?.id) ?? lineToQuickEdit
+                  const far = (stop: { lat: number; lng: number }) => !!ramalLine && findStopPassages(stop, ramalLine).length === 0
+                  const farCount = assigned.filter(({ stop }) => far(stop)).length
                   return (
-                    <ol className="sidebar-scroll max-h-40 overflow-y-auto flex flex-col gap-0.5 list-decimal list-inside">
-                      {assigned.map(({ stop, order }, i) => (
-                        <li key={`${stop.id}-${order}-${i}`} className="text-xs truncate shrink-0 leading-5">
-                          {stop.name || "(sin nombre)"}
-                        </li>
-                      ))}
-                    </ol>
+                    <>
+                      {farCount > 0 && (
+                        <p className="mb-1 text-xs text-destructive">
+                          {farCount === 1 ? "1 parada no pasa cerca" : `${farCount} paradas no pasan cerca`} del trazado actual.
+                        </p>
+                      )}
+                      <ol className="sidebar-scroll max-h-56 overflow-y-auto flex flex-col gap-0.5">
+                        {assigned.map(({ stop, order }, i) => {
+                          const isFar = far(stop)
+                          return (
+                            <li
+                              key={`${stop.id}-${order}-${i}`}
+                              className={`group flex shrink-0 items-center gap-1.5 rounded-md px-1 text-xs leading-6 ${isFar ? "bg-destructive/10" : "hover:bg-muted/60"}`}
+                            >
+                              <span className="w-5 shrink-0 text-right text-muted-foreground">{i + 1}.</span>
+                              <span className="min-w-0 flex-1 truncate" title={stop.name || "(sin nombre)"}>{stop.name || "(sin nombre)"}</span>
+                              {isFar && (
+                                <span
+                                  className="shrink-0 text-[10px] text-destructive"
+                                  title="Con el trazado actual, esta parada queda a más de 40 m del recorrido. Puede estar bien (asignada a mano) o haber quedado de un trazado viejo."
+                                >
+                                  no pasa cerca
+                                </span>
+                              )}
+                              <button
+                                type="button"
+                                title="Quitar esta parada de este ramal (la parada no se borra)"
+                                aria-label={`Quitar ${stop.name || "la parada"} de este ramal`}
+                                className="shrink-0 rounded p-0.5 text-muted-foreground opacity-60 transition hover:bg-destructive/15 hover:text-destructive hover:opacity-100 group-hover:opacity-100"
+                                onClick={() => unassignStopFromRamal(stop.id, quickEditRamalRef.trim(), order)}
+                              >
+                                <Trash2 className="h-3.5 w-3.5" />
+                              </button>
+                            </li>
+                          )
+                        })}
+                      </ol>
+                    </>
                   )
                 })()}
               </div>

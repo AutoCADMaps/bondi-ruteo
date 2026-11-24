@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react"
 import { Eye } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { CheckboxLabel } from "@/components/ui/checkbox"
 
 // Visor de Street View dentro del diálogo de la parada, con la Maps JavaScript
 // API: se apagan los nombres de las calles y el recuadro de la dirección (el
@@ -112,9 +113,9 @@ export function StopStreetView({ lat, lng }: { lat: number; lng: number }) {
           <Eye className="h-4 w-4" /> {open ? "Ocultar Street View" : "Ver Street View"}
         </Button>
         {open && (
-          <label className="flex items-center gap-1 text-xs text-muted-foreground">
-            <input type="checkbox" checked={links} onChange={(e) => setLinks(e.target.checked)} /> Flechas para moverse
-          </label>
+          <CheckboxLabel className="text-xs text-muted-foreground" checked={links} onCheckedChange={setLinks}>
+            Flechas para moverse
+          </CheckboxLabel>
         )}
       </div>
       {open && (

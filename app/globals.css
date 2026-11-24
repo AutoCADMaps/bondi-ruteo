@@ -283,6 +283,33 @@ select {
   border-radius: 0.65rem;
 }
 
+/* Selector de color: muestra redondeada con borde fino, en vez del botón gris
+   del navegador con la muestra cuadrada adentro. */
+input[type="color"] {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  background: transparent;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+input[type="color"]:hover {
+  border-color: color-mix(in oklab, var(--brand) 60%, transparent);
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 3px;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 0.4rem;
+}
+input[type="color"]::-moz-color-swatch {
+  border: none;
+  border-radius: 0.4rem;
+}
+
 /* Controles de zoom del mapa: los mismos del sitio público (tarjeta redondeada,
    ícono violeta de la marca). Sólido y no translúcido al pasar el mouse, y con
    su variante para cada tema. */

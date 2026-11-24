@@ -27,6 +27,7 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
   if (typeof body.mindMap === "boolean") update.mindMap = body.mindMap
   if (typeof body.metrobus === "boolean") update.metrobus = body.metrobus
   if (typeof body.mindMapName === "string") update.mindMapName = body.mindMapName.trim().slice(0, 80)
+  if (Array.isArray(body.mindMapLines)) update.mindMapLines = body.mindMapLines.filter((r: unknown) => typeof r === "string" && r.trim() !== "").slice(0, 60)
   if (typeof body.mindMapIcon === "string") update.mindMapIcon = isMindMapIconKey(body.mindMapIcon) ? body.mindMapIcon : ""
   if (typeof body.status === "string" && VALID_STATUSES.includes(body.status as StopStatus)) update.status = body.status
 

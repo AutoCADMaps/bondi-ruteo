@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/alert-dialog"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import { SelectMenu } from "@/components/ui/select-menu"
 
 // Alertas de servicio (desvíos, obras, demoras, avisos): se cargan acá, con su
 // duración, y aparecen en el sitio. También se pueden cargar desde el bot de
@@ -246,21 +247,21 @@ export function AlertsPanel() {
                           <div className="mt-2 flex flex-wrap items-center gap-2">
                             <Duration a={a} />
                             <div className="ml-auto flex items-center gap-2">
-                              <select
-                                className="h-8 rounded-lg border bg-background px-2 text-xs"
+                              <SelectMenu
+                                size="sm"
+                                className="w-44"
                                 value=""
+                                placeholder="Cambiar duración…"
                                 disabled={busyId === key}
-                                onChange={(e) => {
-                                  const v = e.target.value
+                                onChange={(v) => {
                                   if (!v) return
                                   patch(a.id, { action: "end", endsAt: v === "open" ? null : new Date(Date.now() + Number(v) * 3600_000).toISOString() }, key)
                                 }}
-                              >
-                                <option value="">Cambiar duración…</option>
-                                {PRESETS.filter((p) => p.key !== "custom").map((p) => (
-                                  <option key={p.key} value={p.hours ?? "open"}>{p.key === "open" ? "Hasta nuevo aviso" : `Vence en ${p.label}`}</option>
-                                ))}
-                              </select>
+                                options={PRESETS.filter((p) => p.key !== "custom").map((p) => ({
+                                  value: String(p.hours ?? "open"),
+                                  label: p.key === "open" ? "Hasta nuevo aviso" : `Vence en ${p.label}`,
+                                }))}
+                              />
                               <Button size="sm" variant="outline" disabled={busyId === key} onClick={() => patch(a.id, { action: "cancel" }, key)}>
                                 <Trash2 size={13} /> Quitar
                               </Button>
@@ -495,7 +496,6 @@ function NewAlertForm({ refs, onCreated }: { refs: string[]; onCreated: () => vo
   }
 
   const label = "mb-1 block text-xs font-medium text-muted-foreground"
-  const select = "h-9 w-full rounded-xl border bg-background px-3 text-sm"
 
   return (
     <div className="flex flex-col gap-4">
@@ -537,15 +537,11 @@ function NewAlertForm({ refs, onCreated }: { refs: string[]; onCreated: () => vo
       <div className="grid gap-3 sm:grid-cols-2">
         <div>
           <label className={label} htmlFor="al-effect">Tipo</label>
-          <select id="al-effect" className={select} value={effect} onChange={(e) => setEffect(e.target.value as Effect)}>
-            {EFFECTS.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
-          </select>
+          <SelectMenu id="al-effect" value={effect} onChange={(v) => setEffect(v as Effect)} options={EFFECTS.map((o) => ({ value: o.value, label: o.label }))} />
         </div>
         <div>
           <label className={label} htmlFor="al-cause">Motivo</label>
-          <select id="al-cause" className={select} value={cause} onChange={(e) => setCause(e.target.value as Cause)}>
-            {CAUSES.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
-          </select>
+          <SelectMenu id="al-cause" value={cause} onChange={(v) => setCause(v as Cause)} options={CAUSES.map((o) => ({ value: o.value, label: o.label }))} />
         </div>
       </div>
 

@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react"
 import { Check, ExternalLink, RefreshCw, Undo2 } from "lucide-react"
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog"
+import { CheckboxLabel } from "@/components/ui/checkbox"
 
 type Col = "stopReports" | "routeReports"
 
@@ -171,10 +172,9 @@ export function ReportsPanel() {
               </div>
             </div>
             <div className={status === "pending" ? "mt-2 flex" : "hidden"}>
-              <label className="flex cursor-pointer items-center gap-1.5 text-xs text-muted-foreground">
-                <input type="checkbox" checked={onlyProblems} onChange={(e) => setOnlyProblems(e.target.checked)} />
+              <CheckboxLabel className="text-xs text-muted-foreground" checked={onlyProblems} onCheckedChange={setOnlyProblems}>
                 Ocultar los que dicen "está bien"
-              </label>
+              </CheckboxLabel>
             </div>
           </div>
 

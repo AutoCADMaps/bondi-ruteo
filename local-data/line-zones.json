@@ -120,51 +120,51 @@
  },
  "8": {
   "partidos": [
+   "Comuna 1",
+   "Comuna 10",
    "Comuna 14",
    "Comuna 2",
-   "Comuna 1",
-   "Comuna 4",
    "Comuna 3",
+   "Comuna 4",
    "Comuna 5",
    "Comuna 6",
    "Comuna 7",
-   "Comuna 10",
-   "Comuna 9",
    "Comuna 8",
-   "Partido de La Matanza",
+   "Comuna 9",
    "Partido de Ezeiza",
+   "Partido de La Matanza",
    "Partido de Tres de Febrero"
   ],
   "localidades": [
+   "Aeropuerto Internacional Ezeiza",
+   "Aldo Bonzi",
+   "Almagro",
+   "Balvanera",
+   "Caballito",
+   "Ciudad Evita",
+   "Ciudadela",
+   "Constitución",
+   "Flores",
+   "Floresta",
+   "La Boca",
+   "La Tablada",
+   "Liniers",
+   "Lomas del Mirador",
+   "Mataderos",
+   "Monserrat",
    "Palermo",
+   "Parque Avellaneda",
    "Recoleta",
    "Retiro",
    "San Nicolás",
-   "Monserrat",
    "San Telmo",
-   "Constitución",
-   "La Boca",
-   "Balvanera",
-   "Almagro",
-   "Caballito",
-   "Flores",
-   "Floresta",
-   "Vélez Sarsfield",
-   "Villa Luro",
-   "Liniers",
-   "Ciudadela",
-   "Lomas del Mirador",
-   "Mataderos",
-   "La Tablada",
-   "Villa Lugano",
-   "Villa Madero",
-   "Villa Celina",
-   "Villa Riachuelo",
-   "Parque Avellaneda",
    "Tapiales",
-   "Aldo Bonzi",
-   "Ciudad Evita",
-   "Aeropuerto Internacional Ezeiza"
+   "Vélez Sarsfield",
+   "Villa Celina",
+   "Villa Lugano",
+   "Villa Luro",
+   "Villa Madero",
+   "Villa Riachuelo"
   ],
   "description": "Aeroparque - Liniers - Aeropuerto Ezeiza - La Boca"
  },
@@ -2223,7 +2223,7 @@
    "Recoleta",
    "San Nicolás"
   ],
-  "description": "Barracas - Estación Lisandro de la Torre"
+  "description": "Barracas - Estadio Mâs Monumental"
  },
  "103": {
   "partidos": [
@@ -5234,6 +5234,35 @@
   ],
   "description": "Castelar - Barrio Nuevo"
  },
+ "322": {
+  "partidos": [
+   "Partido de General Las Heras",
+   "Partido de General Rodríguez",
+   "Partido de Ituzaingó",
+   "Partido de La Matanza",
+   "Partido de Luján",
+   "Partido de Marcos Paz",
+   "Partido de Merlo",
+   "Partido de Morón"
+  ],
+  "localidades": [
+   "Castelar",
+   "General Hornos",
+   "General Las Heras",
+   "Haedo",
+   "Ituzaingó",
+   "Luján",
+   "Marcos Paz",
+   "Mariano Acosta",
+   "Merlo",
+   "Morón",
+   "Plomer",
+   "Ramos Mejía",
+   "San Antonio de Padua",
+   "Villars"
+  ],
+  "description": "Ramos Mejía - Merlo - Marcos Paz - Luján"
+ },
  "323": {
   "partidos": [
    "Partido de Lanús",
@@ -5429,6 +5458,7 @@
    "Partido de Florencio Varela",
    "Partido de General San Martín",
    "Partido de Hurlingham",
+   "Partido de Ituzaingó",
    "Partido de La Matanza",
    "Partido de La Plata",
    "Partido de Lomas de Zamora",
@@ -5496,7 +5526,9 @@
    "Villa La Florida",
    "Villa Luzuriaga",
    "Villa María Irene de Los Remedios de Escalada",
-   "Villa Tesei"
+   "Villa Tesei",
+   "Villa Udaondo",
+   "William C. Morris"
   ],
   "description": "San Isidro - Morón - La Plata"
  },
@@ -5671,6 +5703,17 @@
   ],
   "description": "Puente Saavedra - Stefani - Derqui - Luján - Cuartel V"
  },
+ "370": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Presidente Perón"
+  ],
+  "localidades": [
+   "Glew",
+   "Guernica"
+  ],
+  "description": "Glew - Las Lomas"
+ },
  "371": {
   "partidos": [
    "Partido de Vicente López",
@@ -5817,6 +5860,17 @@
   ],
   "description": "Adrogué - San Francisco Solano"
  },
+ "385": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Presidente Perón"
+  ],
+  "localidades": [
+   "Glew",
+   "Guernica"
+  ],
+  "description": "Glew - Numancia - La Yaya - San Martín"
+ },
  "386": {
   "partidos": [
    "Partido de Tres de Febrero",
@@ -5834,6 +5888,18 @@
    "Morón"
   ],
   "description": "Morón - Haedo - Ramos Mejía - Beiró"
+ },
+ "388": {
+  "partidos": [
+   "Partido de Brandsen",
+   "Partido de San Vicente"
+  ],
+  "localidades": [
+   "Alejandro Korn",
+   "Brandsen",
+   "Domselaar"
+  ],
+  "description": "Alejandro Korn - Coronel Brandsen"
  },
  "390": {
   "partidos": [
@@ -5943,6 +6009,20 @@
   ],
   "description": "Burzaco - Florencio Varela"
  },
+ "404": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Presidente Perón",
+   "Partido de San Vicente"
+  ],
+  "localidades": [
+   "Alejandro Korn",
+   "Glew",
+   "Guernica",
+   "San Vicente"
+  ],
+  "description": "Glew - San Vicente"
+ },
  "405": {
   "partidos": [
    "Partido de Lanús",
@@ -5984,6 +6064,44 @@
   ],
   "description": "Ramos Mejía - San José - Lomas de Zamora"
  },
+ "410": {
+  "partidos": [
+   "Partido de General Rodríguez",
+   "Partido de General San Martín",
+   "Partido de Hurlingham",
+   "Partido de Ituzaingó",
+   "Partido de Luján",
+   "Partido de Moreno",
+   "Partido de Tres de Febrero"
+  ],
+  "localidades": [
+   "Barrio Para Jefes y Oficiales General San Martín",
+   "Churruca",
+   "Ciudad del Libertador General San Martín",
+   "El Libertador",
+   "Francisco Álvarez",
+   "General Rodríguez",
+   "La Reja",
+   "Loma Hermosa",
+   "Luján",
+   "Moreno",
+   "Once de Septiembre",
+   "Paso del Rey",
+   "Trujui",
+   "Villa Chacabuco",
+   "Villa Ciudad Jardín El Libertador",
+   "Villa Coronel José María Zapiola",
+   "Villa General Juan Gregorio de Las Heras",
+   "Villa Juan Martín de Pueyrredón",
+   "Villa Lynch",
+   "Villa María Irene de Los Remedios de Escalada",
+   "Villa San Andrés",
+   "Villa Udaondo",
+   "Villa Yapeyú",
+   "William C. Morris"
+  ],
+  "description": "San Martín y General Paz - Moreno - Luján"
+ },
  "414": {
   "partidos": [
    "Partido de Berazategui",
@@ -6009,6 +6127,31 @@
   ],
   "description": "La Plata - Florencio Varela"
  },
+ "418": {
+  "partidos": [
+   "Partido de Berazategui",
+   "Partido de La Plata"
+  ],
+  "localidades": [
+   "Berazategui",
+   "City Bell",
+   "Hudson",
+   "José Hernández",
+   "Juan María Gutiérrez",
+   "La Plata",
+   "Manuel B. Gonnet",
+   "Pereyra",
+   "Plátanos",
+   "Ranelagh",
+   "Ringuelet",
+   "Savoia",
+   "Tolosa",
+   "Villa Castells",
+   "Villa Elisa",
+   "Villa España"
+  ],
+  "description": "La Plata - Berazategui"
+ },
  "422": {
   "partidos": [
    "Partido de Moreno",
@@ -6030,20 +6173,21 @@
  },
  "429": {
   "partidos": [
-   "Partido del Pilar",
-   "Partido de Exaltación de la Cruz",
    "Partido de Campana",
-   "Partido de Zárate"
+   "Partido de Exaltación de la Cruz",
+   "Partido de Zárate",
+   "Partido del Pilar"
   ],
   "localidades": [
-   "Pilar",
-   "San Francisco",
+   "Capilla del Señor",
    "Fátima",
+   "Parada Orlando",
    "Parque Sakura",
    "Pavón",
-   "Parada Orlando",
-   "Capilla del Señor"
-  ]
+   "Pilar",
+   "San Francisco"
+  ],
+  "description": "Pilar - Capilla del Señor - Zárate"
  },
  "430": {
   "partidos": [
@@ -6072,6 +6216,29 @@
    "Virreyes"
   ],
   "description": "Puente Saavedra - Benavídez"
+ },
+ "435": {
+  "partidos": [
+   "Partido de Almirante Brown",
+   "Partido de Cañuelas",
+   "Partido de Esteban Echeverría",
+   "Partido de Ezeiza",
+   "Partido de Presidente Perón",
+   "Partido de San Vicente"
+  ],
+  "localidades": [
+   "Alejandro Korn",
+   "Canning (Esteban Echeverría)",
+   "Canning (Ezeiza)",
+   "Cañuelas",
+   "El Jagüel",
+   "Ezeiza",
+   "Glew",
+   "Guernica",
+   "Monte Grande",
+   "San Vicente"
+  ],
+  "description": "Glew - San Vicente - Monte Grande - Cañuelas"
  },
  "436": {
   "partidos": [

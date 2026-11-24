@@ -15,6 +15,8 @@ import { Plus, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
+import { SelectMenu } from "@/components/ui/select-menu"
+import { MindMapOrderEditor, type MindMapOrderHandle } from "@/components/admin/mindmap-order-editor"
 
 const CARTO_API_KEY = process.env.NEXT_PUBLIC_CARTO_API_KEY
 const CARTO_KEY_PARAM = CARTO_API_KEY ? `?key=${CARTO_API_KEY}` : ""
@@ -106,6 +108,8 @@ export function LineZonesDialog({
   const [message, setMessage] = useState<string | null>(null)
   const [busy, setBusy] = useState(false)
   const [hoverName, setHoverName] = useState<string | null>(null)
+  // Orden de filas del mapa esquemático (sección al pie del panel derecho).
+  const orderEditorRef = useRef<MindMapOrderHandle>(null)
 
   // Callbacks del mapa leen el modo y los límites actuales sin recrear nada.
   const modeRef = useRef(mode)
@@ -307,6 +311,9 @@ export function LineZonesDialog({
         body: JSON.stringify({ ref: lineRef, ...selected, description, operator, owner }),
       })
       if (!res.ok) throw new Error("No se pudo guardar")
+      // El orden del esquema se guarda (y publica) solo si se tocó.
+      const orderMsg = await orderEditorRef.current?.save(publish)
+      const orderSuffix = orderMsg ? ` También: ${orderMsg}.` : ""
       if (publish) {
         const pub = await fetch("/api/admin/line-zones/publish", {
           method: "POST",
@@ -315,9 +322,9 @@ export function LineZonesDialog({
         })
         const d = await pub.json().catch(() => ({}))
         if (!pub.ok) throw new Error(d.error || `Se guardó en Ruteo pero no se pudo publicar (el servidor respondió ${pub.status} ${pub.statusText}; mirá la consola de Ruteo)`)
-        setMessage(`Publicado en lines.json: ${d.partidos} partido(s), ${d.localidades} localidad(es)${d.description ? " y la descripción" : ", sin descripción"}${d.company ? "; también la empresa y el grupo" : ""}.`)
+        setMessage(`Publicado en lines.json: ${d.partidos} partido(s), ${d.localidades} localidad(es)${d.description ? " y la descripción" : ", sin descripción"}${d.company ? "; también la empresa y el grupo" : ""}.${orderSuffix}`)
       } else {
-        setMessage("Guardado en Ruteo (todavía no publicado al sitio).")
+        setMessage(`Guardado en Ruteo (todavía no publicado al sitio).${orderSuffix}`)
       }
     } catch (e) {
       setMessage(e instanceof Error ? e.message : "Error")
@@ -357,18 +364,13 @@ export function LineZonesDialog({
           </DialogDescription>
         </DialogHeader>
 
-        <select
-          className="w-full rounded border bg-background px-2 py-1 text-sm md:w-64"
+        <SelectMenu
+          className="md:w-64"
           value={lineRef}
-          onChange={(e) => setLineRef(e.target.value)}
-        >
-          <option value="">Elegí una línea…</option>
-          {refs.map((r) => (
-            <option key={r} value={r}>
-              Línea {r}
-            </option>
-          ))}
-        </select>
+          onChange={setLineRef}
+          placeholder="Elegí una línea…"
+          options={refs.map((r) => ({ value: r, label: `Línea ${r}` }))}
+        />
 
         <div className="flex flex-col gap-3 md:flex-row">
           <div className="relative min-h-[420px] flex-1 overflow-hidden rounded-md border md:h-[60vh]">
@@ -484,6 +486,8 @@ export function LineZonesDialog({
                 {selected.localidades.length === 0 ? <span className="text-xs text-muted-foreground">Ninguna</span> : selected.localidades.map((n) => chip("localidades", n))}
               </div>
             </div>
+
+            <MindMapOrderEditor ref={orderEditorRef} lineRef={lineRef} />
 
             {message && <p className="text-xs text-muted-foreground">{message}</p>}
           </div>

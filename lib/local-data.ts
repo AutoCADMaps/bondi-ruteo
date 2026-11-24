@@ -63,6 +63,9 @@ export interface Stop {
   // Nombre que se muestra en el mapa mental en lugar del nombre real de la
   // parada (ej. "Belgrano y España" -> "Avellaneda"). Vacío = el mismo nombre.
   mindMapName?: string
+  // Líneas (ref) en cuyo mapa mental aparece la parada, cuando se comparte entre
+  // varias. Vacío o ausente = en todas las que la usan.
+  mindMapLines?: string[]
   // Parada del sistema Metrobús (carril exclusivo).
   metrobus?: boolean
   createdAt: number

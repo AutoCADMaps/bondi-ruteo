@@ -5,6 +5,8 @@ import Link from "next/link"
 import { ArrowLeft, ChevronLeft, ChevronDown, Redo2, Undo2, ChevronRight, Download, FileJson, FolderOpen, Plus, Save, Trash2, Play, Pause } from "lucide-react"
 import { GIFEncoder, quantize, applyPalette } from "gifenc"
 import { Input } from "@/components/ui/input"
+import { CheckboxLabel } from "@/components/ui/checkbox"
+import { SelectMenu } from "@/components/ui/select-menu"
 import "./cartelera-editor.css"
 import { resolveLedFont, type LedFontId } from "@/lib/led-font"
 import {
@@ -658,32 +660,31 @@ export function CartelEditor() {
             </div>
           </div>
           <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
-            <select style={{ width: "auto" }}
+            <SelectMenu
+              className="w-56"
               value={format}
-              onChange={(e) => setFormat(e.target.value as ExportFormat | "auto")}
-              className="ct-select"
-            >
-              <option value="auto">Formato: automático ({animated ? "GIF" : "JPG"})</option>
-              <option value="jpg">JPG</option>
-              <option value="png">PNG</option>
-              <option value="gif">GIF</option>
-            </select>
+              onChange={(v) => setFormat(v as ExportFormat | "auto")}
+              options={[
+                { value: "auto", label: `Formato: automático (${animated ? "GIF" : "JPG"})` },
+                { value: "jpg", label: "JPG" },
+                { value: "png", label: "PNG" },
+                { value: "gif", label: "GIF" },
+              ]}
+            />
             <Btn variant="icon" title="Deshacer (Ctrl+Z)" onClick={undo} disabled={undoRef.current.length === 0}>
               <Undo2 size={14} />
             </Btn>
             <Btn variant="icon" title="Rehacer (Ctrl+Y)" onClick={redo} disabled={redoRef.current.length === 0}>
               <Redo2 size={14} />
             </Btn>
-            <select
-              className="ct-select"
-              style={{ width: "auto" }}
-              value=""
-              onChange={(e) => { copyFrom(e.target.value); e.target.value = "" }}
-              title="Empezar desde la cartelera de otro ramal"
-            >
-              <option value="">Copiar de otro ramal…</option>
-              {designs.filter((n) => n !== selected?.id).map((n) => <option key={n} value={n}>{n}</option>)}
-            </select>
+            <div className="w-52" title="Empezar desde la cartelera de otro ramal">
+              <SelectMenu
+                value=""
+                placeholder="Copiar de otro ramal…"
+                onChange={(v) => { if (v) copyFrom(v) }}
+                options={designs.filter((n) => n !== selected?.id).map((n) => ({ value: n, label: n }))}
+              />
+            </div>
             <input ref={fileInputRef} type="file" accept=".json,application/json" style={{ display: "none" }}
               onChange={(e) => { const f = e.target.files?.[0]; if (f) openFile(f); e.target.value = "" }} />
             <Btn variant="secondary" title="Abrir un archivo editable (.json)" onClick={() => fileInputRef.current?.click()}>
@@ -836,68 +837,81 @@ export function CartelEditor() {
               <div className="grid grid-cols-2 gap-2">
                 {design.kind === "led" ? (
                   <Field label="Letra (puntos)">
-                    <select value={resolveLedFont(activeText.ledFont)} onChange={(e) => updateText(activeText.id, { ledFont: e.target.value as LedFontId })}
-                      className="ct-select">
-                      <option value="5x7">Grande 5×7</option>
-                      <option value="5p">Chica (5 filas)</option>
-                    </select>
+                    <SelectMenu
+                      value={resolveLedFont(activeText.ledFont)}
+                      onChange={(v) => updateText(activeText.id, { ledFont: v as LedFontId })}
+                      options={[
+                        { value: "5x7", label: "Grande 5×7" },
+                        { value: "5p", label: "Chica (5 filas)" },
+                      ]}
+                    />
                   </Field>
                 ) : (
                   <Field label="Fuente">
-                    <select value={activeText.font} onChange={(e) => updateText(activeText.id, { font: e.target.value })}
-                      className="ct-select">
-                      {FONTS.map((f) => <option key={f} value={f}>{f}</option>)}
-                    </select>
+                    <SelectMenu
+                      value={activeText.font}
+                      onChange={(v) => updateText(activeText.id, { font: v })}
+                      options={FONTS.map((f) => ({ value: f, label: <span style={{ fontFamily: f }}>{f}</span> }))}
+                    />
                   </Field>
                 )}
                 <ColorField label="Color" plastic={design.kind === "plastic"} value={activeText.color} onChange={(v) => updateText(activeText.id, { color: v })} />
               </div>
               <div className="flex gap-3 text-xs">
-                <label className="flex items-center gap-1"><input type="checkbox" checked={activeText.bold} onChange={(e) => updateText(activeText.id, { bold: e.target.checked })} /> Negrita</label>
+                <CheckboxLabel checked={activeText.bold} onCheckedChange={(v) => updateText(activeText.id, { bold: v })}>Negrita</CheckboxLabel>
                 {design.kind !== "led" && (
                   <>
-                    <label className="flex items-center gap-1"><input type="checkbox" checked={activeText.italic} onChange={(e) => updateText(activeText.id, { italic: e.target.checked })} /> Cursiva</label>
-                    <label className="flex items-center gap-1" title="Las minúsculas se ven como mayúsculas más chicas: San Fernando → SAN FERNANDO">
-                      <input type="checkbox" checked={!!activeText.smallCaps} onChange={(e) => updateText(activeText.id, { smallCaps: e.target.checked })} /> Versalitas
-                    </label>
+                    <CheckboxLabel checked={activeText.italic} onCheckedChange={(v) => updateText(activeText.id, { italic: v })}>Cursiva</CheckboxLabel>
+                    <span title="Las minúsculas se ven como mayúsculas más chicas: San Fernando → SAN FERNANDO">
+                      <CheckboxLabel checked={!!activeText.smallCaps} onCheckedChange={(v) => updateText(activeText.id, { smallCaps: v })}>Versalitas</CheckboxLabel>
+                    </span>
                   </>
                 )}
               </div>
               <div className="grid grid-cols-2 gap-2">
                 <Field label="Alineación">
-                  <select value={activeText.align} onChange={(e) => updateText(activeText.id, { align: e.target.value as CartelText["align"] })}
-                    className="ct-select">
-                    <option value="left">Izquierda</option>
-                    <option value="center">Centro</option>
-                    <option value="right">Derecha</option>
-                  </select>
+                  <SelectMenu
+                    value={activeText.align}
+                    onChange={(v) => updateText(activeText.id, { align: v as CartelText["align"] })}
+                    options={[
+                      { value: "left", label: "Izquierda" },
+                      { value: "center", label: "Centro" },
+                      { value: "right", label: "Derecha" },
+                    ]}
+                  />
                 </Field>
                 <Field label="Movimiento">
-                  <select value={activeText.motion} onChange={(e) => updateText(activeText.id, { motion: e.target.value as CartelText["motion"] })}
-                    className="ct-select">
-                    <option value="none">Fijo</option>
-                    <option value="scroll-left">Desplaza ←</option>
-                    <option value="scroll-right">Desplaza →</option>
-                    {design.kind === "led" && <option value="scroll-up">Desplaza ↑</option>}
-                    {design.kind === "led" && <option value="scroll-down">Desplaza ↓</option>}
-                    <option value="blink">Parpadea</option>
-                  </select>
+                  <SelectMenu
+                    value={activeText.motion}
+                    onChange={(v) => updateText(activeText.id, { motion: v as CartelText["motion"] })}
+                    options={[
+                      { value: "none", label: "Fijo" },
+                      { value: "scroll-left", label: "Desplaza ←" },
+                      { value: "scroll-right", label: "Desplaza →" },
+                      ...(design.kind === "led"
+                        ? [{ value: "scroll-up", label: "Desplaza ↑" }, { value: "scroll-down", label: "Desplaza ↓" }]
+                        : []),
+                      { value: "blink", label: "Parpadea" },
+                    ]}
+                  />
                 </Field>
               </div>
               {design.kind === "led" && (
                 <div className="ct-card space-y-3">
-                  <label className="flex items-center gap-1 text-xs">
-                    <input type="checkbox" checked={!!activeText.invert} onChange={(e) => updateText(activeText.id, { invert: e.target.checked })} />
+                  <CheckboxLabel className="text-xs" checked={!!activeText.invert} onCheckedChange={(v) => updateText(activeText.id, { invert: v })}>
                     Colores invertidos (fondo encendido, letras apagadas)
-                  </label>
+                  </CheckboxLabel>
                   {activeText.invert && (
                     <div className="grid grid-cols-2 gap-2">
                       <Field label="Fondo encendido">
-                        <select value={activeText.invertFill ?? "box"} onChange={(e) => updateText(activeText.id, { invertFill: e.target.value as "box" | "all" })}
-                          className="ct-select">
-                          <option value="box">Caja alrededor del texto</option>
-                          <option value="all">Todo el cartel (o zona)</option>
-                        </select>
+                        <SelectMenu
+                          value={activeText.invertFill ?? "box"}
+                          onChange={(v) => updateText(activeText.id, { invertFill: v as "box" | "all" })}
+                          options={[
+                            { value: "box", label: "Caja alrededor del texto" },
+                            { value: "all", label: "Todo el cartel (o zona)" },
+                          ]}
+                        />
                       </Field>
                       {(activeText.invertFill ?? "box") === "box" && (
                         <Field label="Margen (puntos)">
@@ -925,11 +939,10 @@ export function CartelEditor() {
                           onCommit={(v) => updateText(activeText.id, { clipEnd: v })} />
                       </Field>
                     </div>
-                    <label className="flex items-center gap-1 text-xs">
-                      <input type="checkbox" checked={activeText.loopGap !== undefined}
-                        onChange={(e) => updateText(activeText.id, { loopGap: e.target.checked ? 6 : undefined })} />
+                    <CheckboxLabel className="text-xs" checked={activeText.loopGap !== undefined}
+                      onCheckedChange={(v) => updateText(activeText.id, { loopGap: v ? 6 : undefined })}>
                       Repetir seguido, dejando puntos apagados entre repeticiones
-                    </label>
+                    </CheckboxLabel>
                     {activeText.loopGap !== undefined && (
                       <div className="grid grid-cols-2 gap-2">
                         <Field label="Puntos apagados">

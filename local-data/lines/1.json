@@ -2940,8 +2940,8 @@
    "ramalRef": "1-B",
    "ref": "1",
    "order": 0,
-   "visible": true,
-   "updatedAt": 1792420238492,
+   "visible": false,
+   "updatedAt": 1795545466126,
    "discontinued": false
   },
   {
@@ -6228,7 +6228,7 @@
    ],
    "order": 1,
    "visible": false,
-   "updatedAt": 1792345067779,
+   "updatedAt": 1795545466159,
    "discontinued": false
   }
  ]

@@ -7473,7 +7473,7 @@
    "ref": "8",
    "order": 0,
    "visible": false,
-   "updatedAt": 1790721926932
+   "updatedAt": 1794503036064
   },
   {
    "id": "nyPB4A70jVbLeun5JzWl",
@@ -14763,7 +14763,7 @@
    "ref": "8",
    "order": 1,
    "visible": false,
-   "updatedAt": 1790721952038
+   "updatedAt": 1794503036132
   },
   {
    "id": "nv6DIkTYAGDFhcfJ8JND",
@@ -19421,7 +19421,7 @@
    "ref": "8",
    "order": 2,
    "visible": false,
-   "updatedAt": 1790721966280
+   "updatedAt": 1794503036317
   },
   {
    "id": "fB8lAGv52bLuLf6zAUZq",
@@ -23743,15 +23743,15 @@
    "ref": "8",
    "order": 3,
    "visible": false,
-   "updatedAt": 1790721974601
+   "updatedAt": 1794503036384
   },
   {
    "id": "zILuCVb7Voo9M8WWiher",
    "color": "#3b82f6",
    "points": [
     {
-     "lat": -34.67333087697234,
-     "lon": -58.50081467601942
+     "lat": -34.6733204,
+     "lon": -58.5008266
     },
     {
      "lat": -34.6734529,
@@ -26850,31 +26850,51 @@
      "lon": -58.3737246
     },
     {
-     "lat": -34.58590230939405,
-     "lon": -58.37371690465349
+     "lat": -34.5859596,
+     "lon": -58.3736146
+    },
+    {
+     "lat": -34.585991827422575,
+     "lon": -58.37355709903208
+    },
+    {
+     "lat": -34.58603304659239,
+     "lon": -58.37348355476534
+    },
+    {
+     "lat": -34.58603549239536,
+     "lon": -58.373479190902934
+    },
+    {
+     "lat": -34.586036519612804,
+     "lon": -58.37347735811606
+    },
+    {
+     "lat": -34.58604301082905,
+     "lon": -58.373465776326775
+    },
+    {
+     "lat": -34.58604469386552,
+     "lon": -58.373462773411305
     }
    ],
    "createdAt": 1784423691469,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "ramalRef": "8C",
+   "ramalRef": "8C.",
    "ref": "8",
-   "order": 4,
+   "order": 5,
    "name": "[Ex 5]: Piedra Buena → Terminal Retiro",
    "discontinued": false,
    "visible": false,
-   "updatedAt": 1790722002494
+   "updatedAt": 1794503036528
   },
   {
    "id": "3P6CmvGGDCu94DOY9wap",
    "color": "#3b82f6",
    "points": [
     {
-     "lat": -34.58590535376009,
-     "lon": -58.37371146828556
-    },
-    {
-     "lat": -34.5859596,
-     "lon": -58.3736146
+     "lat": -34.58604934808258,
+     "lon": -58.373454469241594
     },
     {
      "lat": -34.5860699,
@@ -29955,13 +29975,13 @@
    ],
    "createdAt": 1784424029652,
    "folderId": "CEYrs7CEodFuG9Pe4ZGM",
-   "ramalRef": "8C.",
+   "ramalRef": "8C",
    "ref": "8",
-   "order": 5,
+   "order": 4,
    "name": "[Ex 5]: Terminal Retiro → Piedra Buena",
    "discontinued": false,
    "visible": false,
-   "updatedAt": 1790722011996
+   "updatedAt": 1794503036452
   },
   {
    "id": "1VX4VGsCF53mdFrKlGwd",
@@ -35135,7 +35155,7 @@
    ],
    "order": 6,
    "visible": false,
-   "updatedAt": 1790722039829
+   "updatedAt": 1794503036603
   },
   {
    "id": "HOgmr7v2HOMTHLNHjs2v",
@@ -40149,7 +40169,7 @@
    ],
    "order": 7,
    "visible": false,
-   "updatedAt": 1790722044977
+   "updatedAt": 1794503036831
   },
   {
    "id": "3ePYsGoTWyYCXivV1UdP",
@@ -41847,7 +41867,7 @@
    ],
    "order": 8,
    "visible": false,
-   "updatedAt": 1790722045642
+   "updatedAt": 1794503038788
   },
   {
    "id": "TFUsL54IJSiddU4zRxcT",
@@ -43569,7 +43589,7 @@
    "ref": "8",
    "order": 9,
    "visible": false,
-   "updatedAt": 1790722051719
+   "updatedAt": 1794503039070
   }
  ]
 }

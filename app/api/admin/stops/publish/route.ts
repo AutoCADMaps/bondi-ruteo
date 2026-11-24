@@ -121,8 +121,12 @@ export async function POST() {
   for (const stop of allStops) {
     const lines = Array.isArray(stop.lines) ? stop.lines : []
     const mindMapCombos = stop.mindMap === true ? combosFor(stop) : null
+    // Una parada compartida entre varias líneas puede estar marcada para el
+    // mapa mental de solo algunas (mindMapLines); vacío = todas.
+    const onlyIn = Array.isArray(stop.mindMapLines) && stop.mindMapLines.length > 0 ? new Set(stop.mindMapLines) : null
     for (const l of lines) {
       if (typeof l.ramalRef !== "string" || typeof l.order !== "number") continue
+      const inMindMap = stop.mindMap === true && (!onlyIn || onlyIn.has(ramalToLine.get(l.ramalRef.trim())?.ref ?? ""))
       if (!byRamalRef.has(l.ramalRef)) byRamalRef.set(l.ramalRef, [])
       byRamalRef.get(l.ramalRef)!.push({
         lat: stop.lat,
@@ -131,7 +135,7 @@ export async function POST() {
         order: l.order,
         // Foto de la parada (public/paradas/{id}.webp), si se cargó una.
         ...(images.has(stop.id) ? { img: `${stop.id}.webp`, credit: readCredit(stop.id) } : {}),
-        ...(stop.mindMap === true ? { mindMap: true } : {}),
+        ...(inMindMap ? { mindMap: true } : {}),
         ...(stop.metrobus === true ? { metrobus: true } : {}),
         // Clasificación hecha en Ruteo (confirmada, dudosa, inventada…).
         ...(stop.status ? { st: stop.status } : {}),
@@ -139,11 +143,11 @@ export async function POST() {
         id: stop.id,
         // Símbolo elegido a mano para el mapa mental (si no hay, el sitio lo
         // deduce del nombre).
-        ...(stop.mindMap === true && isMindMapIconKey(stop.mindMapIcon) ? { mindMapIcon: stop.mindMapIcon } : {}),
+        ...(inMindMap && isMindMapIconKey(stop.mindMapIcon) ? { mindMapIcon: stop.mindMapIcon } : {}),
         // Nombre que se muestra en el mapa mental en lugar del real.
-        ...(stop.mindMap === true && stop.mindMapName && stop.mindMapName.trim() ? { mindMapName: stop.mindMapName.trim() } : {}),
+        ...(inMindMap && stop.mindMapName && stop.mindMapName.trim() ? { mindMapName: stop.mindMapName.trim() } : {}),
         // Líneas con las que se puede combinar en esta parada.
-        ...(mindMapCombos && mindMapCombos.length > 0 ? { combos: mindMapCombos } : {}),
+        ...(inMindMap && mindMapCombos && mindMapCombos.length > 0 ? { combos: mindMapCombos } : {}),
       })
     }
   }
